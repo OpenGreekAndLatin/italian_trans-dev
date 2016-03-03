@@ -1,0 +1,1791 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>ANTIGONE</title>
+				<editor>PIETRO BRRTOLETTI</editor>
+				<sponsor>University of Leipzig</sponsor>
+				<funder>European Social Fund Saxony</funder>
+				<principal>Gregory Crane</principal>
+				<meeting/>
+				<respStmt>
+					<persName xml:id="DDD">Digital Divide Data</persName>
+					<resp>Corrected and encoded the text</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Greta Franzini</persName>
+					<resp>Project Manager (University of Leipzig)</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Frederik Baumgardt</persName>
+					<resp>Technical Manager (University of Leipzig)</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Simona Stoyanova</persName>
+					<resp>Project Assistant (University of Leipzig)</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Bruce Robertson</persName>
+					<resp>Technical Advisor</resp>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>University of Leipzig</authority>
+				<idno type="filename">TO BE ADDED BY LEIPZIG</idno>
+				<availability>
+					<p>Available under a Creative Commons Attribution-ShareAlike 4.0 International License</p>
+				</availability>
+				<date>2014</date>
+				<publisher>University of Leipzig</publisher>
+				<pubPlace>Germany</pubPlace>
+			</publicationStmt>
+			<sourceDesc>
+				<listBibl xml:lang="it">
+					<biblStruct>
+						<monogr>
+							<title>ANTIGONE</title>
+							<editor>
+								<persName>
+									<name xml:lang="it">PIETRO BARTOLETTI</name>
+								</persName>
+							</editor>
+							<author ref="urn:tmp">PIETRO BARTOLETTI</author>
+							<imprint>
+								<date>— 1913 —</date>
+								<pubPlace>DITTA G. B. PARAVIA E COMP.</pubPlace>
+							    <publisher>(Figli di I. V<hi rend="smallcap">igliardi</hi>-P<hi rend="smallcap">aravia</hi>) Tipografi-Librai-Editori TORINO-ROMA-MILANO-FIRENZE-NAPOLI</publisher>
+							</imprint>
+						</monogr>
+					</biblStruct>
+				</listBibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<p>Text encoded in accordance with the latest EpiDoc standards (January 2014)</p>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="it">Italian</language>
+				<language ident="grc">Greek</language>
+			</langUsage>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2014-12-09" who="dwp"/>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="bibliography">
+				<listBibl>
+					<bibl/>
+				</listBibl>
+			</div>
+			<div type="commentary" subtype="other">
+<pb n="3"/>
+				<p>Marradi – Settembre 1912.</p>
+			    <p><hi rend="italic">Egregio,</hi></p>
+			    <p><hi rend="italic">ah! fosse ancora fra noi Giovanni Pascoli, che
+anche nel Greco era maestro insuperabile! Lo avrei
+pregato di fare lui la prefazione su l' « Antigone »;
+ed egli che amava tanto i giovani di belle speranze
+non me l' avrebbe ricusata.</hi></p>
+			    <p><hi rend="italic">Ma io con che animo posso mettermi a parlare
+d' una tragedia greca; io che di greco conosco a
+mala pena l' alfabeto?</hi></p>
+			    <p><hi rend="italic">La traduzione mi pare scritta bene, con lin-
+gua e stile conveniente; ma d' una traduzione non
+si può ragionare, se non in confronto coll' originale.</hi></p>
+			    <p><hi rend="italic">Prosegua animoso nei suoi studi, e mi abbia.</hi></p>
+			    <p>suo Dev.mo ed Aff.mo</p>
+				<p>GASPARE FINALI</p>
+			</div>
+			<div type="edition" subtype="volume" xml:space="preserve">
+				<div type="textpart" subtype="book" n="1">
+					<pb n="5"/>
+					<head>
+						<title>ANTIGONE</title>
+					</head>
+					<div type="textpart" subtype="chapter" n="1">
+						<pb n="7"/>
+						<head>
+							<title>L’ARGOMENTO</title>
+						</head>
+						<p>Morto Polinice nel combattimento col fratello, Creonte
+comanda che esso rimanga senza l' onore del sepolcro
+e condanna a morte chi fosse ribelle al suo editto. An-
+tigone, sorella dell’ estinto, ricopre dì terra il cadavere.
+Creonte minaccia di morte i custodi di quel corpo se
+non riescono a arrestare il trasgressore.</p>
+						<p>Ed ecco che essi tolgono dì sul cadavere la terra e
+Antigone ritorna a compiere i sacri riti.</p>
+						<p>I custodi la traggono dinanzi a Creonte che la con-
+danna a essere rinchiusa viva in un sepolcro, Emone,
+suo promesso sposo, adirato contro Creonte, penetra
+nella tomba di Antigone, la vede appesa a un laccio e
+di propria mano si uccide. Tutto questo aveva predetto
+I’ indovino Tiresia. Euridice, moglie di Creonte, addolo-
+rata per tanta sciagura, si toglie la vita.</p>
+						<p>Chiude la tragedia il pianto di Creonte.</p>
+					</div>
+					<div type="textpart" subtype="chapter" n="2">
+						<pb n="8"/>
+						<head>
+							<title>LE PERSONE</title>
+						</head>
+						<p>Antigone</p>
+						<p>Ismene</p>
+						<p>Creonte</p>
+						<p>Emone</p>
+						<p>Tiresia</p>
+						<p>Euridice</p>
+						<p>Una guardia</p>
+						<p>Un Nunzio</p>
+						<p>Un altro Nunzio</p>
+						<p>Coro di Seniori Tebani</p>
+						<p>Il Corifeo (<hi rend="superscript">1</hi>)</p>
+						<p>La scene è In Tebe: — dinanzi alla reggia.</p>
+						<note type="footnote">(1) Chiamavasi <hi rend="italic">Corifeo</hi> il capo del coro: questo, oltre guidare e dirigere
+i coristi nelle parti cantate, interloquiva e commentava durante l’azione : si
+può quindi annoverare, distinto dalla massa del coro, come un personaggio.
+    A questo si debbono poi aggiungere i <hi rend="italic">personaggi muti</hi> (<foreign xml:lang="grc">&lt;gr»κωφά πρόσωπο&lt;/gr»</foreign>)
+cioè i servi, le guardie e il fanciullo che guida il cieco Tiresia.</note>
+					</div>
+					<div type="textpart" subtype="chapter" n="3">
+						<pb n="9"/>
+						<head>
+							<title>IL PROLOGO</title>
+						</head>
+						<pb n="11"/>
+						<p>A<hi rend="smallcap">ntigone</hi> — Sai tu, mia sorella Ismene, quale
+dei mali provenienti da Edipo, Zeus non manderà
+su di noi mentre siamo ancora vive? Invero non vi
+è nulla nè di doloroso, nè di privo di calamità, nè
+di turpe, nè di disonorevole, che io non abbia ve-
+duto far parte dei mali tuoi e miei. E ora, che cos’è
+questo bando che dicono abbia fatto testè il re per
+tutta la città? Ne sai tu qualcosa, o ne hai sentito
+parlare? O forse ignori i mali che sovrastano gli
+amici da parte dei nemici?</p>
+						<p>I<hi rend="smallcap">smene</hi> — A me non è giunta alcuna parola, o
+Antigone, riguardo agli amici, nè grata, nè triste,
+da quando noi due rimanemmo prive dei nostri due
+fratelli morti nello stesso giorno uccidendosi reci-
+procamente; e, dacché l’esercito degli Argivi è
+partito nella notte scorsa, non so nulla di più, nè
+di lieto nè di triste.</p>
+						<p>A<hi rend="smallcap">ntigone</hi> — Lo sapevo bene, e ti feci uscire
+dalle porte del cortile perchè tu mi ascoltassi da sola.</p>
+						<p>I<hi rend="smallcap">smene</hi> — Che c’ è? Sei visibilmente agitata per
+qualche cattiva notizia.</p>
+						<p>A<hi rend="smallcap">ntigone</hi> — Creonte non onorò forse di sepol-
+<pb n="12"/>
+tura uno dei nostri. fratelli ë ne privò l’altro? Sep-
+pellì, come dicono, Eteocle giustamente valendosi
+del buon diritto e della legge, rendendolo caro fra
+i morti, e bandi di non seppellire, nè piangere Po-
+linice, morto miseramente: lascia che sia incom-
+pianto, insepolto, dolce pascolo agli uccelli rapaci
+che mirano con piacere la preda. Dicono che il
+buon Creonte abbia stabilito queste cose per te e
+per me; dico anche per me, e che verrà qui a ban-
+dirle chiaramente per quelli che non le sanno e che
+le tengono in gran conto: pertanto a chiunque ciò
+faccia è imposta la pena della lapidazione nella
+città. Cosi stanno le cose, e tu tosto dimostrerai, se
+tu sia di alto sentire, o se tu sia cattiva, nata dà
+buoni.</p>
+						<p>I<hi rend="smallcap">smene</hi> — Oh infelice! Che cosa potrei io fare a
+tuo vantaggio, se cosi stanno lé còse; sciogliere le
+difficoltà, o operare?</p>
+						<p>A<hi rend="smallcap">ntigone</hi> — Pensa e risolvi, se ti affaticherai è
+ti adoprefai meco.</p>
+						<p>I<hi rend="smallcap">smene</hi> — Per quale impresa? Dove vai col pen-
+siero?</p>
+						<p>A<hi rend="smallcap">ntigone</hi> — Se ti unirai a queste mie mani nel
+seppellire il morto.</p>
+						<p>I<hi rend="smallcap">smene</hi> — Pensi forse di seppellire costui, interdetto
+alla città?</p>
+						<p>A<hi rend="smallcap">ntigone</hi> — Appunto. Il mio e tuo fratello, an-
+che se tu non vuoi, perchè non voglio tradirlo.</p>
+						<p>I<hi rend="smallcap">smene</hi> — Disgraziata! Contro il divieto di Creonte?</p>
+<p>A<hi rend="smallcap">ntigone</hi> — Egli non può allontanarmi da nes-
+suno de’ miei.</p>
+						<p>I<hi rend="smallcap">smene</hi> — Ahimè! Pensa, sorella, come nostro
+padre sia morto odiato e privo di buona fama, es-
+<pb n="13"/>
+senclosj strappati gli occhi con le proprie mani per
+le proprie colpe. Di poi la madre e ipoglie: — la dop-
+pia parola! — si tolse la vita con Un laccio. In terzo
+luogo i due fratelli hello stesso giorno, infelici, si
+sono dati reciprocamente una morte comune. Ora noi
+sole siamo rimaste, e osserva quapto infelicemente
+periremo, se, facendo forza alle leggi, trasgrediremo
+a l' ordine e al potere del Tiranno: bisógna pensare
+inoltre che siamo nate donne, e perciò non possiamo
+contendere con gli uomini; poichè siamo soggette à
+più potenti, dobbiamo obbedire a questi ordini e
+anche a peggiori. Io adunque chiedendo a quelli di
+sotterra di avere indulgenza per me, siccome sono
+costretta a. queste cose, obbedirò a quelli che stanno
+al potere, poiché il fare cose superiori alle proprie
+forze non dimostra alcun criterio.</p>
+						<p>A<hi rend="smallcap">ntigone</hi> — Non te lo imporrei, e, se tp aùche
+volessi farlo, non opereresti insieme con me con
+mio piacere; ma credi quello che a te pare, io lo
+seppellirò : per me è bello morire compiendo que-
+st’opera. D lacerò, amata, con lui amato, dopo avere
+fatto cosa santa: il tempo in cui bisogna cheto
+piaccia ai morti è maggiore di quello che ai vivi,
+poiché io giacerò sempre colà. Tu puoi se credi, di-
+sprezzare le cose onorande degli Dei.</p>
+						<p>I<hi rend="smallcap">smene</hi> — Io non le disprezzo, ma, quanto adope-
+rare contro il volere della città, io sono impo-
+tente.</p>
+						<p>A<hi rend="smallcap">ntigone</hi> — Tu puoi accampare questi pretesti,
+ma io andrò a dare sepoltura al carissimo fratello.</p>
+						<p>I<hi rend="smallcap">smene</hi> — Ahimè! come temo per te, infelice!</p>
+						<p>A<hi rend="smallcap">ntigone</hi> — Non turbarti per me, pensa alla
+tua salvezza.</p>
+						<pb n="14"/>
+						<p>I<hi rend="smallcap">smene</hi> — Almeno non dire a nessuno di questa
+tua impresa e tienla secreta: e io così con te.</p>
+						<p>A<hi rend="smallcap">ntigone</hi> — Oh, parla! Mi sarai molto più odiosa
+se taci che non se lo dicessi a tutti.</p>
+						<p>I<hi rend="smallcap">smene</hi> — Hai un cuore acceso per cose che ag-
+ghiacciano.</p>
+						<p>A<hi rend="smallcap">ntigone</hi> — So di fare piacere a quelli ai quali
+bisogna principalmente che io piaccia.</p>
+						<p>I<hi rend="smallcap">smene</hi> — Se pure lo potrai : cerchi cosa im-
+possibile.</p>
+						<p>A<hi rend="smallcap">ntigone</hi> — Cesserò pertanto quando io non a-
+vrò più forza.</p>
+						<p>I<hi rend="smallcap">smene</hi> — Non bisogna assolutamente tentare co-
+se impossibili.</p>
+						<p>. A<hi rend="smallcap">ntigone</hi> — Se cosi parli, sarai odiata da me,
+e giustamente giacerai invisa presso il morto. Ma
+lascia che io, per il mio insano volere, soffra questa
+pena, che non soffrirò nulla di così terribile per
+modo che non muoia nobilmente.</p>
+						<p>I<hi rend="smallcap">smene</hi> — Se ti sembra, accingiti all' opera, ma
+sappi che tu vai da stolta, benché tu sia, e giusta-
+mente, amata dai tuoi.</p>
+					</div>
+					<div type="textpart" subtype="chapter" n="4">
+						<pb n="15"/>
+						<head>
+							<title>IL PÀRODO<hi rend="superscript">(1)</hi></title>
+						</head>
+						<note type="footnote">(1) Canto eseguito dalla massa corale al primo presentarsi in pubblico,
+mentre si avviava al proprio posto nell'<hi rend="italic">orchestra</hi>. Il teatro greco era formato-
+di due parti : una destinata al pubblico, l' altra agli attori : quella, detta
+cavea dai Latini, consisteva in una serie di gradinate concentriche che si in-
+nalzavano a semicerchio dinanzi all’altra parte, detta scena, sulla quale reci-
+tavano gli attori. Lo spazio di mezzo, semicircolare, fra la cavea e la sce-
+na, formava l' orchestra.</note>
+					</div>
+					<div type="textpart" subtype="chapter" n="5">
+						<pb n="17"/>
+						<head>
+							<title>CORO DI SENIORI TEBANI</title>
+						</head>
+						<p>O raggio di sole, o luce la più bella che mai ap-
+parisse a Tebe dalle sette porte, spuntasti, o oc-
+chio dorato del giorno, scorrendo sulle rive Dircee,
+ponendo in fuga veloce l' esercito dei bianchi scu-
+di, venuto da Argo con tutte le forze.</p>
+						<p>Esso, incitato contro la nostra città da minacce
+ambigue di Polinice, gridando a alta voce, si get-
+tò su questa terra come un’ aquila, coperto di un’ ala
+di bianca neve, con molte armi e con elmi ornati
+di chiome equine.</p>
+						<p>E, dopo essere stato sopra le case, accerchiando
+con le lance mortifere le sette porte, se ne andò
+prima di riempirsi la bocca del nostro sangue e
+prima che il nero Efesto invadesse i merli delle
+torri, tanto clamore di Are si estese alle sue spalle,
+difficile a superarsi per il drago ostile.</p>
+						<p>Infatti Zeus odia i vanti di una lingua superba
+e, vedendoli avanzare con grande impeto, disprez-
+zando il suono dell’ oro, con un fulmine impetuoso
+precipitò dalla sommità delle mura colui che già si
+accingeva a gridare vittoria.</p>
+						<p>Egli, spirante fuoco, cadde riverso sulla terra ri-
+<pb n="18"/>
+percossa, mentre, infuriando con impeto, aumentava
+il soffio dei venti mortiferi. Cosi avvenivano le cose,
+ma il grande Are, propizio, disponeva diversamente
+in altri luoghi.</p>
+						<p>I sette capitani, schierati davanti alle sette porte,
+pari contro pari, lasciarono a Zeus vincitore le
+armi di bronzo, eccetto i due infelici, i quali, nati
+dallo stesso padre e dalla stessa madre, tendendo
+l'un contro l'altro le due lance doppiamente vit-
+toriose, ebbero ambedue la sorte di una-morte co-
+mune.</p>
+						<p>Ma, poiché la gloriosa Nike venne propizia a
+Tebe dai molti cocchi, si dimentichino le guerre
+presenti, e andiamo a tutti i templi degli Dei con
+danze notturne, e Bacco, che scuote la terra di Te-
+be, preceda.</p>
+					</div>
+					<div type="textpart" subtype="chapter" n="6">
+						<pb n="19"/>
+						<head>
+							<title>IL PRIMO EPISODIO</title>
+						</head>
+						<pb n="21"/>
+						<p>I<hi rend="smallcap">l</hi> C<hi rend="smallcap">orifeo</hi> — Ecco il re della città, Creonte
+Meniceo, che, per nuovo favore degli Dei, viene a
+esprimere qualche pensiero, poiché radunò un par-
+lamento straordinario dei Seniori, avendo fatto l'in-
+vito con pubblico annuncio.</p>
+						<p>C<hi rend="smallcap">reonte</hi> — Seniori, gli Dei, dopo avere agitata
+la città con molte tempeste, di nuovo la regolarono
+sicuramente: io, per mezzo di banditori, ho invitati
+a venire qui, voi, separatamente da tutti, ben sa-
+pendo che sempre rispettaste la potenza del trono
+di Laio, quando Edipo governava la città; e, dopo
+che mori, anche allora vi conservaste fedeli ai fi-
+gli di quello. Poiché adunque essi perirono per u-
+gual sorte, in un sol giorno, percotenti e insieme
+percossi con la stessa mano iniquamente, io ten-
+go tutta la potenza e il trono per affinità di paren-
+tela coi morti. È difficile conoscere l'animo, il
+pensiero, la mente di un uomo, prima che li abbia di-
+mostrati nel comando e nelle leggi. Perciò, chiunque
+potendo regolare tutta la città, non comunica a me i
+suoi ottimi consigli, ma per qualche timore tiene
+chiusa la bocca, mi sembra ora e per il passato es-
+<pb n="22"/>
+sere, pessimo. inoltre, io non ho in alcun conto
+eniunque stimi un amico più della propria patria.
+Io, lo sappia Zeus, che sempre vede ogni cosa,
+non tacerei vedendo che una sventura sovrasta ai
+cittadini invece della felicità, nè stimerei mai mio
+amico un uomo ostile alla città, ben sapendo che
+questa è la nave salvatrice e che navigando su es-
+sa direttamente, ci possiamo fare gli amici. Io con
+tali norme renderò prospera la città, e ora ho ban-
+dito ai cittadini cose conformi a queste riguardo
+ai figli di Edipo. Eteocle, il quale peri combattendo
+per questa città, dominando ogni cosa con la lancia
+sia sepolto e abbia tutto ciò che spetta ai migliori
+quando sono morti; invece suo fratello, dico Po-
+linice, il quale fuggiasco, ritornando, voleva di-
+struggere col fuoco dalle fondamenta la patria ter-
+ra e gli Dei patrii, e saziarsi del sangue comune,
+e trarre i cittadini in servitù, da nessuno in questa
+città sia onorato di sepoltura nè compianto, e sia
+lasciato insepolto, cibo gradito agli uccelli rapaci
+e ai cani, orribile a vedersi. Questo è il mio vo-
+lere; e giammai i malvagi avranno da me gli o-
+nori che spettano ai buoni. Invece, chiunque sarà
+gradito a questa città, e morto e vivo sarà pari-
+mente onorato da me.</p>
+						<p>I<hi rend="smallcap">l</hi> C<hi rend="smallcap">orifeo</hi> — Questo piace a te, Creonte Meniceo,
+riguardo a quello che fu ostile alla città e riguardo a
+quello che fu a essa amico. Tu puoi valerti di tutta
+la legge e verso i morti e verso i vivi.</p>
+						<p>C<hi rend="smallcap">reonte</hi> — Siate dunque osservanti de’ miei
+ordini.</p>
+						<p>I<hi rend="smallcap">l</hi> C<hi rend="smallcap">orifeo</hi> — Comanda a qualcuno più giovane
+di addossarsi quest’ incarico.</p>
+						<pb n="23"/>
+						<p>C<hi rend="smallcap">reonte</hi> — Ma sono già state poste guardie al
+cadavere.</p>
+						<p>I<hi rend="smallcap">l</hi> C<hi rend="smallcap">orifeo</hi> — Quale altra cosa di più potresti
+imporre a un’ altro?</p>
+						<p>C<hi rend="smallcap">reonte</hi> — Di non tenere dalla parte di quelli
+che non ubbidiscono a questi ordini.</p>
+						<p>I<hi rend="smallcap">l</hi> C<hi rend="smallcap">orifeo</hi> — Nessuno è cosi stolto che ami morire.</p>
+						<p>C<hi rend="smallcap">reonte</hi> — Invero questa è la pena, ma il gua-
+dagno spesso mandò in rovina gli uomini per la
+speranza.</p>
+						<p>U<hi rend="smallcap">na</hi> G<hi rend="smallcap">uardia</hi> — O re, non ti dirò come sia ve-
+nuto con faticosa prestezza, alzando il piede ve-
+loce. Feci molte fermate per riflettere, volgendo
+me stesso nella via del ritorno, poiché l'animo pre-
+sago mi diceva molte cose: oh infelice, perchè ti
+affretti dove affrettandoti avrai la pena? oh infelice,
+indugi? e, se Creonte verrà a sapere queste cose
+da un altro, come tu non ne avrai dolore? Pensando
+a ciò mi affrettavo a stento: cosi la via breve fu
+lunga. Finalmente, invero, vinse il venire qui da
+te, e se anche non ti dirò nulla di certo, tuttavia
+parlerò, poichè sono munito della speranza di non
+soffrire se non quello che è destinato.</p>
+						<p>C<hi rend="smallcap">reonte</hi> — Qual è la ragione di questo tuo avvili-
+mento?</p>
+						<p>L<hi rend="smallcap">a</hi> G<hi rend="smallcap">uardia</hi> — Desidero dirti prima di tutto i fatti
+miei. Non ho fatto la cosa, nè ho veduto chi l’abbia
+fatta: ingiustamente cadrei in qualche danno.</p>
+						<p>C<hi rend="smallcap">reonte</hi> — Ti metti bene al sicuro, ti premunisci
+bene dattorno in questo affare. Sembra che tu vo-
+glia riferire qualche cosa di grave.</p>
+						<p>L<hi rend="smallcap">a</hi> G<hi rend="smallcap">uardia</hi> — Le cose terribili producono forte
+timore.</p>
+						<pb n="24"/>
+						<p>C<hi rend="smallcap">reonte</hi> — Dunque non parlerai, e non ti sbri-
+gherai e te ne andrai?</p>
+						<p>L<hi rend="smallcap">a</hi> G<hi rend="smallcap">uardia</hi> — Te lo dico senz' altro. Un tale,
+dopo avere sepolto testé il morto, spargendovi so-
+pra due manate di polvere e tributandogli i debiti
+onori, se ne andò.</p>
+						<p>C<hi rend="smallcap">reonte</hi> — Che dici? Chi fu quegli che osò fa-
+re tali cose?</p>
+						<p>L<hi rend="smallcap">a</hi> G<hi rend="smallcap">uardia</hi> — Non so. Colà non vi è segno di
+zappa nè sollevamento di badile. Vi è terra piana
+e dura, intatta e non solcata da ruote di carro:
+è ignoto chi abbia fatto la cosa. Come la prima
+sentinella del mattino ci mostrò il fatto, fu palese
+a tutti la ingrata novità. Il morto era tolto di vi-
+sta, non sepolto. Vi era sopra una bianca pol-
+vere, come sparsa da uno che eviti un' empietà.
+Non apparivano tracce nè di bestie feroci, nè di
+alcun cane che fosse venuto a dilaniarselo. Vi fu-
+rono fra noi aspre parole, mentre una guardia
+accusava l'altra guardia, e finalmente sarebbero
+venute le percosse, poiché non era presente chi
+l'avrebbe potuto impedire: ciascuno era colpevole,
+ma nessuno lo era manifesto, e ognuno negava
+d'esserlo. Eravamo pronti a prendere con le ma-
+ni il ferro rovente, a passare attraverso il fuoco e
+a giurare per gli Dei di non avere fatto quest’ o-
+pera nè di sapere chi l'avesse consigliata o fat-
+ta. Finalmente, poiché nessuna cosa di più vi era
+per quelli che investigavano, prende a parlare
+uno di noi, il quale costringe tutti per la paura a
+piegare il capo al suolo, poiché non potevamo op-
+porci, nè fare nulla di meglio. La proposta
+era che si dovesse riferire a te il fatto, non già
+<pb n="25"/>
+tenertelo nascosto. Vinse questa proposta, e la sorte
+mandò me infelice, a portare questa bella notizia.
+Sono dinanzi, contro voglia, a persona non ben di-
+sposta : so, purtroppo, che a nessuno piace un messo
+che porti cattive nuove.</p>
+						<p>I<hi rend="smallcap">l</hi> C<hi rend="smallcap">orifeo</hi> — O re, dopo lunga riflessione mi in-
+duco a credere che questa sia opera degli Dei.</p>
+						<p>C<hi rend="smallcap">reonte</hi> — Cessa, prima che con le tue parole
+mi riempia d'ira; non mostrarti nel tempo stesso
+vecchio e imbecille. Tu dici cosa insopportabile,
+affermando che gli Dei abbiano cura di tale morto.
+Forse, seppellirono costui, che venne a dar fuoco
+ai templi ornati di colonne, ai doni votivi, a di-
+struggere la terra e le leggi loro, onorandolo
+come un benefattore? Forse sai tu che gli Dei
+onorino i malvagi? Non è cosi. Ma uomini del-
+la città, sopportandomi a malincuore, bisbigliavano
+da molto tempo contro di me, scuotendo di na-
+scosto il capo, nè tenevano docilmente il collo
+sotto il giogo in modo da amarmi. Io credo che
+costoro facessero tali cose incitati da quelli col da-
+naro: nessuna pessima usanza danneggiò gli uomini
+quanto il danaro: questo corrompe le città, allon-
+tana gli uomini dalle proprie case, insegna loro a
+essere empî e a conoscere ogni azione malvagia,
+spinge gli animi buoni degli uomini a fissarsi su
+opere perverse e a apprendere ogni opera nefanda.
+Quanti, corrotti dal danaro, si accinsero a quest’ o-
+pera, si adoperarono in modo da pagarne col tem-
+po, alla perfine, la pena. Ma, se Zeus riceve ancora
+onore da me, sappi questo; te lo dico con giuramento:
+se non troverete l'autore di questa sepoltura, e non
+lo porterete davanti ai miei occhi, il solo Ade non
+<pb n="26"/>
+basterà per voi, ma prima, appiccati vivi, mostre-
+rete questa violenza, sicché, per l'avvenire, pren-
+diate saggiamente il guadagno donde si deve pren-
+dere, e impariate, una volta per sempre, che non è
+lecito cercare il guadagno da per tutto. Infatti
+potreste vedere più uomini danneggiati dai turpi
+guadagni che salvati.</p>
+						<p>L<hi rend="smallcap">a</hi> G<hi rend="smallcap">uardia</hi> — Mi concederai di dire una parola, o
+devo ritornare cosi indietro?</p>
+						<p>C<hi rend="smallcap">reonte</hi> — E non ti accorgi di parlare in mo-
+do irritante?</p>
+						<p>L<hi rend="smallcap">a</hi> G<hi rend="smallcap">uardia</hi> — Ti senti morso nelle orecchie, o nel-
+l'animo?</p>
+						<p>C<hi rend="smallcap">reonte</hi> — Perchè cerchi dove sia il mio dolore?</p>
+						<p>L<hi rend="smallcap">a</hi> G<hi rend="smallcap">uardia</hi> — Chi fece questo ti colpi il cuore, io
+le orecchie.</p>
+						<p>C<hi rend="smallcap">reonte</hi> — Ahimè, sei veramente un ciarlone!</p>
+						<p>L<hi rend="smallcap">a</hi> G<hi rend="smallcap">uardia</hi> — Pertanto io non ho commesso il
+fatto.</p>
+						<p>C<hi rend="smallcap">reonte</hi> — Si, tu l'hai commesso, e inoltre hai
+posto l'anima a prezzo.</p>
+						<p>L<hi rend="smallcap">a</hi> G<hi rend="smallcap">uardia</hi> — Mai! È male per chi pensa pensare
+il falso.</p>
+						<p>C<hi rend="smallcap">reonte</hi> — Ora fà pure arguzie sul pensiero,
+ma, se non mi svelerete chi ha compiuto quest’ o-
+pera, dimostrerete chiaramente che un turpe gua-
+dagno produce mali.</p>
+						<p>L<hi rend="smallcap">a</hi> G<hi rend="smallcap">uardia</hi> — Ebbene, voglia il cielo che sia sco-
+perto, ma, venga pur preso o no, questo deciderà
+la sorte, non avverrà mai che tu mi veda qui di
+ritorno. Ora, salvo, fuori di speranza e di aspetta-
+tiva, devo molta riconoscenza agli Dei.</p>
+					</div>
+				</div>
+				<div type="textpart" subtype="book" n="2">
+					<pb n="27"/>
+					<head>
+						<title>IL PRIMO STASIMO<hi rend="superscript">(1)</hi></title>
+					    <note type="footnote">(1) Canto elevato dal coro rimanendo al proprio posto nell’orchestra.</note>
+					</head>
+					<div type="textpart" subtype="chapter" n="1">
+						<pb n="29"/>
+						<head>
+							<title>IL CORO DEI SENIORI TEBANI</title>
+						</head>
+						<p>Molte cose sono portentose, ma nulla è più
+portentoso dell’ uomo. Questo varca il mare bian-
+cheggiante di spuma col Noto impetuoso, pas-
+sando in mezzo alle onde fragorose, ed esercita, con
+l'aratro rivolgente, la più antica fra le Dee, Gea,
+incorrotta, inesauribile, voltandola sossopra di anno
+in anno, servendosi di cavalli.</p>
+						<p>L'uomo, sagacemente, con reti intessute tende insidie
+alla volante schiatta degli uccelli, alla razza delle
+bestie feroci, alla specie marina; vince con l’ar-
+te l'indole delle bestie feroci e pone sotto il giogo
+il cavallo dalla folta criniera e l'indomito toro
+montano.</p>
+						<p>Apprese da sè la parola, il pensiero veloce e
+l'arte di fondare città, e, ricco di accorgimenti,
+fuggi le frecce celesti del freddo, che rende ingra-
+to lo star fuori di casa, e la pioggia : non va in-
+contro al futuro senza provvedimenti : solo non
+troverà scampo dall’ Ade : ha trovato però scampo
+da malattie intrattabili.</p>
+						<p>Egli avendo il potere dell’ arte inventiva, il che
+<pb n="30"/>
+è qualcosa di saggio, e inoltre la speranza, ora
+si rivolge al male e ora al bene : chi rispetta le
+leggi della patria e la giustizia giurata in nome
+degli Dei è un buon cittadino; invece è senza patria
+colui che per orgoglio racchiude in sè il non bel-
+lo. Voglia il cielo che chi opera male non sia mio
+commensale, nè pensi in modo uguale al mio.</p>
+					</div>
+				</div>
+				<div type="textpart" subtype="book" n="3">
+					<pb n="31"/>
+					<head>
+						<title>IL SECONDO EPISODIO</title>
+					</head>
+					<div type="textpart" subtype="chapter" n="1">
+						<pb n="33"/>
+						<p>I<hi rend="smallcap">l</hi> C<hi rend="smallcap">orifeo</hi> — Quale strana meraviglia mi scuote
+la mente? Come potrò negare che questa fanciulla
+non sia Antigone? Oh infelice, figlia di Edipo, padre
+infelice, che mai? Ti conducono forse come disubbi-
+diente alle leggi regie avendoti colta in un momento
+di stoltezza?</p>
+						<p>L<hi rend="smallcap">a</hi> G<hi rend="smallcap">uardia</hi> — Questa è colei che compi l’o-
+pera : la prendemmo mentre stava seppellendo. Ma,
+dov’ è Creonte?</p>
+						<p>I<hi rend="smallcap">l</hi> C<hi rend="smallcap">orifeo</hi> — Esce di casa a tempo opportuno.
+C<hi rend="smallcap">reonte</hi> — Che è? Per che cosa giungo a tempo
+opportuno?</p>
+						<p>L<hi rend="smallcap">a</hi> G<hi rend="smallcap">uardia</hi> — O re, gli uomini non debbono fare
+nessun giuramento; giacché il pensiero che soprav-
+viene rende vana la decisione. Infatti, una volta
+avevo fatto voti di non venire mai più qua a causa
+delle minacce con le quali mi atterristi, ma, poiché la
+gioia che è fuori delle speranze e le sorpassa non
+somiglia ad alcun altro piacere, sono venuto, seb-
+bene sia spergiuro contro il mio giuramento, con-
+ducendo questa fanciulla, che fu presa mentre adem-
+piva i funebri uffici. Non mi mandò qui la sorte,
+<pb n="34"/>
+ma questa è fortuna mia e non di altri. Ora, o re, tu
+stesso avendo costei, interrogala e giudicala come
+vuoi; è giusto che io me ne vada libero da mali.</p>
+						<p>C<hi rend="smallcap">reonte</hi> — In qual modo e donde conduci costei,
+avendola presa?</p>
+						<p>L<hi rend="smallcap">a</hi> G<hi rend="smallcap">uardia</hi> — Seppelliva l’uomo; ho detto tutto.
+C<hi rend="smallcap">reonte</hi> — Hai proprio senno, e dici rettamente
+quello che dici?</p>
+						<p>L<hi rend="smallcap">a</hi><hi rend="smallcap">uardia</hi> G — Vidi costei che seppelliva il cada-
+vere che tu avevi interdetto: dico cose chiare e
+pensate?</p>
+						<p>C<hi rend="smallcap">reonte</hi> — E come fu veduta e presa sul fatto?</p>
+						<p>L<hi rend="smallcap">a</hi> G<hi rend="smallcap">uardia</hi> — La cosa andò cosi. Quando giungem-
+mo, minacciati da te di quelle cose terribili, spaz-
+zata via tutta la polvere che copriva il morto, sco-
+prendo bene il cadavere putrefatto, ci sedemmo
+sulla vetta di un colle in direzione contraria al i
+vento, perchè non ci colpisse il fetore che veniva
+dal cadavere, incitandoci a vicenda a star desti
+con scambievoli aspre parole, se mai qualcuno si
+sottraeva a quella fatica. Le cose durarono cosi per
+tanto tempo che il chiaro cerchio del sole giunse
+in mezzo al cielo, e il calore bruciava. Allora, d’im-
+provviso, un turbine impetuoso, castigo celeste, sorto
+dalla terra, riempi la pianura, guastando tutta la
+chioma della selva campestre, e il gran cielo ne fu
+pieno. Noi, chiudendo gli occhi, sostenemmo la di-
+vina tempesta : passata questa dopo lungo tempo,
+si vide la fanciulla che mandava un gemito acuto,
+come di stridente uccello, quando vede il letto del
+nido vuoto, privo dei piccoli nati. Similmente essa,
+quando vide il cadavere scoperto, diede in la-
+menti, e mandò grandi imprecazioni contro quelli
+<pb n="35"/>
+che avevano fatto quell’ opera, e tosto sparse sécca
+polvere di propria mano, e onorò il morto di una
+triplice libazione, prendendola da un vaso di ben
+temprato bronzo. Noi, vistala, ci appressiamo, e tosto
+la arrestiamo, senza che fosse per nulla sbigottita,
+e la accusiamo del primo fatto e del secondo. Essa
+non ne negò nessuno con mio piacere e dolore,
+poiché è cosa dolcissima sottrarsi ai mali, ma è cosa
+dolorosa condurre gli amici verso la sventura. Ma è
+nella natura mia stimare tutte queste cose meno
+della mia salvezza.</p>
+						<p>C<hi rend="smallcap">reonte</hi> — Tu, che tieni il volto abbassato verso
+terra, confessi o neghi di aver fatto queste cose?</p>
+						<p>A<hi rend="smallcap">ntigone</hi> — Dico di averle fatte e non le nego.</p>
+						<p>C<hi rend="smallcap">reonte</hi> — Tu puoi andare libero dove vuoi,
+sciolto dalla grave accusa, ma tu dimmi non lunga-
+mente, ma brevemente : sapevi che era stato ban-
+dito di non fare queste cose?</p>
+						<p>A<hi rend="smallcap">ntigone</hi> — Lo sapevo, e come non potevo sa-
+perlo? Era chiaro.</p>
+						<p>C<hi rend="smallcap">reonte</hi> — E pertanto osasti trasgredire a que-
+sti ordini?</p>
+						<p>A<hi rend="smallcap">ntigone</hi> — Certo non fu Zeus che bandi per me
+questo editto, nè Dike che è presso gli Dei di sotterra:
+non essi stabilirono queste leggi fra gli uomini. Nè io
+credevo che i tuoi ordini, essendo tu mortale, tanto
+valessero da poter far trasgredire le leggi non scritte,
+ma sicure degli Dei, poiché queste non sono nè di
+oggi nè di ieri, ma eterne, e nessuno sa da chi
+siano state promulgate. Io non potevo pagare la pena
+agli Dei di queste cose, temendo il volere di un
+uomo. Sapevo di essere mortale; — e come no! —
+anche se(??)tu non lo avessi bandito. Se poi muoio
+<pb n="36"/>
+prima del tempo, questo, io lo dico un guadagno.
+Chiunque vive in mezzo a molti mali, al pari di
+me, come non può far egli un guadagno morendo?
+cosi per me non è dolore avere una tale sorte, ma
+se avessi lasciato insepolto il corpo di uno nato
+dalla mia stessa madre, di questo mi rattristerei :
+non mi rattristo delle altre cose. Se ora a te sembra
+che io abbia operato da stolta, sono accusata direi
+quasi da uno stolto.</p>
+						<p>I<hi rend="smallcap">l</hi> C<hi rend="smallcap">orifeo</hi> — È manifesta la fiera natura della
+fanciulla, ereditata dal fiero genitore: non sa ce-
+dere ai mali.</p>
+						<p>C<hi rend="smallcap">reonte</hi> — Ma sappi che molto spesso gli animi
+troppo saldi vengono meno, e spesso potresti vedere
+il ferro durissimo, temprato per la cottura del fuoco,
+rompersi e infrangersi. So che i cavalli animosi sono
+moderati e regolati da una sottile redine. Non è lecito
+che pensi cose elevate chi è schiavo d’altrui. Costei
+sapeva di commettere una violenza, offendendo
+le leggi esistenti, e ecco una seconda violenza,
+dopo che operò, vantarsi di queste cose ed esultare
+della sua azione. Ora io non sono uomo, ma costei
+è uomo, se questa prepotenza sarà per lei senza
+pena. Ma, sia pure figlia di mia sorella, o d’ altra
+più consanguinea a tutta la mia famiglia, essa e co-
+lei che le è unita per sangue non potranno sfuggire
+a una morte miseranda. Poiché io incolpo parimente
+colei di aver partecipato a questa sepoltura. Chia-
+matela qui; giacché poco fa la vidi in casa infuriata
+e non padrona dell’animo. L’ animo subdolo di chi
+macchina qualche cosa di male nell’ombra, suole farsi
+conoscere prima. Odio pertanto colui, che, quando
+è colto nel male, vuole poi renderlo appariscente.</p>
+						<pb n="37"/>
+						<p>A<hi rend="smallcap">ntigone</hi> — Tu che mi hai fatto arrestare, vuoi
+forse qualcosa di più che io muoia?</p>
+						<p>C<hi rend="smallcap">reonte</hi> — Io no : se ho questo, ho tutfo.</p>
+						<p>A<hi rend="smallcap">ntigone</hi> — Perchè indugi più a lungo? Come
+nessuna tua parola mi è piacevole, nè mai mi po-
+trebbe essere stata piacevole, cosi anche per te le
+mie parole non sono piacevoli. Ma, donde avrei po-
+tuto avere gloria più bella che ponendo nella tomba
+mio fratello? Dovrei dire che questo piace a tutti
+costoro, se il timore non legasse loro la lingua;
+ma la tirannide è felice per molte cose e anche
+perchè a essa è lecito fare e dire quello che vuole.</p>
+						<p>C<hi rend="smallcap">reonte</hi> — Tu sola, fra tutti i Cadmei, pensi
+questo.</p>
+						<p>A<hi rend="smallcap">ntigone</hi> — Lo pensano anche costoro, ma per
+te tengono chiusa la bocca.</p>
+						<p>C<hi rend="smallcap">reonte</hi> — E tu non ti vergogni di pensare in
+modo diverso da costoro?</p>
+						<p>A<hi rend="smallcap">ntigone</hi> — Non vi è nulla di turpe nell'onorare
+i propri congiunti.</p>
+						<p>C<hi rend="smallcap">reonte</hi> — Non era adunque del tuo stesso san-
+gue arche quello che è morto combattendo contro
+di lui?</p>
+						<p>A<hi rend="smallcap">ntigone</hi> — Fratello della stessa madre e dello
+stesso padre.</p>
+						<p>C<hi rend="smallcap">reonte</hi> — Perchè adunque gli tributi un onore
+empio per l'altro?</p>
+						<p>A<hi rend="smallcap">ntigone</hi> — Quello che è stato sepolto non af-
+fermerà queste cose.</p>
+						<p>C<hi rend="smallcap">reonte</hi> — Certo le affermerà se lo onori del
+pari che l'empio.</p>
+						<p>A<hi rend="smallcap">ntigone</hi> — Non è morto come uno schiavo, ma
+come un fratello.</p>
+						<pb n="38"/>
+						<p>C<hi rend="smallcap">reonte</hi> — Cercando di distruggere questa terra;
+l'altro invece combattendo per questa terra.</p>
+						<p>A<hi rend="smallcap">ntigone</hi> — Tuttavia l' Ade desidera leggi uguali.</p>
+						<p>C<hi rend="smallcap">reonte</hi> — Ma non vuole che il giusto abbia
+sorte uguale al malvagio.</p>
+						<p>A<hi rend="smallcap">ntigone</hi> — Chi sa se queste cose piacciano agli
+Dei inferi?</p>
+						<p>C<hi rend="smallcap">reonte</hi> — Certamente, il malvagio non è mai
+caro, nemmeno quando è morto.</p>
+						<p>A<hi rend="smallcap">ntigone</hi> — Ma certo, io non sono nata per o-
+diare, ma per amare.</p>
+						<p>C<hi rend="smallcap">reonte</hi> — Ora, se tu sei destinata ad amare,
+scendendo sotterra, amali. Finché io sono vivo, non
+comanderà una donna.</p>
+						<p>I<hi rend="smallcap">l</hi> C<hi rend="smallcap">orifeo</hi> — Ma ecco davanti alla porta Ismene, so-
+rella dei morti, spargente lacrime : una nube sopra
+le .ciglie le offusca il volto arrossato, coprendole le
+belle guance.</p>
+						<p>C<hi rend="smallcap">reonte</hi> — Tu che, stando in casa come una
+vipera, nascostamente bevevi il mio sangue, nè io
+mi accorgevo di nutrire due pèsti e due sovverti-
+trici del trono, suvvia, dimmi, anche tu dirai di
+aver partecipato alla sepoltura, o giurerai di non
+saperne nulla?</p>
+						<p>I<hi rend="smallcap">smene</hi> — Ho partecipato a quest’ opera, se pure
+essa acconsente, e ne partecipo e porto la pena.</p>
+						<p>A<hi rend="smallcap">ntigone</hi> — Ma la giustizia non ti concederà
+questo, perché tu non volesti, nè io ti ebbi a parte.</p>
+						<p>I<hi rend="smallcap">smene</hi> — Ma in queste tue sventure non mi ver-
+gogno di correre il tuo stesso rischio, facendomi
+partecipe del tuo dolore.</p>
+						<p>A<hi rend="smallcap">ntigone</hi> — Di chi sia quest’ opera lo sanno
+l'Ade e quelli di sotterra; io non amo un’ amica,
+<pb n="39"/>
+che sia amica solo a parole.</p>
+						<p>I<hi rend="smallcap">smene</hi> — Ma, sorella, non impedirmi di morire
+con te e di onorare il morto.</p>
+						<p>A<hi rend="smallcap">ntigone</hi> — Non morire con me, nè fare te stessa
+partecipe di quello che non ti tocca. Basterà che
+muoia io sola.</p>
+						<p>I<hi rend="smallcap">smene</hi> — Ma, come la vita può essermi cara,
+priva di te?</p>
+						<p>A<hi rend="smallcap">ntigone</hi> — Ama Creonte, giacché ti dài pre-
+mura di lui.</p>
+						<p>I<hi rend="smallcap">smene</hi> — Perchè mi accusi di queste cose sen-
+za averne vantaggio?</p>
+						<p>A<hi rend="smallcap">ntigone</hi> — Anzi dolore, sebbene rida di
+te.</p>
+						<p>I<hi rend="smallcap">smene</hi> — Ma in che cosa io potrei ora giovarti?</p>
+						<p>A<hi rend="smallcap">ntigone</hi> — Salva te stessa: non ti impedisco
+di salvarti.</p>
+						<p>I<hi rend="smallcap">smene</hi> — Ahimè, infelice! e non avrò io la tua
+sqrte?</p>
+						<p>A<hi rend="smallcap">ntigone</hi> — Tu hai scelto di vivere, io di morire.</p>
+						<p>I<hi rend="smallcap">smene</hi> — Ma non appare dai miei precedenti di-
+scorsi.</p>
+						<p>A<hi rend="smallcap">ntigone</hi> — Tu volevi parere saggia agli uni; io,
+invece, agli altri.</p>
+						<p>I<hi rend="smallcap">smene</hi> — Ma la colpa è uguale in noi due.</p>
+						<p>A<hi rend="smallcap">ntigone</hi> — Fatti coraggio : tu vivi; la mia a-
+nima è da tempo morta, sicché non può giovare
+che a morti.</p>
+						<p>C<hi rend="smallcap">reonte</hi> — Io dico che di queste due fanciulle
+l'una si mostra stolta da poco tempo, l'altra da
+quando è nata.</p>
+						<p>I<hi rend="smallcap">smene</hi> — Purtroppo, o re, la mente di quelli
+che si trovano in guai non rimane quale era, ma
+si travolge.</p>
+						<pb n="40"/>
+						<p>C<hi rend="smallcap">reonte</hi> — Per te appunto quando cominciasti
+a operare male con gente malvagia.</p>
+						<p>I<hi rend="smallcap">smene</hi> — Come potrò io vivere sola senza costei?</p>
+						<p>C<hi rend="smallcap">reonte</hi> — Non nominarla perchè non è più.</p>
+						<p>I<hi rend="smallcap">smene</hi> — Ma ucciderai la promessa sposa di tuo
+figlio?</p>
+						<p>C<hi rend="smallcap">reonte</hi> — Vi sono nozze gradite di altre fanciulle.</p>
+						<p>I<hi rend="smallcap">smene</hi> — Non vi erano nozze più adatte né per
+lui nè per lei.</p>
+						<p>C<hi rend="smallcap">reonte</hi> — Io proibisco che i miei figli abbiano
+donne cattive.</p>
+						<p>A<hi rend="smallcap">ntigone</hi> — O carissimo Emone, come il padre
+ti disonora!</p>
+						<p>C<hi rend="smallcap">reonte</hi> — Troppo mi infastidisti tu e le tue
+nozze.</p>
+						<p>I<hi rend="smallcap">l</hi> C<hi rend="smallcap">orifeo</hi> — Priverai forse tuo figlio di costei?</p>
+						<p>C<hi rend="smallcap">reonte</hi> — L’ Ade imbandirà queste nozze.</p>
+						<p>I<hi rend="smallcap">l</hi> C<hi rend="smallcap">orifeo</hi> — É stabilito, sembra, che costei
+debba morire.</p>
+						<p>C<hi rend="smallcap">reonte</hi> Da voi e da me. Non più indugi:
+servi, conducete dentro costei! Bisogna che da questo
+momento costoro siano davvero donne, e non siano
+lasciate in libertà. Anche gli audaci fuggono quan-
+do vedono vicino il fine della vita.</p>
+					</div>
+				</div>
+				<div type="textpart" subtype="book" n="4">
+					<pb n="41"/>
+					<head>
+						<title>IL SECONDO STASIMO</title>
+					</head>
+					<div type="textpart" subtype="chapter" n="1">
+						<pb n="43"/>
+						<head>
+							<title>IL CORO DEI SENIORI TEBANI</title>
+						</head>
+						<p>Felici quelli per i quali la vita è priva di mali. A
+quelli, la cui Casa è stata colpita dagli Dei, non manca
+nessuna sventura che giunga sino a l'ultimo fi-
+glio. Similmente, quando l'onda per il soffio ma-
+rino impettuoso di Tracia percorre le profondità
+del mare, solleva dal fondo l'arena nera e scon-
+volta, e i promontori percossi risuonano di gemiti.</p>
+						<p>Vedo che da lungo tempo le sventure della Casa
+di Labdaco si accumulano alle sventure, le une
+sulle altre, nè una generazione risparmia l'altra,
+ma qualche Dio la sconvolge, sicché non ha pace.
+Infatti ora quel germe che nella Casa di Edipo
+aveva steso le ultime radici fu troncato e dalla cru-
+dele spada degli Dei infernali, e dalla stoltezza del-
+le parole, e dalla pazzia della mente,</p>
+						<p>Qual’ uomo potrebbe con la sua superbia sover-
+chiare la tua potenza, o Zeus? Nè il sonno che
+doma tutte le cose, nè gli instancabili mesi divini
+possono colpirla; e tu, Signore immortale, possiedi
+la gloria splendente dell’ Olimpo. Questa legge sta
+e sul presente e sul futuro e sul passato : — nulla
+nella vita degli uomini è senza sventura. —</p>
+						<pb n="44"/>
+						<p>La speranza che molto fa errare è un giovamento
+per molti uomini, ma per molti è un inganno di fol-
+li amori. Essa si insinua nell’ uomo che non sa nul-
+la, prima ch’ egli si bruci il piede nell’ ardente
+fuoco. Dalla sapienza di un saggio fu dettata questa
+famosa sentenza : — talvolta sembra che il male sia
+un bene all’ uomo di cui la divinità conduce la men-
+te alla rovina; e passa egli brevissimo tempo sen-
+za sventura. —</p>
+					</div>
+					<div type="textpart" subtype="chapter" n="2">
+						<pb n="45"/>
+						<head>
+							<title>IL TERZO EPISODIO</title>
+						</head>
+						<p><pb n="47"/>
+I<hi rend="smallcap">l</hi> C<hi rend="smallcap">orifeo</hi> — Ecco Emone, l'ultimo nato de’
+tuoi figli : viene, forse sdegnato per la sorte della
+sua sposa, la cara Antigone; addolorato per la de-
+lusione delle nozze?</p>
+						<p>C<hi rend="smallcap">reonte</hi> — Presto lo sapremo meglio degli in-
+dovini. Figlio, ti presenti sdegnato contro il padre,
+avendo udito l'estrema sentenza della fanciulla, o
+io ti sono caro qualunque cosa faccia?</p>
+						<p>E<hi rend="smallcap">mone</hi> — Padre, son tuo, e tu, avendo per
+me utili consigli, mi dirigi: io ubbidirò: nessun
+matrimonio sarà da me apprezzato più del tuo buon
+governo.</p>
+						<p>C<hi rend="smallcap">reonte</hi> — Cosi, o figlio, bisogna essere disposti
+d' animo; posporre cioè ogni cosa al volere del pa-
+dre, chè gli uomini desiderano generare e a-
+vere in casa figli obbedienti, per potere ricam-
+biare i nemici coi mali e onorare gli amici
+come il padre. Chi invece genera figli inutili, quale
+altra cosa diresti che egli generi a se stesso, tran-
+ne che dolori e gran gioia a’ suoi nemici? Ora, o
+figlio, mosso dal piacere, non perdere il senno per
+una donna, e sappi che è freddo abbracciamento
+<pb n="48"/>
+una cattiva donna che divida con te il letto e la
+casa. Infatti, quale altra disgrazia vi può essere
+maggiore di una cattiva compagna? Ma, disprezzala
+come una sciagurata, e lascia che questa fanciulla
+contragga le nozze con qualcuno nell' Ade. Io,
+poiché ho colto costei apertamente ribelle, lei sola
+di tutta la città, non mi renderò mentitore verso
+la città, e la ucciderò. Perciò invochi pure Zeus
+parentale, giacché, se permetterò che siano disub-
+bidienti i miei parenti, avrò molto più disubbidienti
+gli estranei. Chiunque in casa è un uomo giusto
+apparirà giusto anche alla cittadinanza. Chi invece,
+per superbia, o fa violenza alle leggi, o pensa di
+comandare ai capi, non è possibile che abbia lode
+da me. Conviene ubbidire a quello che la città
+mette a capo tanto nelle cose piccole e nelle cose
+giuste quanto nelle contrarie. Io credo che un uomo
+comandi bene quando sappia ubbidire bene, e schie-
+rato nel pericolo della battaglia rimanga un com-
+pagno leale e prode. Non vi è male peggiore della
+disubbidienza; essa distrugge le città, mette in
+rivolta le case, rompe e mette in fuga i com-
+pagni di battaglia: invece l'ubbidienza salva il
+più delle vite di quelli che sono ben disciplinati.
+Così bisogna osservare ciò che è stato ordinato, e
+non bisogna mai essere inferiori a una donna.
+Meglio sempre, se è necessario, sottostare a un uo-
+mo; e voglia il cielo che noi non siamo detti sog-
+getti a donne.</p>
+						<p>I<hi rend="smallcap">l</hi> C<hi rend="smallcap">orifeo</hi> — A noi pare, se non abbiamo per-
+duto il senno per l'età, che tu dica saggiamente
+quanto dici.</p>
+						<p>E<hi rend="smallcap">mone</hi> — O padre, gli Dei concedono agli uomini il
+<pb n="49"/>
+senno, che è il più grande fra tutti i beni. Io non
+potrei, nè saprei dimostrare come tu non dica ret-
+tamente queste cose; ma è possibile che anche in un
+altro sia qualcosa di saggio. Io sono in condi-
+zione di potere osservare in tua difesa quanto si dice,
+O si fa, o si ha da biasimare, poiché la tua presenza
+impedisce in un cittadino discorsi tali che tu, uden-
+doli, non ne proveresti piacere. A me invece è dato
+udire queste cose nell’ombra; come cioè la città si dol-
+ga che questa fanciulla, la più degna di tutte le don-
+ne, perisca miseramente per un’ opera gloriosissima;
+essa la quale non permise che suo fratello morto nel-
+la strage rimanesse insepolto e fosse divorato da
+cani famelici o da qualche uccello rapace. Non è
+forse degna costei di una preziosa corona? Questa
+voce corre segreta e sommessa. Per me, o padre,
+non vi è bene migliore della tua felicità; e qual gioia
+maggiore vi è per i figli della gloria fiorente del
+padre; quale per un padre di quella dei figli? Ora
+non avere in te stesso solaamente l’opinione dì rite-
+nere retto quello che tu dici e niente altro, poiché
+chi crede di essere saggio lui solo, o di avere facon-
+dia e mente quale nessun altro, quando ha espresso
+il suo parere, è riconosciuto vuoto. Non è cosa
+cattiva che un uomo, per quanto sia saggio, impari
+molte cose, e non stiri troppo la corda. Tu vedi presso
+i torrenti invernali quanti alberi cedono per avere sal-
+vi i rami: invece quelli che si oppongono sono strap-
+pati dalle radici. Cosi, chi, tendendo a forza le
+vele della nave, non cede, travolto, naviga poi
+sui banchi rovesciati. Ma, frena l’ira e cambia
+pensiero; poiché, se vi è senno in me, sebbene sia
+più giovane, io dico che sarebbe utilissimo che Γ uo-
+<pb n="50"/>
+mo nascesse già dotato di tutto il sapere, ma, giac-
+ché non è cosi, è bene imparare da quelli che ra-
+gionano bene.</p>
+						<p>I<hi rend="smallcap">l</hi> C<hi rend="smallcap">orifeo</hi> — O re, è bene che tu impari, se egli di-
+ce qualcosa di buono, e che costui a sua volta impari
+da te. Da ambo le parti si è parlato egregiamente.</p>
+						<p>C<hi rend="smallcap">reonte</hi> — Noi di tale età impareremo a avere
+senno da un uomo di quell'età?</p>
+						<p>E<hi rend="smallcap">mone</hi> — Non impareresti nulla che non sia giu-
+sto : se io sono giovane, non bisogna badare all’ età
+ma piuttosto ai fatti.</p>
+						<p>C<hi rend="smallcap">reonte</hi> — E’ una bella cosa onorare i ribelli?</p>
+						<p>E<hi rend="smallcap">mone</hi> — Non ti esorterei a onorare i malvagi.</p>
+						<p>C<hi rend="smallcap">reonte</hi> — Costei non fu colta da tal pèste?</p>
+						<p>E<hi rend="smallcap">mone</hi> — Non Jo dice il popolo tutto di questa
+Tebe.</p>
+						<p>C<hi rend="smallcap">reonte</hi> — La città dirà a me quello che debbo
+ordinare?</p>
+						<p>E<hi rend="smallcap">mone</hi> — Vedi che tu hai parlato come un gio-
+vane avventato?</p>
+						<p>C<hi rend="smallcap">reonte</hi> — A chi altri, tranne che a me, è lecito
+comandare a questa città?</p>
+						<p>E<hi rend="smallcap">mone</hi> — Non è città quella che è di un solo
+uomo.</p>
+						<p>C<hi rend="smallcap">reonte</hi> — Non è forse la città possesso di chi
+la governa?</p>
+						<p>E<hi rend="smallcap">mone</hi> — Tu da te solo comanderesti bene in una
+città deserta.</p>
+						<p>C<hi rend="smallcap">reonte</hi> — Costui, come sembra, combatte per
+la donna.</p>
+						<p>E<hi rend="smallcap">mone</hi> — Se pure tu sei donna; poiché mi dé
+cura di te.</p>
+						<p>C<hi rend="smallcap">reonte</hi> — Scellerato, venendo a lite con tuo
+<pb n="51"/>
+padre?</p>
+						<p>E<hi rend="smallcap">mone</hi> — Poiché vedo che tu commetti cose in-
+giuste.</p>
+						<p>C<hi rend="smallcap">reonte</hi> — Faccio cosa ingiusta difendendo il
+mio potere?</p>
+						<p>E<hi rend="smallcap">mone</hi> — Non difendi il tuo potere calpestando
+gli onori degli Dei.</p>
+						<p>C<hi rend="smallcap">reonte</hi> — Vile anima, cedi a una donna!</p>
+						<p>E<hi rend="smallcap">mone</hi> — Ma non potresti trovarmi ligio a ani-
+me turpi.</p>
+						<p>C<hi rend="smallcap">reonte</hi> — Pur nondimeno cotesto tuo parlare
+è per colei.</p>
+						<p>E<hi rend="smallcap">mone</hi> — E per te e per me e per gli Dei infernali.</p>
+						<p>C<hi rend="smallcap">reonte</hi> — Ma non è possibile che tu sposi costei
+finchè è viva.</p>
+						<p>E<hi rend="smallcap">mone</hi> — Adunque costei morrà e, morendo, farà
+morire qualche altro.</p>
+						<p>C<hi rend="smallcap">reonte</hi> — E vai minacciando in tal modo sfron-
+tatamente?</p>
+						<p>E<hi rend="smallcap">mone</hi> — Qual minaccia è parlare contro pen-
+sieri insensati?</p>
+						<p>C<hi rend="smallcap">reonte</hi> — Con tuo danno consiglierai senno a
+me, mentre tu stesso sei privo di senno.</p>
+						<p>E<hi rend="smallcap">mone</hi> — Se tu non fossi mio padre, io direi che
+tu non hai senno.</p>
+						<p>C<hi rend="smallcap">reonte</hi> — Schiavo di una donna, non adularmi.</p>
+						<p>E<hi rend="smallcap">mone</hi> — Τu vuoi dire qualunque cosa, e dopo
+averla detta, non vuoi ascoltare nulla?</p>
+						<p>C<hi rend="smallcap">reonte</hi> — Proprio? Ma, per l'Olimpo, sappi che
+con tuo danno farai violenza a me a furia di censure.
+Conducete questa donna aborrita affinchè, muoia
+tosto sotto gli occhi e vicino allo sposo presente.</p>
+						<p>E<hi rend="smallcap">mone</hi> — No, essa non morrà vicino a me, non
+<pb n="52"/>
+pensarlo mai; e tu non vedrai più il mio capo alla
+tua presènza, affinchè tu possa infuriare stando in-
+sieme con quegli amici che lo vogliono.</p>
+						<p>I<hi rend="smallcap">l</hi> C<hi rend="smallcap">orifeo</hi> — Ore, quel giovane se ne andò pre-
+stamente, trasportato dall’ira : una mente di tale età;
+quando soffre, è pericolosa.</p>
+						<p>C<hi rend="smallcap">reonte</hi> — Pensi egli pure più di quanto è pos-
+sibile a uomo, non di meno non libererà dalla
+morte queste due fanciulle.</p>
+						<p>I<hi rend="smallcap">l</hi> C<hi rend="smallcap">orifeo</hi> — Mediti forse di farle uccidere
+ambedue?</p>
+						<p>C<hi rend="smallcap">reonte</hi> Non già quella che non ha toccato
+il morto : tu dici bene.</p>
+						<p>I<hi rend="smallcap">l</hi> C<hi rend="smallcap">orifeo</hi> — E in qual modo intendi far morire
+l'altra?</p>
+						<p>C<hi rend="smallcap">reonte</hi> — Conducendola ove non sia anima di
+mortale, la seppellirò viva in una caverna pietrosa,
+ponendovi solo tanto di cibo come se fosse un sa-
+crificio espiatorio, affinchè tutta la città eviti una
+macchia. E colà, invocando l' Ade, che solo fra gli
+Dei essa onora, forse otterrà di non morire, o com-
+prenderà almeno, ma tardi, che è una fatica supe-
+riore alle proprie forze onorare le cose dell’ Ade.</p>
+					</div>
+				</div>
+				<div type="textpart" subtype="book" n="5">
+					<pb n="53"/>
+					<head>
+						<title>IL TERZO STASIMO</title>
+					</head>
+					<div type="textpart" subtype="chapter" n="1">
+						<pb n="55"/>
+						<head>
+							<title>IL CORO DEI SENIORI TEBANI</title>
+						</head>
+						<p>Eros invincibile in battaglia, Eros che scom-
+pigli i beni degli uomini, e ti posi sulle molli guan-
+ce di una fanciulla, e abiti sul mare e nelle case
+agresti; nessuno degli immortali, nessuno dei mor-
+tali ti sfugge, e chi ti possiede infuria.</p>
+						<p>Tu trascini nel male perfino l'animo dei giusti,
+divenuti ingiusti. Tu suscitasti pure questa contesa
+fra consanguinei; e il vivo desiderio che raggia
+fuori dagli occhi della bella fanciulla, uguale in po-
+tere alle grandi leggi, predomina, giacchè la divina
+Afrodite esulta per la vittoria senza combattere.</p>
+					</div>
+				</div>
+				<div type="textpart" subtype="book" n="6">
+					<pb n="57"/>
+					<head>
+						<title>IL QUARTO EPISODIO</title>
+					</head>
+					<div type="textpart" subtype="chapter" n="1">
+						<pb n="59"/>
+						<p>I<hi rend="smallcap">l</hi> C<hi rend="smallcap">orifeo</hi> — Io stesso sono ormai trasportato
+fuori delle leggi, vedendo tali cose; e non posso infatti
+trattenere la sorgente delle lacrime nel vedere Anti-
+gone avviarsi al talamo comune.</p>
+						<p><hi rend="italic">Il primo</hi> « <foreign xml:lang="grc">&lt;gr»κομμός&lt;/gr»</foreign> » (<hi rend="superscript">1</hi>)</p>
+						<p>A<hi rend="smallcap">ntigone</hi> — O cittadini della mia terra patria,
+guardate che io faccio l'ultima via e vedo l'ultimo
+raggio di sole, del sole che non vedrò mai più.
+L’ Ade, che tutto assopisce, mi conduce viva, nubile,
+alle rive d’Acheronte: non mi fu cantato alcun inno
+nuziale, pur tuttavia sposerò l' Acheronte.</p>
+						<p>I<hi rend="smallcap">l</hi> C<hi rend="smallcap">orifeo</hi> — Adunque, avendo gloria e lode, te
+ne vai nella oscura dimora dei morti: non guasta da
+malattie corrompitrici, non colpita da spade, ma di
+tuo proprio volere, viva, sola fra i mortali scen-
+derai nell’ Ade.</p>
+						<note type="footnote">(1) Chiamavasi « <foreign xml:lang="grc">&lt;gr»κομμός&lt;/gr»</foreign> » un canto elegiaco recitato alternativamente da
+un attore e dal coro. Siccome questo tratto, o meglio, questi tratti erano in
+generale anche i più salienti della tragedia, cosi partecipavano del genere
+lirico e del drammatico; essendo poi il coro impersonato nel Corifeo ne de-
+rivavano <hi rend="italic">duetti</hi> cantati a voce spiegata, forse a guisa dei <hi rend="italic">recitativi</hi> delle no-
+stre <hi rend="italic">opere,</hi> mentre il rimanente del dialogo era solo declamato.</note>
+						<pb n="60"/>
+						<p>A<hi rend="smallcap">ntigone</hi> — So che l' ospite frigia, figlia di Tan-
+talo, è morta infelicemente sulle vette del Sipilo,
+quando, come edera avvolgente, una vegetazione
+pietrosa la vinse; e giammai la pioggia, come è
+fama fra gli uomini, l’abbandona, mentre ella si
+scioglie in pianto; e col ciglio lacrimoso irriga i
+gioghi de’ monti. Il fato mi uccide in modo simile
+a quella.</p>
+						<p>I<hi rend="smallcap">l</hi> C<hi rend="smallcap">orifeo</hi> — Ma essa era una Dea, e nata da
+Dei; noi invece siamo mortali, e nati da mortali.
+Pertanto, per te che perisci, è un gran vanto sa-
+pere che hai una sorte pari a quella di semidei.</p>
+						<p>A<hi rend="smallcap">ntigone</hi> — Ahimè, sono derisa! Perchè, per
+gli Dei patrii, usi violenza contro di me, non morta,
+ma ancora visibile? O città, o ricchi abitanti della
+città, o fonti Dircee, o bosco sacro di Tebe, ricca
+di cocchi, voi almeno chiamo per testimoni, come
+non sia pianta dagli amici, e per quali leggi io me
+ne vada nel carcere, levato a mo’ di tumolo, di una
+sepoltura di nuovo genere. Oh infelice, non abiterò
+nè fra i vivi nè fra i morti!</p>
+						<p>I<hi rend="smallcap">l</hi> C<hi rend="smallcap">orifeo</hi> — Essendoti spinta all’estremo dell’au-
+dacia, cadesti nel profondo baratro di Dike, o figlia,
+violentemente. Tu sconti qualche colpa paterna.</p>
+						<p>A<hi rend="smallcap">ntigone</hi> — Hai ricordato una sventura per me
+dolorosa, la sorte famosa di mio padre, e tutto
+ciò che è accaduto agli illustri Labdacidi. Oh, sven
+tura materna, proveniente dalle nozze, e matrimonio
+di mia madre infelice con mio padre nato da lei, da
+cui io, infelice, un tempo sono nata! Io, loro figlia,
+vado presso di loro maledetta e priva di nozze. Oh
+fratello, che avesti in sorte nozze infelici, tu, morto,
+uccidesti me, ancora vivente!</p>
+						<pb n="61"/>
+						<p>I<hi rend="smallcap">l</hi> C<hi rend="smallcap">orifeo</hi> — E’ pietà lodevole l' aver pietà, ma
+non bisogna in alcun modo trasgredire al comando
+di chi ha l' impero. Il tuo indomito sdegno ti perdè.</p>
+						<p>A<hi rend="smallcap">norifeo</hi> Incompianta, senza amici, priva di
+nozze, miseranda, sono tratta per questa via presta-
+mente. A me, infelice! non è più concesso vedere il
+sacro occhio del sole; nè nessuno degli amici com-
+piange questa mia lacrimevole sorte!</p>
+						<p>C<hi rend="smallcap">reonte</hi> — Non sapete che nessuno cesserebbe
+dai pianti e dai lamenti prima di morire, se si
+avesse da parlare? Non la condurrete via al più
+presto? Chiudendola nella tomba levata a mo’ di
+tumolo, come io ho ordinato, lasciatela sola, abban-
+donata, sia che le convenga morire, sia abitare
+viva in tale sepolcro. Noi siamo immuni da colpe
+per quanto riguarda questa fanciulla : rimarrà adun-
+que priva del consorzio dei viventi.</p>
+						<p>A<hi rend="smallcap">norifeo</hi> — O tomba, o letto nuziale, o casa
+scavata nel sasso, perpetua, dove vado presso i
+miei, dei quali, morti violentemente, Persefone ac-
+colse il maggior numero fra gli estinti, dei quali io
+scendo nella tomba molto più tristamente e molto
+più ignominiosamente. prima che mi giunga il fine
+della vita! Porto tuttavia scendendovi grande speranza
+nell’animo di giungere gradita al padre, molto gra-
+dita alla madre e gradita a te, o fratello; poichè
+io colle mie mani vi lavai dopo che foste morti,
+vi adornai e vi offrii funebri libazioni. Ora poi, o
+Polinice, avendo sparso di polvere il tuo cadavere
+ne ho tale guadagno : [eppure io ti onorai a giudizio
+dei savî. Infatti, nemmeno se io fossi stata madre
+<pb n="62"/>
+di figli, nemmeno se mio marito, morto, marcisse,
+avrei assunto questa impresa contro il volere dei
+cittadini. In virtù di qual principio dico questo?
+Se mi fosse morto il marito, avrei potuto averne un
+altro, se fossi rimasta priva di figli avrei potuto
+avere altri figli da un altro uomo, ma essendo mio
+padre e mia madre [rinchiusi nell’ Ade non è pos-
+sibile che io abbia mai un altro fratello. Per questo
+principio avendoti onorato, parve a Creonte che io
+errassi e osassi cose gravi, o amato fratello. E ora
+mi trae a forza, avendomi cosi legata, priva di
+letto nuziale, senza imeneo, senza aver partecipato
+a nozze nè a allevamento di figli; sicché, abban-
+donata dagli amici, infelice, viva, sono condotta alla
+tomba dei morti.] (<hi rend="superscript">1</hi>) Quale legge divina ho violata?
+Come posso io, infelice, rivolgere ancora lo sguardo
+agli Dei? Chi dovrò chiamare in soccorso, giacchè,
+essendo pietosa, mi acquistai la taccia di empietà,?
+Ma, se queste cose sono care agli Dei, soffren-
+do, riconoscerò di avere peccato; se invece pec
+cano costoro, non possano soffrire mali peggiori di
+quelli che essi mi arrecano ingiustamente.</p>
+						<p>I<hi rend="smallcap">l</hi> C<hi rend="smallcap">orifeo</hi> — Lo stesso impeto degli stessi venti
+agita ancora l'animo di costei.</p>
+						<p>C<hi rend="smallcap">reonte</hi> — Pertanto a quelli che la conducono
+toccheranno lacrime per la loro lentezza in queste
+cose.</p>
+<note type="footnote">(1) Il tratto chiuso fra parentesi quadre, comprendente nel testo greco i
+versi 904-920, è ritenuto spurio dal Lehrs, dal Wecklein, dal Nauck, dallo
+Jebb : il Dindcrf rigetta dal 900 al 928; lo Jacob e lo Schneidewin dal 905
+al 913; il Kvioala dal 905 al 912: lo ritengono il Böckh, il Seyffert, il Camp-
+bell, il Bellermann, il Kaibel. Noi, pur traducendo il passo, che sembra
+debba attribuirsi a Iofonte, figlio di Sofocle, amiamo stare coi primi.</note>
+						<pb n="63"/>
+						<p>A<hi rend="smallcap">ntigone</hi> — Ahimè, queste parole segnano immi-
+nente la morte!</p>
+						<p>C<hi rend="smallcap">reonte</hi> — E non la esorto a sperare che i miei
+ordini siano cambiati.</p>
+						<p>A<hi rend="smallcap">ntigone</hi> — O città paterna della terra di Tebe,
+o Dei progenitori, sono tratta alla morte e non vi
+è indugio. Osservate, principi di Tebe, come io sia
+tormentata e da quali uomini, perchè ho rispettata
+la pietà, io, che sola sono rimasta della Casa reale.</p>
+					</div>
+				</div>
+				<div type="textpart" subtype="book" n="7">
+					<pb n="65"/>
+					<head>
+						<title>IL QUARTO STASIMO</title>
+					</head>
+					<div type="textpart" subtype="chapter" n="1">
+						<pb n="67"/>
+						<head>
+							<title>IL CORO DEI SENIORI TEBANI</title>
+						</head>
+						<p>Anche Danae osò mutare la luce del sole con
+una torre di bronzo, e, rinchiusa nella stanza sepol-
+crale, vi rimase avvinta : eppure essa era illustre
+per nascita, o figlia, e custodiva l'aurifluo seme di
+Zeus. Ma la potenza della morte è qualche cosa di
+terribile, nè la ricchezza, nè Are, nè una torre,
+nè le nere navi solcatrici del mare valgono a evitarla.</p>
+						<p>Il figlio di Driante, il re degli Edoui, sempre pronto
+all’ira, fu per la sua furente ira chiuso e legato da Dio-
+niso in un carcere di sasso. Cosi la veemenza forte e
+e vigorosa della pazzia stilla fuori a poco a poco.
+Lo riconobbe quando egli nella pazzia offese il Dio
+con lingua audace, poiché volle frenare le donne
+invasate dallo spirito divino e il fuoco bacchico, e
+irritò le Muse amanti delle tibie.</p>
+						<p>Presso le acque cianee del mare diviso in due
+parti sono i lidi del Bosforo e Salmidesso dei Traci
+inospitale, dove Are limitrofo vide la ferita di acceca-
+mento inflitta ai due figli di Fineo dalla loro crudele
+matrigna; orribile ferita nello spaventevole cerchio
+<pb n="68"/>
+degli occhi strappati colle mani sanguinanti e le
+punte delle spole.</p>
+						<p>Infelici, languendo, piangevano la loro triste sorte
+essendo nati da una madre mal maritata. Eppure
+essa per origine si approssimava agli antichi Eret-
+teidi e fu allevata, figlia di Dei, in remote spelon-
+che, fra le tempeste del padre Borea, correndo
+veloce come un destriero al di sopra delle ripidi ru-
+pi. Ma anche su di essa le Moire lungamente gra-
+varono, o figlia.</p>
+					</div>
+				</div>
+				<div type="textpart" subtype="book" n="8">
+					<pb n="69"/>
+					<head>
+						<title>IL QUINTO EPISODIO</title>
+					</head>
+					<div type="textpart" subtype="chapter" n="1">
+						<pb n="71"/>
+						<p>TIRESIA — Ο principi di Tebe, vedendo per
+uno solo, abbiamo fatto in due la medesima
+via, poiché per i ciechi il cammino è quello di
+chi li guida.</p>
+						<p>CREONTE — O vecchio Tiresia, che vi èdi nuovo?</p>
+						<p>TIRESIA — Te lo dirò, e tu dà retta all'indovinoi</p>
+						<p>C<hi rend="smallcap">reonte</hi> — Anche per l'addietro non mi sono
+allontanato dai tuoi consigli.</p>
+						<p>T<hi rend="smallcap">iresia</hi> — Perciò governavi bene questa città.</p>
+						<p>C<hi rend="smallcap">reonte</hi> — Posso affermare di averne avuto
+vantaggio.</p>
+						<p>T<hi rend="smallcap">iresia</hi> — Pensa che ora cammini sul filo del
+rasoio.</p>
+						<p>C<hi rend="smallcap">reonte</hi> — Che è? oh, io inorridisco alle tue
+parole!</p>
+						<p>T<hi rend="smallcap">iresia</hi> — Lo saprai, udendo gli indizi della miai
+arte. Stando seduto su l'antico seggio augurale,
+dove è porto per me di ogni specie di uccelli, odo
+imo strano strepito di volatili che stridevano con
+voce infausta e aspra, e conobbi che si straziavano
+a vicenda con i mortiferi artigli, poiché lo star-
+nazzare delle ali ne era segno evidente. Tosto, timo-
+roso, provai l' olocausto su gli ardenti altari, e dal-
+<pb n="72"/>
+le vittime Efesto non lampeggiò, ma il grasso del-
+le cosce, gocciando, colava sulla cenere, e fu-
+mava, e spruzzava, e il fiele si disperdeva in forma
+di vapori, e il femore giaceva privo del grasso che
+lo ravvolgeva. Appresi questi tristi auspici di sacri-
+fici che non davano indizio nè fausto, nè infausto
+da questo fanciullo, poichè esso serve di guida a me,
+e io agli altri. La città soffre questi mali per il tuo
+consiglio: infatti gli altari e i braceri sono tutti
+pieni, per opera degli uccelli e dei cani, di brani
+della prole di Edipo, infelicemente uccisa; e gli
+Dei non accettano da noi le preghiere che accom-
+pagnano i sacrificî, nè la fiamma dei femori; e gli
+uccelli mandano suoni infausti, avendo mangiato il
+grasso insanguinato di un uomo ucciso. Adunque, o
+figlio, pensa a queste cose: a tutti gli uomini è co-
+mune lo sbagliare, ma non è uomo stolto nè imprudente
+chi, essendo caduto in una colpa, vi pone rimedio
+e non rimane incorreggibile. L’ostinazione equivale
+stoltezza. Cedi a un morto, e non punzecchiare
+un caduto. Che prodezza è uccidere un uomo morto?
+Io ti parlo per il tuo bene : è bello imparare da chi
+parla rettamente, se consiglia cose utili.</p>
+						<p>C<hi rend="smallcap">beonte</hi> — O vecchio, tutti voi, come gli arcieri
+cercano di colpire la meta, tirate su questa mia
+persona; e sono bersagliato anche per mezzo del-
+l' arte degli indovini, dalla genia dei quali sono
+stato venduto e mercanteggiato. Fate pure guadagni,
+comprate pure elettro di Sardi, se vi piace, e oro del-
+l’lndia; ma non darete sepoltura a lui, nemmeno se le
+aquile di Zeus volessero rapirlo e trasportarlo co-
+me loro pasto presso il trono del Dio. Nemmeno
+allora permetterò che gli diate sepoltura, non aven-
+<pb n="73"/>
+do timore di tal sorte di contaminazione : so bene
+che nessun uomo può contaminare gli Dei. O vec-
+chio Tiresia, anche gli uomini più scaltri cadono al-
+le volte in colpe vergognose, quando fanno bella-
+mente turpi discorsi per amore di guadagno.</p>
+						<p>T<hi rend="smallcap">iresia</hi> — Ahimè! qual uomo sa, qual uomo co-
+nosce. . . .</p>
+						<p>C<hi rend="smallcap">reonte</hi> — Che? quale comune sentenza stai
+per dire?</p>
+						<p>T<hi rend="smallcap">iresia</hi> — . . . . di quanto il senno sia il mag-
+giore di tutti i beni?</p>
+						<p>C<hi rend="smallcap">reonte</hi> — Di quanto, io credo, il non pensar
+bene è il più grande dei mali.</p>
+						<p>T<hi rend="smallcap">iresia</hi> — Tu, invero, sei pieno di questa ma-
+gagna.</p>
+						<p>C<hi rend="smallcap">reonte</hi> — Non voglio ricambiare le insolenze
+all'indovino.</p>
+						<p>T<hi rend="smallcap">iresia</hi> — Pure le dici, dicendo che io profetizzo
+il falso.</p>
+						<p>C<hi rend="smallcap">reonte</hi> — Tutta la razza degli indovini va in
+cerca di denaro.</p>
+						<p>T<hi rend="smallcap">iresia</hi> — E quella dei tiranni ama un turpe
+guadagno.</p>
+						<p>C<hi rend="smallcap">reonte</hi> — Sai di parlare contro chi regna, di-
+cendo quello che dici?</p>
+						<p>T<hi rend="smallcap">iresia</hi> — Lo so; poichè tu avesti da me salva
+la città.</p>
+						<p>C<hi rend="smallcap">reonte</hi> — Tu sei un sagace indovino, ma de-
+sideroso di commettere ingiustizie.</p>
+						<p>T<hi rend="smallcap">iresia</hi> — Mi spingi a dire quello che mi sta
+fisso nell’ animo.</p>
+						<p>C<hi rend="smallcap">reonte</hi> — Di pure, ma non parlare soltanto a
+scopo di guadagno.</p>
+						<pb n="74"/>
+						<p>T<hi rend="smallcap">iresia</hi> — Ma cosi credo anche per tuo van-
+faggio.</p>
+						<p>C<hi rend="smallcap">reonte</hi> — Sappi che tu non comprerai il mio
+consiglio.</p>
+						<p>T<hi rend="smallcap">iresia</hi> — Ma ben sappi che il sole non compirà
+ancora molti giri veloci e tu stesso in ricambio dei
+morti darai uno delle tue viscere, poichè hai man-
+dato sotterra uno dei viventi e hai rinchiuso spie-
+tatamente in una sepoltura un’ anima, mentre ri-
+tieni quassù un cadavere che appartiene agli Dei
+inferi, insepolto, inonorato. Nè tu, nè gli Dei super-
+ni avete alcun diritto su queste cose, ma essi sono
+violentati da te per queste cose. Perciò le Erinni
+dell’ Ade e degli Dei superi, vendicatrici e distrug-
+gitrici, ti insidiano per travolgerti in questi stessi
+mali. Ora vedi se dico queste cose per amore di
+guadagno. Non passerà molto tempo che si udiran-
+no in casa tua gemiti di uomini e di donne. Tutte
+le città fatte nemiche si agiteranno, quante ebbero fi-
+gli dilaniati Q da cani, o da belve, o da qualche
+uccello veloce, che ne portò nei pubblici focolari
+l’odore impuro. Io, come un arciero, ho scagliato
+irosamente contro il tuo cuore, giacché mi sei mo-
+lesto, queste profonde frecce di cui tu non sfuggirai
+l' ardore.</p>
+						<p>O fanciullo, conducimi a casa, affinchè costui sfo-
+ghi lo sdegno su più giovani e impari a avere una
+lingua più mite e una mente di giudizi migliori di
+quello che non ora.</p>
+						<p>I<hi rend="smallcap">l</hi> C<hi rend="smallcap">orifeo</hi> — O re, quell' uomo se ne andò pre-
+dicendo cose orribili; e da quando i miei capelli da
+neri vanno diventando bianchi, so che egli non ha
+mai predetto nulla di falso.</p>
+						<pb n="75"/>
+						<p>C<hi rend="smallcap">reonte</hi> — Lo so anch'io e mi turbo nell'animo:
+il cedere è grave, ma, opponendomi, vi è pericolo
+che l’animo vada incontro a qualche sventura.</p>
+						<p>I<hi rend="smallcap">l</hi> C<hi rend="smallcap">orifeo</hi> — Occorre saggezza, o figlio di Me-
+niceo, Creonte.</p>
+						<p>C<hi rend="smallcap">reonte</hi> — Che cosa adunque è necessario fare?
+Parla, io ti übbidirò.</p>
+						<p>I<hi rend="smallcap">l</hi> C<hi rend="smallcap">orifeo</hi> — Và, libera la fanciulla dalla inca-
+vata spelonca e inalza un sepolcro al giacente.</p>
+						<p>C<hi rend="smallcap">reonte</hi> — E tu consigli queste cose, e credi
+bene di cedere?</p>
+						<p>I<hi rend="smallcap">l</hi> C<hi rend="smallcap">orifeo</hi> — Al più presto, o re, poiché la pe-
+na divina, dal piede veloce, raggiunge i malvagi.</p>
+						<p>C<hi rend="smallcap">reonte</hi> — Ahimè, a malincuore, ma pure mi
+muto di pensiero : non è possibile lottare contro il
+destino.</p>
+						<p>I<hi rend="smallcap">l</hi> C<hi rend="smallcap">orifeo</hi> — Fa ora queste cose tu stesso e
+non darne incarico a altri.</p>
+						<p>C<hi rend="smallcap">reonte</hi> — Tosto mi avvio : andate, o servi e pre-
+senti e assenti; prendendo in mano le scuri affret-
+tatevi a quell' alto luogo. Io, perchè cosi si è cam-
+biato il mio pensiero, io stesso, che la legai, la li-
+bererò. Temo infatti non sia bello terminare la
+vita osservando le leggi imposte.</p>
+					</div>
+				</div>
+				<div type="textpart" subtype="book" n="9">
+					<pb n="77"/>
+					<head>
+						<title>L’ « <foreign xml:lang="grc">ΎΠΟΡΧΗΜΑ</foreign> »<hi rend="superscript">(1)</hi></title>
+					</head>
+				    <note type="footnote">(1) Era l’ « <foreign xml:lang="grc">υπὀχημα</foreign> » un canto corale, con accompagnamento di mimica a danza: qui tiene il posto del quinto stasimo.</note>
+					<div type="textpart" subtype="chapter" n="1">
+						<pb n="79"/>
+						<head>
+							<title>IL CORO DEI SENIORI ΤΕΒΑΝI</title>
+						</head>
+						<p>O Dio dai molti nomi, onore della cadmea stirpe
+di Zeus altitonante, che proteggi la illustre Italia
+e hai cura di Demetra eleusina nei lidi comuni, o
+Bacco, che abiti la bacchica Tebe, capitale, presso
+le liquide fonti dell’ Ismeno e tra il seme del fiero
+drago;</p>
+						<p>Tu che sul picco a due creste vede il vapore sfa-
+villante, dove le coricie ninfe baccanti muovono
+il piede e scorre la fonte Castalia; tu che le falde
+dei monti nisei ricoperti di edera e il verde suolo
+dai molti grappoli esaltano, mentre risuonano can-
+zoni divine, quando visiti le contrade tebane;</p>
+						<p>Tu che onori questa città più di tutte le altre insie-
+me con tua madre che fu arsa dal fuoco; ora, siccome
+tutta la città si trova in una grande sventura, affrettati
+col piede purificatore sulla pendice parnasia o sul
+fremente stretto.</p>
+						<p>Tu, che guidi gli astri spiranti fuoco e pre-
+siedi ai canti notturni, o nato da Zeus, mostrati,
+o re, con le tue Tiasi seguaci, le quali, invasate,
+durante la notte celebrano con danze te, Iacco, di-
+spensatore delle fortune.</p>
+					</div>
+				</div>
+				<div type="textpart" subtype="book" n="10">
+					<pb n="81"/>
+					<head>
+						<title>L’ESODO<hi rend="superscript">(1)</hi></title>
+					</head>
+				    <note type="footnote">(1) <foreign xml:lang="grc">εξοδος</foreign> : aveva tale nome quella parte della tragedia che va dall' ul time canto del eoro alla fine.</note>
+					<div type="textpart" subtype="chapter" n="1">
+						<pb n="83"/>
+						<p>UN NUNZIO — O abitanti delle case di Cadmo e
+di Anfione, io non dirò mai bella, nè brutta la con-
+dizione di un uomo, che è ancora vivo, poichè sem-
+pre la fortuna esalta, sempre la fortuna abbatte e
+il felice e l'infelice; e nessuno è profeta di quanto
+sovrasta ai mortali. Infatti Creonte una volta, se-
+condo il mio parere, era degno di invidia, avendo
+salva da nemici questa terra Cadmea : avendo preso
+il governo assoluto del paese, lo reggeva, fiorendo
+di un bel germe di figli; e ora tutto è scomparso.
+Quando un uomo ha perduto la felicità, io non ri-
+tengo che costui viva, ma lo credo un cadavere
+animato. Ammetti pure che possieda stragrandi ric-
+chezze, e che viva in un fasto regale; ma, se a
+causa di ciò non può essere
+felice, io, in confronto
+alla felicità non comprerei da alcuno il resto per
+ombra di fumo.</p>
+						<p>I<hi rend="smallcap">l</hi> C<hi rend="smallcap">orifeo</hi> — Quale sventura regale vieni a
+annunziare?</p>
+						<p>I<hi rend="smallcap">l</hi> N<hi rend="smallcap">unzio</hi> — Sono morti; e i vivi hanno la col-
+pa della loro morte.</p>
+						<p>I<hi rend="smallcap">l</hi> C<hi rend="smallcap">orifeo</hi> — E chi è l'uccisore; chi l' ucciso?
+Parla!</p>
+						<p>I<hi rend="smallcap">l</hi> N<hi rend="smallcap">unzio</hi> — Emone è morto; e versò sangue
+per mano non estranea.</p>
+						<pb n="84"/>
+						<p>I<hi rend="smallcap">l</hi> C<hi rend="smallcap">orifeo</hi> — Forse per mano del padre, o sua?</p>
+						<p>I<hi rend="smallcap">l</hi> N<hi rend="smallcap">unzio</hi> — Per la sua propria, essendo sde-
+gnato contro il padre a causa dell’ uccisione.</p>
+						<p>I<hi rend="smallcap">l</hi> C<hi rend="smallcap">orifeo</hi> — O profeta, come annunciasti il vero!</p>
+						<p>I<hi rend="smallcap">l</hi> N<hi rend="smallcap">unzio</hi> — Stando così le cose, bisogna pen-
+sare al da farsi.</p>
+						<p>I<hi rend="smallcap">l</hi> C<hi rend="smallcap">orifeo</hi> — Ma vedo la infelice Euridice, mo-
+glie di Creonte. Esce di casa, o avendo avuto no-
+tizia del figlio, o per combinazione.</p>
+						<p>E<hi rend="smallcap">uridice</hi> — O cittadini tutti, ho sentiti i vostri
+discorsi mentre mi avviavo all’ uscita, per recarmi
+a portare le mie preghiere alla Dea Pallade: e
+stavo per tirare il chiavistello dell(??) chius(??) porta
+quando un suono di domestica sventura mi colpisce
+le orecchie. Mi riverso supina sulle ancelle, presa
+dal timore, e svengo; ma, quale si fosse il vostro
+discorso, ripetetemelo, ché io vi ascolterò, non es-
+sendo inesperta di mali.</p>
+						<p>I<hi rend="smallcap">l</hi> N<hi rend="smallcap">unzio</hi> — Io, amata regina, dirò quanto vidi,
+nè trascurerò alcuna parola della verità: perchè
+dovrei lusingarti in cose nelle quali dovrei poi ap-
+parire bugiardo? I a verità va sempre diritta. Io
+accompagnavo come guida tuo marito a l’altipiat o
+dove ancora giaceva il misero cadavere di Polinice,
+sbranato dai cani : dopo aver pregato la Dea pro-
+trettrice delle vie e Plutone di deporr(??) l' ira e di essere
+benevoli, lavati con pura acqua gli avanzi, li ponem
+mo su fresche foglie e vi inalzammo sopra un alto
+cumulo di terra pat’ia; poi ci avviammo subito al-
+la tomba pietrosa, talamo plutonio della fanciulla.
+Di lontano uno di noi ode un suono di alti gemiti
+verso la funerea stanza e subilo lo riferisce al
+re Creonte. A lui che si avvicina giunge il suono
+<pb n="85"/>
+della triste voce, e, gemendo, prorompe in que-
+ste dolorose parole: — Ahimè, infelice, sono for-
+se indovino? faccio forse la più infelice via delle
+vie percorse? Mi colpisce la voce di mio figlio. Su,
+servi, appressatevi velocemente e, stando sopra la
+tomba, esaminate, penetrando per l' apertura della
+rimossa pietra sin presso la bocca della stanza, se
+proprio ho udito la voce di Emone, o se sono in
+gannalo da gli Dei — Spinti dai comandi del re an-
+sioso, osservammo, e nella parte più interna della
+tomba vedemmo lei appesa pel collo, avvinta da un
+laccio di lino; e lui che, abbandonato sul suo corpo,
+le abbracciava a mezzo la persona, piangendo e la
+morte della sposa, e l'opera del padre, e le nozze
+infelici. Come quegli lo vide, gemendo profondamente,
+entrò presso di lui e lo chiamò con queste tristi pa-
+role: — O infelice, che cosa hai fatto? Che cosa
+pensi? In quale sventura sei caduto? Esci, o figlio,
+te ne prego supplichevolmente — Il figlio guardan-
+dolo con fieri occhi, manifestando nel volto l' aborri-
+mento, senza nulla rispondere, trasse la spada doppia-
+mente dentata all’impugnatura, ma non colpi il padre
+che si era sottratto con la fuga; e senz’altro l’infelice,
+sdegnato coutro se stesso, abbandonandosi sulla spada
+se la piantò in mezzo al petto e, ancora in sè, cade
+presso il languente fianco della fanciulla e, spiran-
+do, ver(??)a lungo la guancia un impetuoso fiotto di
+rosso di sangue. Giace morto presso la morta, avendo
+avuto in sorte l' infelice i riti nuziali nella casa
+dell’ Ade, dimostrando ai mortali, quanto grave male
+sia per Γ uomo la sconsigliatezza.</p>
+						<p>I<hi rend="smallcap">l</hi> C<hi rend="smallcap">orifeo</hi> — Che cosa dici sia questo? La don-
+na se ne è andata senza dire alcuna parola nè
+<pb n="86"/>
+buona nè cattiva.</p>
+						<p>I<hi rend="smallcap">l</hi> N<hi rend="smallcap">unzio</hi> — Io stesso ne sono stupito, ma nutro
+speranza che ella, avendo udita la sorte del figlio,
+non creda opportuno suscitare pianto per la città,
+ma ecciti le ancelle a piangere in casa il lutto do-
+mestico; non è priva di senno da commettere una
+uno sproposito.</p>
+						<p>I<hi rend="smallcap">l</hi> C<hi rend="smallcap">orifeo</hi> — Non so. Pertanto a me sembra
+che un silenzio troppo profondo abbia in sè qualche
+cosa di grave, come un pianto eccessivo.</p>
+						<p>I<hi rend="smallcap">l</hi> N<hi rend="smallcap">unzio</hi> — Entrando in casa sapremo se na-
+sconde nell’ animo agitato qualche secreto. Tu dici
+bene: anche il troppo silenzio è pericoloso.</p>
+						<p>I<hi rend="smallcap">l</hi> C<hi rend="smallcap">orifeo</hi> — Ma il re stesso viene, portando in
+mano se cosi è lecito dire, una chiara prova, non
+della stoltezza altrui, ma del proprio errore.</p>
+						<p><hi rend="italic">Il secondo</hi> « <foreign xml:lang="grc">&lt;gr»κομμός&lt;/gr»</foreign> »</p>
+						<p>C<hi rend="smallcap">reonte</hi> — O errori di menti dissennate, in-
+fausti, fatali! e voi che vedete uccisori e uccisi con-
+sanguinei! ahimè! esito infelice dei miei consigli! o
+figlio immaturo, di immatura morte, ahi, ahi, ca-
+desti, peristi per mia, non per tua stoltezza.</p>
+						<p>I<hi rend="smallcap">l</hi> C<hi rend="smallcap">orifeo</hi> — Ahimè, mi sembra che tu abbia
+veduto tardi il giusto!</p>
+						<p>C<hi rend="smallcap">reonte</hi> — Ahimè, infelice: ho imparato! allora
+un Dio mi colpi gravissimamente il capo e mi spin-
+se per una via dolorosa, ahimè, convolgendo e cal-
+pestando la mia felicità. Ahi, ahi, o infelici fatiche
+degli uomini!</p>
+						<p>U<hi rend="smallcap">n</hi> <hi rend="smallcap">altro</hi> N<hi rend="smallcap">unzio</hi> — O signore, sembra che tu sia
+<pb n="87"/>
+venuto avendo e possedendo sventure; alcune pre-
+senti, altre da vedersi tosto in casa.</p>
+						<p>C<hi rend="smallcap">reonte</hi> — Qual altro dolore vi è, ancor più do-
+loroso?</p>
+						<p>I<hi rend="smallcap">l secondo</hi> N<hi rend="smallcap">unzio</hi> — La tua donna è morta, la
+madre dell’ estinto, misera! per recente ferita.</p>
+						<p>C<hi rend="smallcap">reonte</hi> — Ahi, ahi, implacabile Ade, che tutti ac-
+cogli perchè, perchè, cosi mi strazi? O nunzio di sven-
+tura, che mò racconti? ahi, tu uccidi un uomo mor
+to! che dici, o figliuolo, qual nuova sciagura mi
+narri? ahi! ahi! essersi la sorte della moglie allac-
+ciata a quella del figlio?</p>
+						<p>I<hi rend="smallcap">l</hi> C<hi rend="smallcap">orifeo</hi> — Puoi constatarlo, giacché essa non
+è più nei penetrali.</p>
+						<p>C<hi rend="smallcap">reonte</hi> — Ahimè, infelice, vedo anche questa
+seconda sventura! Qual sorte ancora mi attende?
+Ho da poco tempo fra le mani un morto, o me in-
+felice! e mi vedo dinanzi un altro morto. Ahi,
+ahi, madre infelice! ahi, figlio!</p>
+						<p>I<hi rend="smallcap">l secondo</hi> N<hi rend="smallcap">unzio</hi> — Ella stando dinanzi a l'al-
+tare chiuse gli ottenebrati occhi per spada acuta-
+mente affilata dopo avere compianta da prima la
+nobile sorte dell’ estinto Megareo, poi quella di que-
+st' altro, e da ultimo avere imprecato ogni sorta di
+mali su l’uccisore del figlio.</p>
+						<p>C<hi rend="smallcap">reonte</hi> — Ahi, ahi, vengo meno per il terrore!
+non mi colpisce il petto con una spa-
+da a doppio taglio? Me infelice, ahi, sono colpito da
+doppia sventura!</p>
+						<p>I<hi rend="smallcap">l secondo</hi> N<hi rend="smallcap">unzio</hi> — La defunta ti accusava co-
+me responsabile della nuova e dell’antica sventura.</p>
+						<p>C<hi rend="smallcap">reonte</hi> — Ma in qual modo si uccise?</p>
+						<p>I<hi rend="smallcap">l secondo</hi> N<hi rend="smallcap">unzio</hi> — Colpendosi di sua mano al
+<pb n="88"/>
+petto, quando udì la dolorosa sorte del figlio.</p>
+						<p>C<hi rend="smallcap">reonte</hi> — Ahimè, ahimè! queste cose di cui
+io sono la causa non si imputeranno ad alcun altro
+mortale. Io, io ti uccisi, io infelice, lo dico aper-
+tamente. Via, o servi, conducetemi via, che io sono
+da meno di chi non è.</p>
+						<p>I<hi rend="smallcap">l</hi> C<hi rend="smallcap">orifeo</hi> — Consigli una cosa utile seppure nel
+male vi può essere qualcosa di utile. Ottima cosa
+è il rendere brevissimi i mali presenti.</p>
+						<p>C<hi rend="smallcap">reonte</hi> — Su, su via, appaia l' ultima, la più
+bella delle mie sorti, recando il mio ultimo giorno;
+venga, affinchè non io veda più alcun altro giorno.</p>
+						<p>I<hi rend="smallcap">l</hi> C<hi rend="smallcap">orifeo</hi> — Ciò avverrà: ora conviene atten-
+dere ai doveri attuali : di quello ha cura chi deve.</p>
+						<p>C<hi rend="smallcap">reonte</hi> — Ma io feci voti per quanto desidero.</p>
+						<p>I<hi rend="smallcap">l</hi> C<hi rend="smallcap">orifeo</hi> — Non invocare nulla, poichè per i
+mortali non vi è scampo dalla sorte stabilita.</p>
+						<p>C<hi rend="smallcap">reonte</hi> — Conducete via questo pazzo che uc-
+cise, senza volerlo te, o figlio, e anche te, ahi in-
+felice! nè so da qual lato volgere lo sguardo, che
+quanto ho fra mano rovina e un fato insopportabile
+mi percuote il capo.</p>
+						<p>I<hi rend="smallcap">l</hi> C<hi rend="smallcap">orifeo</hi> — La saggezza è il primo elemento
+della felicità, e non è lecito trascurare le cose degli
+Dei. I fieri discorsi, sottomettendo a crudeli pene i
+superbi, insegnano nella vecchiaia ad aver senno.</p>
+						<p><foreign xml:lang="grc">ΤΟ ΤΟΥ ΔΡΑΜΑΤΟΣ ΤΕΛΟΣ</foreign></p>
+					</div>
+				</div>
+			</div>
+			<div type="textpart" subtype="back">
+			    <pb n="91"/>			    
+				<p>Presso le Librerie G. B. PARAVI A e Comp
+TORINO-ROMA-MILANO-FIRENZE-NAPOLI</p>
+				<p>Traduzioni di Autori Latini e Greci.</p>
+				<p>(Edizione PARAVIA)</p>
+			    <p><hi rend="bold">Anacreonte</hi> ed <hi rend="bold">Anacreontiche</hi> — Traduzione letterale con riguardo alla co-
+struzione e brevi note per Ol. Aurenghi</p>
+<p>Edizione integra . . . . . . . . . . . . . . . . . . . . L. 1 15</p>
+<p>Edizione espurgata . . . . . . . . . . . . . . . . . . . » 0 65</p>
+				<p><hi rend="bold">Catullo, Tibullo</hi> e <hi rend="bold">Properzio.</hi> — Poesie scelte voltate in prosa italiana, cor-
+redate di note da Z. Carini. Seconda edizione . . . . . . . . . » 1 60</p>
+			    <p><hi rend="bold">Cesare C. G.</hi> — Commentari sulle guerre gallica e civile volgarizzati da
+C. Ugoni, con notizie biografiche e storiche per cura di G. Finzi . » 1 80</p>
+				<p><hi rend="bold">Cicerone Μ. T.</hi> — Scelte lettere più comunemente studiatE negli istituti
+classici. Traduzione di A. Cesari, con note di G. Piergili . . . . » 2 —</p>
+				<p>— I Doveri, la Vecchiezza e l’Amicizia. Traduzione di Z. Cari(??)i. corredata
+di note, riveduta ed emendata sull’ediz. Teubneriana da T Gironi » 2 50</p>
+				   <p><hi rend="italic">Separatamente:</hi></p>
+<p>Dei Doveri (gli Ufizi) . . . . . . . . . . . . . . . . . . . » 1 50</p>
+<p>La Vecchiezza e l’Amicizia . . . . . . . . . . . . . . . » 1 —</p>
+				<p>— Il sogno di Scipione. Testo e versione per cura di S. Pellini . . . » 0 80</p>
+				<p>— L’orazione a difesa di T. A. Milone tradotta da S. Pellini . . . . . » 1</p>
+				<p><hi rend="bold">Cornelio N.</hi> — Le vite degli eccellenti Capitani; traduz. e note di Z. Carini » 1 20</p>
+				<p><hi rend="bold">Demostene</hi> — Le tre Orazioni contro Filippo; traduzione letterale con ri-
+guardo alla costruzione e note per Ol. Aurenghi . . . . . . . » 1 25</p>
+				<p>— Le Olintiche; traduzione letterale italiana con riguardo alla costruzione
+e note per Ol. Aurenghi . . . . . . . . . . . . . . . . . . » 1 25</p>
+			    <p><hi rend="bold">Eschilo.</hi> — Le Eumenidi dramma. Traduzione letterale con riguardo alla
+costruzione e note di Ol. Aurenghi . . . . . . . . . . . . . » 1 50</p>
+			    <p><hi rend="bold">Fedro.</hi> — Favole voltate in lingua italiana (prosa) con note storiche, filolo-
+giche, geografiche e mitologiche da Z. Carini. 3<hi rend="superscript">a</hi> ediz. 1891, in-16 . » 1 —</p>
+				<p>— Le favole nuove recate in versi italiani da Mons. G. Bossi . . . . » 1 —</p>
+			    <p>I<hi rend="smallcap">nni</hi> O<hi rend="smallcap">rfici</hi> — <hi rend="italic">(Vedi Ottino)</hi> . . . . . . . . . . . . . . . . . . 1 60</p>
+				<p><hi rend="bold">Isocrate.</hi> — Orazione per la pace e il Panegirico, tradotti da C Roberti,
+con note e vita di Isocrate . . . . . . . . . . . . . . . . » 4 —</p>
+				<p><hi rend="bold">Lisia.</hi> — Le Orazioni contro Eratostene e contro Agorato, traduzione let-
+terale con riguardo alla costruzione e note per Ol. Aurenghi . . » 1 25</p>
+				<p>— Le Orazioni (XXIV e XXV); per un cittadino accusato di mene oligar-
+ehiche — Per un invalido; traduzione letterale con riguardo alla co-
+struzione e note di Ol. Aurenghi . . . . . . . . . . . . . . » 0 75</p>
+			    <p>— Orazione contro Eratostene e contro Agorato. (Vedi Roberti, <hi rend="italic">Eloquenza
+greca</hi>) . . . . . . . . . . . . . . . . . . . . . . . . . » 4 —</p>
+				<p><hi rend="bold">Livio T.</hi> — La storia romana, tradotta da C. L. Mabil:</p>
+<p>Libri I-II riveduti da T. Gironi . . . . . . . . . . . . . . » 1 50</p>
+<p>Libri ΧΧΙ-ΧΧII id. id. . . . . . . . . . . . . . . . » 1 50</p>
+<p>Libri XXIII-XXIV id. id. . . . . . . . . . . . . . . » 1 50</p>
+			    <p><hi rend="bold">Molineri G. C.</hi> — Brani scelti dei poemi omerici e dell’Eneide nelle migliori
+traduzioni italiane . . . . . . . . . . . . . . . . . . . . » 1 —</p>
+				<p>— Crestomazia degli autori greci e latini nelle migliori traduz italiane » 3 —</p>
+			    <p><hi rend="bold">Omero.</hi> — Canto VI dell’Iliade; colloquio di Ettore e di Andromaca. Tradu-
+zione letterale e note per Ol. Aurenghi . . . . . . . . . . . . » 0 50</p>
+				<p>— Iliade; Canto I, La peste - L’ira. Traduz. letterale e note per Ol. Aurenghi
+Torino 1890, in-16 . . . . . . . . . . . . . . . . . . . . » 0 50</p>
+				<p>— Odissea; Canto I, Concilio degli Dei - Esortazione di Atena a Telemaco.
+Traduzione letterale e note per Ol. Aurenghi. Torino 1890 . . . . » 0 50</p>
+				<p>— L’Odissea tradotta da Pindemonte. con note di N. Festa . . . . . » 2 —</p>
+			    <p><hi rend="bold">Orazio.</hi> — Le Odi tradotte da E. Ottino . . . . . . . . . . . . . . » 1 50</p>
+<p>Legato in tela . . . . . . . . . . . . . . . . . . . . . » 2 —</p>
+				<p>— Le Satire e le Epistole tradotte da E. Ottino . . . . . . . . . . » 2 —</p>
+<p>Legato in tela . . . . . . . . . . . . . . . . . . . . . » 2 50</p>
+				<p>— Traduzioni metriche di U. Rosa, col testo a fronte . . . . . . . . » 1 50</p>
+			    <pb n="92"/>
+				<p><hi rend="bold">Orfeo.</hi> — Gli Argonauti, poema; prolegomeni, traduz. e note di E. Ottino .L. 2 —</p>
+			    <p><hi rend="bold">Ottino E.</hi> — Gli inni orfici, recati in versi ital. con prolegomeni e note. » 1 60</p>
+				<p>— Gli inni di Proclo, tradotti in italiano ed illustrati; aggiuntavi la vita
+di Proclo del Marino . . . . . . . . . . . . . . . . . . . » 1 60</p>
+			    <p><hi rend="bold">Ovidio P. N.</hi> — Le metamorfosi o trasformazioni volgarizzate ed espurgate
+dal Prof. L. Andreozzi . . . . . . . . . . . . . . . . . . . » 2 50</p>
+				<p>I Fasti; volgarizzamento poetico di T. Gironi, con note:</p>
+<p>Libri I, II, III . . . . . . . . . . . . . . . . . . . . . » 1 80</p>
+<p>Libri IV, V e VI . . . . . . . . . . . . . . . . . . . . . . »1 80</p>
+			    <p><hi rend="bold">Persio Flacco A.</hi> — Saturarum liber; con introduzione commento e versione
+ritmica di G. Albini . . . . . . . . . . . . . . . . . . . . . » 3 —</p>
+			    <p><hi rend="bold">Platone.</hi> — I dialoghi. Nuovo volgarizz. di G. Meini, con argomenti e note;
+Vol. I, L’Eutifrone, il Critone l’Apologia di Socrate, e il Fedone . . » 2 —</p>
+<p>Legato in tela . . . . . . . . . . . . . . . . . . . . . » 2 50</p>
+<p><hi rend="italic">Separatamente:</hi></p>
+			    <p>Il Critone, ossia delle azioni . . . . . . . . . . . . . . . » 0 60</p>
+			    <p>L’Eutifrone, ossia del Santo . . . . . . . . . . . . . . . » 0 60</p>
+			    <p>Apologia di Socrate . . . . . . . . . . . . . . . . . . » 0 80</p>
+			    <p>Il Fedone, ossia della immortalità dell'anima . . . . . . . . » 1 —</p>
+			    <p>Volume II, Il Gorgia, il Menone, Alcibiade I e II e il Teage . . . » 2 —</p>
+			    <p>Legato in tela . . . . . . . . . . . . . . . . . . . . » 2 50</p>
+				<p>— Il Critene; traduzione letterale italiana con riguardo alla costruzione
+e note per Ol. Aurenghi . . . . . . . . . . . . . . . . . » 0 60</p>
+				<p>— Apologia di Socrate; traduzione letterale italiana con riguardo alla co-
+struzione e note per Ol. Aurenghi . . . . . . . . . . . . . . » 1 —</p>
+			    <p><hi rend="bold">Plauto M. A.</hi> — Trinummus, ossia le tre monete. Testo latino e traduzione
+a fronte di E. Stampini . . . . . . . . . . . . . . . . . . » 1 80</p>
+				<p>— Captivi, ossia i Prigioni. Testo latino e traduzione di E. Stampini . » 1 80</p>
+			    <p><hi rend="bold">Proclo.</hi> — Gli Inni tradotti in italiano <hi rend="italic">(Vedi Ottino)</hi> . . . . . . . . » 1 60</p>
+			    <p><hi rend="bold">Properzio, Catullo, Tibullo</hi> — Poesie scelte voltate in prosa da Z. Carini » 1 50</p>
+			    <p><hi rend="bold">Boberti G.</hi> — La Eloquenza greca. Vol. I . . . . . . . . . . . . . . » 4 —</p>
+<p>Vita di Pericle — Epitaffio. argomento e note — Vita di Lisia — Apo-
+logia per l’uccisione di Eratostene, argomento e note — Orazione contro Era-
+tostene, argomento e note — Orazione contro Agorato, argomento e note —
+Vita d'Isocrate — Orazione per la pace, argomento e note — Il Panegirico,
+argomento e note.</p>
+			    <p><hi rend="bold">Bomizi A.</hi> — Antologia omerica e virgiliana nelle migliori versioni italiane,
+e note, confronti e riassunti . . . . . . . . . . . . . . . . » 2 —</p>
+			    <p><hi rend="bold">Sallustio G. C.</hi> — Le guerre di Catilina e Giugurta volgarizzate da V. Al-
+fieri, con note di G. Finzi . . . . . . . . . . . . . . . . . » 1 20</p>
+			    <p><hi rend="bold">Schenkl C.</hi> — Volgarizzamento alle letture greche . . . . . . . . . . » 0 80</p>
+			    <p><hi rend="bold">Senofonte.</hi> — Anabasi o spedizione di Ciro, traduzione di F. Ambrosoli » 1 50</p>
+			    <p><hi rend="bold">Svetonio T.</hi> — Opere tradotte da E. Rocco col testo latino a fronte . . » 3 —</p>
+			    <p><hi rend="bold">Tacito C.</hi> — La vita di Giulio Agricola; traduz. letterale italiana con ri-
+guardo alla costruzione e note per Ol. Aurenghi . . . . . . . . » 1 —</p>
+				<p>— La Germania, traduzione letterale italiana e note per Ol. Aurenghi . » 1 —</p>
+				<p>— Sentenze scelte; testo e traduzione italiana di A. Manoni . . . . . » 1 40</p>
+			    <p><hi rend="bold">Tibullo, Catullo</hi> e <hi rend="bold">Properzio.</hi> — Poesie scelte voltate in prosa italiana da
+Z. Carini, con note . . . . . . . . . . . . . . . . . . . . » 1 50</p>
+			    <p><hi rend="italic">Versione</hi> degli esercizi graduali e delle letture greche annesse alla gram-
+matica greca di G. L. Burnouf . . . . . . . . . . . . . . . » 1 —</p>
+			    <p><hi rend="bold">Virgilio P. M.</hi> — La Bucolica; volgarizzamento poetico di T. Gironi, con
+note di storia, di filologia e d’interpretazione . . . . . . . . . » 1 —</p>
+				<p>— L’Eneide volgarizzata da Annibai Caro; libro I con prefazione e note di
+F. Martini . . . . . . . . . . . . . . . . . . . . . . . . . . . » 0 8(??)</p>
+				<p>— Eneide (tradotta da Caro) con notizie sulla vita, sulle opere e sui volga-
+rizzamenti di Virgilio, a cura di D. Carbone . .. . . . . . . . . . .» 1 4(??)</p>
+<p>Legato in tela . . . . . . . . . . . . . . . . . . . . . . » 2 —</p>
+			</div>
+		</body>
+	</text>
+</TEI>

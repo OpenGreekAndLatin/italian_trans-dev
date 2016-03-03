@@ -1,0 +1,2796 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>ECATEO DA MILETO ED I FRAMMENTI DELLA <foreign xml:lang="grc">ΠΕΡΙΗΓΗΣΙΣ</foreign></title>
+				<editor>I.<foreign xml:lang="grc">Ίβηρία</foreign></editor>
+				<sponsor>University of Leipzig</sponsor>
+				<funder>European Social Fund Saxony</funder>
+				<principal>Gregory Crane</principal>
+				<meeting/>
+				<respStmt>
+					<persName xml:id="DDD">Digital Divide Data</persName>
+					<resp>Corrected and encoded the text</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Greta Franzini</persName>
+					<resp>Project Manager (University of Leipzig)</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Frederik Baumgardt</persName>
+					<resp>Technical Manager (University of Leipzig)</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Simona Stoyanova</persName>
+					<resp>Project Assistant (University of Leipzig)</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Bruce Robertson</persName>
+					<resp>Technical Advisor</resp>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>University of Leipzig</authority>
+				<idno type="filename">TO BE ADDED BY LEIPZIG</idno>
+				<availability>
+					<p>Available under a Creative Commons Attribution-ShareAlike 4.0 International License</p>
+				</availability>
+				<date>2014</date>
+				<publisher>University of Leipzig</publisher>
+				<pubPlace>Germany</pubPlace>
+			</publicationStmt>
+			<sourceDesc>
+				<listBibl xml:lang="it">
+					<biblStruct>
+						<monogr>
+							<title>ECATEO DA MILETO ED I FRAMMENTI DELLA <foreign xml:lang="grc">ΠΕΡΙΗΓΗΣΙΣ</foreign></title>
+							<editor>
+								<persName>
+									<name xml:lang="el"><foreign xml:lang="grc">Ίβηρία</foreign></name>
+								</persName>
+							</editor>
+							<author ref="urn:tmp"><foreign xml:lang="grc">Ίβηρία</foreign></author>
+							<imprint>
+								<pubPlace>V MESSINA</pubPlace>
+								<publisher>TIPOGRAFIA <foreign xml:lang="grc">θ’</foreign> AMICO</publisher>
+								<date>1896</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+				</listBibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<p>Text encoded in accordance with the latest EpiDoc standards (January 2014)</p>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="it">Italian</language>
+				<language ident="grc">Greek</language>
+			</langUsage>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2014-12-12" who="DWP"/>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="bibliography">
+				<listBibl>
+					<bibl/>
+				</listBibl>
+			</div>
+			<div type="edition" subtype="volume" n="1" xml:space="preserve">
+				<div type="textpart" subtype="book" n="1">
+					<div type="textpart" subtype="chapter" n="1">
+						<pb n="5"/>
+						<p>Sono corsi già circa tre secoli dell’età storica :
+il Mare Grande è percorso da Greci che, di lido
+in lido, sono andati, tìmidi o audaci, a piantare
+colonie fin sulle rive più remoté, là dove era già
+arrivata la tradizione mitica, in un tempo ante-
+riore a questa prima e visibile vita del popolo
+ellenico. Dove il mito lasciò le tracce dei viaggi
+di Ercole, di quelli dei naviganti di Argo, dell’er-
+rare di Ulisse, lì arriva, nell’ età storica, il com-
+merciante greco, e vi porta i prodotti dell’Oriente,
+che, dall’interno dell’Asia Minore, gli vengono su
+per la via dell’ Eufrate; mentre astuto, laborioso,
+colto il Fenice tocca le coste della Libia, vi de-
+pone le merci ed innesta la propria vita nella vita
+primissima dei Greci del mare.</p>
+						<p>A chi guarda le coste che bagna il mare Egeo,
+là dove si specchiano e Greci dell’ Asia e Greci
+della Grecia, là dove in epoca anteriore ad Omero
+sorse la civiltà di Micene, dovrà apparire, quasi
+<pb n="6"/>
+spettacolo pieno di meraviglie, tanta fioritura di
+vita; mentre tutl’attorno mugghia, bieca e feroce,
+la barbarie. E più meraviglioso dovrà sembrare a
+lui lo sprigionarsi di tanta luce da quel chiuso
+bacino, donde gli sprazzi arrivano a toccare le
+coste orientali della Sicilia, e là là si spingono
+fino a quelle dell’ Iberia mediterranea.</p>
+						<p>Miti s’intrecciano a miti, si contaminano gli
+aspetti dei miti locali, Ercole corre in cerca dei buoi
+di Gerione, Ulisse è sbattuto dalle onde in luoghi
+o ignoti al poeta o dei quali questi ha soltanto una
+vaga contezza. Il racconto di arditi marinai, nella
+mente del poeta o nella fantasia dei rapsodi, si
+cambia in viva, sicura descrizione di luoghi, di
+fenomeni strani, di genti nuove; e questo agitarsi
+della mente trova la sua giustificazione nell’incom-
+preso mistero di ciò che la circonda. Nessuno ha
+visto al di là dello stretto, nessuno poteva andare
+oltre le Colonne : al di là c’è la corrente che tra-
+volge, al di là è il Tartaro, laggiù Elio si tuffa
+nelle onde, dalle quali esce la Notte. Orribili mostri
+popolano il mare; guai a chi si attenti al passag
+gio tra Scilla e Cariddi; guai a chi guardi verso
+il gruppo ignivomo dove Eolo regna : laggiù re-
+spira Tifeo, la cui bocca vomita fiamme dall’Etna
+sterminatrice, ed il cui corpo si estende, sotto
+l’Epomeo, fino ai colli Albani.</p>
+						<p>Quando davanti a questo materiale sorse chi
+scrisse, perchè fossero fermate le memorie degli
+avvenimenti, grande fatica sarà stata il vedere,
+<pb n="7"/>
+con una certa chiarezza, entro tante credenze;
+fatica anche più grave, perchè molte di esse si
+connettono al sentimento religioso delle moltitu-
+dini.</p>
+						<p>Si è detto, da Strabone in qua, che la primis-
+sima storiografia basa su favole : nulla di più vero,
+anzi dirò, nulla di più necessario. Per lo sto-
+rico, memorie da interrogare erano quelle che gli
+forniva l’epopea mitica : non è più il mito : non è
+ancora proprio la leggenda che ha sostrato storico :
+è invece uno stadio di mezzo tra il mito e la leg-
+genda, è quel periodo della preistoria, in cui gli
+dèi sono già umanizzati, vivono e sentono con
+noi, che loro abbiamo dato e vita e sensibilità. Un
+altro passo, e le azioni che l’uomo ha dato agli
+dèi ripronderà per sè, e le racconterà : allora sa-
+remo entrati nel periodo storico. Trasformammo
+il nume in eroe, e l’eroe in uomo; proprio così,
+come dal mito passammo all’ epopea mito-eroica,
+e, da questa, all’epopea umana : la teogonia, l’Iliade,
+la storia.</p>
+						<p>Ecateo è tra gl’Ioni di Mileto il primo di co-
+loro che scrissero i ricordi del passato : il mondo
+greco era tutto pieno delle credenze dell’epoca
+mito-eroica, onde l’aver egli detto che i racconti
+dei Greci sono molti e favolosi è già un chiaro
+sintomo del sorgere della storiografìa, che difatti
+si apre con lui.</p>
+						<p>Indubbiamente, chi ben consideri il movi-
+mento filosofico dell’epoca di Ecateo, vedrà es-
+<pb n="8"/>
+sersi avvicinato il tempo in cui, avendo la ragione
+riuniti i risultati dell’ esperienza in una nuova
+unica imagine del mondo, anche la tradizione del
+passato non sia più possibile di mantenere cosi
+come fino a noi è pervenuta dalla credula cecità
+della mente. La sua contraddizione, dice il Me-
+yer (1), da per tutto spicca di fronte alle nuove
+vedute; le narrazioni dei poeti, che il popolo ripete,
+sono in sè stesse assurde, impossibili; esse sono
+concepibili soltanto come inganni di una rozza età,
+la quale doveva mostrare la propria insufficienza
+davanti al processo naturale. Il razionalismo riduce
+le sacre istorie ed i loro prodigi a processi na-
+turali, comuni; e così dà luogo ad una nuova ra-
+zionalo concezione del mondo c degli Dei. E colui
+che porta sul campo della storia queste nuove
+vedute è il contemporaneo di Anassimandro, Eca-
+teo da Mileto. Egli si accinge a sottomettere l’in-
+tera tradizione ad una revisione energica; egli è
+il primo che concepisce le tradizioni del tempo pri-
+mitivo come puri fatti umani e li rappresenta in
+forma prosastica.</p>
+						<p>Queste le opinioni del Meyer intorno ad Eca-
+teo, dalle quali un esame dettagliato dei fram-
+menti mi fa assolutamente dissentire. Che in Ecateo
+sia un primo accenno alla storiografia su baso
+razionalistica, convengo; ma che egli si sprigioni
+dalle credenze anteriori così da riuscire a combat-
+<note type="footnote">(1) Geschiehte dea Altertums, II, § 165.</note>
+<pb n="9"/>
+terle perchè convinto della loro impossibilità, mi
+sembra giudizio esagerato. Diedero (I. 37) mette
+Ecateo insieme a Cadmo e ad Ellanico « tra quegli
+antichi che affermarono cose favolose »; il fram-
+mento 266 che tratta dei pigmei, il 284 che asse-
+risce esservi in Buto, presso il tempio di Latona,
+un’ isola Chembide sacra ad Apollo, la quale si muo-
+ve e nuota sull’acqua, il 292 che parla dell’uccello
+Fenice e dei coccodrilli del Nilo, sono prove della
+sua credulità; ma più evidenti ancor ce ne dànno
+le Genealogie.</p>
+						<p>Lo scoliaste di Apollonio da Rodi (IV. 266) ri-
+ferisce essere stata opinione di Ecateo che i re della
+Tessaglia derivassero da Deucalione (fr. 334). Ed
+Ecateo accetta tutta la stirpe, annoverando Doro,
+Eolo, Frisso, a proposito del quale dice, secondo lo
+stesso scoliaste (I. 256), che l<hi rend="italic">'ariete parlò</hi> (fr. 337); e
+a proposito degli Argonauti (fr. 338) parla del Fasi
+dal quale egli dice (fr. 339) che gli Argonauti per-
+vennero nell’ Oceano, donde nel Nilo e poi nel
+mare <hi rend="italic">nostro</hi> (il Mediterraneo).</p>
+						<p>Ateneo (II p. 35) riporta la sciocca opinione
+riferita da Ecateo intorno alla invenzione della
+vite. Ecateo da Mileto, scrive Ateneo, nel traman-
+dare che la vite fu trovata in Etolia. scrisse : Essen-
+do Oresteo, figlio di Deucalione, venuto in Etolia
+per occupare il regno, un cane gli partorì un
+ceppo. Ed avendo egli comandato che questo fosse
+sotterrato, ne nacque la vite carica di uva. Di qui
+nominò Fizio suo figlio, dal quale nacque Oineo
+che ebbe il nome dalla vite.</p>
+						<pb n="10"/>
+						<p>Fra le altre tradizioni del mito di Ercole ri-
+ferite da Ecateo c’è questa che ci è conservata
+da Pausania (III. 25. 5), il quale la riferisce col
+dire che parve naturale ad Ecateo : « in quella
+spelonca presso il Tenaro era un serpente, che
+era detto il cane dell’Orco, al cui morso si mo-
+riva per veleno. Quel serpente da Ercole fu tratto
+a forza ad Euristeo ». Così Ecateo decantò l’Idra
+di Lerna alla maniera dei poeti o degli autori
+delle antiche favole (<foreign xml:lang="grc">v αρχαίωv</foreign>) come dice Eliano
+(Nat. Animai. IX. 23).</p>
+<p>Nè sono le sole favolose credenze : il fram-
+mento 358 ci dice (ap. Ael. Herodian. <foreign xml:lang="grc">περί μοvήρ</foreign>.
+<foreign xml:lang="grc">λέξεως</foreign> 
+I. p. 8 s. v.<foreign xml:lang="grc">Ά&amp;ηvά</foreign>) che Giove <foreign xml:lang="grc">T/ Aava μίσγεται.</foreign></p>
+<p>Al passo di Pollux (I. 5. 50) « <foreign xml:lang="grc"> το δε Χειρογάατορες
+Έκαταως λεγέτω &gt; Π ΟεΐΙΖΘΓ </foreign> » il Creuzer (p. 71 sg.) [in Müller Fhg.
+I. 29] ritiene si riferisca il passo di Straboe VIII
+572 dove è detto di queste mostruosità.</p>
+						<p>Alle quali fonti assai probabilmente si potrà
+aggiungere il passo di Giuseppe (Antiq. Jud. I.4)
+dove si dice che « Esiodo, Ecateo, Ellanico, Acu-
+sìlao, ed inoltre Eforo e Nicolao narrano gli antichi
+esser vissuti circa 1000 anni ».</p>
+						<p>La credulità sua, quella da cui non si sot-
+trae neppure Erodoto, è una necessità storica,
+e dipende non tanto dallo stato delle cono-
+scenze, quanto dalle fonti storiche impure, donde
+Ecateo, necessariamente, trae le notizie. Egli viag-
+gia, viaggia molto : più domanda, più trova : ma
+gli manca la mente che scevra il vero dal falso :
+<pb n="11"/>
+Ecateo è ancora troppo credente (1). Cancellare le
+memorie impure, quelle che hanno radice nel sen-
+timento religioso, è già il lavoro di una critica
+progredita, spregiudicata, e nessuno saprà farlo
+avanti Tucidide.</p>
+						<p>É troppo vivo ancora Il canto di Omero, le
+cui parti più recenti, le cui ultime rapsodie, erano
+certamente patrimonio vivente delle genti elle
+niche degli ultimi del VI secolo e dei primi del V;
+nè era possibile, d’un tratto, in Ecateo la rinunzia
+di quelle tradizioni, nè sarebbe stato prudente.
+Il mondo greco si agitava nelle lotte per l’indi-
+pendenza, davanti alla grave minaccia della Per
+sia; ancora all’ epopea eroica non si poteva sosti-
+tuire, come fece in parte Erodoto e totalmente
+Tucidide, l’epopea umana: la leggenda non ancora
+aveva contornato di grandezza i nomi dei grandi
+capitani greci, da Milziade a Pausania, nè aveva
+segnate le pagine gloriose, da Maratona a Micale.
+Ecateo viveva appunto mentre questi fatti si svol-
+gevano, Davanti alla grande lotta, gli episodî della
+guerra trojana dovevano sembrare episodî me-
+schini; la calma dell’Olimpo doveva essere accolta
+col riso dello scherno, raffrontandola all’ardore
+nobilissimo degli eroi della epopea medo-greca :
+gli dèi erano diventati (??)omini, e le loro grandi
+gesta andavano segnate, perchè il tempo non ne
+travolgesse la memoria. La storia dunque doveva
+<note type="footnote">(1) Tuttavia Ecateo trasforma parecchi miti e dà ad essi spiegazioni sue
+proprie. Cfr. i framm. 332, 346, 349 (Müller, Fhg.).</note>
+<pb n="12"/>
+sorgere nella generazione che successe a quella
+del glorioso periodo della guerra persiana; ed il
+primo balenare della storiografìa si vede già in
+Ecateo. I tempi si son fatti maturi : noi siamo
+come nella primavera della vita ellenica, in cui
+tutto fiorisce : di qua Siracusa, le colonie della
+Magna Grecia, la scuola di Pitagora; di là Mileto;
+nel mezzo Atene.</p>
+					</div>
+					<div type="textpart" subtype="chapter" n="2">
+						<pb n="13"/>
+						<head>
+							<title>BIBLIOGRAFIA</title>
+						</head>
+						<p>S<hi rend="smallcap">evin</hi>. « Recherches sur Hécatée de Milet » (Mém. de l’Acad.
+des inscript. VI. 472 sgg.).</p>
+						<p>C<hi rend="smallcap">reuzer</hi>. « Histor. graec. fragm. » p. 19 sgg.
+» « Die histor. Kunst der Griechen <hi rend="superscript">2</hi> » p. 284 sgg.</p>
+						<p>U<hi rend="smallcap">kert.</hi> « Untersuchungen Über die Geographie des Heca-
+taeus u. Damastes. » Weimar. 1814.</p>
+						<p>K<hi rend="smallcap">lausen.</hi> « Hecataei M. fragmenta. » Berolini. 1831.</p>
+						<p>G<hi rend="smallcap">utschmid.</hi> « De rerum Aegyptiacarum scriptoribus grae-
+cis » (Phil. X; 531). 1855.</p>
+						<p>G<hi rend="smallcap">utschmid.</hi> « Kleine Schrift. » I. 47.</p>
+						<p>M<hi rend="smallcap">ichael.</hi> « De logographis qui dicuntur antiquiss. grae-
+corum historicis. » Zettauer. 1855.</p>
+						<p>H<hi rend="smallcap">ollander.</hi> « De Hecataei M. descriptione terrae, quaestio
+critica. » Bonnae. 1861.</p>
+						<p>B<hi rend="smallcap">rink.</hi> « Hecataei locorum <foreign xml:lang="grc">παραποίησις</foreign> apud Herodot. » 1863.</p>
+						<p>Röper. « Ueber einige Schriftsteller mit Namen Hecataeus. »
+Danzig. 1877.</p>
+						<p>C<hi rend="smallcap">obet.</hi> « Mnemos. » XI. XII. (1883).</p>
+						<p>H<hi rend="smallcap">eil.</hi> « Logographis num Herodotus usus esse videatur.»
+Marpurg. 1884.</p>
+						<p>C. M<hi rend="smallcap">oller.</hi> « Fragm, hist. graecorum. » Parisiis. 1885. vol. I.</p>
+						<p>L<hi rend="smallcap">ipsius,</hi> « Quaestiones logographicae. » Lipsiae. 1887.</p>
+						<p>M. S<hi rend="smallcap">chmidt.</hi> « Zur Geschichte der geogr. Litteratur bei
+Griechen u. Römern. » Berlin. 1887.</p>
+						<pb n="14"/>
+						<p>D<hi rend="smallcap">iels.</hi> « Herodot u. Hecataeos » (Hermes. XXII. p. 411 sgg.).</p>
+						<p>A<hi rend="smallcap">tenstaedt.</hi> « De Hecataei M. fragm. quae ad Hispaniam
+et Galliam pertinent » (Leipzig. Stud. 1891. XIV. p. 173).</p>
+						<p>Cfr. pure :</p>
+						<p>O. M<hi rend="smallcap">uller.</hi> « Gesch. d. griech. Litt. » I. 475.</p>
+						<p>M<hi rend="smallcap">uller</hi>-D<hi rend="smallcap">eecke.</hi> Die Etrusker. » I. p. 167 n. 30.</p>
+						<p>M<hi rend="smallcap">ure.</hi> « Hist. of thè lang. and lit. of anc. Greece. IV. p. 149
+sg. p. 532 sg.</p>
+						<p>B<hi rend="smallcap">ähr.</hi> « ad Herod. » IV. 435 sgg.</p>
+						<p>S<hi rend="smallcap">chenkl.</hi> « Burs. Annal. » 1883. XXXIV. 232 sgg.</p>
+						<p>N<hi rend="smallcap">issen.</hi> « I-Lk. » I. 7, η. 1; 89, n. 5; 91, n. 6.</p>
+						<p>B<hi rend="smallcap">ergk.</hi> « Gesch. d. griech. Litt. » II. 406 >sgg.; IV. 270.</p>
+						<p>S<hi rend="smallcap">ittl.</hi> « Gesch. d. griech. Litt. » I. 347 sgg.</p>
+						<p>W<hi rend="smallcap">>iedemann.</hi> « Aegypt. Gesch. » I. 104 sgg.</p>
+						<p>S<hi rend="smallcap">chäffer.</hi> (Elementi di Storiografia greca. I. I logografi :
+Xanto, Ecateo, Acusilao, Carone e Ferecide. 1885 [in
+russo]).</p>
+						<p>B<hi rend="smallcap">erger.</hi> « Gesch. d. wissenschaftl. Erdkunde der Grie-
+chen.» 1887. I. 7.</p>
+						<p>G<hi rend="smallcap">rote.</hi> Hist. de la Grèce. » Paris. 1864. I. 250; II. 115 sgg.;
+VI. 122 sgg.; 135 sgg.</p>
+						<p>E. M<hi rend="smallcap">eyer.</hi> « Forsch. z. alt. Geschichte. » I. 169 sgg.
+» « Gesch. des Altertums. » Stuttgart 1893 I1. 7
+sgg. e 757-760.</p>
+						<p>B<hi rend="smallcap">usolt.</hi> « Griechische Geschichte <hi rend="superscript">2·</hi> » Gotha. 1893. I. 149.</p>
+						<p>B<hi rend="smallcap">eloch.</hi> « Griechische Geschichte. » Strassburg. 1893. I.
+p. 11 sgg.</p>
+						<p>P<hi rend="smallcap">ais.</hi> « Storia della Sicilia e della Magna Grecia. » Paler-
+mo. 1894. p. 10 sgg.</p>
+						<p>W<hi rend="smallcap">achsmuth.</hi> « Einleitung in das Studium der altea Ge-
+schichte ». Leipz. 1895 p. 327 e 509.</p>
+					</div>
+					<div type="textpart" subtype="chapter" n="3">
+						<pb n="15"/>
+						<p>La notizia più precisa intorno ad Ecateo ci è fornita
+dal lessicografo Snida (a. v. <foreign xml:lang="grc">Έκαταΐος), Ήγησάvδροv,
+Μιλήσιος, γέγοvε κατά τους Δαρείου χρόvους... ore και Διοvύσιος
+ηv δ Μιλήσιος, έπϊ τής ξε δλvμπιάδος, Ιστοριογράφος.... πρώτος
+δε ιστορίαv πεζώς έξήvεγκε, συγγραφήv δε Φερεκύδης. τά γάρ
+Άκοvσιλάου vο&amp;εύεται.</foreign></p>
+						<p>Questo passo di Snida è da mettersi in relazione con
+l’altro in cui si parla di Ellanico (a. v. <foreign xml:lang="grc">Ελλάvικος) : Ελλάvικος
+Μvτιληvαϊος, Ιστορικός, υΙός Άvδρομέvους, οΐ δε Άριστομεvους,
+οΐ δε Σκάμωvος, ου όμώvυμοv Ισχεv υΙόv. διέτριψε δε Ελλάvικος
+συv Ήροδότφ παρά Άμύvτρ τφ Μακεδόvωv βασιλεΐ κατά τους
+χρόvους Ευριπίδου καί Σοφοκλέοvς, καί Έκαταίφ τω Μιλησίφ
+Ιπέβαλε γεγοvότι κατά τα Περσικά και μικρφ πρός, έξέτειvε δλ
+καί μέχρι τωv Περδίκκου χρόvωv, καί έτελεύτηαεv ίv Περπερηvη
+τή Καταvτικρυ Λέσβου, συvεγράψατο δε πλεϊστα πεζώς τε καί
+ποιητικώς.</foreign></p>
+						<p>Il passo relativo ai rapporti fra Ellanico ed Ecateo può
+essere utile a meglio determinare il dato cronologico nella
+biografia di Ecateo.</p>
+						<p>Gellio XV. 23) fa nascere Ellanico circa la fine della
+01. 70. Ora se consideriamo che Ecateo visse per tutto it</p>
+<pb n="16"/>
+					 <p>periodo delle guerre persiane, fin dopo la battaglia di Pla-
+tea (1), ne verrà di conseguenza che dalla 01. 65 (520) alla
+01. 75 (480) sarà da collocarsi tutto il movimento storico
+della sua vita. E se questa si fa iniziare a soli circa 30 anni,
+l’ anno della nascita sarà intorno al principio della 01.
+58 (548).</p>
+						<p>Ecatao, dice Suida (a. v. <foreign xml:lang="grc">ΕκαταΤος), ηv άκόvατης Πρωτα~
+γύρου</foreign>; ma l’ errore è evidente, e sarà nato forse, come
+pensa il Sevini (2), cui si unisce il Müller (3), dall’ avere
+scambiato Pitagora con Protagora, o dalla confusione fra
+il nostro Ecateo e l’ Abderita. E forse le molte lodi, che
+gli scrittori posteriori tributarono al Milesio, furono dovute
+all' essere stato ritenuto discepolo (4) di Pitagora, ovvero
+alla sua coltura.</p>
+						<p>E la periegesi e le genealogie ci dicono chiaramente che
+egli era di coltura non comune : e benché scarni e pochi sie-
+no i frammenti superstiti, pure chiaro apparisce che le co-
+noscenze del suo tempo erano nella sua mente, allo stesso
+modo come egli sentiva Esiodo ed Omero.</p>
+						<p>A consolidare poi la reputazione, della quale godè, non
+avranno avuto poco peso sia le condizioni facoltose nelle
+quali visse, che gli permisero tanti e così lunghi viaggi, sia
+l’ esperienza della vita, che ricava colui che visita i luoghi
+per conoscerne uomini e cose.</p>
+						<p>Contemporaneo di Pitagora, di cui avrà conosciute le
+tanto reputate dottrine, dotto quale doveva essere chi im-
+prendeva a scrivere di storia, non ostante la credenza nel
+meraviglioso (5), fu stimato addirittura come eccellente.
+<note type="footnote">(1) Cfr. S<hi rend="smallcap">cuidas,</hi> a. v. <foreign xml:lang="grc">'Ελλάvικος.</foreign>—</note>
+<note type="footnote">(2) Comment. de l’Acad. des Belles Lettres. VI. 474.</note>
+<note type="footnote">(3) F. H. G. (Didot). Parisiis, 1885, I, IX.</note>
+<note type="footnote">(4) Laert. Diog. IX. 1.</note>
+<note type="footnote">(5) Cfr. i frammm. 266, 278, 284, 292, 341, 346, 347, 359. — Diod. I,
+37, 3.—</note>
+<pb n="17"/>
+Eliano (1) parlando di un Cereida morente, intorno a cui
+piangevano i familiari, gli fa dire che la morte lo faceva
+lieto, perchè egli sperava così di potersi ritrovare in quel
+celeste convegno dove, tra i filosofi, avrebbe veduto Pi-
+tagora; tra gli storici, Ecateo; tra i musici, Olimpo; e
+tra i poeti, Omero.</p>
+						<p>Si aggiunga che, a rendere sempre più grande il suo
+nome, avrà non poco contribuito l’ antica nobiltà del suo
+lignaggio; che Ecateo vantava progenitori, il cui caposti-
+pite risaliva a 16 generazioni. Erodoto (2), a tal proposito
+racconta questo curioso aneddoto : </p>
+						<p> <foreign xml:lang="grc">Πρότεροv δε Έκαταίω τώ λογοποιφ έv θήβηαι γεvεηλογή-
+σαvτί τε έωvτόv καί άvαδήααvτι τηv πατριήv ές έκκαιδέκατοv θεόv
+έποίησαv οΐ Ιρέες του Διάς οΐόv τι καί ίμοί ου γεvεηλογήααvτι
+έμεωvτόv · έααγαγόvτες ές τό μέγαροv Εσω iòv μέγα έξηρίθμεοv
+δεικvύvτες κολοσσούς ξvλίvοvς τοσοvτοvς δσοvς ττερ είπαv ’ άρχι-
+ρευς γάρ Εκαστος αυτόθι ΐσταται έπ'ι τής ίωvτοϋ ζόης εΙκόvα ίωv-
+τοΰ · άριθμέοvτες ώv και δεικvύvτες οί ιρέες έμοι άπεδείκvυσαv
+παΐδα πατρός έωυτώv Εκαστοv ιόvτα, Ικ τοv δγχιστα άπο&amp;αvόvτος
+τής εΐκόvος διεξιόvτες διά πααέωv, Ες ο άπέδεςαv άπάσας αvτάς.
+Έκαταίω δέ γεvεηλογήααvτι έωvτόv καί άvαδήααvτι ές έκκαιδέ-
+κατοv θεόv άvτεγεvεηλόγησαv έπ'ι τή άριθμήσι, οv δεχόμεvοι παρ αv-
+τοΰ άπό θεού γεvέσ&amp;αι άvθρωποv*άvτ εγεvεηλόγησαv δε ώδε,
+ψάμεvοι Εκαστοv τωv κολοσσώv πίρωμιv έκ πιρώμιος γεγοvέvαι,
+ές δ τους πέvτε και τεσσεράκοvτα και τριηκοσίοvς άπέδεξαv κο-
+λοσσούς πίρωμιv έκ πιρώμιος γεvόμεvοv, και οv τε ές θεόv οv τε
+ές ήρωα άvέδησαv αυτούς.</foreign> Si ritenevano dunque codesti sa-
+cerdoti come uomini nati da uomini, non derivati nè dà
+divinità, nè da eroi.</p>
+						<note type="footnote">(1) Var. Hist. XIII. 20.</note>
+						<note type="footnote">(2) II, 143.</note>
+						<pb n="18"/>
+						<p>Questo è certo che in Mileto egli occupava un rag-
+guardevole stato sociale. Erodoto (1) ci parla del Consiglio
+raccolto da Aristagora in Mileto, nel quale convennero
+tutti i partigiani del tiranno. Qui fu stabilita la ribellione;
+e quando tutti erano unanimi nel voto, Ecateo solo si op-
+pose alla impresa di una guerra contro il re della Persia,
+ricordando su quanti popoli Dario imperasse, e quale, di
+conseguenza, fosse la potenza del gran re. I1 periegete
+metteva qui a profitto le conoscenze dei lu(??)ghi, dovute ai
+suoi viaggi, dai quali aveva imparato a misurare le forze di
+quello stato, davanti a cui non costituivano prevalente valore
+numerico le forze delle ribelli isole ioniche. Ma, allorché si ac-
+corse che le sue parole non facevano presa, e gli adunati si
+ostinavano nell’approvare il consiglio di Aristagora, propose
+che prima almeno di avventurarsi in un’ intrapresa irta di
+pericoli, avessero costruito un potente naviglio da tenere
+fronte a quello persiano nella guerra sul mare. E poiché,
+a fare ciò, non vedeva sufficienti le risorse dello Stato di
+Mileto, egli additava dove i Milesi avrebbero potuto trovare
+il denaro occorrente alla bisogna; nel mettere cioè le mani
+nel tesoro dei Branchidi, sacro ad Apollo Didimo, l'oracolo
+stabilito ivi da tempi antichissimi, al quale Joni ed Eoli
+prestavano culto (2), e trarne le ricchezze che Creso di
+Lidia aveva depositate in quel tempio (3). Se ciò avessero
+fatto, egli aveva fondata speranza che i Milesî sarebbero
+stati per ottenere il dominio del mare, ed avrebbero preso
+per sé quel denaro che altrimenti sarebbe caduto nelle mani
+del nemico. Ma neppure in questo valse la voce di Ecateo,
+e l’adunanza, unanime, si decise per la ribellione.</p>
+						<note type="footnote">(1) V. 86.</note>
+						<note type="footnote">(2) Erod. I. 157.</note>
+						<note type="footnote">(3) Intorno allo riechezze depositate da Creso nei tempio di Apollo
+Didimo in Mileto, cfr. : Erod. I. 46.92. 158; II. 159; VI. 19.</note>
+						<pb n="19"/>
+						<p>Un’altra volta ci apparisce il logografo nei rivolgimenti
+politici. Artaferne, prefetto di Sardi ed Otane terzo coman-
+dante dei Persiani, per ordine di Dario, muovono contro
+la Jonia. La ionica Clazomene e l’eolica Cuma sono prese
+dai barbari (1). Dopo di che, Aristagora di Mileto, <foreign xml:lang="grc">ψυχήv
+ούκ ΰκρος,</foreign> benché avesse sconvolta, perii primo, la Jonia,
+pensò alla fuga, essendosi persuaso della vanità degli sforzi
+contro la potenza preponderante di Dario. Per la qual cosa
+chiamò a consìglio quelli di sua parte, e propose, ove la ne-
+cessità ve li avesse obbligati, di cercare sicuro refugio fuori
+di Mileto. Onde pensò che si dovesse o muovere, a mo’ di
+colonia, in Sardegna, ovvero in Mircino degli Edoni, città
+che Dario aveva donato ad Istieo e dallo stesso Istieo era
+stata fortificata (2). Ecateo fu in quella adunanza e si op-
+pose ad ambedue le proposte di Aristagora. Propose invece
+che il tiranno costruisse una fortezza nell’isola di Lero, ove
+si restasse in quiete, se mai Mileto dovesse cadere nelle
+mani del nemico, ed aspettasse ivi la sorte propizia per
+riscattare Mileto (3). Ma neppure questa volta Aristagora
+ascoltò il consiglio di Ecateo, anzi decise di recarsi a Mir-
+cino; ed avendo affidato il comando di Mileto a Pitagora,
+uomo di provata virtù, seco trasse quanti volessero se-
+guirlo e navigò verso la Tracia, dove, nell’assedio di una
+città, egli ed i suoi trovarono la morte (4).</p>
+						<p>Quale apparisce Ecateo in queste adunanze? Non è
+l’uomo che abbia ascendente politico sulle moltitudini : èla
+persona colta di un paese ristretto, al cui consiglio, alla
+cui prudenza si ricorre, della cui presenza non si potrebbe
+fare a meno senza recare onta al paese nativo; mal’incer-
+<note type="footnote">(1) Erod. V, 123.</note>
+<note type="footnote">(2) Erod. V. 124.</note>
+<note type="footnote">(3) Erod. V. 125.</note>
+<note type="footnote">(4) Erod. V. 126.</note>
+<pb n="20"/>
+tezza che egli dimostra, e l’oscitanza nell’affrontare il peri-
+colo, cozzano con i propositi orgogliosi del tiranno e di coloro
+che ne seguono la parte; ed Ecateo non riesce ad impedire
+nè la rivolta, prima degli eventi della guerra, nè la fuga,
+dopo le vicende sfortunate. Allora il tiranno sperava, ed i
+suoi con lui, la felicità della vittoria; ora egli teme il danno
+della sconfitta; e come la prudenza di Ecateo non valse ad
+impedire il danno, così il suo amore di patria e la speranza,
+che si volgano in bene le sorti di essa, non valgono ad
+impedire l’onta.</p>
+						<p>Ripugna con l’assennatezza di lui il consiglio di met-
+tere le mani sul tesoro di Apollo Didimo; ed io credo che
+sia l’enumerazione delle forze di Dario, sia le conseguenze
+di questo consiglio siano stati soltanto argomenti scelti da
+lui per impedire la ribellione. Difatti nessuno avrebbe po-
+tuto accettare l’esecuzione di un’opera sacrilega, nel com-
+piere la quale Mileto avrebbe tirato contro di sè la male-
+dizione della divinità e gli odii di quanti Joni ed Eoli ave-
+vano contribuito alla costituzione di quel grande tesoro
+apollineo.</p>
+						<p>Questo è certo che Ecateo tendeva ad impedire con
+ogni mezzo lo scoppio della lotta, perchè, nei tristi eventi
+di essa, scorgeva rovinose conseguenze per l’avvenire del
+mondo ellenico.</p>
+						<p>E pure il suo consiglio di fortificare Lero e rifugiarvisi
+dovè, forse, trovare, in appresso, buona accoglienza presso
+tutti coloro che o non si erano compromessi nella defezione
+di Aristagora, o non vollero seguirlo nella fuga ed abban-
+donare la patria terra nei tempi di lutto, per recarsi lon-
+tano lontano in cerca di ventura. Il fatto a me pare sia
+provato dalla seguente iscrizione, scoperta nell’isola di
+Lero, nel 1842, da Ludovico Rossi : </p>
+						<p>.... <foreign xml:lang="grc">[εv]vοιη[v] και προθυμίαv δικαίαv παρε[χό]μεvο[ς ίς]
+τ/) vήοω κατοικοvvτας τώv [πολ]ηώv' δεδόχΰαι τ[] ίκκλησία</foreign>
+<pb n="21"/>
+<foreign xml:lang="grc">in[flvfja&amp;ai Έκ]ατάΐοv vnò τωv οίκητόρωv τωv ίλ Λέρω [ά]ρετής
+Εvεκα καί έπιμελείας, ί]v |Εχει π'ερί αυτούς ’ vπάρχειv δ'ε κα\ φι-
+λίαv Έκα[ταίω] πολλήv και εύvοιαv παρά τωv Εv τη vήσω κα-
+τοικοvvτωv και αvτίο και ίκγόvοις το δέ ψήφισμα τάδε άv[αγράψ]αι
+ίς στήληv λι&amp;ίvηv και στήσαι κατά τηv άγοράv δπως [τ]αv-τα</foreign>
+.... (1).</p>
+						<p>Dal tenore dell’epigrafe, benchè la sia di epoca molto
+posteriore, apparisce che Lero fu cleruchia dei Milesii.
+Questa condizione risale forse all’epoca cui si riferisce il
+passo suddetto di Erodoto (V. 125)? Il nostro Ecateo sa-
+sebbe stato l’oikista della spedizione milesia in Lero, egli
+che l’aveva consigliata come la sola maniera di salvezza?
+Nel caso affermativo, rannodato al passo erodoteo(V. 125) ciò
+che dice l’epigrafe, si verrebbe alla conclusione che, se il
+consiglio di Ecateo non fu accettato da Aristagora e dai
+suoi, i quali scelsero la via di Mircino, più tardi invece,
+assediata Mileto e per terra e per mare, egli condusse i
+suoi a Lero, vi restò come oikista e come tale vi fu
+onorato.</p>
+						<p>E la sua prudenza e l’ amore verso il luogo nativo,
+da cui egli non si ritrasse mai nei momenti calamitosi, e for-
+se anche il pregio nel quale era tenuto presso il nemico,
+conciliarono in lui tale fiducia che egli fu spedito presso il sa-
+trapo Artaferne (494), forse a capo di un’ambasceria. Dio-
+doro (2) ci dice che, nelle trattative col satrapo, Ecateo
+abbia domandato ad Artaferne perchè mai diffidasse; al
+che Artaferne rispose di temere che non fosse rimasta viva
+negli animi degl’Ioni la memoria delle patite ingiurie. Ed
+Ecateo, replicò che se i maleficî hanno creato i sospetti, i
+beneficî avrebbero reso benevole verso i Persiani le città
+della Ionia. E la risposta del saggio indusse Artaferne a
+<note type="footnote">(1) Inscript. gr. ined. fase. 2° p. 68 (1842).</note>
+<note type="footnote">(2) X. 25.</note>
+<pb n="22"/>
+restituire nelle città ioniche l’ impero delle proprie loro
+leggi.</p>
+						<p>Questa legazione rimonta all’ epoca della distruzione
+di Mileto e di Lero sua dipendenza, distruzione che intaccò
+la fama della città ionica, onde ai Carii (1) che, minacciati
+dai Persiani, domandavano ad Apollo se essi potessero
+unirsi, come alleati, a quei di Mileto, l’ oracolo malinconi-
+camente rispondeva : </p>
+						<ab>
+							<seg><foreign xml:lang="grc">Πάλαι ποτ' ηοηv ΰλκιμοι Μιλήσιοι.</foreign></seg>
+						</ab>
+						<p>Null’ altro ci è dato sapere della vita politica di lui.</p>
+						<p>Non a torto Agatemero (2) chiama Ecateo <foreign xml:lang="grc">ùvìjo τιολυ-
+πλαvής,</foreign> tanti furono i viaggi che questi intraprese e compì.</p>
+						<p>Già nel passo su riferito di Erodoto (3) si dice del col-
+loquio tra Ecateo ed i sacerdoti in Tebe di Egitto : che
+dunque Ecateo sia stato in Egitto non si può negare; e
+poi ci soccorre la testimonianza di Stefano da Bizanzio
+che cita più volte la descrizione dell’Egitto, fatta da Eca-
+teo; accenna al Nilo, ai coccodrilli, alle città egizie, quali
+sono in Ardano (4), Ateneo (5), Plutarco (6), nello scol. di
+Apollonio, in Porfirio, tratti senza dubbio dall’ opera di
+Ecateo.</p>
+						<p>Visitò la Persia, così da poter dire, con piena cogni-
+zione di causa, di quali forze Dario potesse disporre nella
+lotta contro i Greci (7).</p>
+						<note type="footnote">(1) Diod. Sicel. X. 25.</note>
+						<note type="footnote">(2) I. 1.</note>
+						<note type="footnote">(3) III. 143.</note>
+						<note type="footnote">(4) Anab, V. 6.</note>
+						<note type="footnote">(5) III. 80; X. 417.</note>
+						<note type="footnote">(6) De Iside et Osir. p. 353.</note>
+						<note type="footnote">(7) Erod. V. 123.</note>
+						<pb n="23"/>
+						<p>Agatarchide (1) dice che là terra si divide in quattro
+parti : oriente, occidente, settentrione e mezzogiorno, delle
+delle quali <foreign xml:lang="grc">τα μεv προς έσπέραv έξείργασται Λvκος τε καί Τί-
+μαιος, τα òk προς άvατολάς Έκαταιος καί Βάαιλις</foreign>... E che
+Ecateo abbia visitato l’odente, anche volendo supporre che
+l’ Ecateo nominato da Agatarchide non sia il periegete di
+Mileto, lo dimostra il 2° libro della sua periegesi, nel quale
+è descritta l’Asia.</p>
+						<p>Ecateo visitò le spiaggie della Libia, il Ponto, la Tra-
+cia; e, quanto all’occidente, vide l’llliria, l’ Italia, la Liguria
+e forse l’ Iberia. Guardò i luoghi presso la riva, come quasi
+tutti i periegeti, e dell’ interno raccolse notizie dagli abi-
+tanti.</p>
+						<p>Si può stabilire, con una sufficiente approssimazione,
+l’epoca in cui furono da lui compiti i principali viaggi.</p>
+						<p>L' Egitto fu da lui visitato verso la metà del regno di
+Dario, nella quale epoca gli Egizi goderono tranquillità.
+Onde Ecateo potè vedere il paese delle meraviglie in con-
+dizioni migliori che non Erodoto.</p>
+						<p>Erodoto ci ha edotti che Ecateo prima della rivolta di
+Mileto, conosceva la Persia. E possiamo affermare anche
+di più, che cioè conoscesse l’ Asia ed avesse già compito
+quel viaggio che gli disvelò 1’ oriente.</p>
+						<p>Questo viaggio non sarà stato intrapreso prima del-
+ΓOl. 66.2 nella quale, secondo il computo della nascita, Eca-
+teo aveva 34 anni.</p>
+						<p>L’ 01. 66. 2 è la data della sottomissione della Tracia e
+della Macedonia ai Persiani; e poiché dall’Ol. 65.1, epoca
+in cui Dario assale Samo, fino all’Ol. 66.2, furono lotte con-
+tinue, non è ammissibile ehe Ecateo viaggiasse in quella
+epoca nè prima, perchè sarebbe stato ancora troppo gio-
+vane.</p>
+						<note type="footnote">(1) De mari Erythr. 64 (Geogr. gr. min. I. pag. 156. [Mülller].</note>
+						<pb n="24"/>
+						<p>Partendoci dunque dall’ Assemblea di Mileto, cioè dal
+principio della guerra ionica (01. 70, i), e risalendo, possia-
+mo arrivare alla 01. 66.?, ed avremo così il periodo della
+sua vita tra gli anni 34 e 48, nel quale a me pare si possano
+stabilire come avvenuti i viaggi di Ecateo in oriente ed in
+occidente.</p>
+						<p>Ed io credo che quelli di occidente si debbano essere
+compiuti prima di quelli d’oriente, perchè, quando nell’As-
+semblea di Mileto egli oppone ad Aristagora l’argomento
+delle grandi forze dei Persiani, pare che parli colui che è
+ancora sotto l’impressione di notizie raccolte di fresco, e
+se queste non fossero state tali, egli non le avrebbe tratte
+in campo, perchè le sarebbero state di poco o di nessun
+valore. Si aggiunga che un greco di Mileto doveva esser
+tratto a cominciare la periegesi piuttosto dalle terre gre-
+che che dalle orientali; e finalmente le stesse citazioni di
+Stefano, che, quando accennano ai paesi dell’ Europa, di-
+cono <foreign xml:lang="grc">iv προηφ</foreign> (1), cioè nel 1° libro, provano che la perie-
+gesi cominciava dall’ Europa, anche perchè dall’ Europa,
+ossia dall’ occidente, cominciano i viaggi effettivamente
+fatti da Ecateo. E dalla guerra medo-scitica al principio
+della guerra jonica è appunto l’epoca della maggiore tran-
+quillità dell’ Egeo, quella cioè nella quale era possibile la
+navigazione sicura per chi, come Ecateo, si fosse recato
+di paese in paese al solo scopo della propria coltura.</p>
+						<p>Un altro argomento, per il quale non si può ammet-
+tere che Ecateo abbia intrapeso viaggi dalla 01. 71. 2, cioè
+dalla sottomissione di Mileto, alla 01. 75, data assegnata
+alla morte di lui, è che i libri di Ecateo tacciono assolu-
+mente della grande lotta che la Grecia ha sostenuto contro
+la Persia, e con Dario e con Serse. Non un cenno delle
+vittorie, degli uomini cui furono dovute, nulla; nè si può
+<note type="footnote">(1) Cfr. : fraram. 70 [Mailer].</note>
+<pb n="25"/>
+opporre che a noi sono pervenuti soltanto frammenti, per-
+chè fino all’età alessandrina le opere di Ecateo erano intere, a
+quanto si dice; e qualcuno dei molti scrittori che lo ebbero
+a loro fonte, avrebbe fatto cenno delle notizie storiche di
+Ecateo intorno alla grande lotta, se questi se ne fosse
+occupato. Mi si potrebbe dire che si tratta di una periegesi
+e di genealogie; ma a questa obbiezione rispondo che nes-
+suna delle periegesi o delle genealogie va esente dai giu-
+dizi storici o da narrazioni di avvéniménti che hanno rap-
+porto con i luoghi per i quali passa il periegete. E final-
+mente che Ecateo non abbia punto toccato degli avveni-
+menti del suo tempo mi convince l’ introduzione all’ opera
+erodotea, nella quale nettamente è dichiarato lo scopo di
+Erodoto, quello cioè di non fare perdere la memoria degli
+avvenimenti, dai quali rifulge la gloria del popolo greco.
+Queste parole non avrebbero avuto ragione di essere, ove
+Ecateo nella periegesi o nelle genealogie avesse toccato gli
+avvenimenti della guerra coi Persiani. E poi, dal computo
+fatto, la sottomissione di Mileto avveniva quando Ecateo
+contava già 54 anni; dopo di essa, assai probabilmente, egli è a dirigere la cleruchia di Leros, nel quale ufficio
+credo spendesse la restante sua vita : ed in questo tempo
+la periegesi era già scritta. Un’ ultima riflessione per
+ispiegarmi il silenzio di Ecateo sulla guerra greco-meda.
+La spedizione di Mardonio (01. 72. i) lo coglieva nell’età di
+57 anni, la vittoria di Maratona (01. 72. 3) in quella di 59,
+la morte di Dario e la conseguente successione di Serse
+(01. 73. 4) in qu ella di 64, le vittorie di Platea e Micale (01.
+75. 2) nell’età di 70 anni. L’eco delle vittorie dei Greci avrà
+trovato Ecateo, forse in Leros, stanco degli anni e delle
+vicende, e solo intento a sollevare la patria sua da quel-
+abbattimento in cui l’ aveva prostrata la potenza della
+Persia.</p>
+						<p>Dai frammenti delle due opere di Ecateo arrivati sino
+
+<pb n="26"/>
+						a noi è ben difficile lo stabilire quali luoghi egli avesse vi-
+sitato più o meno accuratamente. Può della periegesi man-
+care una intera regione, può essere stata epitomata qualche
+altra, onde azzardato sarebbe il giudicare, nel primo caso,
+che Ecateo non si recò nella regione di cui mancano i
+frammenti; nell’altro, che la osservò fuggevolmente. Tut-
+tavia, a voler giudicare dell’ opera geografica dai fram-
+menti sopravvissuti, ricavo queste impressioni : </p>
+						<p>Quanto all’Europa, l’ Iberia fu più studiata nel suo
+lato meridionale che in quello orientale : i lati di setten-
+trione e di occidente non sono tocchi affatto. Nominati solo
+tre luoghi della Ligustica, accenna a quattro citta d’ltalia
+sul Tirreno, ed è abbastanza largo nella enumerazione
+delle città di Sicilia e della Magna Grecia. All’infuori di
+Adria, nessuna città d’Italia sull’ Adriatico; invece la riva
+opposta, l’ Istria, la Liburnia, l’ Illirio sono abbondanti di
+nomi. Ricca la descrizione dei luoghi dell’Ellade e del Pe-
+loponneso, e molto minuta quella delle coste della Tracia
+e dell’ Asia Minore.</p>
+						<p>Nella descrizione dell’Asia, non c’è ricordo dell’Indo,
+e forse la descrizione era nota ad Ecateo anche dal pe-
+riplo di Scylax di Caryanda che Dario d’Itaspe aveva
+spedito dall’ Indo, per il mare Eritreo, nel golfo Arabico,
+Probabilmente gli saranno state potente ausilio le tavole
+per la partizione dei tributi, ordinate da Dario, e da esse
+avrà tratte le notizie per la parte orientale del regno per-
+siano.</p>
+						<p>Egitto e Libia settentrionale fino alle Colonne di Er-
+cole furono minutamente descritti e, con molta probabilità,
+visitati.</p>
+						<p>A volte si discopre l’ epos omerico come fonte delle
+notizie; sempre poi, quando queste vivano nel campo del
+mito; sovente il periegete nomina le popolazioni, e l’ac-
+<pb n="27"/>
+					 cenno si ravviva con opportune notizie sulla natura dei
+luoghi; non di rado erra nella posizione di questi.</p>
+						<p>Ecateo scrisse : </p>
+						<p><foreign xml:lang="grc">a) Περίοδος γης</foreign> detta anche <foreign xml:lang="grc">Περιήγησις,</foreign> divisa in
+due libri : </p>
+						<p>l. &lt;grΕvρο'ίηη</p>
+						<p>2. Ααία</p>
+						<p>b) <foreign xml:lang="grc">Γεvεαλογίηι,</foreign> divise in quattro libri.</p>
+						<p>La prima è un’opera geografica, l’altra è storica : mi
+tratterrò su quella.</p>
+						<p>Il Klausen (1) dice che la via che Ecateo percorre nella
+sua descrizione è dalla Grecia alle Colonne di Ercole, come
+parrebbe confermato dai frammenti 67, 74, 75, 83 [Müller],
+nei quali la posizione del <hi rend="italic">prima</hi> e del <hi rend="italic">poi</hi> dei luoghi, l’uno
+rispetto all’ altro, indica chiaramente la via donde proviene
+il periegete e quella a cui tende. E qui io mi domando, o
+perchè il Klausen che ha intraveduto cosi bene la via del
+viaggio di Ecateo in Occidente, dalla Grecia alle Colonne
+di Ercole, comincia poi i frammenti seguendo la via op-
+posta?</p>
+						<p>Col Klausen il Müller (Fhg. I), che da quello copia,
+citando ed anche talvolta non citando.</p>
+						<p>Eppure a me sembra che la periegesi di Ecateo non
+segua la via dalla Grecia alle Colonne di Ercole, ma da
+queste a quella, e che però i frammenti sicno ben disposti
+(meno qualche menda), ma l’ affermazione del Klausen sia
+erronea.</p>
+						<note type="footnote">(1) Op. cit. p. 14.</note>
+						<pb n="28"/>
+						<p>Ed, anzi tutto, noto che le descrizioni dell’Europa co-
+minciano, quasi tutte, dalle colonne di Ercole e dalla Iberia : </p>
+						<p><hi rend="italic">ps-Scylax</hi> (Europa. 1) : </p>
+						<p><foreign xml:lang="grc">Άρξομαι ók àjtò'Ηρακλείωv στηλώv τωv έv τfi Ευρώπη</foreign>etc.</p>
+						<p><hi rend="italic">ps-Scymnus </hi>(Europa. v. 139; i vv. 1-138 sono l’intro-
+duzione all’opera) : </p>
+						<ab>
+							<seg> <foreign xml:lang="grc">Tò της ΰαλάττης τής Ατλαvτικής στόμα
+σταδίωv μεv είvαι φασιv έκατόv έΐκοαιv
+. . . . . . . . . . . . .
+. . . . . . . . . . . . .
+Νήσοι δε τοvττοv ίκατέοωΟεv κείμεvαι
+διέχουσ άπ άλλήλωv τριάκοvτα σχεδόv
+στάδιοvς’ καλαvvται Λ’ rrró τιvωv'Ηρακλέοvς
+στήλαι.</foreign> etc.</seg>
+						</ab>
+						<p><hi rend="italic">Dionysius</hi> (Orbis descr. 1.) : </p>
+						<ab>
+							<seg><foreign xml:lang="grc">Άρχόμεvος γαιάv τε και εvρέα πόvτοv Λείδειv
+και ποταμούς παλιάς τε καί Αvάριαv άκριτα η vία,
+μvήσομαι ’ΩκεαvοΊο βαΟvροόοv ’</foreign></seg>
+						</ab>
+						<p>e 62 : </p>
+						<ab>
+							<seg><foreign xml:lang="grc">'Υμείς δto Μυvσηι, σκολιάς εvέποηε κελεvΟοvς,
+άρζάμεvαι στοιχηδόv άγ’ εσπέραv Ώκεαvοίο ’
+Εvθα τε και στήλαι περί τερμααιv ΊΙρακλήος
+έστασιv, μέγα ϋαϋμα,</foreign> etc.</seg>
+						</ab>
+						<p>Strabone, nella descrizione sommaria del mare medi-
+terranco (II. 121), la quale precede quella particolareggiata
+<pb n="29"/>
+delle regioni, dice che il mare interno comincia dall’ occi-
+dente e propriameate dallo stretto che è alle Colonne di
+Ercole, ed egli (122) inizia appunto di qui la sua descrizione.
+Il libro III poi, che è il 1° libro della parte speciale del-
+l’opera storico-geografica, è dedicato all’lberia e comincia
+dalle Colonne di Ercole.</p>
+						<p>Vero è che codeste descrizioni sono tutte posteriori a
+quella di Ecateo, ma oramai non si dubita che quella attri-
+buita a Scylax ebbe a fonte la periegesi di Ecateo, almeno
+per quanto riguarda l’Egitto (1), e!e posteriori sono l’una
+fonte dall’ altra. Ora se le descrizioni del ps-Scymnus, di
+Dionisio, di Strabono etc. seguono Ecateo (2), perchè poi
+non dovrebbero seguirlo anche nel metodo? E viceversa,
+se in essi si rispecchia il fonte, noi possiamo in questi fonti
+posteriori riconoscere il fonte primitivo.</p>
+						<p>L’argomento del <hi rend="italic">prima</hi> e del <hi rend="italic">poi</hi> addotto dal Klausen
+nei frammenti 67, 74, 75, 83 è molto debole. Difatti, la posi-
+zione di un luogo settentrionale, meridionale ecc. dipende,
+molte volte, da incompleta nozione del fonte circa la posi-
+zione dei paesi; da inesatta cognizione del confine etnogra-
+fico; o da poca felicità di espressione o da troppa sintesi
+di chi ha fatta l’ epitome; come anche può dipendere da
+errore del fonte o di chi lo ha conservato a noi. Ed i fram-
+menti 67, 74, 75, 83 sono tutti riferiti da Stefano di Bizanzio
+la cui opera, come è risaputo, non è scevra di errori, tal-
+volta grossolani.</p>
+						<p>Il Caucaso, in Ecateo, è il limite tra l’ Europa (ad oc-
+cidente di esso) e l’ Asia (ad oriente).</p>
+						<p>Anche le regioni, che erano state teatro delle azioni
+mitiche od eroiche, entrano nel campo degli studî geogra-
+fici di Ecateo : i frammenti 115, 133, 144, 200, 202, 266 mo-
+<note type="footnote">(1) Cfr : W<hi rend="smallcap">iedemann.</hi> Philol. XLVI. 170 sgg.</note>
+<note type="footnote">(2) Cfr.: E. M<hi rend="smallcap">eyer.</hi> Gesch, d. Altcrthums. Stuttg. 1893. II. 9.</note>
+<pb n="30"/>
+strano viva l’influenza delle rapsodie omeriche nel nostro
+periegete. La sua mente non è scevra delle credenze fan-
+tastiche dei suoi predecessori, per quanto, come egli stesso
+dice, gli muovano il riso le cose favolose dei Greci (frgm. 1
+e 332).</p>
+						<p>Chi volesse misurare l’intensità degli studî geografici
+di Ecateo dai pochi cenni che, sopra gli altri, Stefano ci
+conservò, dovrebbe a prima vista credere che ben arida fu
+la descrizione dei luoghi da lui fatta. Ma, ove si consideri
+il frammento 279, nel quale si rende ragione dei vantaggi
+che il Nilo produce, per cui l’Egitto può dirsi <foreign xml:lang="grc">όώροv τοv πο-
+ταμόv,</foreign> ed i frammenti 123, 144, 189, 276, 290, 291, 329, nei
+quali rispettivamente si parla dei costumi degli Hyopeni,
+dei sacerdoti egiziani, degli usi famigliari egizî, di alcuni
+tra quelli dei loro re, dell’acconciatura delle donne in Asia,
+apparirà facilmente che, se l’opera di Ecateo esistesse an-
+cora nella sua integrità, ci mostrerebbe sufficiente pienezza
+di esposizione. Questo è certo che a prescindere dal fatto
+che Erodoto si servì del lavoro di Ecateo, venendo a scrit-
+tori posteriori, e Damaste e Avieno e Ammiano ed altri
+utilizzarono gli scritti di Ecateo, fino negli ultimi anni del-
+l’impero romano. Senza contare le moltissime volte nelle
+quali scrittori posteriori si servono di Ecateo senza citarlo,
+lo citano Erodoto 8 volte‚ Strabono 10, Plinio 1, l’Etym.
+Magnum 2, Diodoro Siceliota 1, Pausania 3, Amano 2,
+Ammiano 1, Erodiano 8, Zonara 1, lo Scol. di Apollonio 6,
+lo Scol. di Euripide 1, lo Scol. di Omero 2, Plutarco 1, De-
+metrio 1, Porfirio 1, Eustazio 2, Eliano 1, Longino 1, Suida 1,
+Arpocratione 1, Stefano da Bizanzio 288 volte.</p>
+						<p>Ora, se l’opera geografica sopratutto, chè quella ge-
+nealogica non poteva avere grande interesse in epoca re-
+lativamente progredita, fu ricercata ed utilizzata così ge-
+neralmente, non si può supporre che essa sia vissuta nella
+<pb n="31"/>
+forma scheletrica onde ci si presenta, volendo giudicarne
+dai frammenti arrivati sino a noi.</p>
+						<p>Callimaco, un grammatico alessandrino dei tempi di
+Tolemeo Filadelfo, fu il primo a muovere dubbî sulla ge-
+nuinità dell’opera di Ecateo. Ateneo (1) così riferisce la cosa : </p>
+						<p><foreign xml:lang="grc">Έκαταΐος δ' 6 Μιλήοιος, iv Ασίας περιηγήσει, εΐ γvήσιοv
+του σvγγραφέως τό βιβλίοv (Καλλίμαχος γάρ vησιώτφ (2) αϊτό
+αvαγράφει), δστις οvv Ό ποίησης, λέγει Ουτω** περί τηv</foreign> etc. ».</p>
+						<p>Ateneo stesso, altrove (3), muove di suo qualche dubbio
+sulla genuinità dell’opera di Ecateo; ma è certamente l’in-
+fluenza del dubbio callimacheo. Del resto, questo certo
+spirito di scetticismo apparisce sovente in Ateneo; così, ad
+esempio, anche a proposito di Ellanico, discorrendo della
+voce <foreign xml:lang="grc">Φοίvικα,</foreign> che egli trova <foreign xml:lang="grc">εv τη είς'Άμμωvος Άvαβάαει,</foreign>
+dice : <foreign xml:lang="grc">ε I γvήσιοv το σύγγραμμα.</foreign></p>
+						<p>Coloro che, a rafforzare il dubbio mosso da Callimaco,
+sono andati in cerca di argomenti, hanno prodotto, in ap-
+poggi della tèsi il seguente luogo di Amano (4) : </p>
+						<p><foreign xml:lang="grc">Αίγυπτοv.. Ηρόδοτός τε καί Έκαταΐος ol λογοποιοί, ή εΐ δή
+τοv άλλοv ή Έκαταίοv έστϊ τα άμψι τή γη τη ΑΙγvτττία ποιήματα,
+δώροv.. τοv ποταμού άμφότεροι υvομάζοvαιv.</foreign></p>
+						<p>Ma al dubbio di Callimaco si contrappone la seguente
+<note type="footnote">(1) II. 78. Cfr. : Strab. VIII. 299.</note>
+<note type="footnote">(2) Ii Mülller che nel voi. I dei F. II. Gr. aveva sostenuta la lezione
+<foreign xml:lang="grc">Καλλίμαχος γάρ vζτ.ώτιο aòzi άvαγράγζ·.,</foreign> nel voi. IV (<hi rend="italic">Addenda et corri-
+genda</hi>), pag. 623 degli stessi F. H. Gr., accetta la lezione del Dindorf <foreign xml:lang="grc">(Sr,-
+β'.ώτφ)</foreign> anche perchè di questo nome proprio v’ hanno esempî (Cfr. : C. I. Gr.
+[Boeckh] II. 1930, 2655 od altrove.</note>
+<note type="footnote">(3) IX. 40.</note>
+<note type="footnote">(4) Anab, V. 6. 5.</note>
+<pb n="32"/>
+recisa affermazione di Eratosteno, discepolo dello stesso
+Callimaco (1) : </p>
+						<p><foreign xml:lang="grc">Φαvεροί δε και ol έπακολοv&amp;ήοαvτες αvτώ</foreign> Omero) <foreign xml:lang="grc">άvδρες
+άξιόλογοι καί ΟΙκειοι φιλοσοφίας ’ ώv τοvς πρώτους με&amp;' °Ομηροv
+όvο φησϊv'Ερατοσθέvης, Αvαξίμαvδρόv τε, Θαλοϋ γεγοvότα γvώ-
+ριμοv καί πολίτηv, και Έκατοΐυv τοv Μιλήσιοv' τοv μεv οvv
+έκδοvvαι πρώτοv γεωγραφικόv πίvακα, τοv δε Έκαταϊοv καταλι-
+πεΐv γράμμα, πιστού/ιεvοv έκείvου είvαι Ικ τής άλλης αvτοv
+γραφής.</foreign></p>
+						<p>Questi sono i passi da studiare, e, prima di esaminarli
+mi preme di eliminare una questione secondaria. Strabene,
+nel riferire il passo di Erotostene, fa dire a lui che Anas-
+simandro fu il primo a dare alla luce un <foreign xml:lang="grc">γεωγραφικόv πίvακα</foreign>
+Secondo me, si tratta qui precisamente di quella tavola di
+bronzo che Aristagora (2) mostrò al re Cleomene (3). Aga-
+temero (4) sostiene che dopo di Anassimandro, <foreign xml:lang="grc">Έκταΐος 6
+Μιλήσιος, άvήρ πολvπλαvής, διηκρίβωσεv ώστε ΰαvμασθήvαι τό
+πράγμα.</foreign> Ma è strano che, all’ infuori di Agatemero, nessuna
+altra testimonianza affermi resistenza di questa carta come
+<note type="footnote">(1) Ap. Strab. I. 7.</note>
+<note type="footnote">(2) Erodot. V. 49.</note>
+<note type="footnote">(3) M<hi rend="smallcap">üller.</hi> <hi rend="italic">F. H. Gr. IV. 623</hi> (<hi rend="italic">Add. et corr.</hi>) sostiene che questa
+tavola geografica fu disegnata da Ecateo, e si poggia all’ autorità del Gro-
+novio, del Saint Croix, dell’Ckert, del Forbiger etc. Ma l'argomentazione del
+Müttller non mi pare abbia solida base. Erodoto non dice da chi era stata
+fatta quella mappa e la supposizione, che sia stata di Ecateo, non ha altro
+fondamento che il fatto che si tratta di un milesio. Ma non era milcsio an-
+che Anassimandro? Si aggiunga che Erodoto stesso (V. 49) narra come Ari-
+stagora, a convincere Cleomene, cioè Sparta, di partecipare al moto, abbia
+sulla mappa, che indicava col dito, descritto alcuni paesi, secondo richiedeva
+la circostanza. Ora di alcuni di essi non è affatto parola nell’ ’Asia di
+Ecateo, e si tratta di larghe regioni, della cui descrizione sarebbe dovuto
+restare qualche frammento.</note>
+<note type="footnote">(4) I. 1.</note>
+<pb n="33"/>
+opera di Ecateo. Certo, come di Anassimandro si parlò
+perchè fu il primo a disegnarla, così si sarebbe detto anche
+di Ecateo, di cui tanto s’interessò l’antichità. Si aggiunga
+che l’ esistenza della carta come opera di Ecateo sarebbe
+stata e per la novità e per l’ utilità sua tale argomento
+convincente per provare la genuinità della periegesi, che
+nè Callimaco, nè con lui Ateneo ed Arriano avrebbero
+mosso dubbii, nè in Eratostene e negli scrittori favorevoli
+alla genuinità della periegesi sarebbe mancato l’argomento
+della carta per contrapporlo alla negazione di una parte
+dell’ opera.</p>
+						<p>Di carte descrittive non mi pare dunque sia il caso di
+parlare, ed il frammento di Agatemero è da collocarsi fra
+quelle tante affermazioni delle fonti, dovute forse ad una
+certa attrazione di idee prodottasi dalla identità di patria
+(Anassimandro da Mileto, Ecateo da Mileto), o dalla natu-
+rale subordinazione di una cosa ad un’ altra nel rapporto
+apparente di effetto e di causa, quando invece esiste quello
+del prima e del poi (Anassimandro fu il primo a disegnare
+una carta descrittiva : venne poi Ecateo; dunque anche
+Ecateo fu autore di una carta).</p>
+						<p>Ma ritorniamo alla questione.</p>
+						<p>Il dubbio mosso da Callimaco trovò terreno. Si sa, e
+lo attesta Galeno, che i re Tolomei e gli Attalici promisero
+premii a coloro che avessero portato scritti di uomini ce-
+lebri dell’antichità : così fu aperta la via a falsificazioni allo
+scopo di guadagno. Questo fatto e la parola di Callimaco
+convinsero O. Mülller che nell’opera di Ecateo fossero inter-
+polazioni posteriori, che nell’ epoca alessandrina, accanto
+ad esempIari genuini, si fossero creati esemplari nuovi,
+sospetti o falsi del tutto, i quali di Ecateo portassero so-
+lamente il nome; che anzi la fama che circondava Ecateo
+fosse stata il movente della falsificazione a scopo di lucro;
+<pb n="34"/>
+che finalmente Stefano Bizantino avesse veduto, solo fug-
+gevolmente, l’opera del Milesio.</p>
+						<p>Aperta la via del dubbio, chi la seguì interamente, af-
+fermando' che tutta la periegesi fu interpolata ai tempi
+alessandrini, chi il solo 2 libro, l’Asia, chi la parte ri-
+guardante l’Egitto, chi credè falsa addirittura tutta l’opera
+di Ecateo.</p>
+						<p>E così, discutendo tutti i frammenti o alcuni di essi, il
+dubbio si poggiò sui frammenti 27, 29, 58, 135, del I libro;
+187, 278, 265, 279, 284, 289, 290, 292, 293, 294 del II libro,
+cioè su 14 dei 331 frammenti della periegesi (1).</p>
+						<p>Viceversa vi furono di quelli che sostennero la gcnui-
+n tà di tutti i frammenti, e primo fra questi fu l’Ukert, cui
+seguì, tra i maggiori, il Gutschmid.</p>
+						<p>Comincio dal limitare il dubbio di Callimaco : egli parla
+soltanto del II libro di Ecateo, cioè dell’ Asia : l’ Europa
+dunque, anche per il grammatico alessandrino, è opera ge-
+nuina. Egli attribuisce la parte II della periegesi ad un
+Nesioto.</p>
+						<p>Ma non sarà stata quella di Ecateo la sola periegesi
+dell’Asia, onde può essere anche avvenuto che Callimaco
+abbia confuso fra loro i nomi degli autori. Del resto, noi
+non sappiamo nulla dello stato di questo fonte, Callimaco,
+quando esso fu tra le mani di Ateneo : chissà non si tratti
+di un semplice appunto per la biblioteca degli Alessan-
+drini? che non sia nato questo dal lavoro di correzione di
+cataloghi? E sopra un semplice dubbio di Callimaco pos-
+siamo noi arrivare sino a vedere tutta una falsificazione
+non dico nell’opera di Ecateo, ma nel suo II libro?</p>
+						<note type="footnote">(1) H<hi rend="smallcap">ollander,</hi> <hi rend="italic">De Hec. descr. terrae</hi> etc. (Bonn. 1861) ritiene falsa
+la descrizione dell’ Egitto; H. L<hi rend="smallcap">ipsius</hi> <hi rend="italic">Quaest. logogr.</hi> (Leipz. 1887) pag. 17
+e C<hi rend="smallcap">obet</hi> (<hi rend="italic">Mnemosyne</hi> ΧI. pag. 5 (??)gg.) ritengono tutti gli scritti di Ecateo
+una falsificazione degli alessandrini.</note>
+						<pb n="35"/>
+						<p>C’ è di più : Eratostene, discepolo di Callimaco, succe-
+de a lui. Che interesse poteva muovere costui ad affermare
+ciò che Callimaco aveva negato, se non quello soltanto di
+correggere un errore? Ed in quésto caso, la parola di Era-
+tostene ha un valore incommensurabile, perchè nessuno
+potrebbe disporre dei mezzi di cui egli disponeva per pro-
+vare l’ autenticità dell’opera geografica di Ecateo.</p>
+						<p>Il Diels, (1), dopo un minuto.e coscenzioso esame dei
+frammenti sospetti, conclude per la genuinità della perie-
+gesi; come già, senza restrizioni, aveva fatto il Gutsch-
+mid (2), al quale il Diels si accosta, specialmente nella trat-
+tazione delle questioni dei frammenti sospettati.</p>
+						<p>Arriano dubitò di quanto Ecateo afferma intorno agli
+Egizî; ma non negò che le notizie possano essere anche
+del Milesio. Onde al dubbio di Amano, che una molto scru-
+polosa interpretazione soltanto può rilevare, si può con-
+trapporre il fatto che Erodoto stesso, là dove parla della
+sua visita all’Egittq, cita Ecateo; anzi lo ha per uno dei
+più grandi logografi; ed un’ altra prova del conto in che
+lo tiene è nel fatto che Erodoto talora lo confuta.</p>
+						<p>E deve anche avere un qualche peso il concorde giu-
+dizio di tutta l’antichità che profuse lodi al Milesio : Dio-
+gene Laerzio (3) riferisce che Eraclito ebbe Ecateo per così
+dotto da metterlo al paragone con Esiodo, con Pitagora,
+con Senofane; Solino (4) lo chiama decoro ed ornamento
+di tutta l’ Asia Minore, ed altrove (LIII) dice « historiae
+conditores Xanthus, Hecataeus, Herodotus cumquibus E-
+phoruset Theopompus »; Strabene (XII. 550) riferisce che
+Demetrio di Scepsis lodò sommamente l’ opinione di Eca-
+<note type="footnote">(1) <hi rend="italic">Herodot und Hekataios</hi> (Hermes 1887. p. 411 sgg.).</note>
+<note type="footnote">(2) <hi rend="italic">De rer. Aegypt, scriptoribus gruecis</hi> (Philol. X. 531 sgg.).</note>
+<note type="footnote">(3) IX. 1.</note>
+<note type="footnote">(4) Polyhist. 43.</note>
+<pb n="36"/>
+teo, e lo enumera tra gli uomini illustri di Mileto (XIV.
+635), mentre accetta opinioni geografiche e correzioni già
+proposte da Ecateo (VI. 271; VII. 316). E potrei dire di Ze-
+nodoto (1), di Arpocratione (2), di Dionigi d’Alicarnasso (3).</p>
+						<p>Vengo ora ad alcune osservazioni sui frammenti della
+periegesi, lib. I, Europa.</p>
+						<p>Il framm. 31 (Müiler) è dubbio : perchè Stefano non dice
+donde abbia tratto la notizia riguardante Brystacia.</p>
+						<p>Il framm. 39 mi sembra fuori di posto : esso doveva es-
+sere collocato dopo il 26.</p>
+						<p>I1 framm. 53, dove è nominata <foreign xml:lang="grc">Κρόταλλα</foreign> che il Müiler
+[Klausen] dice « urbs ignota », si sarebbe collocato meglio
+alla foce del Crotalus, prima di Croton, e però prima del
+framm. 40.</p>
+						<p>I frammenti 54 e 65, ambedue da Stefano, sono identici
+e non so capire perchè furono segnati due volte. Abolirei
+il 65 per lasciare la lapygia in Italia.</p>
+						<p>Il frammento 75 è fuori di posto : esso andava segnato
+subito dopo il frammento 70.</p>
+						<p>Così non si capisce perchè il frammento 140 sia stato
+collocato nel lib. I e non piuttosto nel lI.</p>
+						<p>Alcune particolari questioni, come quella della esten-
+sione del nome d’ltalia, del territorio degli Enotri, del suo
+confine orientale, saranno da me trattate particolarmente
+nella illustrazione dell’Italia di Ecateo; come alcune questio-
+ni relative al fonte omerico nelle conoscenze geografiche di
+Ecateo ed alle credenze del periegete intorno alla epica miti-
+ca saranno toccate, quando parlerò dei frammenti dell’Iberia.</p>
+						<note type="footnote">(1) ap. Strab. XII. 553.</note>
+						<note type="footnote">(2) p. 108.</note>
+						<note type="footnote">(3) De Thue. jud. Ed. Rnjske p. 819. cfr. 818, 864.</note>
+						<pb n="37"/>
+						<p>Ma qui dirò in generale che quantunque, come dice
+Demetrio (1) riferendo un frammento di Ecateo (332), questi
+siasi proposto di scrivere soltanto ciò che gli sembrasse
+vero, perchè <foreign xml:lang="grc">ol Ελλήvωv λόχοι πολλοί τε και γελοίοι., εΐοίv;</foreign>
+tuttavia non si sottrasse del tutto a quella credulità nei
+racconti del periodo mitico dell’ epos, i quali anche nel
+tempo storico vivevano e dovevano essere ancora forti nelle
+credenze popolari.</p>
+						<p>Nè poi siamo davanti ad un carattere, in cui si riscon-
+trano gli slanci di una forte fibra : Ecateo ha un senso fine
+dell’equità : non è l’ uomo di stato. Lo abbiamo già visto
+nella rivolta delle isole lonie, nei Consigli di Aristagora.
+Si potrebbe sospettare che in lui sia freddo l’amor di patria,
+e malignare sino a credere che esso gli manchi addirittura
+se a sua difesa non si presentasse il concorde favorevole
+giudizio che ne diede l’antichità. Per lui, le imprese azzar-
+date e, peggio ancora, quelle in cui non tutta la parte
+del dritto sia prevalente, sono sempre riprovevoli, e, dove
+può, le stigmatizza, quando con la parola non riesca ad
+impedirle. Erodoto (2), a proposito della occupazione di
+Lemno per opera di Milziade, riferisce un passo di Ecateo,
+che è interessante per determinare il carattere del Milesio.
+Per Ecateo fu una ingiustizia quella commessa dagli Ate-
+niesi, quando se la presero contro i Pelasgi, antichi abita-
+tori del luogo, ai quali avevano concesso di fertilizzare il
+terreno ai piedi del monte Imetto, dopo essersi serviti delle
+loro braccia per la costruzione del muro di cinta dell’Acro-
+poli. Ed ora che Milziade occupa Lemno, dove quei Pe-
+lasgi si erano rifugiati, commette, secondo Ecateo, azione
+assai riprovevole, perchè perseguita coloro che già un
+<note type="footnote">(1) <hi rend="italic">De elocut.</hi> § 2.</note>
+<note type="footnote">(2) VI. 137.</note>
+<pb n="38"/>
+tempo, a cagione dei sopraggiunti ateniesi, avevano patito
+la sventura di perdere le terre native.</p>
+						<p>È evidente che questi Pelasgi sono l’elemento indigeno,
+come gli ateniesi sono la classe sopraggiunta e divenuta
+padrona del paese. Se fu una ingiustizia il togliere altrui
+la patria, non minore sarà, pensa Ecateo, quella di perse-
+guitare i già perseguitati, là dove questi hanno trovato un
+luogo di rifugio e che permetta loro di nuovo il libero
+svolgersi della loro attività.</p>
+						<p>Questo fine senso di giustizia, degno di un moralista
+di tempi progrediti nel cammino della civiltà, è figlio di
+quel carattere, direi quasi, pusillanime di un uomo che sot-
+topone la politica alla morale, e per quella non ha gli slanci
+del genio temistocleo.</p>
+						<p>Corrisponde a questa semplicità di animo la semplicità
+delle sue espressioni. Ermogene (1) dice di lui : </p>
+						<p><foreign xml:lang="grc">ΈκαταΧος δε ό Μιλήσιος, παρ' οv δη μάλιστα ώφέληται Ό
+Ηρόδοτος, κα&amp;αρδς ιάv ίστι καί σαφής, ίv δέ τιοι καί ήδί’ς οv
+μετρίως. Tfj διαλεκτοί δε άκράτω Ίάδι καί οv μεμιγμέvη χρησά-
+μεvος οvδ'ε κατά τοv Ηρόδοτοv ποικίλη, ήττάv Ιατιv ϊvεκά γε
+λέζεοίς ποιητικός. Καί ή Επιμέλεια δ( αvτω ού τοιαvτη, οvδ'ε
+ομοιος Ό κόσμος Ό περί αv τηv. Διό και ταΐς ήδοvαΤς ίλαττοvται
+πολλοί τοv Ήροδύτοv, άλλα πάvv πολλω.</foreign></p>
+						<p>E veramente ad Ermogene, ad un retore dei tempi di
+Marco Aurelio, doveva riuscire sgradita la semplicità dello
+stile di Ecateo. Quegli, che aveva scritto una <foreign xml:lang="grc">Τέχvί] ρητορική,</foreign>
+nulla trovava forse, tra gli scritti di Ecateo, che potesse
+inserirsi nei <foreign xml:lang="grc">προγvμvάαματα,</foreign> e che per il periodo, per l’enfasi,
+per i fiori della locuzione, mettesse il conto di spigolare;
+ma il retore non vide che le opere storico-geografiche del
+V secolo furono dopo Ecateo, tutte sulle orme del Milesio.</p>
+						<note type="footnote">(1) De gener. dicendi II. 12.</note>
+					</div>
+					<div type="textpart" subtype="chapter" n="4">
+						<pb n="39"/>
+						<head>
+							<title>II.
+ECATEO DA MILETO ED I FRAMMENTI DELLA <foreign xml:lang="grc">ΠΕΡΙΗΓΗΣΙΣ</foreign></title>
+						 </head>
+					 <p><foreign xml:lang="grc">’Iβησία</foreign></p>
+					 <pb n="41"/>
+					    <p><hi rend="italic">L’ Iberia, attenendoci strettamente frammeuti di Eca-
+          teo, può essre divisa cosi:</hi></p>
+          <p>a)<hi rend="italic">I paesi dell’epopea, framm. 1-3. </hi></p>
+          <p><hi rend="italic">La Tartesside » 4-5.</hi></p>
+          <p><hi rend="italic">Elbestii e Mastieni » 6-11</hi></p>
+          <p><hi rend="italic">Iberia » 12-19.</hi></p>
+						<pb n="43"/>
+						<p><hi rend="italic">a</hi>)</p>
+						<p>I PAESI DELL’ EPOPEA.</p>
+						<p>1. — <foreign xml:lang="grc">I’, rì) &lt;) f óoftov γη ς,τ fοιόΛο r,* γηήψιιvτπζ
+.τ ολλοΙ·,!} ι) ij y.n\ οr&lt;) f y η yή&lt;&gt; y? /ny tn;fξ )j γ η nàti f-
+yo )· ’ ni' ÌJxFuyóv tf Ókovth ynù'/nrni ττίηιξ, τij v
+tf γ/) >y fovouv κ ι·κλ &lt;&gt; tfo fu, &lt;■); ano τ óoynr, και rij y
+\l ai η y τΓ/ Erodici! π&lt;&gt;ιfé y τ o&gt; y ì'oijy (.</foreign> Erodot. IV 36.</p>
+						<p>Diodoro Siceliota (1), all'occasione che accenna alle di·
+verse opinioni di storici e di filosofi intorno alle cause che
+producono le inondazioni del Nilo, afferma che delle cause
+di questo fenomeno multi mostrarono ignoranza ed anda-
+rono lontani dalla verità, fra i quali etili ricorda Ellanico
+Cadmo ed anche Ecateo, i quali tutti <foreign xml:lang="grc">o,- rè,-in i)c'»)n- ù.t&gt;-
+'/ilnFu n.-TFy./.iyuy. </foreign>Molto aspro poi è il linguaggio di Ero-
+doto (2) là dove espone le tre div erse soluzioni del quesito
+sulle sorgenti del Nilo, delle quali la <foreign xml:lang="grc">ùyF.-rioTiinuyFnTFntj</foreign> (3) è
+quella che fa derivare il fiume dall'Oceano il quale scorre-
+rebbe intorno a tutta la terra. Per costoro dunque, secon-
+do io vedo in Erodoto, l'Oceano sarebbe una immensa
+massa d’acqua, dalla quale deriverebbe il Nilo. Lo stori-
+co (4) ride di codesti dotti, che descrivono l'Oceano inon-
+dante la terra d’ ogni dove, e se la ralìigurano rotonda,
+quasi lavorala col turno.</p>
+						<note type="footnote">(1) I. 37.</note>
+						<note type="footnote">(2).II. 20</note>
+						<note type="footnote">(3) II. 21.</note>
+						<note type="footnote">(4) IV. 35.</note>
+						<pb n="44"/>
+						<p>Questi luoghi di Diodoro e di Erodoto, che alcuno volle
+vedere in relazione tra loro, pare a me che si riferiscano
+a due fatti diversi. Ed in vero, che Diodoro dica essere
+Ecateo tra quelli che talvolta credettero alla favola è spie-
+gabilissimo pensando che il periegete accolse tra le notizie
+anche quelle che gli provenivano dai sacerdoti o che tro-
+vava viventi ancora nel mito; ma che, per questo, il pas-
+so di Erodoto autorizzi a supporre come appartenente ad
+Ecateo l’affermazione che un tiume Oceano. donde le sor-
+genti del Nilo, cinga tutta la terra, mi pare sia un ragio-
+namento infondato.</p>
+						<p>Esamino gli argomenti dai quali si desumerebbe che
+per Ecateo l’Oceano sia un fiume.</p>
+						<p>Il Klauscn (1), dal quale il Müller (2), dice:</p>
+						<p>« <hi rend="italic">Oceannm pro flumine</hi>, <hi rend="italic">minime vero pro mari</hi>, <hi rend="italic">habi-
+tum esse a logographo, ex co patet, quod is mare medilicr-
+ranenm maximum omnium existimat et vocabulo </hi><foreign xml:lang="grc">της iiryii/.η;
+ ίίιΰάποη, : </foreign> designat ». E ciò il Klausen afferma dalla lettura
+del seguente passo dell'Anabasi di Amano (3) : <foreign xml:lang="grc">’//nrón/y
+i)ì-,ii/' ovtivu ó \ IqyrTo; ΊΙοοκλή; ίπτΰλη rrijù; Λ7·ο rnilio; rii;
+ η.ττ'λΰπιυ ni; I tjijrin-nr y.ui nyuyny i; Mrxijyn;, «nVrτι
+rrnnnijy.n)' τη yfj τ(òr ’lflijui'ty ΈκοτιιΤο; ó/.oyi/m/iù; )Jyn ‘ nriM
+irti vηπύι· tivù'l'.oilhniì· l;m inyu/.η; oηλήηηη; ητηληvοι'finn-
+y./Ju,ù/./.n τη; i/minni' τη; rrnji -\u finuy.u w τι y.ui ’,Ι ιιη i/.nvur;
+filini/.in yn'inljiju I ηοηιη,ι· y.m iy. τη; i/rrnijnr τιιήτη; iirrt/.nnm
+'flnity./.in tu; finii;, oèiV rnrrny η ur/.ijy iiÌi/.ny n/lnnyi»·</foreign></p>
+						<p>Il Klausen ragiona così: qui Ecateo parla di un’isola
+al di là del grande mare, dunque nell’Oceano, e la spie-
+gazione è confermala dalla stessa geografia del mito di Er-
+cole. Ne consegue che il grande mare di Ecateo deve essere
+<note type="footnote">(1) Hecataei Μ. Fnag(??). Berolinil. 1831. page.38</note>
+<note type="footnote">(2) F. 11. (Gr. I (1)(??). Parisi.</note>
+<note type="footnote">(3) II. 16. 5.</note>
+<pb n="45"/>
+il mediterraneo. E, fin qui, siamo d’accordo. Dove poi non
+mi pare che regga l’ affermazione del Klausen è nel rite-
+nere come <hi rend="italic">massimo</hi> dei mari il mediterraneo, il qual fatto
+esclude la conoscenza dell’Oceano, come mare, in Ecateo,
+ovvero ammette che della sua estensione il periegctc non
+avesse alcuna idea, tanto da potersi asserire che per lui
+l’oceano era un fiume. A prescindere che il <foreign xml:lang="grc">μεγάλη</foreign> di Ecatco
+in Arriano significa <hi rend="italic">grande</hi> e non <hi rend="italic">massimo,</hi> trovo che ben
+poteva dirsi, da Ecateo, grande il mediterraneo, rispetto
+agli altri mari, senza alcuna idea di determinazione topo-
+grafica. Non c’ è nessun frammento in cui siano nominati
+altri mari : il framm. 58 dice di Adria città e presso di essa
+il<foreign xml:lang="grc"> &lt;grκόλπος Άδρίας;</foreign> il framm. 59 parla degl’ Istri come di gente
+<foreign xml:lang="grc">τα!Ίοvΰο κόλπο);</foreign> il framm. 60 dice dei Caulici, gente <foreign xml:lang="grc">κατά
+Jóvmv κόλποv;</foreign> il framm. 61 enumera i Liburni come gente
+della parte interna <foreign xml:lang="grc">zar Άδυιατικοϋ κόλποv.</foreign> In Europa dunque
+io osservo che, per Ecateo, i diversi mari, onde si divide
+il mediterraneo, sono considerati <foreign xml:lang="grc">κόλποι</foreign> di questo grande
+mare. E questa determinazione di g r a n d e cosi ben viene
+ad adattarsi al mediterraneo, non in quanto stabilisce un
+rapporto con l’Oceano, ma in quanto davvero grande do-
+veva apparire agli occhi dei Greci un mare che bagna quasi
+tutte le coste dell’Europa e dell’Africa, da essi più fequen-
+tate. E tanto più mi convinco che qui manchi il rapporto
+con l’Oceano, quando vedo che, nella descrizione dell’Asia,
+spariscono i <foreign xml:lang="grc">κόλποι</foreign> ed invece appariscono i nomi dei mari,
+con la precisa indicazione di essi : il framm. 172 parla del-
+<foreign xml:lang="grc">l’‘Υοκαvίη Οάληηπα,</foreign> il framm. 281 dell’ <foreign xml:lang="grc">'Eorììon ih'ùnarm.</foreign></p>
+						<p>Ancora un altra osservazione : il frammento 339, rife-
+rito dallo Scol. di Apollonio Rodio (1) dice :</p>
+						<p><foreign xml:lang="grc">Έκητηΐος δε ό Λίιλήηιος εκ τοv Φάηιδος δηλδΰv είς τηv Ωκεα-
+vό ΐ’, είτη ίκεΐϋεv είς τηv ΛεΓ/οι*, οι) εv εις τηv ήμετέοπv Ihwinnnr,</foreign></p>
+						<note type="footnote">(1) IV. 259.</note>
+						<pb n="46"/>
+						<p>Gli Argonauti dunque, dice Ecateo, da Faside arrivano
+nell’Oceano, da esso nel Nilo, indi nel <hi rend="italic">nostro</hi> mare; dun-
+que, penso io, se per Ecatco c’ è un <hi rend="italic">nostro</hi> mare che è il
+mediterraneo, il mare che non è nostro, è quello da cui pro-
+vengono prima di arrivare nel Nilo, cioè l’ Oceano.</p>
+						<p>Rufo Pesto Avieno, quantunque tardo scrittore, pure
+è, per noi, da tenersi nel massimo conto (1), perchè ebbe
+a fonte, anche Ecateo, oltre Damaste, Erodoto ed altri. Or
+bene egli dice : </p>
+						<ab>
+							<seg>« Oceani nam terra salo praoeingitur onmis.
+parva ut eaeruleo caput eftert insula ponto» V. 11-12;</seg>
+						</ab>
+						<p>l’oceano, il mare, cinge tutt’attorno la terra, come una
+piccola isola sporge il capo dal ceruleo mare. E al verso
+394 parla dell’ <hi rend="italic">Atluntea vis aequoris,</hi> ed ai vv. 416-417 tocca
+dei <hi rend="italic">frigida acquora oceani borcalis.</hi></p>
+						<p>Strabon (I. 21) ci dice quale per i (Greei, Ionici sopra
+tutti, dei tempi di omero, fosse tenuto per il maggiore dei
+mari : era il Ponto, dove chi navigasse era creduto pertanto
+lontano dagli uomini, come chi avesse navigato di molto
+oltre le Colonne di Ercole : <foreign xml:lang="grc">&lt;V n· tòt? tò yi/.oyn : v&gt;
+I!&lt;)fTiy.'i)· iònrrtn ò/./.ov Tirò l'ty.tnròr rn f/.· tu furor, y.n'· r«r,-
+.-T/Jornu iy.nor onoio·; iy.Tnni in r ròòy.nrr, iònmn Tur; firn ~tij-
+/.lòr irrì no/.i.Ύΐιυϊι'ο'τιις' y.ui yòo urymrtir nor y.mV iinù-i ir&lt;&gt;~
+iii'Ìito. y.u) tini zorrit y.uz,τ,ίιτοΓ rrnonij-yó'iT ror.
+e),· rriOjτìjy "&lt; hhjnnr.</foreign></p>
+						<p>Questo si è detto per discutere il l dei frammenti di
+Ecateo, secondo l’ ed. del Klauscn, rifatta dal Müller; ed
+io credo che il passo di Erodoto (IV. 36, da cui s’inferi-
+rebbe che si tratti di un frammento di Ecateo, che il Plan-
+<note type="footnote">(1) Cfr. (??) importante mouogiata diG<hi rend="smallcap">(??)setle</hi> K<hi rend="smallcap">(??)ner</hi>
+ <hi rend="italic">
+ Ora M.(??)di A (??) e all sue fonti</hi> (in Studi Storici. 1(??)3. Il. 358 <hi rend="superscript">(??).</hi>,
+<hi rend="superscript">(??)</hi> 163 sgg.)</note>
+<pb n="47"/>
+sen dice probabile, riuscirà del tutto riferibile ad Ecatco,
+ove quello si ponga a raffronto col frammento 332 del I lib.
+delle Genealogie, riferito da Demetrio (<hi rend="italic">De clocut.</hi> § 2). Nel
+luogo suddetto di Erodoto manca la citazione del fonte, ma
+in questo di Demetrio è citato Ecateo e sono riferite le sue
+parole; li si accenna al fatto che le credenze sull’ oceano
+circondante la terra e sulla forma di questa sono ridicole, qui
+si dice <foreign xml:lang="grc">ol'Ελλήvωv λόγοι πολλοί τε καί γελοίοι... εΐηίv.</foreign> Questo
+luogo dell’opera genealogica di Ecateo conferma in qualche
+modo il 1° frammento della periegesi (1).</p>
+						<note type="footnote">(1) Qui sento il dovere di confessare che quantunque gli argomenti ad-
+dotti, dai quali ho potuto trarre qualche deduzione salle conoscenze geogra-
+fiche di Ecateo, sicno confortati dal frammento 332 delle Genealogie riferito
+nominatamente da D imaste ad Ecatco, puro resta in me il dubbio che il
+frammento 1 della periegesi secondo Klausen e Müller possa semplicemente
+significare il sorriso compassionevole di Erodoto sulle credenze degli antichi
+intorno a fatti geografici, ovvero sia addirittura una censura che Erodoto
+lanci contro Ecateo, ed in generale, la logografia. Il quale ultimo cnso non
+escluderebbe che Erodoto abbia davanti a sè un passo di Ecateo o vi ragioni
+su, e così il frammento di Ecateo si verrebbe a desumere dalle parole di
+Erodoto stesso.</note>
+						<pb n="48"/>
+						<p>2. — <foreign xml:lang="grc">τη v παρά (-) ε οπό μπω Με ροπίδα γη v,
+παρ' Έχαταίω ό'ε τηv Κι μ μερίδα πόλιv, παρ'
+Εvημ έ ρ ω δ ε τ;/ v Πa γ χαίαv γη v</foreign> (Strab. VII. 299
+nota tra le cose favolose).</p>
+						<p>Il Klausen (1. c. pag. 40) attribuisce il frammento ad
+Ecateo milesio; così il Müller (F. H. Gr. 1), il quale, quando
+riferisce i frammenti di Ecateo l’Abderita (II. pag. 388) si
+contraddice, assegnando il frammento suddetto ad Ecateo
+l’ Abderita (« Hecataeus inter Theopompum et Evcmcrum
+medius ex mea sententia est Abderita) ».</p>
+						<p>Vi sono qui due questioni da risolvere : a chi spetti il
+frammento, e chi sicno i Cimmeridi. Cominccrò dalla se-
+conda.</p>
+						<p>Nell’Odissea (1) è detto : </p>
+						<ab>
+							<seg><foreign xml:lang="grc">7/δ* ες πείρα!V "κάvε βαθ vòóóov'ΩκεαvοΤο.
+Έvθα δε Κιμαερίωv αvδρώv δημός τε πάλι; τε,
+ηέρι καί vεφέλη κεκαλυμμέvοι' οv δε πυτ' αvτοv;
+Ήέλιος φαέθίοv καταδέοκεται Λκτίvεοαιv,
+οv θ' υποτ’ Γιv πτείχησι προς οvραvοv αστερόεvτα,
+οv θ' υτ αv αψ επί γαΤαv απ' οvοαvόθεv ποοτράπηται.
+ιιλλ' επί vi’i όλοη τέιαται δειλόΐοι βροτοΐαιv.</foreign></seg>
+						</ab>
+						<p>Di questo popolo, che vive nella caliginosa, atra, eter-
+na notte, non c’è ricordo nella storia; ma questi Cimmerii
+vivono soltanto nel riferito passo dell’ Odissea. I quali
+certamente non sono da confondersi con quelli del tempo
+storico, dimoranti nella Scizia, aggressori selvaggi, le cui
+gesta crudeli impressionarono la lira di Callino.</p>
+						<note type="footnote">(1) XI. 13-19.</note>
+						<pb n="49"/>
+						<p>Ecateo parla di una città e di un popolo cimmerio,
+nel quale, secondo il Grote (1), sono a vedersi i Cimmerii
+della storia; ma l’identificazione è troppo azzardata, ed è
+miglior partito, secondo me, il confessare che di questo
+popolo sappiamo assolutamente nulla. Io credo che la ten-
+denza del Milesio a servirsi del dato omerico abbia dato
+posto ai Cimmerii nella periegesi. Se questa affermazione è
+esatta, autore di questo frammento deve essere di preferenza
+Ecateo Milesio, piuttosto che l’Abderita.</p>
+						<p>Strabone (I. 20), parlando della maniera onde da pri-
+ma furono scritte le storie, dice che gli scrittori si servi-
+rono di favole poetiche, le quali chiudevano in grande
+parte una verità. Ciò serviva alla formazione dei costumi.
+Così i racconti furono ornati, coordinati e diretti ad un
+fine. Così ne venne la guerra di Troja, così gli errori di
+Ulisse.... E Omero, avendo conosciuto che i Cimmerii
+abitavano verso settentrione, al Bosforo Cimmerio, in luo-
+go caliginoso, li trasferì in luogo tenebroso, utile alla pe-
+regrinazione di Ulisse (I. 21). Così non avendo conosciuto
+i Colchi e la navigazione di Giasone, le favole di Circe e
+di Medea, imaginò che avessero rapporto fra loro (profit-
+tando eziandio della grande distanza, l’uma delle tradizioni
+sul Ponto, l’altra in Italia) e le collocò ambedue nell’Oceano
+esteriore, come se Giasone fosse ito vagando sin nell’Ita-
+lia.... E nello stesso modo probabilmente, continua sem-
+pre Strabono (I. 21), le cose del Ponto trasferì all’ Oceano
+<foreign xml:lang="grc">lionie ori1 y.nì i)iù rorro iim’ji'ryy.f rà i : y. ror Horror rroòe ròr
+oiy.Ktrin).</foreign></p>
+						<p>Questo importante luogo di Strabene mi sembra ri-
+solva del tutto la questione dei Cimmerii; essi non sono
+il popolo che troviamo nella Scizia, come forse vorrebbe
+il Grete, ma solamente il nome di quel popolo l’epos om(??)-
+<note type="footnote">(1) Hist. de la Grèee. IV. 310-311.</note>
+<pb n="50"/>
+rica trasferisce in Iberia, alle Colonne di Ercole, perchè
+così conviene agl’ interessi della pittura epica (1).</p>
+						<p>3· — <foreign xml:lang="grc">Κηλά{} η, πόλις ου ηόρ ρ ο) τώ v'II ρακ λεί ω v
+πτι/λώv, Έκαταΐος Ευρώπη</foreign> (Steph. Βyz, a. v.)</p>
+						<p>Tolomeo (IV. 3) nomina una Calathe, isola presso
+la riva africana : la città di Calathe non è fin qui ubica-
+bilc. Bisogna contentarsi della posizione che dà ad essa lo
+stesso Ecateo e ritenerla ><foreign xml:lang="grc">ου τιόρόο) τώv Ηρακλείωv στηλώv,</foreign>
+Del resto potrebbe anche essere un errore di Ecateo o,
+più probabilmente, di Stefano (cfr. il frammento 26). O si
+tratta di una città scomparsa? o è soltanto la denomina-
+zione di un luogo dove è <hi rend="italic">bella</hi> la <hi rend="italic">riva?</hi></p>
+						<p>Quello che mi meraviglia gli è che il Klausen, mentre al
+frammento 3° segna <foreign xml:lang="grc">Καλά!η</foreign>) come città, quando poi discute
+i frammenti 26<foreign xml:lang="grc">(Κΰρvυς)</foreign> e 317 <foreign xml:lang="grc">(Ίεοάγη)</foreign> la dice <hi rend="italic">insula.</hi></p>
+						<p>Del resto, io vorrei modificare questo frammento 3°
+con ammettere che qui si tratti addirittura di <hi rend="italic">Calacte</hi> <foreign xml:lang="grc">(καλή
+ακτή)</foreign>; e poggio questa mia opinione sui seguenti versi
+(422-424 dell’ <hi rend="italic">Ora maritima</hi> di Aveno : </p>
+						<ab>
+							<seg>«.... rogna Selliostina sunt
+Feracis agri et divites Tartessii,
+Qui porriguntur in <hi rend="italic">Calacticum</hi> sinnm »</seg>
+						</ab>
+						<p>e proprio gli stessi luoghi, in uno serittore che ebbe a fonte
+Ecatco.</p>
+						<note type="footnote">(1) Cfr. : Cic. Aead. 2.61; Zxetz. ad Lye. 695, 1427; ampia let-
+teratura in R<hi rend="smallcap">os(??)he(??) (??)</hi>. Ausfür. Lex. pag. 1186.</note>
+						<pb n="51"/>
+						<p><hi rend="italic">b</hi>)</p>
+						<p>L<hi rend="smallcap">a</hi> T<hi rend="smallcap">artesside.</hi></p>
+						<p><foreign xml:lang="grc">Έρατοο&amp;έvΐ]ς δε τηv αυvεχη rìj Κάλπη Ταρτηααίδα κα-
+λεϊσ&amp;αί φησι</foreign> (1). Al tempo di Strabene questa regione era
+abitata dai Turduli (1. c.), corsa dal fiume Baetis, che egli
+dice si chiamasse già Tartessos, donde il nome alla città
+ed alla regione (2).</p>
+						<p>I Tartessii sono, secondo Erodoro (frgm. 20) (3), una
+parte della grande famiglia degli Iberi, abitatrice dei luo-
+ghi marittimi della penisola. Essi costituiscono una delle
+tribù iberiche, che Erodoro ricorda sulla riva meridionale
+della penisola, tra i Gletes e gli Elbyssini :
+<foreign xml:lang="grc">ol i:ητοίς ίσχάτηις οΙκοΡηες τη προς δvσμέωv Κvvητες δvο-
+μάζηvται, άπ Ικήvωv δε ηδη προς βορέαv ΐόvτι Γλήτες, μετά
+δε Ταρτήσιοι, μετά δε Έλβυοίvιοι, μετά δε Μαστιηvοί, μετά δε
+Καλπιαvοί, έπειτα δε ή δωρόδαvος</foreign> [restituzione del testo cer-
+tamente scorretto <foreign xml:lang="grc">£τειτα δε ηδη Ό*Ροδαvός,</foreign> fatta dal Berkel].</p>
+						<note type="footnote">(1) Strab. III. 148.</note>
+						<note type="footnote">(2) Importante il frammento 4° di Stcsieoro (cfr, L. A. M<hi rend="smallcap">ichelangeli.</hi>
+<hi rend="italic">Frangenti della melica greca.</hi> III, pag. 8), dal quale si può arguire che
+il fiume Tartesso scorreva nella direziono di Eritia (Cadice?); sicchè il
+poeta potè accennare alle sorgenti di esso fiume come poste di rincontro ad
+Eritia :
+«... <foreign xml:lang="grc">σχίϊόv àvr.r.ipa; κλί'.vίς ΈρυΟ-βϊα;,
+Ταρτίοαοό ποταμού παρά παγά; άπιίροvα; άργυρορ·"ου;,
+ίv κίυ9·μώv·. πίτρα; τ.</foreign></note>
+						<note type="footnote">(3) Ap : Constant, Porphiyr. De Adm. Imp. e. 23.</note>
+						<pb n="52"/>
+						<p>Erodoto (1) menziona Tartasso come il luogo dove ap-
+prodarono i Focosi e trova anche un Argantonio come
+re dei Tartessii; quando poi (2) parla dei Samii dice che
+essi, passate le Colonne di Ercole, si recarono a Tartesso
+che in quel tempo era importante piazza di commercio e
+nella quale queglino fecero molti e buoni affari. Questo
+passo di Erodoto ci aiuta ad ubicare la città, ove lo si
+metta a raffronto con quello che di Tartessus dicono Pli-
+nio e Mela. I1 primo (3) dice : « Carteia, Tartessos a Grac-
+cis dieta », e l’altro (4) « Carteia, ut quidam putant, ali-
+quando Tartessos, et quam transvecti ex Africa Phoenices
+habitant ». Erodoto dunque parla della migrazione di Fo-
+cesi e di Samii, Mela dei Fenici, ambedue, con i quali an-
+che Plinio, collocano la città oltre le Colonne di Ercole.
+Carteia difatti si trovava al di là delle Colonne, cioè dopo
+quello spazio di mare che è tra Calpe ed Abila. Nessun
+dubbio dunque che Tartessos di Ecateo è la Carteia. I1
+dominio di essa dovea estendersi nella Betica, cioè lungo
+la bassa valle del Baetis.</p>
+						<p>La grande ricchezza mineraria di questo paese è se-
+gnalata in Posidonio (ap. Strab. III. 147), il quale dice che
+colui che vede questi luoghi dove dire che essi conten-
+gono perenni tesori della natura; presso questi uomini non
+abita Ades, ma Piato. Sulla fede di questo fonte, Strabone
+si ferma a parlare delle ricchezze minerarie dell' Iberia, c
+propriamente del paese meridionale. Riferisce un passo di
+Polibio, nel quale si parla delle miniere di argento dei din-
+torni di Cariogena, dove lavoravano 40,000 operai; parla del
+monte Argentare, nel paese del Baetis, al quale diedero
+<note type="footnote">(1) I.163</note>
+<note type="footnote">(2) IV. 152.</note>
+<note type="footnote">(3) N. II. III. 1.</note>
+<note type="footnote">(4) II. 96.</note>
+<pb n="53"/>
+nome le miniere, e dice che gli antichi chiamavano Tar-
+tessos 1o stesso fiume Baetis.</p>
+						<p>Strabene, citando Omero, dice che la notte nell’ estre-
+mo lembo dell’ Iberia, là dove nell’ Oceano cade la luce
+splendida del sole che tramonta, è orrenda, simile al Tar-
+taro (1). Di qui si scorge a veder mio, la descrizione ome-
+rica (2). Non è solo il ravvicinamento di nomi, che si ef-
+fettua con l’estrema libertà di cui l’epos dispone, ma è
+il prodotto della credenza che Elio si tuffi nell' Oceano,
+onde, sparito lui, spunta la Notte. Ovvero bisogna pen-
+sare che nella oscurità che fa neri gli uomini e le cose,
+tingendo quelli di atra caligine, c’ è un ricordo della vita
+di coloro che passano i tristi loro giorni nelle viscere della
+terra, scavando i tesori delle sotterranee vene e fondendo
+i metalli?</p>
+						<p>Quello che Omero dice dei Cimmerii si attaglia a tutta
+la regione Tartesside : Strabene stesso identifica, nell’ er-
+rore dell’epos, Tartessus a Tartaro.</p>
+						<p>A me pare che questi frammenti di Ecateo, da quello
+che si riferisce all’ Oceano (3) a questi della regione di
+Tartesso ed a quella dei Mastieni, tutti parlino di un pae-
+se che ha gli stessi caratteri, se questi, più che dalle pure
+fonti storiche, si vogliano dedurre dall’ epopea (4). Questa
+io ritengo sia la fonte principalissima delle cognizioni geo-
+grafiche di Ecateo (5), e sempre più mi confermo nel rite-
+<note type="footnote">(1) III. 149.</note>
+<note type="footnote">(2) Odyss. XI. 13-19.</note>
+<note type="footnote">(3) Cfr. : Strab. I. 2.</note>
+<note type="footnote">(4) <foreign xml:lang="grc">Φαvιροί καί'λ i“ακολ ου ÌW, 3 α·/ τϊ; α&lt;-;ι ίvϊρ»; ά;·.4λογο·. Κα;
+ο·κϊΓθ'. · ιοv τού; ττροι-του;;ααί&gt;* "t);ir(pv/ ίΰο ·τ·τ,;:.v ΈρατοοΜvτ,;,
+Άvα;·μαv?ρ4v τ*, θαλοΰ γίγοvότα γvι·’&gt;ρ·.;ιο·/ καί πολίτηv, καί ΈκαταΓοv
+τόv Μ·.λήs'.οv,</foreign> Strab. I. 7.</note>
+<note type="footnote">(5) Tartasso è indicato dal framm. 33. (M) di Forcidc corno il luogo
+dove arrivò Ercolo, quando andava in corca dei pomi di oro; da Tnrtcsso
+passò nella Libia.</note>
+<pb n="54"/>
+nere che la storia eli questa prima epoca sia proprio quale
+fu intuita da Strabono stesso, voglio dire sulla base dei
+racconti e delle descrizioni dei poeti (1).</p>
+						<p>4, <foreign xml:lang="grc">Έλrβ v ο γ ij,.1 óλ 1 : Τα οτ ηοο o c.'Ey. a -
+zaToz Ero.</foreign>(Stcph. Ryz. a. V.).</p>
+						<p>C’é chi la identifica con la città degli « Ilibcrri » di
+Plinio (2), chi con l’ inibendo di Tolomeo (3); se si dà retta
+a Livio (4) (« [civitates] maxime insignes et magnitudine ct
+noxa I Ili tur gì et Castello crant ») potrebbe essere Illi-
+turgi, prossima a Tartcssos.</p>
+						<p>Mancando migliori prove, l’ ubicazione sicura non è
+possibile.</p>
+						<p>5.— ”I <foreign xml:lang="grc">β r λ λα, j(i/. / 7’α οτηπ ί a;, τò?ΰvι y. &lt;&gt; )’
+Ίβvλλ )’ ο;, πa ο' οΐ ς atza λ λα /οrr&gt; or καί aογ r -
+υοv.</foreign> (Stcph. Ryz. a. v.).</p>
+						<p>Stefano non cita la fonte, ma evidentemente questo passo
+appartiene all’opera geografica di Ecateo per la menzione
+delle miniere d argento (5), e perchè <foreign xml:lang="grc">”fir/.λα</foreign> è detta città
+della Tartesside, c questa regione, come apparisce dal
+frammento surriferito di Stesicoro, era molto argentifera (6).</p>
+						<p>Strabone (7) <foreign xml:lang="grc">ηomina”7/./.το Λ-ri το! Παΐτι a fianco ad 7τάλ.ικα:</foreign>
+<note type="footnote">(1)<foreign xml:lang="grc">... o:. -.'jv/’.iic'i-a-v. -no, π:;,ί τιv.γ,τ'.κv,Γ ~·.
+λίγ'/j"·. "■./.0307;*·/ “v,·/ r.'r.y-·.■/.·!,Ί. Si r.-ili.</foreign> I. 7.</note>
+<note type="footnote">(2) III. (??) 3.</note>
+<note type="footnote">(3) II. 4.</note>
+<note type="footnote">(4) XXXVIII. 19.</note>
+<note type="footnote">(5) Vedi le osservazioni al fin inni. 3.</note>
+<note type="footnote">(6) Cfr. anello Aristot. <foreign xml:lang="grc">'.ΐ'/η;·. ■/·/..</foreign> 135.</note>
+<note type="footnote">(7) III. 141.</note>
+<pb n="55"/>
+Plinio dice « <hi rend="italic">Ilipa cognomine Italica</hi> », facendone una sola
+città (1), ed « <hi rend="italic">Ilipula</hi> (2) »; <hi rend="italic">Ilipa</hi> è nell’Itin. di Antonino,
+ma distinta da Italica. Che;l’ <foreign xml:lang="grc">Ίβvλλα</foreign> di Ecateo in Stefano
+possa essere<foreign xml:lang="grc"> l’”λιπα</foreign> di Strabene [Posidonio] lo proverebbe
+c l’affermazione eh’essa si trovi nella valle del Baetis sulla
+via di Corduba, e l’ essere in paese ricco per vene metal-
+liche, come dice appunto il frammento di Ecateo : <foreign xml:lang="grc">παράλληλοι</foreign>
+<foreign xml:lang="grc">rV τιvες Λάχεις &lt;sοώv παρατείvοvσι rr-7 ποταμω, μάλλοv τε καί
+Ηττοv αυτοί πvvάπτοvσαι προς βορράι·, μετάλ/.«)v πλήρεις, πλεΐ-
+πτος (V Ιατίv άργυρος ίv τοΤς κατά Ίλιπαv τύποις</foreign> (3). — Livio (4)
+dice : « <hi rend="italic">pugnatum est haud procal Ilipa urbc</hi> ».</p>
+						<p>Ma quand’ anco <foreign xml:lang="grc">Ίβvλλα</foreign> di Ecateo sia la stessa città,
+che da Strabene è detta <foreign xml:lang="grc">Ίλίπη,</foreign> da Plinio <hi rend="italic">Ilipa</hi> ed <hi rend="italic">Ilipala</hi>,
+da Livio <hi rend="italic">Ilipa</hi>, resterebbe sempre ugualmente insoluto il
+problema della ubicazione, ove non ci contentassimo di con-
+statare che <foreign xml:lang="grc">{'Ίβvλλα</foreign> di Ecateo fu nella Tartesside.</p>
+						<note type="footnote">(1) III. 1.</note>
+						<note type="footnote">(2) III. 1. 3.</note>
+						<note type="footnote">(3) III. 142. — Cfr. : anche III. 174.</note>
+						<note type="footnote">(4) XXXV. 1.</note>
+						<pb n="56"/>
+						<p><hi rend="italic">c</hi>)</p>
+						<p>E<hi rend="smallcap">lbestii</hi> E M<hi rend="smallcap">astieni.</hi></p>
+						<p>Intorno alla prima di queste genti, gli Elbestii, C.
+Müller, nei frammenti di Ecateo, sfugge una questione, e
+ci toglie così uno dei frammenti di Ecateo.</p>
+						<p>Stefano di Bizanzio dice : <foreign xml:lang="grc">Έλβέστιοι έθvος Λιβύης. Φίλι-
+στος η περί δετούς Λίβvας ίκτ* Εvριοπης Έλβέστιοι καί Μα~
+ρτιηvοί.</foreign></p>
+						<p>Luca Olstenio, nelle <hi rend="italic">Notne et castigationes postumae</hi> in
+Steph. Byz. <foreign xml:lang="grc">Εθvικά</foreign> (Lugd, Batav. 1684 a. v.), scrive : « Nihil
+certi ex farragine hac male detruncata affirmari potest. Il-
+lud certum est <foreign xml:lang="grc">Έλβεστίοvς</foreign> non Africae, sed Europae gentem
+esse... Tum hoc quoque mihi certissimum videtur, non
+alios esse hos, quam qui infra <foreign xml:lang="grc">Όλβίστιοι</foreign> et <foreign xml:lang="grc">Όλβιατίvιοι,</foreign>Sexto
+Avieno <hi rend="italic">Selbyssini</hi> vocantur. Sed alium quoque errorem hic
+latere puto, videlicet Hecataeum <hi rend="italic">Selbestios</hi> appellasse, quos
+Philistus <hi rend="italic">Elbestios.</hi> Adeo ut, expleta lacuna, Legam
+<foreign xml:lang="grc">Ευριόπη. Σέλβέστιοι και Μαστιηvοί,</foreign> retracto <foreign xml:lang="grc">σ</foreign> a fine vocis
+<foreign xml:lang="grc">Ευρώ:της</foreign> ad principium vocabuli <foreign xml:lang="grc">Έλβέστιοι.</foreign> Citatur namque
+<foreign xml:lang="grc">Έκατάίος Ευρώπη</foreign> cum alibi saepe tum infra v. <foreign xml:lang="grc">Μαστιηvοί.</foreign>
+Qui ibi dicuntur <foreign xml:lang="grc">έθvος προς ταΤς'Ηρακλείαις στήλαις:</foreign> sic dicta
+procul dubio a <foreign xml:lang="grc">Μαστία</foreign> loco Carthaginicnsium in Hispania,
+cuius mentio in veteri foedere Carthaginiensium apud Poly-
+bium III p. 179, apud nostrum <foreign xml:lang="grc">Μασσία</foreign> corrupto legitur infra
+prò <foreign xml:lang="grc">Μαστία.</foreign> Sic igitur <hi rend="italic">Mastieai</hi> in Europa, ergo et <hi rend="italic">Elbestii
+</hi>vel <hi rend="italic">Selbestii.</hi> Quod crat demonstrandum ».</p>
+						<p>Questa nota preziosa dell’Olstenio ei la guadagnare un
+frammento di Ecateo, e dà luogo ad una bella questione,
+se cioè gli Elbestii si abbiano a riguardare come una popo-
+lazione della Libia, ovvero dell’Iberia.</p>
+						<pb n="57"/>
+						<p>La tèsi fu già risoluta dall’Olstenio, come si vede dalla
+nota suddetta. Ai nostri giorni la ripiglia l’Atenstaedt (1),
+ma viene alle stesse conclusioni dell’Olstenio, che cioè negli
+Elbestii si debba riconoscere un popolo dell’Iberia, non
+della Libia. Nè vero è ciò che l’Atenstaedt afferma che cioè
+il Klausen abbia ritenuto come vero quanto è detto nel
+frammento di Filisto, doversi considerare cioè Elbestii e Ma-
+stieni come popoli della Libia, chè il dottissimo Klausen
+(pag. 43) non fa che riferire il frammento che ci è dato da
+Stefano, e vi aggiunge di suo : « Propterea Philistus utrum-
+que populum in Libya collocavit », ciò che non significa
+certo che il Klausen collochi in Libia e gli Elbestii ed i
+Mastieni. Come già l’Atenstaedt ha riferito, il Müllenhoff (2),
+cui si unisce il Meltzer (3), trova che qui noi siamo davanti
+ad uno dei tanti grossolani errori dei quali è infarcita l’opera
+di Stefano, errore nato da cattiva interpretazione o trascri-
+zione del passo di Diodoro (4), in cui si parla dell’esercito
+cartaginese in Sicilia nel 406, nel quale con i Libii furono
+gli Elbestii.</p>
+						<p>Ed in aiuto di questa soluzione viene un passo di Avic-
+no (5) in cui è detto che di qua c di là del fiume Chrysus
+(oggi Guardiaro) abitano quattro genti : i Libyphoenices (6),
+i Massieni, i Selbyssini ed i Tartessii. La prima delle quali
+<note type="footnote">(1) <hi rend="italic">De Hecat. M. fragmentis</hi> (in « Leipz. Stud. » 1891 pag. 30 sgg.).</note>
+<note type="footnote">(2) Deutsche Alterthumskunde I. 145</note>
+<note type="footnote">(3) Gesch. der Kartager I. 510.</note>
+<note type="footnote">(4) XIII. 80.</note>
+<note type="footnote">(5) Ora mar. 421-424.</note>
+<note type="footnote">(6) Che il <foreign xml:lang="grc">Λ'.βϋη;</foreign> di Stefano di Bizunzio, per il quale si avrebbe la
+strana congettura che gli Elbestii sieno popoli della Libia, riveli piuttosto
+lo stato miserando del frammento? Avieno (Ora mar. 422-424) nomina, uno
+dopo l’altro, i Libyphoenices, Massieni, Selhyssini ed i Tartessii; nel fram-
+mento di Filisto, Stefano, dopo aver detto della Libia, nomina gli Elbesti
+ed i Mastieni, proprio nello stesso ordine onde sono riferiti da Avieno. Mi
+nasce il dubbio che il <foreign xml:lang="grc">Λ'.ρύη;</foreign> sia il principio della parola Libyphoenices.</note>
+<pb n="58"/>
+genti era una colonia cartaginese, i Selbyssini abitavano,
+al tempo del periplo, sulla riva occidentale del Chrysus,
+i Massieni sulla orientale (1) : dei Tartessii si è detto già.</p>
+						<p>Per queste ragioni, accettando la correzione delĺHeyne
+al passo di Stefano, si ha il seguente frammento 6° : </p>
+						<p>6. — <foreign xml:lang="grc">Έλβέατιοί (2) ε&amp;v ο ς ’/ βερ ί a ς...'Εκ α-
+ταΐος Ευρώπη</foreign> (Steph. Byz. a. v.).</p>
+						<p>Or bisogna accennare a quest’ altra gente iberica, i
+Mastieni, limitrofi agli Elbestii ed ai Tartessii.</p>
+						<p>Avieno (1. c. 419-424) dice : </p>
+						<ab>
+							<seg>Hic Chrysus amnis intrat aitum gurgitem :
+Ultra citraque quattor gentes colunt.
+Nani sunt feroces hoc Libyphoenices loco;
+Sant Masseni, regna Selbystina sunt
+Fcracis agri ot divites Tartessii,
+Qui porriguutur in Calacticum s num.</seg>
+						</ab>
+						<p>Collocati i Tartessii lungo la valle del Baetis, sino a
+Carteia, nel lato più orientale di questa costa meridionale
+della penisola, sono limitrofi ad essi, verso il mare medi-
+terraneo, gli Elbestii, e, prossimi a questi sono i Mastieni.
+Ecateo, nei frammenti in cui sono nominate città dei Ma-
+stieni, ricorda <foreign xml:lang="grc">Σύαλις</foreign> (Suel), <foreign xml:lang="grc">Μαο-όβωοα</foreign> (Moenoba), <foreign xml:lang="grc">27ξος</foreign>
+(Sex), <foreign xml:lang="grc">Μολvβόάvη</foreign> (non ubicabile), le prime tre certamente
+site lungo il sinus Malacitanus.</p>
+						<p>Così si viene a definire il territorio dei Mastieni a par-
+tire dalla costa sud-est rispetto a Carteia e percorrendo la
+riva verso settentrione, dove il confine non è determinato,
+a cagione della scarsezza numerica dei frammenti di Ecateo,
+<note type="footnote">(1) U<hi rend="smallcap">nger.</hi> Pliilol. Sappi, p. 293 segg.</note>
+<note type="footnote">(2) ovvero, come legge l’ Olstenio.</note>
+<pb n="59"/>
+scarsezza dovuta forse a Stefano che non ne tenne conto,
+ovvero a chi epitomò, se pure non fu trascuraggine o igno-
+ranza del logografo.</p>
+						<p>Alla citta principale del paese Mastieno, Massicna, ac-
+cenna Avieno (1. c. 449-453) nel luogo seguente : </p>
+						<ab>
+							<seg>Nani latius inde portils oppidum prope
+Se Maśienum curvai alto ab acquare
+Sinuque in imo surgit altis raoenibus
+Urbs Massiena : post iugum Traete eminet
+Brevisque iuxta Strongvle stat insula.</seg>
+						</ab>
+						<p>Nel fondo dunque del golfo chiuso tra il <hi rend="italic">iugum l’cucn's
+</hi>(v. 437. 443, odierno cap de Gata) ed il <hi rend="italic">iugum Traete</hi> (od.
+cap de Palos) sorgeva Massiena, fortemente munita. — Così
+dai versi di Avieno : ma nessun’altra indicazione più pre-
+cisa ci aiuta ad una esatta ubicazione.</p>
+						<p>Alcuni, poggiandosi a Polibio (X. 10), là dove lo storico
+così bellamente c minutamente descrive la posizione di
+Carthago Nova, in fondo ad un seno chiuso da un’ isola,
+sul quale sorge un monte che ha a cavaliere la città, hanno
+voluto riconoscere la Massiena descritta da Avieno : nè la
+cosa è improbabile. In ogni modo, con i mezzi dei quali
+noi disponiamo, non si può dare ancora la posizione pre-
+cisa della città.</p>
+						<p>Di quest’altra gente iberica ecco dunque il frammento
+di Ecateo : </p>
+						<ab>
+							<seg>7· — <foreign xml:lang="grc">Ma(??)ij r ί, fi)j· „ -,y ηη ς τη ϊ ς Ί! ηακλ r!-
+ο. ι ς πτήληις.'Τ. χ. β rotini], Κΐηητηι Λ è ηπ η Μη -
+αζίης πόλε ως</foreign> (Steph. HyZ. a. v.).</seg>
+						</ab>
+						<p>Le città dei Mastieni nominate da Incaico sono quelle
+dei seguenti frammenti : </p>
+						<pb n="60"/>
+						<p>8. — <foreign xml:lang="grc">Σ vαλις, πόλις Μ η απηvώv</foreign>(Step. Byz.
+a. v.).</p>
+						<p>Corrisponde a Sucld. È taciuto il fonte, certo per dimen-
+ticanza di Stefano o per difetto di codici.</p>
+						<p>Ne parlano : Mela (II. 6: <hi rend="italic">extra Abdera, Suel),</hi> Plinio (III.
+13 : <hi rend="italic">oppidunt Suel),</hi> l’ltinerario di Antonino e Tolcmeo II. 4.</p>
+						<p>9· — <foreign xml:lang="grc">Mai vó fi (» ρα, πόλις Maπτιη v d&gt; r.'E κa -
+τ aio ςE v οώπ η. tò è &amp; vικ υ v Μαιvοβωραϊος</foreign> (Steph.
+Byz. a v.)</p>
+						<p>Corrispondente a Macnoba. Strabono (III. 143) <foreign xml:lang="grc">Μαίvυβα,</foreign>
+Mela (II. 6) <hi rend="italic">Maenoba,</hi> Plinio (III. 1. 3) <hi rend="italic">Maenuba cum fluvio</hi>;
+cfr. anche : Ptolem. II. 4; Itin. Ant. p. 405.5; Anon. Rav.
+IV. 42, p. 305.5, V. 4. p. 343. 17.</p>
+						<p>10. — <foreign xml:lang="grc">Σtξ n ς, πόλις M uar ιηv ώ v,* Ε κπταΐος
+€ μετά δε Σίςυς π6λ ι ς ».</foreign> (Stcph. Byz. a. v.).</p>
+						<p>Corrispondente a Sex. Ne accennano : Strabono (III. 150.
+170) <foreign xml:lang="grc">Έξπαvώv πό/,ις,</foreign> Ptolem (II. 4) <foreign xml:lang="grc">Έξ,</foreign> Plinio (III. 1. 3) <hi rend="italic">Sexi,
+</hi>Mela (II. 6) <hi rend="italic">Hexi</hi>,l’Itin. Ant. (p. 495)<hi rend="italic">Saxetanum,</hi>, Atenco 
+(III. 121) <foreign xml:lang="grc">πόλη’ Σεςηαvίur.</foreign>.</p> 
+<p>11. — <foreign xml:lang="grc">δί ολ v /)’ δάr η, πóλ ι ς Μηυτ ι η r Λ ι·. Έκ.
+Ero.</foreign> (Stcph. Byz. a. v.).</p>
+						<p>Non ancora ubicabile.</p>
+						<pb n="61"/>
+						<p><hi rend="italic">d)</hi></p>
+						<p>I<hi rend="smallcap">beria,</hi></p>
+						<p>Strabene (1) dice</p>
+						<p><foreign xml:lang="grc">Έπε'ι καί Ίβηηίαv vπυ μεv τωv ποοτέρωv καλεΐαΟαι πάσαv
+τηv?ξω του'Ροδαvού και τοΰ Ισθμού τοv vπό τωv Γαλατικώv
+nóhioìv</foreign>. Era dunque, secondo Strabono, opinione degli an-
+tichi che l’ Iberia comprendesse quanto è dal Rodano al-
+Γ estremo occidente; la quale opinione, senza eh’ io cerchi
+argomenti per comprovarne l’erroneità, cade da sè, allor-
+quando si rifletta che fino al Rodano non arrivavano città
+iberiche, nè c’è memoria di una sola di esse.</p>
+						<p>Apollodoro invece, nel libro II della <foreign xml:lang="grc">Περί γης, (frgm.</foreign> ili
+[Müller]) denomina l’ Iberia dal fiume Iber che è <foreign xml:lang="grc">ίvτυςΠv-
+ρήvης... μέvος ποταμός γερύμεvος εvδότερό».</foreign> Qui è meglio
+determinata la posizione della regione.</p>
+						<p>Meglio ancora la determina Erodoro (fr. 20), il quale
+stabilisce l’ estensione dell’ Iberia sul dato etnografico con
+affermare che, quantunque la gente iberica sia una, pure
+si divide in diverse genti secondo le tribù, delle quali <foreign xml:lang="grc">πρώτοv
+,ηεv υ'ι ίπι τοις έσγάτοις οίκοvvτες τά προς όvσμέωv Κvvητες δvο-
+μάζοvται, άπ ίκείvιοv δε ηδη προς βορέαv Ιόv τι Γλή τες, μετά
+δε : Ταρτήσιοι, μετά δε Έλβvσίvιοι, μετά δε Μαστιηvοί, μετά δε
+Καλπιαvοί Επειτα δέ ή διορόδαvος (2).</foreign></p>
+						<p>Non è il caso d'immettersi in una discussione sui con-
+fini dell’Iberia, se sieno di qua dai Pirenei (Erodoro, Avicno),
+<note type="footnote">(1) III. 166. Cfr.: Auscliyl. Ileliad. frgm. 73 in Plin. XXXVII. 2. — llc-
+rodori frgm. 2O (Müller).</note>
+<note type="footnote">(2) IIo ripetuto qui l’ intero passo a comodo del Lettore.</note>
+<pb n="62"/>
+o si estendano anche di là (Eforo, Timeo); la questione dei
+confini dell’ Iberia qui si limita soltanto ai frammenti di
+Ecateo. In questi, nelle otto volte in cui si tratta dell'lberia,
+o si denomina il luogo come <foreign xml:lang="grc">ττόλις Ίβηοίας,</foreign> ola popolazione
+come <foreign xml:lang="grc">έθvος Ίβήοεοv,</foreign> o la stirpe come <foreign xml:lang="grc">έθvος Ίβηοικύv.</foreign> La
+determinazione dunque dei luoghi citati nei frammenti di
+Ecateo ci darà la posizione e l’estensione del paese, secondo
+il periegete, per quanto è possibile dalla forma frammen-
+taria della sua periegesi e dalle sue scarsissime reliquie.</p>
+						<p>Comincio dalla esposizione dei frammenti.</p>
+						<p>12· — <foreign xml:lang="grc">"E n A ήτες έθvος'ίβηοικόv.'Eκnτ a ì ο ς
+Ero (/ini)</foreign> (Steph. Byz. a. v.).</p>
+						<p>Luca Olstenio (l. c. a. v.) dice : « Nomen <foreign xml:lang="grc">ΕϊΑψες</foreign> cor-
+ruptum esse orde literarum ostcndit. Quoniam autem Palat.
+B. novum hinc librum inchoatum a Stephano demonstrat,
+nimirum <foreign xml:lang="grc">ις',</foreign> non dubitaverim <hi rend="italic">E”CAHTEC</hi> reponcre : putoque
+eosdem intelligendos, qui <foreign xml:lang="grc">VlAijtuvoi</foreign> Ptolemaeo lib. II Gcogr.
+cap. 6. quorum <foreign xml:lang="grc">ή καί Λεiota.</foreign> Straboni lib. III
+p. 136 <foreign xml:lang="grc">ΣιΑητα voi.</foreign> Livio et Plinio lib. Ili cap. 3 <hi rend="italic">Sedeteni</hi> qui
+meo iudicio non satis recte ut diversas regioncs comme-
+morai <hi rend="italic">Edetaniam</hi> et <hi rend="italic">Sedetaniam</hi> ».</p>
+						<p>Di questa preziosa nota dellOlstenio non hanno tenuto
+conto nè il Klausen, nè il Milller.</p>
+						<p>Strabono (III. 156) dice che gli Edetani abitavano da
+Carthago Nova al fiume Iber; Tolemeo (II. 6. 15) li colloca
+in una parte di questa stessa regione e nomina <foreign xml:lang="grc">’ΊΙόητο</foreign>, la
+città, donde il nome alla gente; Plinio (III. 20) dice : « a
+Sucrone oritur regio Edelania; patct ipsa ora usque ad
+Udubam voi Udivam fluvium; excipit regio Ilcrgaonumum
+Ibero; sed regio Edetania in mediterranea recedit ad Cel-
+<pb n="63"/>
+tiberos ».Tolemeo e Plinio dunque restingono, entro più
+brevi limiti che non faccia Strabane, il territorio degli Edc-
+tani. Quanto poi alla equivalenza delle forme Edetani (1) e
+Sedetani (2) non occorre ch’ io vi spenda tempo.</p>
+						<p>13· — <foreign xml:lang="grc">Μiογ ηε ςθvοςΊfi &gt;] ο ω v.'Ε κ ut utυ ς
+Εvοώπη</foreign> (Steph. Byz. a. v.).</p>
+						<p>Dove sia stata questa gente di Misgeti, se sia questa
+la vera forma del nome, se vi siano state contaminazioni
+nel testo di Stefano, sono questioni che si possono fare,
+ma senza risultato soddisfacente.</p>
+						<p>14. — <foreign xml:lang="grc">Ronfi aa in n ó/. ι ζ Ίfi &gt;'/ οω r'Εκαταϊος
+Eèoih re ij. (Tu εθvικόv Αραβάοιος, καί Κοηβηηιεvς, κηι Kuu-
+βασιάτης, κ.'ά Κοηβαοιαvυς διά τΐ/v Χιοοαv</foreign> Step. Byz. a. v.).</p>
+						<p>Oltre questa di Ecateo, c’è un’altra menzione di Cra-
+basia in Avicno (3) :</p>
+						<ab>
+						 <seg>“ ... post Crabasiae jugum
+Procedit alte ac nuda litorum iacent
+Ad usque cassae Cherronesi terminos”.</seg>
+						</ab>
+						<p>È ricordato il promontorio presso Crabrasia, corrispon-
+dente all’odierno Cap Oropesa.</p>
+						<note type="footnote">(1) C. I. L. 3786. 3793. 3874. 3989. 4251.</note>
+						<note type="footnote">(2) Polyb. X. 34; App. Iber. 77. Livio XXXI. 49; XXXIV. 20;
+XXXVIII. 24; XXXIX. 1. Sil. Ital. III. 372.</note>
+						<note type="footnote">(3 Ora mar. v. 489-491.</note>
+						<pb n="64"/>
+						<p>15. — <foreign xml:lang="grc">Ίλαρηυγΰται οι Ί βηρες.'Εκαταΐος
+Ευρώπη. Καί Ίλαραvγά της ποταμός</foreign> (Steph. Byz.
+a. v.).</p>
+						<p>Il Klausen dice « Dubium non est, quin hoc nomine
+significetur populus Ilercaonum, sire Ilergetum, sive llur-
+getanum, sive llercaonensium, sive Illurguvonensium (Ptol.
+Il. 6; Liv. XXII. 21; Caes. de. b. civ. I. 60) qui ripas Iberi
+fluminis, australem maxime, tenebat ».</p>
+						<p>II Klausen, indotto dalle note di Luca Olstenio ( « <foreign xml:lang="grc">Ίλα-
+ραvγΰται</foreign> sunt aliorum <hi rend="italic">Ilurgetes</hi> » ) ha trovata, con tanta
+sicurezza, l’identità fra queste diverse popolazioni; mentre
+non è proprio così, e lo ha dimostrato dottamente l’ Aten-
+staedt (1). Gl’ Ilergeti sono popoli sulla sinistra dell’ Iber
+(Ptol. II. 6. 65), ed avevano, come loro città, Osca (odierna
+Haresca) ed Ilerda (od. Lerida) presso il Sicori (od. Se-
+gre) (2); pare arrivassero fino al mare (3).</p>
+						<p>16. — <foreign xml:lang="grc">Σικάvη πόλις Ίβηοίας, (h ςr E κaτa ΐ ο ς
+Ευρώπη, το έ&amp;vικυ v Σι κόπος</foreign>(Steph. Byz. a. v.).</p>
+						<p>La descrizione dei paesi della regione Iberica, dalla
+isola Cymnesia fino alla città di Tyris presso il fiume
+Tyrius, fatta da Avieno (Or. Mar, 466-482), ci permette di
+stabilire la posizione della <foreign xml:lang="grc">Σικάvη</foreign> di Ecateo. Avieno dice : </p>
+						<ab>
+							<seg>Àttollit inde se Sicnna civitas
+Propinquo ab amili sic vocata Ibcrieis (v. 479-480)</seg>
+						</ab>
+						<p>Il nome della città è dovuto, secondo Avieno, a quello
+del fiume Sicanus. Or bene, determinata la posizione del
+<note type="footnote">(1) Op. cit. pag. 116-129.</note>
+<note type="footnote">(2) Strab. III. 161, Ptol. II. 6. 68.</note>
+<note type="footnote">(3) Plin. III. 21.</note>
+<pb n="65"/>
+fiume Alebus (tra Alicante e Villajoyosa), del Canus, (cap
+de la Nao), dell’ isola Gymnesia (Baleari), di Ilerda (Javca),
+di Hcmeroscopium (Denia) nominati da Avieno prima di
+Sicane, si viene alla conclusione che il fiume Sicanus èlo
+stesso che Strabone (1), Tolemeo (2), Mela (3), Plinio (4),
+chiamavano <hi rend="italic">Sucro,</hi> e la <foreign xml:lang="grc">Σικάvη πόλις</foreign>di Ecateo sarebbe ap-
+punto la città di Sucro, che Strabone (5), Plutarco (6), Ap-
+piano (7), Livio (8), Floro (9), Seneca (1O), Plinio (11), e l’ltc-
+nerario di Antonino 12), pongono nelle vicinanze del fiume
+(od. Xucar).</p>
+						<p>Il nome di Sicanus al fiume doveva esistere anche alla
+fine del V secolo, quando si legge in Tucidide, la cui no-
+tizia è dovuta (13) alla <foreign xml:lang="grc">Σικελιώτις σvγγραγη</foreign> di Antioco Sira-
+cusano : <foreign xml:lang="grc">“Ιβηρες υvτες και άπυ τor Σικαvοv ποταμού το? ir
+Ιβηοία, vπυ Λιγvώv άvαστάπες.</foreign></p>
+						<p>17. — <foreign xml:lang="grc">Ύο ψ πόλις εv Ίβηρία Xε 6οv ή σ ο v.
+'Εκaτ αΐ ο ς Ευρώπη.« μετά δèΎ ο ψ πολ ι ς, μετά
+δε Λέσι ’ρ ο ς ποταμός ». το if)vι κ δ v ‘Υ όπι ο ς àπ ò
+της γεvικής</foreign> (Stcph. Βyz. a. V.)</p>
+						<p>Abbiamo mezzi molto limitati per ben determinare la
+posizione di <foreign xml:lang="grc">"Υοψ</foreign> e di <foreign xml:lang="grc">Χερσόvησός.</foreign> Può venirci in aiuto la
+<note type="footnote">(1) III. 158. 163. 167.</note>
+<note type="footnote">(2) II. 6. 14.</note>
+<note type="footnote">(3) II. 6. 92.</note>
+<note type="footnote">(4) III. 20. 76.</note>
+<note type="footnote">(5) III. 158.</note>
+<note type="footnote">(6) Sert. 19, Pomp. 19.</note>
+<note type="footnote">(7) b. civ. I. 110.</note>
+<note type="footnote">(8) XXVIII. 24, XXIX. 19.</note>
+<note type="footnote">(9) III. 22.</note>
+<note type="footnote">(10) De bcnef. V. 24.</note>
+<note type="footnote">(11) III. 20.'</note>
+<note type="footnote">(12) p. 400.4.</note>
+<note type="footnote">(13) VI. 2.</note>
+<pb n="66"/>
+descrizione dell’Iberia, fatta da Strabene. Egli, partendosi
+dal fiume Sucro (III. 160) e dirigendosi verso le foci del
+fiume Iber, incontra Saguntum : <foreign xml:lang="grc">πλησίοv δε πόλεις εϊαί Χερ-
+ροvησός</foreign> (1) <foreign xml:lang="grc">τε και'Ολέαστροv και Καρταλίας · έπ' αΰτη δε rfj
+διαβάσει του v Ιβηρος Δέρτωσσα κατοικία </foreign> (III. 160). Cherronesus
+dunque, dato che si tratti, nel frammento di Ecateo, proprio
+di una città, si sarebbe trovata fra Saguntum e Dertossa,
+prima di Oleastron e Cartalia, ossia entro il breve spazio
+che è tra la riva sinistra dell’Uduba e la destra dell’Iber.
+Quanto a <foreign xml:lang="grc">*Toy&gt;,</foreign> il Müller (Ptol. p. 186) crede che essa sia
+la stessa Cherroneso, ed il fiume <foreign xml:lang="grc">Αεαvρύς</foreign> corrisponda a
+quello che oggi dicesi <hi rend="italic">Miares.</hi></p>
+						<p>18· — <foreign xml:lang="grc">K ρ o μ v orna, vήσοςΊβερίας. ‘Εκ ατ αΐο ς
+Ευρώπη, τυ εθvικόv Κρ ο μ μ vο v σ ι ο ς</foreign>(Step. Βyz.
+Byz. a. v.).</p>
+						<p>19. — <foreign xml:lang="grc">Μήλο v π η a, vijοοςκaτ a v I β η ο a ς.*Ε κ Η-
+τα ιο ς Ev q ο’) τι η. τ ò tι7&gt;·ι κ ύ v Μη λοva a Το ς</foreign> fStep.
+a. v.).</p>
+						<p>Non sono riuscito ad ubicare queste due isole, poiché
+nessun altro fonte le nomina; e d’altra parte la forma onde
+sono riferite da Stefano m’induce a credere che non si tratti
+di una erronea trascrizione.</p>
+						<p>A me pare di vedere in questi due nomi uno di quei
+tanti ravvicinamenti di miti che avvengono cosi facilmente
+nel periodo dell’ epos. Esiodo ci narra della nascita delle
+ninfe che chiamano <hi rend="italic">Melie</hi> (Theog. v. 187 : <foreign xml:lang="grc">vvμγας θ' άς
+Μελιάς καλέvσ έπ άπείροvα'/αίαv,</foreign> ed una di queste ninfe è
+<foreign xml:lang="grc">Κούμvη</foreign> (Tzetz. Theog. 102 in Anecd. Matranga 2, 580) (2).
+<note type="footnote">(1) Cfr. : Avieno, Orti Mar. 401.</note>
+<note type="footnote">(2) <hi rend="smallcap">Roscher</hi>. Ausf. Lexikon. pag. 1452. a. v. Kromma [Höfer].</note>
+<pb n="67"/>
+Ora le circostanze che accompagnano e seguono il fatto
+onde la Teogonia esiodea fa nascere queste ninfe e le con-
+seguenze che da quel fatto derivano possono aver seguito
+la via dell’estremo mediterraneo occidentale, quella stessa
+che in tempi, relativamente più prossimi, è percorsa dalle
+tradizioni mitologiche di Ercole, degli Argonauti, e dalle
+leggendarie di Ulisse e della sua fortuna. La coincidenza
+dei nomi di <foreign xml:lang="grc">Κρυμύυvαιι </foreign> e <foreign xml:lang="grc">Μήλυvααα</foreign> con <foreign xml:lang="grc">Κρύμvη</foreign>e <foreign xml:lang="grc">Μελιάς,</foreign>
+il trattarsi di isole ed il riferirsi al mare in questo luogo
+della Teogonia di Esiodo, l’estrema elasticità, con la quale
+si propagano le tradizioni mitiche, le quali, per l’epos, non
+soffrono nè gli stretti limiti della vera topografia, nè le
+pastoie del dato cronologico, mi fanno pensare che, nei
+nomi di queste due isole, Ecateo abbia trasportate, in quei-
+l’estremo occidente del mediterraneo, tradizioni mitologiche
+che l’epos gli ha fornite; come già ho osservato per i Cim-
+merii e per la regione di Tartessos.</p>
+						<p>È questa una mia ipotesi, che, nella mancanza assoluta
+di dati più sicuri, può avere qualche importanza.</p>
+						<p>Ben pochi dunque sono i frammenti di Ecateo, che si
+riferiscono all’ Iberia, specialmente ove si voglia essere
+proprio sicuri della ubicazione : si tratta di genti e città
+comprese tra Abdara e le foci dell’Iber, per quanto riguarda
+la regione dell’ Iberia propriamente detta.</p>
+						<p>E si può concludere che, poco internandosi dentro terra,
+ma descrivendo regioni, toccando popoli, nominando città,
+Ecateo scorra tutta la costa, dalle Colonne di Ercole sino
+alla bassa valle del fiume lber.</p>
+					</div>
+					<div type="textpart" subtype="chapter" n="5">
+						<pb n="69"/>
+						<head>
+							<title>INDICE</title>
+						</head>
+					  <head>
+					   <title>ECATEO DA MILETO 
+					   ED I FRAMMENTI DELLA <foreign xml:lang="grc">ΠΕΠΙΠΙΗΣΙΣ </foreign></title>
+					  </head>
+						<p><hi rend="italic">Introduzione</hi>...................5</p>
+						<p><hi rend="italic">Bibliografia</hi>................... ” 13</p>
+						<p>N<hi rend="smallcap">otizie</hi> BIOGAFICIIB ................ ” 15</p>
+						<p>Data della naseita. Noliltà prosapia — Ecntoo
+in M lieto : perìodo della rivolta : suo atteggiamento nei moti
+di questa. Ecateo in Leros. Viaggi di Eeateo in Occidente
+ed in Oriente. Loro epoca. Impressioni e note alla lettura dei
+frammenti periegetici di lui. Opere di Ecateo. L’Europa. Dubbi
+sulla genuinità dolli'opera di Ecateo : Callimaco, Arriano : Erato-
+scenc. La mappa. Difesa della genuinità dei frammenti della l’c-
+riegesi. Osservazioni sui frammenti relativi all' Europa. Carattere
+di Eeateo. Stile.</p>
+						<p>I FRAMMESTI DELLA (??)EPIHPHEIE : I<hi rend="smallcap">BERIA</hi>.............</p>
+						<p>a) <hi rend="italic">I paesi deir epopea, framm. (1.2. 3).......43</hi></p>
+						<p>b) <hi rend="italic">La Tartesside (framm. 4.5).......... » 51</hi></p>
+						<p>c) <hi rend="italic">Elbestii e Mas tieni (framm. 6. 7. 8. 9., 10. 11).... ” 56</hi></p>
+						<p>d) <hi rend="italic">Iberla tiranna. 12. 13. 14. 15. 16. 17. 18.S. 19.) .....” 61</hi></p>
+					</div>
+					<div type="textpart" subtype="chapter" n="6">				
+						<pb n="6"/>
+						<head>
+							<title>II.
+<foreign xml:lang="grc">Κελτ ι y. ή</foreign></title>
+						</head>
+						<p><hi rend="italic">(Frammenti 20. 21)</hi></p>
+						<pb n="7"/>
+						<p>Due soli frammenti ci sono conservati da Stefano di
+Bizanzio, riguardanti la regione Celtica; l’uno (Klausen,
+fr. 19; Müller. fr. 19) si riferisce all’etnico di <hi rend="italic">Narbou</hi>, l’altro
+(Kl., fr. 21; M. fr. 21) a <hi rend="italic">Nyrax</hi></p>
+						<p>Il frammento non parla della città di Narbon, come
+hanno creduto il Klausen ed il Müller, ma dell’etnico.</p>
+						<p>Strano è il modo onde Kl. e M. riferiscono il frammento
+di Ecateo : « <foreign xml:lang="grc">Χάρβωv, ί/ιπόριοv καί πόλις Κελτική. Έκ. Ero</foreign>».
+Ma ciò non è in Stefano; chè questi, dopo le surriferite
+parole, soggiunge : <foreign xml:lang="grc">Στράβο&gt;v τετάρτι/.</foreign> La citazione di Stefano
+è tolta dunque da Strabene (IV. 186) e non si riferisce ad
+Ecateo; e solo quando gli occorre di parlare dell’etnico
+dice : <foreign xml:lang="grc">Έκαταΐος και Χαρβαίοvς arrοvς</foreign> (quei di <foreign xml:lang="grc">Χάρβωv</foreign> cioè)
+<foreign xml:lang="grc">γηαι.</foreign> Tuttavia è evidente che Stefano doveva avere davanti
+a sè un luogo di Ecateo, in cui si parlava di Narbon,
+per dire che il Milesio chiamava <foreign xml:lang="grc">Χαρβαίοvς</foreign> gli abitatori della
+città o del paese. Per scrupolosa esattezza dico dunque che
+Ecateo, quale apparisce dai frammenti, non ricordò la città,
+ma solamente l’etnico</p>
+						<p>Quanto a <foreign xml:lang="grc">Χι'οαξ</foreign> è impossibile, con i mezzi di cui di-
+sponiamo, una qualsiasi ubicazione esatta. Stefano dice che
+ne parla Ecateo, ed aggiunge di suo che l’etnico è <foreign xml:lang="grc">Χvηήχως.</foreign></p>
+						<pb n="8"/>
+						<p>Ecco dunque i due frammenti della Celtica, disposti
+non con l’ordine del Klausen seguito dal Mülller, ma diver-
+samente. Difatti Klausen-Mailer, tra il iramm. 19 ed il 21
+riguardanti la Celtica, inseriscono il framm. 20 che tratta
+degli Elisyci, gente ligure; inserzione che non è concilia-
+bile con la linea del viaggio e che costringe a ritornare
+sulla regione narbonense, dopo che si è entrati nella ligu-
+stica.</p>
+						<p>Ecco dunque i due frammenti : </p>
+						<p>20. — <foreign xml:lang="grc">'Eκατ ai ο ς και vαρβαίοvς αυτούς φη-
+οι.</foreign> (Steph. Byz. a. v. <foreign xml:lang="grc">vάοβιοv).</foreign></p>
+						<p>21.— <foreign xml:lang="grc">vvοαξ, πόλις Κελτική.'Εκ.</foreign>
+(Byz. a. v.).</p>
+					</div> 
+					<div type="textpart" subtype="chapter" n="7">
+						<pb n="9"/>
+						<head>
+							<title>III.
+<foreign xml:lang="grc">Λιγvστική</foreign></title>
+						</head>
+						<p><hi rend="italic">(Frammenti 22. 23. 24. 25. 26).</hi></p>
+						<pb n="11"/>
+						<p>Prima di venire ai frammenti riguardanti quella parte
+della penisola che da Ecateo è detta <hi rend="italic">Italia</hi>, mi è neces-
+sario dichiarare che l’estensione geografica data più tardi
+al nome Italia non comprese, ai tempi di Ecateo, tutti i
+paesi dalle Alpi al mare, e però, ad essere esatti, io pre-
+ferisco seguire le diverse regioni peninsulari, toccate dal
+Milesio, e considerarle come ciascuna a sè.</p>
+						<p>Quello che risulta dai frammenti arrivati insino a noi
+gli è che, se volessimo riferire al tempo di Ecateo l’esten-
+sione geografica che il nome Italia ebbe più tardi, la peni-
+sola verrebbe divisa nelle seguenti parti : <hi rend="italic">Ligustica</hi>, <hi rend="italic">Tir-
+reuia</hi>,<hi rend="italic">Ausonia</hi>, <hi rend="italic">Enotria</hi>, <hi rend="italic">Italia</hi>, <hi rend="italic">Japigia.</hi></p>
+						<p>Il framm. 26 (Kl.-M.) riguardante la <foreign xml:lang="grc">Κι ηvος</foreign> dà luogo da
+alcune osservazioni.</p>
+						<p>Comincio dal riferirlo : </p>
+						<p>22. — <foreign xml:lang="grc">/v /■ u)■υ r, yΓ)a η c rr οή ο /)’ ο«ό ο £ Ίηη v-
+-7vκ. 7 : Γ·ο.</foreign> (Steph. Byz. a. v).</p>
+						<p>Non mi soddisfa la collocazione che di questo fram-
+mento hanno fatto il Kl. ed il M., dopo cioè un luogo della
+Tirrenia <foreign xml:lang="grc">(ΛΜήλι,</foreign> i fr. 25j) e prima di <foreign xml:lang="grc">Kart i· a e Χώ/.α.</foreign>Osservo
+<pb n="12"/>
+					 che colui il quale, navigando, muove dalla Narbonese alla
+Ligustica viene ad avere, a dritta della rotta, l’ isola di
+<foreign xml:lang="grc">Κvρvος;</foreign> e, girando intorno alla regione ligure, la prospetta
+continuamente.</p>
+						<p>Ma qui si tratta della semplice collocazione del fram-
+mento, e la questione può dirsi secondaria, anzi si potrebbe
+opporre che Ecateo poteva similmente trattare della Cyr-
+nos quando toccava le coste tirrene della penisola, di fronte
+alle quali giace l’ isola in questione. Benché a questo ar-
+gomento vorrei contrapporre l’altro che cioè sembra, per
+lo meno, una cosa strana il fatto che Ecateo tocchi dell’isola
+solo allora quando ne ha navigate intorno la parte occiden-
+tale, la settentrionale e gran parte della orientale; e più
+strano ancora sarebbe che si fosse accorto dell’isola quando,
+nel suo viaggio, è per lasciarla.</p>
+						<p>Ma dove si può agitare una più interessante questione
+è sulla collocazione della Cyrnos nella parte settentrionale
+della Japigia.</p>
+						<p>Noi dobbiamo accettare il frammento, quale ci è dato
+da Stefano; ma tuttavia è lecito il dubbio che si possa
+anche trattare di un errore dell'epitomatole.</p>
+						<p>Il Klausen esclama : « Japygiae mentionem non intel-
+ligo ». E l’ esclamazione è legittima, ove si voglia credere
+che Ecateo collochi davvero la Cyrnos in japigia. Ma la
+cosa pare a me sia da considerarsi più da vicino. Osservo
+che tutte le volte nelle quali Ecateo ha voluto designare
+un luogo come appartenente ad una data regione o ad un
+dato popolosi è servito sempre del genitivo : <foreign xml:lang="grc">Kart ία, πάλας
+Ιταλίας</foreign> fr. 27 ΚL.); <foreign xml:lang="grc">Λ &lt;7&gt;λα, πάλας Aroórtor.</foreign> (fr. 28 ΚL); <foreign xml:lang="grc">Καπηίη,
+vήσος Ιταλίας</foreign> (fr. 29 ΚΙ.); <foreign xml:lang="grc">\lijiyOij, πόλις Οίvοιτοωv</foreign> (fr. 30 ΚΙ.);
+<foreign xml:lang="grc">.Ιοvς, πό/.ις Ηαάκ&gt;/ς</foreign> (fr. 32 ΚΙ).; <foreign xml:lang="grc">Mori αίσιοv, πάλας Οίvώτοιοv</foreign> (fr.
+33 ΚΙ.) c cosi in molti altri luoghi. Ora, nel caso nostro, egli
+<pb n="13"/>
+ci dice soltanto che la Cyrnos era un’ isola posta « a setten-
+trione della Japigia <foreign xml:lang="grc">(ηρύσβοάόος Ίαπvγίης),</foreign> nella quale espres-
+sione io non vedo altro che la posizione dell’isola rispetto
+alla Japigia, non l’appartenenza di essa al paese japigo. Posi-
+zione, in vero, non del tutto esatta, ma neppure totalmente
+erronea, e tanto più ove si pensi al modo onde si deter-
+minavano i luoghi. Soggiungo che Ecateo descriveva scen-
+dendo da settentrione a mezzodì, e la Cyrnos gli si pre-
+sentava, rispetto alla Japigia, come paese posto a borea di
+questa.</p>
+						<p>La <hi rend="italic">Ligustica</hi> aveva una estensione maggiore che non
+ebbe in appresso, quando fu limitata tra il Varo e la Magra.
+Ma non è esattamente determinabile un confine tra il paese
+di Narbon e la regione ligustica. Una prova di ciò è nel
+frammento 20 (Kl.), là dove Ecateo ricorda gli Elisycii come
+stirpe ligustica. Or bene : Avicno (Or. mar. 584), che indub-
+biamente segui Ecateo, dice che gli Elisycii avevano come
+<hi rend="italic">loro città principale Narbon, capitale di un regno feroce</hi>, <hi rend="italic">là
+dove nell’ onda salsa scorre l’Atax.</hi> Dunque, per Avieno
+[Ecateo], Narbon era centro della gente elisycia; ma Ecateo
+dice questa essere stata di stirpe ligustica, dunque nel
+nostro fonte le due genti, la narbonese e la ligustica, sono
+confuse ira loro, ed un limite geografico o non esiste, o
+non si può trovare.</p>
+						<p>Erodoto (VII, 165) nomina i Liguri e gli Elisycii come
+genti distinte : ciò che conferma sempre più la confusione che
+è nel passo di Avieno, e che fu probabilmente in Ecateo.</p>
+						<p>Questo ò certo che prossima alla gente celtica di Narbon
+fu Massalia, la colonia focese, centro della vita ligustica.
+Ecateo la dice <foreign xml:lang="grc">πόλις τής Λιγvστικής</foreign> (fr. 22 Kl.), e di essa parla
+Avieno (1. c. 695); segue la nota <foreign xml:lang="grc">Μύvοικος</foreign> (fr. 23 Kl.) ed <foreign xml:lang="grc">"Αμ-
+πελος</foreign> (fr. 24 Kl.).</p>
+						<p>E però le città ligustiche nominate nei frammenti di
+<pb n="14"/>
+Ecateo sono : Massalia, Monoecus ed Ampelos. Si aggiun-
+gono gli Elisycii.</p>
+						<p>23· — <foreign xml:lang="grc">Έλισvκοι, έθvος Λιγv w v.'E κ. Ev-
+ο ώ π ìj.</foreign>(Steph. Byz. a. v.).</p>
+						<p>24.— <foreign xml:lang="grc">Μασσαλία, τιόλις τής Λιγvσ τ ι κ ή ς
+κατά τή » Κελτικήv, a.το/ κ ο ς Φοχαέωv.'Εκ.
+Evo.</foreign> (Steph. Byz. a. v.).</p>
+						<p>25. — <foreign xml:lang="grc">Μ ύ V ο ι κ υ ς, πόλις Λ ιγ vοτ ικ ή.'Εκ. Erg.</foreign>
+(Steph. Byz. a. v.).</p>
+						<p>26. — <foreign xml:lang="grc">Άμπε λ ο ς, πόλις τής Λιγvοτ ι κ ή ς.
+Εκ. Ε vοώτιΐ)</foreign> (Steph. Byz. a. v.)</p>
+						<p>Il Klausen si contenta di dire « oppidum ignotum ».
+L'edizione di St. Byz. con commento di Tomaso de Pinedo
+(Amsterdam, 1678) a. v., e l’ edizione del Meineke (Berc-
+imi, 1849) a. V. dicono : Έστι καί Ιταλίας <foreign xml:lang="grc">Ακρα, και /αμήv,
+καί ττόλις.</foreign> Ma le sono affermazioni di Stefano, perchè il
+frammento di Ecateo è nudo nudo. Ed io non so spiegarmi
+perchè l’Huelsen nella Real Encycl. del Pauli-Wissowa a. v.
+dica : <hi rend="italic">Vorgebirge, Hafeu und Stadt in Ligurien</hi>. <hi rend="italic">Hkat</hi>.
+<hi rend="italic">bei Steph</hi>. <hi rend="italic">Byz</hi>., quando qui si tratta di un ampliamento
+della semplice notizia di Ecateo, fatto da Stefano. Trovo
+più saggio il commento del Pinedo che, dopo di avere
+affermato come alcuni scrittori, imitando i poeti, inventa-
+rono luoghi e regioni non mai esistiti, dice : « Huismodi
+existimo fuisse hanc Liguriae urbem, quam Hcc. in sua
+Europa videtur somniasse, aut profecto nimis infelix fuit,
+quandoquidem nulla eius apud scriptorcs, quod sciam, extat
+memoria ». E certamente il generale silenzio delle fonti
+deve fare nascere forti dubbi sulla reale esistenza di que-
+sta città.</p>
+					</div>
+					<div type="textpart" subtype="chapter" n="8">
+						<pb n="15"/>
+						<head>
+							<title>IV.
+<foreign xml:lang="grc">Τvραηvική</foreign></title>
+						</head>
+						<p><hi rend="italic">(Fra m mento 27)</hi></p>
+						<pb n="17"/>
+						<p>Quanto alla Tirrenia, il framm. 25 (ΚI.-Μ.) nomina
+<foreign xml:lang="grc">Αl9άλη</foreign> (liva, detta <foreign xml:lang="grc">Αιθάλη</foreign> dai Greci : Plin. N. Η. III. 6), che
+chiama vήσος <foreign xml:lang="grc">Τvοσηvώv.</foreign> E difatti, contro la costa orientale
+dell’ isola era la Tirrenia. Non so, nè credo altri possa sa-
+perlo, se Ecateo nominasse soltanto Aethalia nel trascor-
+rere il paese tirreno. Certamente quest’isola così celebre
+per i suoi metalli (Plin. III. 6, 12; Verg. Aen. X. 174;
+Strab, V. 233 sgg.; Steph. Byz. a. v.), che Servio disse me-
+ravigliosa pel fatto che i metalli estratti <hi rend="italic">renascuutur et
+rursus de eisdem locis effodiuntur</hi>, avrà dovuto attirare
+l’attenzione del periegete, più che la stessa costa tirrena.</p>
+						<p>27· — <foreign xml:lang="grc">Aid Λλη, vήσος Τvρσηvωv.'Εκ. Εvρ.</foreign>
+(Steph. Byz. a. v.).</p>
+					</div>
+					<div type="textpart" subtype="chapter" n="9">
+						<pb n="19"/>
+					 <head>
+					  <title>
+					   V.	<foreign xml:lang="grc">Αοσόvοι.</foreign>
+					  </title>
+					 </head>
+					 <p>(<hi rend="italic">Frammenti 28.29.30</hi>)</p>
+					 	<pb n="21"/>
+						<p>Ecateo non nomina una regione Ausonia, ma fa un
+accenno soltanto agli Ausonii, a proposito di Nola (fr. 28
+Kl.M.).</p>
+						<p>Dall’etnico possiamo risalire alla denominazione co-
+rografica ed ammettere un’Ausonia come già detta cosi da
+Ecateo, tanto più che egli nomina Nola, una città cioè che
+più tardi è ritenuta come nel centro del paese che i poeti
+dissero Ausonia e confusero con Italia.</p>
+						<p>La notizia riferita da Stefano (a. v. <foreign xml:lang="grc">Λωλά)</foreign> è confermata
+da Suida (« <foreign xml:lang="grc">Χώλα, πόλις Arnórov π non Έχαταίω»</foreign>)</p>
+						<p>28· — <foreign xml:lang="grc">XΛλ a, nóλ i ς Avοó v ω v. Έκ. E è o.</foreign>
+Steph. Byz. a. v.).</p>
+						<p>Qui vanno aggiunti i frammenti 27 e 20 (KI.M.) riguar-
+danti Capri e Capua. In essi l’aggiunta di <foreign xml:lang="grc">πόλις Ιταλίας</foreign> per
+Capua e <foreign xml:lang="grc">vήσος'Ιταλίας</foreign> per Capri è certamente di Stefano non
+di Ecateo. E poiché, sì l’isola, che la città, si trovano tra
+il paese tirreno e l’ enotro, là dove comunemente si col-
+locano gli Ausoni, così ho creduto di notare qui i due fram-
+menti di Ecateo :
+ tram</p>
+						<pb n="22"/>
+						<p>29. — <foreign xml:lang="grc">Κ απύ a, πόλις...'Εκ. Εv ρ.</foreign> (Steph. Byz.
+a. v.).</p>
+						<p>30. — <foreign xml:lang="grc">Κα πρί η, vήσος...'Ε κ. Εv ρ.</foreign> (Steph.
+Byz. a. v.).</p>
+					</div>
+					<div type="textpart" subtype="chapter" n="10">
+						<pb n="23"/>
+						<head>
+							<title>VI.
+<foreign xml:lang="grc">ΟΙvωτρία</foreign></title>
+						</head>
+						<p>(<hi rend="italic">Frammenti 31. 32. 33. 34. 35. 36. 37 38</hi>)</p>
+						<p><pb n="25"/>
+Il periegete prosegue il suo viaggio e si avvicina alle
+coste meridionali della penisola, là dove abitavano gli
+Enotri.</p>
+						<p>Egli non determina una regione, cui si possa dare il
+nome di Enotria, ma solamente popoli Enotri. Chi esamini
+i frammenti 30 e 32-39, (KI.M.) troverà che <foreign xml:lang="grc">ΆοϊvΟη, J ρvς,
+'Αρτεμίσιαv, Έριμοv,*Ιξιάς, Κvτέριοv, Μαλάvιος, vίvαια, Κόοσα</foreign>
+sono sempre denominate come <hi rend="italic">città degli Enotri</hi>, non del
+l’Enotria.</p>
+						<p>Questa osservazione mi pare abbia un certo valore :
+sarei tentato di dire che ancora una denominazione di
+Enotria, nel senso geografico della parola, non esista per
+Ecateo; ma che invece una larga dominazione di Enotri
+occupi tutta quella parte che più tardi fu detta Lucania.
+Infatti sono le fonti più tarde quelle che parlano di un’Eno-
+tria, e che al nome dànno un valore geografico : in Ecateo
+invece c’ è soltanto, come a me sembra, il valore etnogra-
+fico; e ben potevano abitare su parte della penisola nostra
+genti enotre senza che per questo l’appellativo di Enotria
+fosse dato al paese da loro abitato.</p>
+						<p>Non ripeterò qui ciò che già dissi altrove (cfr<hi rend="italic">. Il nome
+Italia</hi>, in Riv. di storia antica I. 4. pag. 33 sgg.) intorno
+agli Enotri ed al paese enotro, soltanto m’importa l’affer-
+<pb n="26"/>
+mare che quantunque nei frammenti rimastici di Ecateo
+non sia possibile una esatta determinazione del paese set-
+tentrionale enotro, pure, se dall’etnico si vuol risalire al
+dato geografico, il rimanente confine è sufficientemente
+determinato.</p>
+						<p>E dico che il confine settentrionale è incerto, perchè a
+me sembra che i frammenti 33 e 39 (Kl-M.) nei quali si ac-
+cenna ad <foreign xml:lang="grc">'Αρτεμίσιαv</foreign> ed a <foreign xml:lang="grc">Κύηση,</foreign> sieno stati considerati poco
+convenientemente. Quanto ad Artemision, il Klausen se ne
+spiccia col dirlo « oppidum ignotum ».</p>
+						<p>Tomaso de Pincdo che, nella citata edizione di Stefano
+Bizantino, aggiungeva emendazioni e note all’opera di
+Stefano, servendosi degli studi di G. Hartung, dopo di
+avere osservato che l’Ortelio nota 10 città col nome di Ar-
+temisio, soggiunge che la città che <hi rend="italic">memorat Auctor noster
+crat Oenotriae in Calabria</hi>; e, seguendo il Barrio nella De-
+scrizione della Calabria, dice che Artemisio suona in lalino
+<hi rend="italic">Dianium</hi>, corrispondente all’ odierna S. <hi rend="italic">Agata.</hi> Non vedo
+nessun argomento che conforti l’ opinione del Barrio, alla
+quale questi è venuto forse solo perche Ecateo dice Arte-
+misio città degli Enotri, e gli Enotri si cercano nella me-
+ridionale Italia. F. Cliiver (Italia Antiqua II. 2. 44.) dice <hi rend="italic">Ar-
+temisia</hi> o <hi rend="italic">Artemita</hi> l’isola di Gianuti, a mezzodì del prom.
+Argentare.</p>
+						<p>Qui vorrei azzardare una congettura, dopo di aver
+esaminato il frammento 39 (KI.M.). In questo si parla di
+Kossa. Il Klausen la dice <hi rend="italic">Urbs in agro Thurino</hi>, <hi rend="italic">Cacsari
+Cosa dieta</hi> (b. civ. III. 22. Veli. I. 14). <hi rend="italic">Hodie Cassano.</hi> II De
+Pinedo, nel commento al luogo di Stefano, si riferisce a
+Strabone V. 225, e identifica la<foreign xml:lang="grc">Kóσσa</foreign> di Ecateo con la ce·
+lebre città posta ad oriente del promontorio Argentare.
+Difatti, seguendo lo stesso Strabene, Cessa era stazione im-
+portante per chi faceva navigazione lungo le coste occi-
+dentali della penisola; e di là la via menava normalmente
+<pb n="27"/>
+ad Ostia. La Cessa dell’agro turino, alla quale si riferisce
+il Klausen, non ha alcun fondamento storico; dobbiamo
+pensare che con Ecateo ci troviamo nel VI secolo, ed in
+quest’epoca una Cossa presso Thurioi non esisteva ancora,
+anzi neppure Thurioi stessa che fu fondata nel 443.</p>
+						<p>Non si potrebbero avvicinare i due frammenti 33 e 39
+ed accettare, come linea della navigazione di Ecateo, Cossa
+e Artemisio?</p>
+						<p>È una ipotesi che, in mancanza di più sicura soluzione,
+può aver luogo.</p>
+						<p>Ese essa avesse fondamento, avvalorerebbe sempre
+più quanto io giù ho detto più su, che cioè non si aveva
+un determinato limite settentrionale del dominio enotro.
+Sicuro è invece questo nelle altre parti. Il framm. 57 (Kl.-M)
+ci parla dei Peucezii come vicini (<foreign xml:lang="grc">πρόσεχες</foreign>) agli Enotrii,
+ecco dunque il confine orientale; l’occidentale è determi-
+nato dal mare; il meridionale dai golfi Napetino e Scille-
+tico, cioè dal limite settentrionale del paese che già al tempo
+di Ecateo si chiamava Italia, come dimostrerò più avanti.</p>
+						<p>Il frammento 31 (Kl.-M.) è riferito da Stefano di Bizan-
+zio, senza che si dica donde Stefano lo tragga; e però mi
+sembra arbitrario l’ attribuirlo ad Ecateo, e preferisco sop-
+primerlo. Similmente è da sopprimersi il fr. 32 (Kl.-M.) che
+dice <foreign xml:lang="grc">Λοvς, πόλις Θράκης, "Εκ. Ero. lari και πόλις τωv ΟΙvώ-
+τρωv,</foreign> perchè l’aggiunta di <hi rend="italic">città degli Enotri</hi> appartiene a
+Stefano non ad Ecateo, e è nominata da Ecateo sol-
+tanto come città della Tracia.</p>
+						<p>Ecco dunque i frammenti relativi agli Enotri :</p>
+						<p>31. — <foreign xml:lang="grc">Κΰ non, πόλις Οlv ιό τρωv έ v τcò μεσο-
+γείιο.'Εκ. Ero.</foreign> Steph. Byz. a. v.).</p>
+						<p>32. — <foreign xml:lang="grc">'Λρτεμ ί a ι ο r, πόλ ι ς Οlvώ τ η ω v, εv με-
+σόγειό).'Εκ. Ero.</foreign> (Steph. Byz. a. v.)</p>
+						<pb n="28"/>
+						<p>33. — <foreign xml:lang="grc">Κvτέριοv, πόλις otvώχο ω v, èv τfj
+μεαογεία. Έκ. Εvρ.</foreign>(Sleph. Byz. a. v.).</p>
+						<p>Il Klausen crede si tratti di Cyterium, oggi <hi rend="italic">Cirisano
+</hi>nella Calabria Citeriore; potrebbe anch’ essere l’ odierna
+<hi rend="italic">Cetraro.</hi></p>
+						<p>34 —<foreign xml:lang="grc">*Eρi μ ο v, πόλις 01 vιότ ρ ω v ί v μεσό-
+γεια).'Εκ. Εvρ.</foreign> (Steph. Byz. a. v.).</p>
+						<p>Oggi, forse, <hi rend="italic">Regina</hi> sulla sinistra del Grati.</p>
+						<p>35. — <foreign xml:lang="grc">*Α ρίv &amp; η,πόλις Οtv ώ τρωv è v μεσό-
+γεια.'Εκ. Εvρ.</foreign> (Steph. Byz. a. v.).</p>
+						<p>Accolgo la lezione del Meineke. Le edizioni precedenti
+riferiscono il luogo di Ecateo (<foreign xml:lang="grc">Άοίv&amp;η</foreign>) come <foreign xml:lang="grc"> πόλις Oìviótovìv
+εv Μεσοποταμία</foreign>, attenendosi ai codd. rehdigerano e vossiano.
+Questa lezione diede luogo alle critiche dei commenta-
+tori di Stefano, i quali si scagliarono contro di lui, o
+contro chi ha scritto i codici, per l’errore che ne deriverebbe
+dal cercare gli Enotri in Mesopotamia; quando qui. se è
+vera l’ ubicazione del Barrio che collocherebbe Arintha
+dove oggi è Rende, tra i fiumi Emulo e Sordo affluenti di
+sinistra del Grati, Arintha si troverebbe proprio <foreign xml:lang="grc">èv μεσοπο-
+ταμία,</foreign> cioè in mezzo a due fiumi. Del resto, seguendo la
+migliore lezione del Meineke (<foreign xml:lang="grc">εv μεσόγεια</foreign>), il valore topo-
+grafico non è mutato. Anche oggi si conserva memoria di
+questo nome in quello del fiume <hi rend="italic">Ardito</hi> presso Colico, sulla
+destra del Crati.</p>
+						<p>36.— Stefano dice : <foreign xml:lang="grc">’ίξιάς, π6λ ι ς ΟΙvώτοοίv
+εv μεσογείη,'Εκ. Ero.</foreign>a proposito del seguente
+<pb n="29"/>
+luogo di Ecateo : <foreign xml:lang="grc">*ίv Ah Ίξιης πόλις, εv δε Μεv ε-
+κίv η πόλις*</foreign>.</p>
+						<p>Qui si accenna evidentemente a due luoghi Ixias e Me-
+necine, il secondo dei quali è identificabile con l’odierna
+<hi rend="italic">Mendocino</hi>.</p>
+						<p>Seguono i frammenti 35 e 36 riguardanti Malanios e
+Ninaea, due luoghi, finora, non ubicatili, ma da collocarsi
+qui perchè Ecateo li dice città degli Enotri : </p>
+						<p>37. — <foreign xml:lang="grc">Maλάv ι υ ς, πόλις μία μεσόγειας τωv
+ΟI vώτ ρ ω v τωv vπ υ Έκατa ί οv καταλεχ&amp;ειαώv
+ίv Εvρώπ]],'Εκ. Εvρ.</foreign> (Steph. Byz. a. v.).</p>
+						<p>38. — <foreign xml:lang="grc">vίva ια, πόλις Οίvώ τ ρ ω v εv τι} μεσό-
+γεια.'Εκ. Εvρ.</foreign> (Steph. Byz. a. v.).</p>
+					</div>
+					<div type="textpart" subtype="chapter" n="11">
+						<pb n="31"/>
+						<head>
+							<title>VII.
+<foreign xml:lang="grc">’Ιταλία e Σικελία</foreign></title>
+						</head>
+						<p>([I<hi rend="smallcap">talia</hi>] : <hi rend="italic">frammenti 39. 40. 41. 50. 51. 52.</hi>)</p>
+						<p>([S<hi rend="smallcap">icilia</hi>] :<hi rend="italic">frammenti 42. 43. 44. 45. 46. 47. 48. 49.)</hi></p>
+						<pb n="33"/>
+						<p>Italia.</p>
+						<p>I frammenti di Ecateo, riguardanti il paese abitato
+dagli Enotri, non ci parlano mai di una regione alla quale
+il logografo abbia dato il nome di Enotria; ed io ho cer-
+cato, e credo di averlo trovato, non il confine geografico del
+paese, ma quello etnografico del popolo enotro. Ed ammet-
+tendo che, dove questo popolo sia stato, lì siasi diffuso il
+nome, la regione che si sarebbe detta Enotria avrebbe
+avuto per Ecateo una estensione presso che simile a quella
+che ebbe in epoca più tarda la Lucania.</p>
+						<p>In questo paese di Enotri sorge il nome Italia : a que-
+sto fatto si riconnette la stessa leggenda di Italo da Enotro,
+e la cosa è affermata dei frammenti di Ecatco. Questi par-
+lano di Enotri e d’ltalia, ed io già provai (cfr. <hi rend="italic">Il nome Italia.
+Nuovi studi</hi>, in <hi rend="italic">Riv</hi>. <hi rend="italic">di Storia antica</hi> I. 4) che entro i confini
+dell’etnico enotro sorse il nome Italia; vidi fin dove si esten-
+dano i paesi che Ecateo disse appartenenti agli Enotri, e
+in che rapporti essi si trovino con quelli che lo stesso
+Ecateo denomina come città d’ltalia. Ed a confortare l’opi-
+nione che questo nome sorga a sud dei golfi Lametico e
+Scilletico, nella Calabria reggina cioè, trovai nuovi argo-
+menti e assai più validi che non il noto luogo di Antioco
+<pb n="34"/>
+Siracusano, discusso forse più del conveniente. E ne con-
+clusi che « l'esatta corrispondenza geografica del nome
+Enotria a quella di una primissima Italia mi sembra un er-
+rore : anzi pare certo che il territorio di questo nome, nella
+sua prima fase, non sia che un sol tratto del paese che fu
+abitato dagli Enotri, e propriamente quello che, secondo i
+frammenti di Ecateo, viene a determinarsi a sud dei golfi
+scilletico e napetino, mentre al nord di essi, come risulta
+dagli stessi frammenti, il nome non si trova ancora, e per-
+sistono invece gli appellativi di Enotria alle città poste a
+nord dei due golfi ». Più tardi il nome si estende sino alla
+regione sibaritica e siritica (Erod. I. 145; VI. 127), abitata
+ai tempi di Ecateo non da Itali, ma da Enotri, come mi
+pare si possa affermare dall’ esame del framm. 57 (Kl.-M.),
+nel quale i Peucezi son detti popolo <hi rend="italic">vicino agli Enotri.
+</hi>Che se il paese degl’ Itali avesse compreso la siritide,
+Ecateo avrebbe detto piuttosto i Peucezi popolo <hi rend="italic">vicino
+agl’Itali.</hi> Ma, anche in questo, il logografo segue la tradi-
+zione ed avvicina i Peucezî agli Enotri, perchè Enotr.o e
+Peucezio erano fratelli e figli di Licaone.</p>
+						<p>Tutte queste congetture che l’antica storiografia, nei
+suoi primi albori, fa a sè stessa, finiscono per collegarsi
+intorno ad una leggenda sola, quella di Italo : la parentela
+dell’ etnico si ricollega e si riferisce a quella dei perso-
+naggi di questa nostra primissima epopea eroica : Italo,
+Enotro, Peucezio ecc.; e forse la fortuna serbata al trionfo
+del nome Italia su tutti gli altri potrebbe essere derivata
+dal bisogno di conservare in questa denominazione la te-
+stimonianza più pura della leggenda d’Italo ed il predo-
+minio di essa sulle altre genti della stessa famiglia.</p>
+						<p>E, premesso questo cenno intorno alla questione già
+da me trattata, vengo ai frammenti.</p>
+						<p>Nella loro disposizione, il Klausen ed il Müiller, seguendo
+la linea del viaggio intorno alle coste meridionali della pe-
+<pb n="35"/>
+nisola, allorchè sono arrivati al frammento 42, cioè al cenno
+di Ecateo intorno al promontorio di Scilla, interrompono
+la descrizione dell’Italia e riferiscono i frammenti di Ecateo
+intorno alla Sicilia. L’ordine è logico, e corrisponde ai pe-
+ripli di Avieno, dello ps-Scylax, dello ps-Scymnus, e sarà
+stato forse anche quello di Ecateo, tanto più ove si consi-
+deri il rapporto politico che legava le colonie della Magna
+Grecia a quelle della Sicilia.</p>
+						<p>Per queste ragioni s’inseriscono qui i frammenti d’Italia
+fino a Scilla, poi seguirò Ecateo in Sicilia, per ritornare in
+Italia dopo aver toccato dei luoghi principali dell’isola.</p>
+						<p>39. — <foreign xml:lang="grc">ΛαμητΧvοι, πόλις [Ιταλίας] άπυ
+Λα μήτ οv ποταμοί' προς Κρ ότ ωv ι.'Εκ. Ε v ρ.«εv
+δε Λάμητος ποταμός, εv δε ΛαμητΧvοι».</foreign> (Steph.
+Byz. a. v.).</p>
+						<p>Curiosa dicitura, <foreign xml:lang="grc">ΛαμητΧvοι, πόλις.</foreign> Forse dovrà leggersi
+<foreign xml:lang="grc">Λαμήτια</foreign> e <foreign xml:lang="grc">1’άπυ Λαμήτοv ποταμοί' προς Κρύτωvι</foreign> indiche-
+rebbe fin dove si estendesse il territorio. o meglio il con-
+fine politico tra il dominio crotoniate e quello lametino. Si
+sa che Croton esercitava, come Sybaris, il suo commercio
+tra l’uno e l’altro mare, attraversando i valichi dell’ap-
+pennino meridionale e fondando colonie o stringendo al-
+leanze con le città poste sulla costa tirrena.</p>
+						<p>Dal fiume Lameto, come dice Stefano (non Ecateo,
+come erroneamente credono il Klausen ed il Muller) eb-
+bero il nome i Lametini; e che un fiume Lameto vi sia
+stato davvero è provato dal fatto che anche oggi se ne con-
+serva il nome modificato in Lamato che passa a destra di
+un paese Lamato e scorre nel bel mezzo del golfo di S. Eu-
+femia (sinus Napetinus).</p>
+						<p>La posizione del paese Lametino, proprio lì donde a
+veder mio comincia l’Italia di Ecateo, l’essere esso pros-
+<pb n="36"/>
+simo a Medma che Ecateo chiama <foreign xml:lang="grc">πόλις Ιταλίας,</foreign> la condi-
+zione poco soddisfacente del passo di Ecateo, quale è ri-
+ferito da Stefano, tutto ciò m’induce ad includere il framm.
+39 tra quelli che si riferiscono all’Italia, anzi a cominciare
+di qui l’ enumerazione dei luoghi più settentrionali, dal lato
+del tirreno, dove il logografo nostro inizia il paese cui dà
+il nome d’Italia. Per questa min opinione, mi sembra giusta
+l’aggiunzione di <foreign xml:lang="grc">Ιταλίας</foreign> fatta dal Meineke al frammento di
+Ecateo; aggiunzione che è autorizzata dal seguente luogo
+di Tzetze a Lycophr. 1085 : <foreign xml:lang="grc">υ Λάμητος, ώς ψηαι Φιλογέvης,
+Ιταλίας ποταμός.</foreign></p>
+						<p>40. — <foreign xml:lang="grc">Μέδ μ η, πόλις*Ιταλίας και κρήvη
+δμώvv μ ο ς. ‘Εκ. Evo.« από Μέδ μ η ς κρήvης
+τιvός.</foreign> (Steph. Byz. a v.).</p>
+						<p>Questa colonia di Lokroi Epyzeph. (Thuc. V. 5. 3; ps-
+Scymn. v. 308; Strab. VI. 256; Mela II. 4) è detta <foreign xml:lang="grc">Μέδιιη</foreign>
+nelle fonti più antiche, ed il nome si conserva anche nelle
+più recenti, anche di fianco alla forma <foreign xml:lang="grc">Mia μα.</foreign> La cosa è
+confermata dai conii che consistono in stateri corinti], si-
+mili a quelli di Lokroi, nei quali si legge, nel diritto,
+<foreign xml:lang="grc">ΜΕΣΜΑ</foreign> e <foreign xml:lang="grc">MEJMAI.QX</foreign> e nel rovescio <foreign xml:lang="grc">ΜΕΣΜΛΙΩΧ</foreign> (Head.
+Hist. num. Oxford, 1887. p. 89). Il ricordo del nome ci è ri-
+masto in quelli del fiume Mesima e di un luogo marino,
+presso la foce del fiume, detto Tordi Mesima, nelle vici-
+nanze di Rosarno. La precisa ubicazione è difficile a de-
+terminarsi. Il dott. D. Corso (nelle Not. d. Scavi 1882 p. 395)
+crede che la città sia stata nella pianura sottoposta a Ni-
+cotera, a nord del fiume Mesima. Certo vi sono avanzi di
+edifizii e tombe che, se non sono della città, certamente
+attestano della esistenza quivi di un paese, che era florido
+ancora al finire della repubblica romana ed al cominciare
+dell’impero.</p>
+						<pb n="37"/>
+						<p>41. — <foreign xml:lang="grc">Σκvλλαιοv, uxoa, περί ής'Ex a τ aio ς
+èv Ευρώπη φ η σι.</foreign> (Steph. Byz. a. v.).</p>
+						<p>Di Scilla nomina soltanto il promontorio, il temuto
+scoglio; poi il periegete entra in Sicilia.</p>
+						<p>Sicilia.</p>
+						<p>Ecateo milesio è il primo dei prosatori greci che ci
+parli della Sicilia. Egli vi entra da Zancle e descrive l’isola,
+girandole intorno ed accennando ai luoghi di maggiore
+importanza per un greco. Da Zancle (fr. 43. Kl.-M.), toccata
+Catane (fr. 44. Kl.-M) arriva a Siracusa (fr. 45 Kl.-M.); di
+qui al promontorio Lilibeo (fr. 46 Kl.-M.), senza notare alcuna
+città della costa meridionale; poi, girato il promontorio,
+tocca Motye (fr. 47 Kl.-M.) e passa alla costa settentrionale,
+dove nota Solous (fr. 48 Kl.-M.), Himera (fr. 49 Kl.-M.) e
+Mylai (fr. 50 Kl.-M.). Ed arrivato a Mylai, ripiglia il suo
+periplo lungo le coste meridionali d’Italia, approdando a
+Lokroi Epizephyrioi.</p>
+						<p>È evidente che molti luoghi famosi restano fuori del
+periplo dell’isola : Megara, Akragas, Selinous, Panormus;
+benché la colpa della omissione potrebbe forse ricadere
+sull’epitomatore, che trascurò quanto Ecateo diceva di
+questi luoghi famosi, se pure non è di Ecateo stesso.</p>
+						<p>Nei pochi accenni che Stefano aggiunge alla semplice
+indicazione di Ecateo, specialmente nei framm. 47 e 48, lì
+dove dice che Motye ebbe nome da una donna che indicò
+ad Ercole coloro che gli avevano nascosto i celebri buoi,
+e nel fr. 48 dove è detto che gli abitanti di Solous sono così
+detti da Soloente inospitale che fu ucciso da Ercole, si
+rivela, a chiare note, il predominio della tradizione mito-
+<pb n="38"/>
+logica, conservata nell’ isola (Diod. IV. 23 1.), e dalla quale
+Ecateo non sa andare immune.</p>
+						<p>Primo dei luoghi della Sicilia per chi viene dal pro-
+montorio Scilleo è Zancle, nominata da Ecateo, nella sua
+forma forse italica (1).</p>
+						<p>Stefano aggiunge di suo : «<foreign xml:lang="grc">oì μεv η:το Ζάγκλου τοv γη-
+vεvοvς ή από κρήvης Ζάγκλης. οϊ δε διά το Ικεΐ Κρόvοv το
+δρέπαvοv άποκρvψαι, ω τη του πάτους άπεκοψεv αιδοία</foreign> ». Ε
+così il Klausen appiccica alle spalle di Ecateo ciò che ap-
+partiene ad altre fonti riferite dallo stesso Stefano.</p>
+						<p>Il nostro logografo non dice altro di Zancle se non
+che essa fu città della Sicilia.</p>
+						<p>Nei frammenti rimastici di Ecateo non è cenno di Na-
+xos; di Catane dice ch’essa giace ai piedi dell’Etna; Sira-
+cusa egli chiama la maggior città della Sicilia. Nulla di
+Akragas, e di Lilibeo nomina solo il promontorio. Fa un
+cenno di Motye, di Solous e di Himera e perviene a Mylai,
+donde ritorna in Italia.</p>
+						<p>L’isola è dunque nota ad Ecateo soltanto nella parte
+greca di essa e nei centri più importanti : Zancle, Catane,
+Syrakousai ad oriente; nulla a mezzodì; Motye ad occi-
+dente; Solous, Himera e Mylai a settentrione.</p>
+						<p>Ecco ora i frammenti;</p>
+						<p>42. — <foreign xml:lang="grc">Zάγκ λ η, πόλις Σικελίας.'Εκ. Εv ρ.</foreign>
+(Steph. Byz. a. v.).</p>
+						<note type="footnote">(1) Per la fondazione cfr. Thue. VI. 4; Paus. IV. 23. 7-8; Eforo in
+Strab. 267, 268 ps-Scymn. 283 sgg.; Diod.Sic. IV. 85. Nelle monete è
+DANLE, DANK, DΑvΚΚΑION, fino alla morte di Anaxilas (476 a. C.)
+Cfr. <hi rend="italic">Holm.</hi> Gesch. Sic. I.64; 132-3 : <hi rend="italic">Heistebergk.</hi> Fragcn der ältesten
+Gcsch. Siciliens. p. 98 sgg.; <hi rend="italic">Freemann.</hi> The history of Sicil. I. p. 584 sgg.
+Appendice XX; <hi rend="italic">O. A. B. Siefert.</hi> Zanele-Meśana, p. 46; <hi rend="italic">H. G. Hebel.</hi> De
+Zanclcnsium Meśaniorumque rebus gestis et conditione, p. 58; <hi rend="italic">Axt.</hi> Rhe-
+gion und Measana.</note>
+						<pb n="39"/>
+						<p>43. — <foreign xml:lang="grc">Κατάvη, πόλις Σικελίας. ‘Εκ. Εvρώ-
+-71 ΐί'* μετά δε Κατάvη πόλις, υπέρ δε δροςΑΐτ-
+vη.*</foreign>(Steph. Byz. a. v.).</p>
+						<p>44. —<foreign xml:lang="grc">Σvοάκοvααι, πόλις Σικελίας μεγί-
+οτη, ώς ‘Εκ. Εv ρ.</foreign> (Steph. Byz. a. v.).</p>
+						<p>45. — <foreign xml:lang="grc">Λ ιλvβαιοv, ι) προς δvο ιv άκρα της
+Σικελίας, ‘Εκ. Ευρ.</foreign> (Steph. Byz. a. v.).</p>
+						<p>46. — <foreign xml:lang="grc">Μοτύη, πόλις Σικελίας από Μοτ ύ η ς
+γv v aικ òς, μηvvσάαης ‘Η ο a κλεΐ τους ίλάa a v-
+τας τους αυτόv βοvς. ‘Εκ. Evo.</foreign> (Steph. Byz. a. v.).</p>
+						<p>47. — <foreign xml:lang="grc">Σολο ΰ ς, πόλις Σικελίας, ώ ς ‘Ε κα-
+ταΐ ο ς ί v Ευρώπη.« εκλ ή d η δε άπο Σολοvvτος
+κακοξέvοv, οv ά v εΐλ ε v Ή ρaκ λ ή ς ».</foreign> (Steph. Byz.).</p>
+						<p>Già nelle vecchie edizioni eli Stefano fu corretto un
+evidente errore, il dire cioè Solous, città Κιλικίας in luogo
+di <foreign xml:lang="grc">Σικελίας. Quasi che ci fosse mai stata una Cilicia in
+Europa</foreign>.</p>
+						<p>48. — <foreign xml:lang="grc">Ί/ιέρα, πόλις Σικελίας. "Εκ. Evo.</foreign>
+(Steph. Byz. a. v.).</p>
+						<p>49. — <foreign xml:lang="grc">Μvλαί, πόλις Σικελίας "Εκ. Evo.</foreign>
+(Steph. Byz. a. v.).</p>
+						<pb n="40"/>
+						<p>Italia. (Continuazione dal frammento 41).</p>
+						<p>Ed, a Locri, Ecateo tocca di nuovo la costa dell’Italia,
+e fa cenno di Caulonia e di Crotalla, fino al golfo scille-
+tico, là dove ho trovato il confine del nome Italia in Eca-
+teo. Difatti Locri, Caulonia e Crotalla sono sulle rive dello
+Ionio le sole città che Ecateo chiama d’Italia.</p>
+						<p>Chi guarda, coi frammenti del milcsio, la carta di
+quell’ultimo estremo della penisola nostra, là dove si strozza
+la configurazione orizzontale e vengonsi a costituire gli
+odierni golfi di S. Eufemia (ant. Napetino) o di Squillace
+(ant. Scilletico), dalle terre dei Lametini a Medma, al pro-
+montorio di Scilla, a Locri, a Caulonia e a Crotalla,
+e pensi che questi soli luoghi sono detti da Ecateo come
+appartenenti all’ Italia, si persuade subito che solo questa
+ultima parte ebbe dapprima il nome che poi fu dato alla
+restante penisola.</p>
+						<p>50.— <foreign xml:lang="grc">οκο ο I Έηιζεγ ύ ο ι ο ι, πόλις’ Ιταλίας.
+‘Εκ. Ευρ.</foreign> (Steph. Byz. a. v.)·</p>
+						<p>Tralascio le questioni sull’origine di questa illustre
+città (cfr. Timeo frgm. 67,68,70 in Polyb. XII. 5 sgg. contro
+Aristotele; inoltre Eforo frgm. 46, 47 in Strab. VI. 259, 260),
+e, quanto alla sua ubicazione, pare si possa assegnare alla
+città il territorio dell’odierna Ceraci (cfr. P. Orsi, Scoperta
+di un tempio ionico nell’area dell’antica Locri [nelle <hi rend="italic">Not.
+degli Scavi</hi> 1890. pag. 248-266] ).</p>
+						<pb n="41"/>
+						<p>51. — <foreign xml:lang="grc">Καv Χωv la, η 6 Χις'Ιταλίας, ή v Aiλ ώ-
+vιαv'ΕχαταΧος χαλεΧ, διά το μέσηv αvλώvος
+είvαι.</foreign> (Steph. Byz. a. v.).</p>
+						<p>Ecateo dunque la chiama <foreign xml:lang="grc">Αvλωvία</foreign> (1). Che questa siasi
+col tempo mutata in <foreign xml:lang="grc">Καvλωvία</foreign> lo afferma Strabene VI. 261.
+Oggi Caulonia nel circondario di Gerace. E che qui trattisi
+proprio della Caulonia d’Italia è provato dal luogo sud-
+detto di Strabene il quale, nel descrivere la costa ionica,
+dice che dopo Caulonia è Scylletium. (VI. 261).</p>
+						<p>52. — <foreign xml:lang="grc">Κρόταλλα, πόλις* Ιταλίας.'Ex. Ευρ.</foreign></p>
+						<p>Così l’ edizione del Meineke di Steph. Byz., che in
+questo luogo, è fatta sui codd. rehdigerano e vossiano. Le
+edizioni Florcntiae 1521, Basileae 1568, Amstelod. 1678,
+Lugduni Bat. 1694 non nominano mai <foreign xml:lang="grc">Κρόταλλα</foreign> (2).</p>
+						<note type="footnote">(1) Così lo ps-Scym. v. 818.</note>
+						<note type="footnote">(2) II non aver potuto tener presente l’ edizione del Meineke, come ho
+fatto ora, mi fece nascere il dubbio (in « Rivista di storia antica» II.2.
+pag. 93) che il passo non fosse di Ecateo.</note>
+					</div>
+					<div type="textpart" subtype="chapter" n="12">
+						<pb n="43"/>
+						<head>
+							<title>VIII
+<foreign xml:lang="grc">’/a λvγ ία</foreign></title>
+						</head>
+						<p>(<hi rend="italic">Frammenti 53, 54, 55, 56</hi>)</p>
+						<pb n="45"/>
+						<p>I frammenti di Ecateo intorno alla regione iapiga sono
+pochi ed oscuri, ed hanno una grande lacuna : mancano
+tutte le città della Magna Grecia, da Croton a Tarentum,
+ed è impossibile che il logografo non abbia nominato al-
+meno Sybaris, la cui potenza era al colmo quando egli
+viveva.</p>
+						<p>Si potrebbe supporre che nella parola Japigia siano
+compresi i paesi della Magna Grecia, Herakleia, Metapon-
+tion, Tarentum, Hydruntum, come dice lo ps-Scylax (14), e
+Brundusium, come aggiunse Erodoto (IV. 100). Nel qual caso,
+sempre mancando il ricordo delle grandi città della Magna
+Grecia, la Japigia si estenderebbe a tutta la grande zona
+di terreno che, incurvandosi, forma il golfo di Taranto; e
+comprenderebbe tutta la penisola sallentina. A rafforzare
+questa supposizione, concorre il fatto che il promontorio
+che chiude al nord il sinus scylleticus erti detto japigo, e
+così pure si chiamava l’estrema punta della penisola sal-
+lentina dal lato di mezzodì, proprio gli estremi del sinus
+Tarentinus.</p>
+						<p>Il frammento 56 (Kl.-M.), nomina <foreign xml:lang="grc">Χαvόάη</foreign> come cittii
+della Japigia, e dice che dopo di essa sono i Peucezî <foreign xml:lang="grc">(μετά
+δε Ihvy.rùoì);&gt;/gr&gt;</foreign> il fr. 57 (Kl.-M.) dice che i Peucezî erano un
+popolo vicino agli Enotri, dunque abbiamo prima gli Enotri,
+<pb n="46"/>
+poi la japiga <foreign xml:lang="grc">Χαvδάvη,</foreign> poi i Peucczî. Queste determinazioni
+di vicinanza, e di prima e poi, non si possono supporre
+sulla riva, ma entro terra; dunque avremmo prima il paese
+enotro, corrispondente alla Lucania di tempi posteriori,
+poi il territorio japigo da Eraclea a Brundusium, compren-
+dendo tutta la penisola sallentina, ed in questo sarebbe
+<foreign xml:lang="grc">Χαvδάvη,</foreign> poi sulla sinistra del Bradanus i Peucezî, i quali
+sarebbero così dopo <foreign xml:lang="grc">Καvδάvη</foreign> e prossimi, per l’interno, agli
+Enotri.</p>
+						<p>Ma le son tutte ipotesi, e a renderle meno sicure con-
+tribuiscono sia la scarsezza dei frammenti, sia l'impossi-
+bilità di ubicare i luoghi e determinare i confini etnici di po-
+polazioni nominate da Ecateo come appartenenti alla fami-
+glia japiga.</p>
+						<p>Ecco intanto i frammenti : </p>
+						<p>53· — <foreign xml:lang="grc">Ίαπvγία, δv ο πόλεις' μία è vτfi*Ιτ α-
+λί a y.aì ετ έρ a εv τfi'lλλv ο ί δ ι, ώ ς'Εκαταΐος.</foreign>
+(Steph. Byz. a. v.).</p>
+						<p>54. - <foreign xml:lang="grc">*Ελ εvτιοι, ε &amp; v η ς της Ία πvγι a ς'Εκ.
+Εvρ.</foreign> (Steph. Byz. a. v.).</p>
+						<p>55. — <foreign xml:lang="grc">Χαvδάvη, πόλις Ία : ηvγίας.'Εκ. Εv -
+ριόπ η'* ε v δε Χαvδάvη πόλις, μετά δε Π εv-
+καΊοι ».</foreign> (Steph. Byz. a. v.).</p>
+						<p>56. - <foreign xml:lang="grc">Πεvκετίαv τες, ε&amp;v ο ς το ΐς Οίvώτ ρ ο ι ς
+πρόσεχες, ώς Έκ. Ευρ.</foreign> (Steph. Byz. a. v.).</p>
+					</div>
+					<div type="textpart" subtype="chapter" n="13">
+						<pb n="47"/>
+						<head>
+							<title>IX.
+<foreign xml:lang="grc">Ά δ ρίη</foreign></title>
+						</head>
+						<p>(<hi rend="italic">Frammento 57</hi>)</p>
+						<pb n="49"/>
+						<p>57. — <foreign xml:lang="grc">Άδρία, ττ ύλι ς, καί παρ' αυτήv κόλ-
+τιο ς Άδρίας, και ποταμός ομοίως, ώ ς'Εκ α-
+ταΐος.</foreign> (Steph. Byz. a. v.).</p>
+						<p>È assai discutibile se Ecateo, nella denominazione di
+<foreign xml:lang="grc">'Αδρία</foreign>, intenda parlare della città, del seno o del mare. Il
+frammento 58 (K1.-M.) ed i framm. 61, 69 (K1. M.) non danno
+luce sufficiente. Nel framm. 58 (K1.-M.) si parla della <foreign xml:lang="grc">ττόλις,</foreign>
+del <foreign xml:lang="grc">κόλτΐος Αδρίας e delττοταμυς ομοίως</foreign>; nel 61 del <foreign xml:lang="grc">κόλτιος,</foreign>
+e nel 69, a proposito degli Abroi, questi sono detti<foreign xml:lang="grc">έθvος
+προς τω'Αδρία.</foreign></p>
+						<p>Nella forma ionica <foreign xml:lang="grc">ο Αδρίης</foreign>, Erodoto pare accenni ad
+una regione, più che ad una città, come apparisce in più
+luoghi : « i Focosi egli dice, (I.163), per primi, si servirono
+della navigazione, c mostrarono ai Greci <foreign xml:lang="grc">τοv Αδρίηv»;</foreign> cosi
+IV. 33; e nel V. 9, dice « ... fino gli Eneti che abitano « <foreign xml:lang="grc">èv τω
+Αδριη».</foreign> Lo ps-Scylax (I. 14) dice : <foreign xml:lang="grc">Μετά τljv Αευκαvίαv Ιάττv-
+γες είοιv έθvος μέρυι Ώρίωvος οροvς του εv τω κόλττω τω
+Αδοία.</foreign></p>
+						<p>Polibio pare che accenni ad una regione, in più luoghi : </p>
+						<p>I.2. 4 : <foreign xml:lang="grc">κατά τοv Άδρίαv τόπωv,</foreign> II. 16 4 : <foreign xml:lang="grc">τής κατά τοv
+ Άδρίαv ϋαλάττης,</foreign> II. 17. 5 : VII. 19, 2 : <foreign xml:lang="grc">τοv Άδρίαv,</foreign>III.
+<pb n="50"/>
+86.8 : <foreign xml:lang="grc">htl τόv Άδρίαv;</foreign> e della città etrusca, è chiaro ricordo,
+fra gli altri, in Plutarco (Cam. i 6) : <foreign xml:lang="grc">από πό-
+λεως Άδρίας.</foreign></p>
+						<p>Grande dovette essere l’ importanza di questa città,
+forse dovuta al commercio etrusco, e ne deduco una prova
+sufficiente nel fatto che essa diede il nome al mare. La
+<foreign xml:lang="grc">Άδριατικη ϋάλαοοα</foreign> di Strabane (IV. 204), l’ <foreign xml:lang="grc">’Αδριατικόv πέ-
+λαγος</foreign> di Agatemero (I. 3) e di Ptolemeo (III. 15. 2; VIII. 9,
+2. 12, 2), limitato dapprima ad una profonda insenatura
+(mare.. Hadriaticum interius [Mela, I.17]), l’ <foreign xml:lang="grc">ΑδριαvΙ) ϋάλαοαα</foreign>
+dello ps-Scymnus (368), forma più regolare come derivata
+da <foreign xml:lang="grc">Άδρία</foreign> alla quale corrisponde in latino l’Hadriaticum mare
+(Prop. III. 20, 17; Verg. Aen. XI. 405; Luc. IV. 404; Sil.
+It. I. 54, X. 214; Claud. V 59) formano l’ <foreign xml:lang="grc">Άδριατικός κόλπος</foreign>
+(ps-Scymn. 374; Strab. II. 92; Polyb. II. 14. 6; 16, 7; III. 47,
+2; XXXIV. 6. 10). Fortunata denominazione che tendeva a
+scendere verso il sud, quando, dal sud al nord, le vicende
+politiche, e soprattutto la grande espansione delle colonie
+di Siracusa sui porti d’Italia e dell’Illirio, facevano guada-
+gnare estensione al <foreign xml:lang="grc">Ίοvίυς πόvτος</foreign> (Esch. Prom. 840; Eurip.
+Trojan. 225; Herod. VI. 127, VII. 20, IX. 92; Thuc. I. 24, 1;
+II. 95, 5; Hellan. [ap. Dionys. Hal. I. 10]).</p>
+						<p>E questo latto dell’ estendersi del mare Ionio verso
+Adria, dovuto, come ho detto, all’allargarsi del dominio
+greco, è visibile in Ecateo stesso al framm. 75 (Kl.-M) :
+estensione che pare non andasse più oltre di Hydruntum
+(Isocr. V. 21, ps-Scyl. 14-27; Polyb. VII. 19. 2; X. 1. 7; Mela II.
+67; Plin. III. 100), e, più tardi, del monte Gargano (Dion.
+Perieg. 380; Ptolem. III. 1, 1; 12-16), quantunque il fram-
+mento 59 accenni agl’Istri <foreign xml:lang="grc">h τω Ίοvίω κόλπω,</foreign> ciò che indi-
+cherebbe la massima estensione settentrionale del mare
+Ionio, poi denominato Adriatico.</p>
+					</div>
+					<div type="textpart" subtype="chapter" n="14">
+						<pb n="51"/>
+						<head>
+							<title>EMENDAZIONI ED AGGIUNTE</title>
+						</head>
+						<p>Quando io aveva già licenziato per la stampa la seconda
+parte di questi frammenti di Ecateo (cfr. « <hi rend="italic">Rivista di storia
+aulica »</hi> II. 2) mi fu dato di leggere il dotto lavoro di
+I<hi rend="smallcap">oaquin</hi> C<hi rend="smallcap">osta,</hi> <hi rend="italic">Estudios ihcricos</hi> e alcuni articoli da lui
+pubblicati nella <hi rend="italic">Rovista critica de historia</hi> y <hi rend="italic">literaturatura crai tir a espa-
+nolas</hi> (anno I n. 3). dai quali credo utile di trarre profitto
+per questa pubblicazione.</p>
+						<p>Io diceva (fase. I, pag. 50, fr. 3), a proposito di <foreign xml:lang="grc">Καλά!)η,</foreign>
+che una città di questo nome non è fin qui ubicabile, e che
+bisogna contentarsi della posizione che ad essa le assegna
+il frammento del milesio <foreign xml:lang="grc">(or rritnóf» rtor Ήοακλτΐωv στηλώv),</foreign>
+e mi mostrava proclive ad ammettere che Calathe sia da
+intendersi Calacte, cioè <foreign xml:lang="grc">καλή ακτή,</foreign> il luogo dalla bella riva,
+il <hi rend="italic">calaclicmn simun</hi> di Avieno (Or. mar. 424). II Costa invece
+(Estudios ibericos p. 104-105) a proposito del seno Calactmo
+dice : « este seno,... no es otro que la anchurosa abra donde
+desaguaba el Ebro antes de que la cegaran del todo los
+tarquinates depositados en un espacio de veinticuatro siglos,
+que forman allora el delta del rio, y persevera el nombre
+<pb n="52"/>
+en el de la punta del <hi rend="italic">Galacho</hi> que limita por mediodía y
+ocaso la boca del puerto de los Alfaques ». Alla quale opi-
+nione non credo di potermi associare, perchè vi si oppone
+lo stesso frammento di Ecatco che colloca la Calacte non
+lungi (<foreign xml:lang="grc">οv τιόοόω</foreign>) dalle colonne d’Ercole.</p>
+						<p>Molto ragionevole mi sembra invece quanto il Costa
+afferma intorno alla ubicazione di Tartessos. Mettendo a raf-
+fronto ciò che Erodoto (I, 163) dice intorno ad Argantonio, re
+dei Tartessi, e (IV. 152) la sua affermazione che i Samii, <hi rend="italic">pas-
+sate</hi> le colonne d’Ercole, arrivarono a Tartesso (<foreign xml:lang="grc">ΊΙοακλέας
+ατήλης διεκπεηήοηvτες ήπίκωτο εv Ταρτηααόv,</foreign>) è chiaro che Tar-
+tessos non può essere ubicabile nella Carteia (fase. I p. 52)
+come io credei, ma bisogna cercarla al di là delle colonne
+d’Ercole; e poichè Plin. (N. H. VII 49) e Val. Max. (VIII.
+14.) dicono <hi rend="italic">gaditano</hi> l’antico re tartessio Argantonio, poi-
+chè Cicerone (De senect. c. 19) dice che codesto re regnò
+in <hi rend="italic">Gades</hi> mi sembra giusto che la Tartessos sia ubicabile
+piuttosto in <hi rend="italic">Gades</hi> che in <hi rend="italic">Carteia</hi>, come pensa il Costa (l. c.
+p. 30, 32, 98), pur sostenendo quello che io già esternai,
+anzi meglio ancora confermandolo, che cioè il dominio di
+quella città dovesse estendersi nella Betiea, ossia lungo la
+bassa valle del Baetis.</p>
+						<p>Quanto al frammento 11 dove si parla di <foreign xml:lang="grc">Μολvβδάvη</foreign> città
+dei Masticai, crede il Costa (l. c. p. 84) che corrisponda
+alla <hi rend="italic">Barin</hi> di Plinio (<hi rend="italic">respublica Barensium</hi> in una iscriz.
+di Villaricos), essendo l’ibero <hi rend="italic">bari</hi> = <foreign xml:lang="grc">μύλvβδος.</foreign></p>
+						<p>E mentre plaudo ad dotto studio del Costa, non posso
+accomodarmi a ciò ch’ egli dice intorno ai popoli Tar-
+tessii quali egli li vede, nella loro migrazione, nella loro
+vita, nelle loro diverse posizioni sulla regione iberica, nelle
+loro lotte. Non discuto se sia giusto o no tutto questo mo-
+vimento storico sulla base di poche e molto discutibili fonti;
+in ogni modo esso si poggia su Avieno e su periegeti po-
+<pb n="53"/>
+stenori ad Ecateo, e non infirma ciò che io ho ripetuta-
+mente affermato, che cioè Ecateo abbia avuto a fonte l’epo-
+pea omerica e da essa, sopra tutto, abbia tratto le conoscenze
+geografiche di questo estremo occidente del mare mediter-
+raneo.</p>
+					</div>
+				</div></div>
+					</body>
+	</text>
+</TEI>

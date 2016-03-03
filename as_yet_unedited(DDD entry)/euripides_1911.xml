@@ -1,0 +1,3039 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IL CICLOPE</title>
+				<sponsor>University of Leipzig</sponsor>
+				<funder>European Social Fund Saxony</funder>
+				<principal>Gregory Crane</principal>
+				<meeting/>
+				<respStmt>
+					<persName xml:id="DDD">Digital Divide Data</persName>
+					<resp>Corrected and encoded the text</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Greta Franzini</persName>
+					<resp>Project Manager (University of Leipzig)</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Frederik Baumgardt</persName>
+					<resp>Technical Manager (University of Leipzig)</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Simona Stoyanova</persName>
+					<resp>Project Assistant (University of Leipzig)</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Bruce Robertson</persName>
+					<resp>Technical Advisor</resp>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>University of Leipzig</authority>
+				<idno type="filename">TO BE ADDED BY LEIPZIG</idno>
+				<availability>
+					<p>Available under a Creative Commons Attribution-ShareAlike 4.0 International License</p>
+				</availability>
+				<date>2015</date>
+				<publisher>University of Leipzig</publisher>
+				<pubPlace>Germany</pubPlace>
+			</publicationStmt>
+			<sourceDesc>
+				<listBibl xml:lang="it">
+					<biblStruct>
+						<monogr>
+							<title>IL CICLOPE</title>
+							<editor>
+								<persName>
+									<name xml:lang="it">da Ettore Romagnoli</name>
+								</persName>
+							</editor>
+							<author ref="urn:tmp">da Ettore Romagnoli</author>
+							<imprint>
+								<publisher>LA RINASCITA DEL ITBRO</publisher>
+								<pubPlace>CASA EDITRICE ITALIANA DI A, QUATTRINI – FIRENZE</pubPlace>
+								<date>1911</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+				</listBibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<p>Text encoded in accordance with the latest EpiDoc standards (January 2014)</p>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="it">Italian</language>
+				<language ident="grc">Greek</language>
+			</langUsage>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2015-01-14" who="dwp"/>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="bibliography">
+				<listBibl>
+					<bibl/>
+				</listBibl>
+			</div>
+			<div type="commentary" subtype="other">
+			<pb n="IX"/>
+				<p>Che cosa furono i Satiri? Sulle rozze ceramiche
+ove, dopo I' impenetrabile Medio Evo ellenico,
+incomincia a brillare qualche fioco riverbero della
+vita, vediamo apparire innumerevoli questi biz-
+zarri mostriciattoli semiequini. Danzano, ven-
+demmiano, folleggiano intorno al loro signore
+DiÒniso, irrompono petulchi sulle loro compagne
+d'orgia, le Mènadi. E un verso di Esiodo com-
+menta quelle figure :</p>
+				<ab>
+					<seg>La progenie dei Satiri fannulloni ed inetti.</seg>
+				</ab>
+				<p>Ma su che reali immagini la fantasia greca
+foggiò questi esseri grotteschi? Alcuni dotti fanno
+osservare la loro somiglianza con certe creature
+semiferine dell' arte egea, e da queste li fanno
+derivare, e, pel tramite loro, da mostruosi numi
+di religioni orientali. Altri li credono riflessi di
+popolazioni realmente esistite, che per taluni ca-
+ratteri etnici o del costume sembrassero strani e
+non umani. Ad ogni modo, il popolo greco
+sognò con essi l'eterno sogno delle genti oramai
+<pb n="X"/>
+costrette fra mura e fra convenzioni sociali. E
+in quasi tutte le pitture satiresche, anche nelle
+meno sottili e curate, aleggia il fresco sentimento
+d'una vita libera agreste, fra monti boschi ed
+acque (tav. 1-4). Quando il Nume Diòniso ir-
+ruppe dalla Tracia nativa, e corse la Grecia come
+un uragano vittorioso, i Satiri lo seguirono en-
+tusiasti. E, fidi compagni d' ogni sua vicenda,
+quando il Nume ascese il tragico podio, si ag-
+grupparono intorno a lui, partecipi anch'essi della
+sua gloria novella.</p>
+				<p>La tragedia di Diòniso fu dunque in origine
+un dramma satiresco. I corifei dei cori bacchici,
+che allegravano le feste di Diòniso, solevano fare
+alcune improvvisazioni (1). E vennero amplian-
+dole a mano a mano, sinchè Arione all' incom-
+posto dire improvviso sostituì dei versi, che affidò
+ai satiri; e chiamò questo coro ditirambo (2). Il
+ditirambo primitivo ebbe carattere buffonesco e
+satirico; e conforme al carattere fu il metro, il
+tetrametro trocaico, bene adatto alla danza (3).</p>
+				<note type="footnote">(1) Aristotele, Poetica. IV.</note>
+				<note type="footnote">(2) Strida, sotto Arione.</note>
+				<note type="footnote">(3) Aristot. poet. IV : Tό μέν γάρ πρώτον τετραμέτρψ
+έχρώντο διά το σατυρικήν καί όρχηστικωτέραν είναι τήν
+ποιησιν.</note>
+				<pb n="XI"/>
+				<p>Ma, a poco a poco, alle gesta di Diòniso si
+sostituirono quelle di altri eroi (1), il carattere
+buffonesco andò tramutando in serio, al veloce
+trocheo si sostituì il giambo discorsivo, Eschilo
+aggiunse un secondo attore, stremò i cori, fece
+primeggiare il dialogo. La tragedia era sorta,
+c ben poco somigliava oramai all' antico diti-
+rambo. Tutti potevano vederlo, facendo il con-
+fronto coi canti ditirambici che duravano ancora
+e mantenevano intatto il tipo originario. A un
+tratto sparvero pure i satiri, e furono sostituiti da
+un altro coro. Allora partì dalle file degli spet-
+tatori il famoso grido: <foreign xml:lang="grc">oΰsβν προς τόν Διόνυσον</foreign> : di
+Diòniso non c'è più nemmen l'ombra!</p>
+				<p>Si pensò allora, non sappiamo quando nè in
+quale circostanza, a ricondurre quello spettacolo,
+che rimaneva pur sempre ufficiale e sacro, alle
+sue prime origini. Ma l'arte raffinata non può
+semplicemente tornare agli incunaboli. Onde anche
+in Grecia si fece quello che con vocabolo mo-
+derno e francese si direbbe <hi rend="italic">pastiche :</hi> si riprodusse
+l'antico dramma satiresco coi raffinati strumenti
+<note type="footnote">(1) A Sidone, p. e., quelle di Adrasto, Erod. V. 67.</note>
+<pb n="XII"/>
+moderni. Analogamente nella plastica taluni ar-
+tefici ripetevano, con virtuosismo e squisitezza
+maggiore, le semplici e un po' rigide elegante
+arcaiche.</p>
+				<p>Questa l'origine del dramma satiresco. Il quale,
+dunque, del prisco dramma tragico suo modello
+serbava l'obbligatorio coro di Satiri, e quindi
+aveva attinenza più o meno stretta, più o meno
+stiracchiata, con leggende dionisiache; ma pel
+resto prese forma e linguaggio dai due tipi dram-
+matici che si venivano gloriosamente svolgendo,
+la tragedia e la commedia. Non è tuttavia senta
+interesse osservare che l'ingegnosissimo Euripide,
+meglio disposto dei suoi predecessori a sentire
+questo genere d'arte, riprende talora anche l'ori-
+ginario ritmo trocaico. Ecco due vaghissimi fram-
+menti del suo <hi rend="italic">Aaiolico satirico,</hi> perduto:</p>
+				<ab>
+					<seg>283
+E dal monte, entro panieri — legna portano i somieri.</seg>
+				</ab>
+				<ab>
+					<seg>284
+E le briglie di corteccia — pei corsieri intanto intreccia.</seg>
+				</ab>
+				<p>Il primo compositore di drammi satireschi, fu
+Fratina. A lui seguirono Aristia, e i tre grandi
+tragici, e una folla di minori, sino ad alcune
+tarde reviviscente bizzarre, una di Licofrone, una
+<pb n="XIII"/>
+attribuita, e non è certo che l’attribuzione sia
+falsa, ad Alessandro Magno.</p>
+				<p>Questa, in rapidissimi tocchi, la storia esterna
+del dramma satiresco. Dell' intima ci servono ad
+abbozzare una qualche immagine il <hi rend="italic">Ciclope</hi> d' Eu-
+ripide, unico esempio sopravvissuto, e un certo
+numero di frammenti; non moltissimi, ma più
+significativi che non si soglia credere. Vediamo
+i principali.</p>
+				<p>Eccone uno, misterioso e leggiadrissimo, dello
+stesso Fratina. Ateneo, che lo riferisce, non dà
+alcuna notizia interessante sul contesto da cui
+lo tolse. Sembra però il canto d' uscita d'un coro
+satiresco, che trovi ingombra l' orchestra da in-
+trusi, e faccia valere alto i proprî diritti ad esal-
+tare il Nume (1).</p>
+				<p>Che è questo frastuono? Che è mai questa danza?</p>
+				<p>Qual tracotanza
+ruppe sulle sonore dionisiache scene?
+È mio, Bacco, mio solo! Solo a me s'appartiene
+strepitare, e gran voci tra le Ninfe dei fonti
+levar sui monti.
+<note type="footnote">(1) Cfr. Scoi. Iliad. Z. 153.</note>
+<pb n="XIV"/>
+come cigno che spiega l’armonioso canto.</p>
+				<p>Alla voce, la diva pieria il regno diè :
+in coda resti il flauto, cbè servo egli sol è!</p>
+				<p>Sia fra I’ orgie soltanto
+egli duce, e degli ebbri giovani fra le lotte I</p>
+				<p>Giù, bòtte
+al rospo gracidante! Ardi quel calamo
+garrulo, rozzo,
+che va fuori di tempo, che di saliva è sozzo,
+quel serpentello
+forato col trivello!</p>
+				<ab>
+					<seg><hi rend="italic">incominciano a danzare</hi></seg>
+				</ab>
+				<p>Mira, per te la mano ed il piede, agili
+leviamo a volta a volta :
+questa dorica danza, o cinto d' ellera</p>
+				<p>Signore, o Re del ditirambo, ascolta.</p>
+				<p>Anche se tolto a un dramma satiresco, appar-
+tenne dunque alia parte lirica: e ricorda infatti
+il coro d' uscita dei satiri nel <hi rend="italic">Ciclope</hi>. Nè di
+Fratina potremmo dir altro.</p>
+				<p>Poco più sappiamo di Eschilo. Pare che nella
+sua <hi rend="italic">Fuga di Sisifo,</hi> Sisifo, l'uomo più fino del
+mondo, riuscisse ad ingarbugliare lo stesso dio
+dcll'Avemo, e, rotte le porte dell'Ade, tornasse
+alla luce. Da qualche frammento intravvediamo
+una scena. Sisifo sbuca dal suolo, tutto imbrattato
+<pb n="XV"/>
+di terra, e senza più figura umana. Alla bella
+prima i Satiri lo pigliano per una talpa (1):</p>
+				<ab>
+					<seg>227
+E un topo campagnuolo.... eh, coni’ è grosso!</seg>
+				</ab>
+				<p>Parrebbe anche insorgesse discussione fra i
+satirelli: e che un altro lo prendesse invece per
+uno degli scarafaggi dell' Etna, celebri per favo-
+losa grossezza, intento alla sua poco fragrante
+bisogna. (Framm. 233).</p>
+				<p>Forse a Sisifo, appena uscito dalla terra, e
+mezzo tra vivo e morto, si riferivano le parole :</p>
+				<ab>
+					<seg>230
+Nè tu vigore hai più, nè corre sangue
+per le tue vene.</seg>
+				</ab>
+				<p>Ancora. Orazio paria, in una sua satira fa-
+<note type="footnote">(1) Mi confermano, nella ricostruzione di questa scena,
+parecchi vasi nei quali vediamo satiri sbigottiti dinanzi a
+una testa colossale (Cora) che erompe improvvisa dal
+suolo (Annali dell'lstituto, 1884; v. fav. 5). In tutte
+le commedie, e massime nella greca, si determinano certi
+motivi o anche schemi comici, sui quali i vari poeti rica-
+mano infinite variazioni. Lo stesso dovè avvenire per il
+dramma satirico. E questa di Sisifo sarebbe dunque nuova
+variante d'un solito motivo.</note>
+<pb n="XVI"/>
+mosa, d'un appassionato dilettante di cose an-
+tiche che soleva andar cercando il catino di bronzo
+in cui quel furbacchione di Sisifo soleva lavarsi
+i piedi (II, 3, 21):</p>
+				<ab>
+					<seg>Quo vafer ille pedes lavisset Sisyphus aere.</seg>
+				</ab>
+				<p>E vicn fatto di pensare che non sia espressione
+generica, e che nel mito di Sisifo qualche parte
+quel bacino l' avesse, quando vediamo che nel
+dramma di Eschilo qualcuno diceva:</p>
+				<ab>
+					<seg>225
+Il bacile si rechi, ove si lavino
+i piè divini. Ov' è la catinella
+erta su bronzee leonine zampe?</seg>
+				</ab>
+				<p>E per Eschilo siamo già quasi all'asciutto. Una
+situazione ha intravvista, e mi sembra assai fe-
+licemente, Lionello Levi, da due brani, di Apol-
+lodoro e di Nonno (1). In quello si dice (III, 5, 1),
+che quando DiÒniso, inseguito da Licurgo, si pre-
+cipitò in mare e trovò rifugio presso Tetide, le
+Mènadi e tutta la schiera dei Satiri rimasero pri-
+<note type="footnote">(1) Lionello Levi, Intorno al dramma satirico, in Ri-
+vista di storia antica. Anno ΧΠ, 3, pag. 201 sg.; e Il
+Licurgo di Eschilo, in Atene e Roma, Anno ΧΠ α. 127,
+128, pag. 241 sg.</note>
+<pb n="XVII"/>
+gionicri del re. E in Nonno il re degli Edoni,
+rispondendo ad Iride, che in nome di Era I' ha
+aizzato contro il dio del vino, dice (XX, 226-7) :</p>
+				<ab>
+					<seg>226
+E con la lunga dei Sileni ombrifera
+coda, una sferza pei corsieri io faccio.</seg>
+				</ab>
+				<p>E poco dopo (248-50):</p>
+				<ab>
+					<seg>248
+Ed i vecchi Sileni sollazzevoli,
+vicino al desco del banchetto mio,
+invece che Lïèo, com’ eran soliti,</seg>
+				</ab>
+				<p>Il Levi osserva bene che il trattamento più
+comico che crudele minacciato ai Sileni e la loro
+condizione di schiavi costretti a servire in tavola
+e a sollazzar col canto un signore feroce, son
+due motivi fra i più adatti a un dramma sati-
+resco; e il primo ricorre poi per I' appunto nel
+<hi rend="italic">Ciclope</hi> euripideo.</p>
+				<p>Ecco briciole anche più minute.</p>
+				<p>Nell' <hi rend="italic">Amimone,</hi> Danao (1) mandava ad attin-
+gere acqua le figliuole. Una di queste, Amimone,
+scagliava uno strale contro un cervo, e colpiva
+<note type="footnote">(1) Di Inaco. V. Apollodoro, II. 1. 4. 7.</note>
+<pb n="XVIII"/>
+un satiro dormente, il quale, balzato sù, voleva
+prenderla. E pare dicesse, e chi sa che vecchiac-
+cio sarà stato:</p>
+				<ab>
+					<seg>13
+Tu sei già da marito, e io da moglie.</seg>
+				</ab>
+				<p>Ma giungeva Posidone, scacciava il satiro, e
+aveva lui la fanciulla.</p>
+				<p>Dei <hi rend="italic">Raccoglitori d'ossa</hi> (quei poveracci, pare,
+che andavano a raccattare gli avanzi dei sacrifici),
+non sapremmo dir proprio nulla. Ma ne posse-
+diamo per compenso due frammenti che in tanta
+miseria si possono dir notevoli. Vivaci c di saper
+comico, fanno pensare forse a una parodia della
+scena omerica fra Ulisse e i Proci. Qualcuno si
+lagna dei cattivi trattamenti inflittigli :</p>
+				<ab>
+					<seg>179
+Eurimaco, anche lui, non men che gli altri,
+d' obbrobriosi oltraggi mi coperse;
+e la mia testa eragli ognor bersaglio.</seg>
+				</ab>
+				<p>Bersaglio a poco nobili proiettili. Ecco infatti
+un' altra recriminazione, forse del medesimo per-
+sonaggio :</p>
+				<ab>
+					<seg>180
+Questi è colui che contro me scagliò
+un ridicolo dardo, un orinale</seg>
+				</ab>
+				<ab>
+				    <pb n="XIX"/>
+					<seg>puzzolente; nè il colpo andò fallito.
+Naüfragò, picchiando sul mio capo,
+e, ridotto in frantumi, una fragranza
+d’ altro che mirra m’ alitò sul viso.</seg>
+				</ab>
+				<p>E finalmente pare si debba attribuire a un
+dramma satiresco dΈschilo la scenetta a cui al-
+lude Plutarco. Un satiro, vedendo il fuoco la
+prima volta, nella sua lascivia si lanciava per
+baciarlo. Onde Prometeo lo ammoniva :</p>
+				<ab>
+					<seg>207
+Bada, ti brucerai, becco, la barba!</seg>
+				</ab>
+				<p>Passiamo a Sofocle, e al suo <hi rend="italic">Contegno degli
+Achei</hi>. Prima che i Greci mossi a vendicare il
+ratto d'Elena, sbarcassero nella Troade, Aga-
+mennone aveva dato un banchetto senza invi-
+tare Achille. Di qui le furie dell' eroe che nel
+dramma satiresco avranno certo dato origine a
+scene burlesche e a commenti dei satiri. Ne ri-
+mane un frammento da cui si ricava che si
+ammanniva sulla scena un pranzetto :</p>
+				<ab>
+					<seg>138
+Qui, portate, impastate, riempite
+una tazza capace. È come un bove,
+l’amico, qui. Non mangia? Non lavora.</seg>
+				</ab>
+				<pb n="XX"/>
+				<p>Altri versi appartenevano certo ad Ulisse. Rim-
+proverava Achille, dicendogli che la vera causa
+del suo sdegno contro Agamennone non era
+già il mancato invito, ma la paura di affrontare
+Ettore :</p>
+				<ab>
+					<seg>141
+Appena viste le troiane mura,
+tremi di già.</seg>
+				</ab>
+				<p>E poi:</p>
+				<ab>
+					<seg>Perchè sguisci, lo so : non per paura
+che si sparli di te (1); ma s' avvicina
+Ettore : e rimanere non è comodo.</seg>
+				</ab>
+				<p>Achille non stava zitto, e gli rimproverava la
+sua discendenza dal furbo Sisifo:</p>
+				<ab>
+					<seg>142
+Come si vede in tutto, o scellerato,
+che di tua madre Sisifo era padre.</seg>
+				</ab>
+				<p>Ulisse gli combinava una risposta ben più ma-
+ligna. Achille era giovanissimo, e, pare, azzimato
+e profumato : e lo chiamavano abitualmente il
+figlio di Tetidc. Ulisse giustificava ironicamente
+questo uso :</p>
+			    <ab>
+			        <seg>139
+			            Uno che pare un ragazzetto, e il mento</seg>
+			    </ab>
+				<p>
+<note type="footnote">(1) Per l'offesa che gli aveva fatto Agamennone non invi-
+tandolo. Intendo così, ma è possibile un'altra interpretazione.</note>
+
+</p>
+<pb n="XXI"></pb>
+				<ab>
+					<seg>ha così profumato, ed è figliuolo
+d'una tal madre, o come non chiamarlo
+col nome di sua madre? (1)</seg>
+				</ab>
+			    <p>A Sofocle apparteneva anche un <hi rend="italic">Salmoneo.</hi>
+Salmoneo era quello sbruffone, famoso presso gli
+antichi, che voleva tener testa a Giove. Trasci-
+nava legati al carro, dice Apollodoro, otri di
+cuoio indurito e gran bacili di bronzo rumoreg-
+gianti, e diceva che tuonava. Lanciava contro
+il cielo fiaccole accese, e diceva di fulminare.
+Giove, seccato, gli azzeccò una saetta sul serio,
+e la fece finita.</p>
+				<p>Che Apollodoro abbia tolte appunto dal dram-
+ma di Sofocle queste notizie, non lo giurerei.
+Certo il soggetto par fatto apposta per un dram-
+ma satiresco. E un paio di versi mi pare con-
+tengano una sconcia beffa dei satiri che non pi-
+gliavano troppo sul serio quei tuoni:</p>
+				<ab>
+					<seg>495
+Or or ti coglie l’ alito fulmineo
+del tuono e della puzza.</seg>
+				</ab>
+				<note type="footnote">(1) Pongo al fine dei versi un punto interrogativo. E-
+spungo le ultime due parole, che mi sembrano un’aggiunta
+sforzata. Lasciandole, il contesto s’impesantisce ma non di-
+viene però sconnesso : pur essendo lecito chiamarlo col nome
+del padre (come s’ usava abitualmente).</note>
+				<pb n="XXII"/>
+				<p>Frammenti sofoclei di estensione o di conte-
+nuto apprezzabile non ce ne rimangono più. Tra
+i soggetti meno incerti possiamo ricordare quello
+dei <hi rend="italic">Satiri muti,</hi> esplicitamente riferito da uno
+scoliaste (1). Quando Prometeo largì il fuoco
+agli uomini, questi, ingrati, riferirono la man-
+canza a Giove. Giove lodò, e regalò un far-
+maco di eterna giovinezza ai delatori. Questi
+io caricarono su un asino; e pervenuti ad una
+fonte custodita da un serpente, donarono a questo,
+pur che permettesse loro di dissetarsi, il farmaco
+prodigioso. Perciò i serpenti cambiano pelle ogni
+anno. E quello che custodiva il fonte si attaccò
+la sete, e la inoculò poi inestinguibile a chiunque
+mordesse.</p>
+				<p>Ed eccoci infine ad Euripide, che, anche senza
+contare il <hi rend="italic">Ciclope,</hi> è stato il meno maltrattato
+dal tempo.</p>
+				<p>Nell' <hi rend="italic">Eisrisieo</hi> si svolgeva il solito argomento
+delle fatiche d' Ercole. Il re lo inviava a cattu-
+rare il cane Cerbero. Ed Ercole:</p>
+				<ab>
+					<seg>371
+Tu mandi all' Orco un vivo e non un morto!
+È per me questo I' ultimo viaggio.</seg>
+				</ab>
+				<note type="footnote">(1) Scoi. Nic. Ther. 343.</note>
+				<pb n="XXIII"/>
+				<p>Pare sorgessero discussioni sui meriti d'Èrcole,
+e sui falsi apprezzamenti degli uomini. Ercole,
+figlio di Giove e della moglie d'Anfitrione, po-
+teva in qualche modo esser considerato spurio :
+e su questo scherza anche Aristofane nella nota
+scena degli Uccelli in cui l'eroe, con Posidone e
+col Nume Triballo, s'è recato da Gabbacompagno,
+il fondatore dell' aerea Nubicuculia, che vuole
+strappare la sovranità a Giove. Posidone gli dice
+che se Giove cede, alla sua morte egli, figlio ed
+erede di Giove, non avrà più nulla.</p>
+				<p>Ma Gabbacompagno (1645):</p>
+				<ab>
+					<seg>Ah, pover' omo, come ti raggira!
+Vien qui vicino a me, ne sentirai
+delle belle! (a parte) Tuo zio ti mette in mezzo,
+poveraccio! Dei beni di tuo padre
+non te ne tocca un picciolo, per legge.
+Sei figlio spurio, tu, non sei legittimo!</seg>
+				</ab>
+				<p>ERCOLE</p>
+				<p>Spurio io? Ma che dici?</p>
+				<p>GABBACOMPAGNO</p>
+				<p>Eh, sì, per Giove,</p>
+				<p>tu in persona!</p>
+				<p>Dicevamo che nell' <hi rend="italic">Euristeo</hi> di Euripide ci dovè
+<pb n="XXIV"/>
+esser qualche cosa di simile. E un personaggio
+prendeva la difesa dei bastardi:</p>
+				<ab>
+					<seg>377
+A marcio torto gli uomini non vogliono
+procreare bastardi. Il solo nome
+non può render dappoco un valoroso.</seg>
+				</ab>
+				<p>E a quest' ordine d' idee apparteneva anche
+I' altra riflessione:</p>
+				<ab>
+					<seg>378
+Chi ha molti cavalli, or viene iscritto
+fra i primi, e a chi vai più di lui comanda;
+e i fatti valgon meno dei quattrini.</seg>
+				</ab>
+				<p>Si capisce che gran parte del dramma dovè
+essere occupato dalle prodezze compiute da Eracle
+nell' Avemo. Da un frammento sembra si possa
+indurre che dinanzi all' eroe si parassero statue
+semoventi. E qualcuno, forse I' eroe stesso, a un
+vecchio, forse Sileno, diceva :</p>
+				<ab>
+					<seg>372
+Vecchio, non c' è da spaventarsi. Sembrano
+muoversi tutte e favellar, le statue</seg>
+				</ab>
+				<p>di Dedalo. Eh! Quell' uomo era un portento.
+Forse a Cerbero si riferivano le parole:</p>
+				<ab>
+					<seg>375
+Ha da esser fedele, un servo simile!
+Ha da badare ai beni del padrone!</seg>
+				</ab>
+				<pb n="XXV"/>
+				<p>E son forse dell' eroe, che, come si vede, e co-
+m' è ovvio sopporre, non si spaventava troppo.
+Un' eco delie lotte da luί sostenote contro gli
+spiriti infernali soona forse nel racconto :</p>
+				<ab>
+					<seg>373
+Lungi col ferro della negra spada
+ei le tien : come spighe egli le falcia.</seg>
+				</ab>
+				<p>Qoalcono ci doveva però rimaner male; Si-
+leno, per esempio, al qoale avveniva qoi sol serio
+ciò che nel Ciclope (v. 239 sg.) egli, per iscosarsi
+col mostro, finge gli sia avvenoto: gli pestavano
+gli occhi. Onde i poco pietosi soci figlioli, i sa-
+tirelli, lo canzonavano:</p>
+				<ab>
+					<seg>374
+Che lividi t' haa fatto, eh, sotto gli occhi!
+Una coppa hai da metterci, uno staccio. (1)</seg>
+				</ab>
+				<p>Del <hi rend="italic">Sileo</hi> possiamo ricostroire la tela, grazie
+ad un brano di Filone giudeo che riferisce anche
+alcuni frammenti.</p>
+				<p>Ercole, dunque, era stato venduto. Ma neppure
+adesso aveva sembianza di servo, chè spauriva
+chi lo mirasse, sì da sembrare non soltanto li-
+<note type="footnote">(1) Forse come ventose. Ma il brano non è chiaro. Cfr.
+Aristofane, Uccelli, 361.</note>
+<pb n="XXVI"/>
+bero, ma il padrone lui di chi lo aveva compe-
+rato. Onde Ermete, a chi gli chiedeva se il figlio
+d'Alcmena fosse un dappoco :</p>
+				<ab>
+					<seg>688
+Dappoco? Punto! Devi dir l'opposto.
+Dignitoso d' aspetto e non meschino,
+nè tutto pancia, come sono i servi,
+ma, lo vedessi, tutto lindo e pinto.
+Ed un randello ha, poi, che fa miracoli!</seg>
+				</ab>
+				<p>Un servo simile non è sempre comodo :</p>
+				<ab>
+					<seg>689
+Niuao vorrà tirarsi in casa servi
+più padroni di lui. Tu, chi ti guarda
+trema : hai lo sguardo tutto fiamme, come
+toro che aspetti d' un leone il cozzo.</seg>
+				</ab>
+				<p>Ed il padrone :</p>
+				<ab>
+					<seg>690
+Lo stesso aspetto tuo t' accusa. Stai
+zitto, come übbidir non mi volessi,
+e far tu da padrone ed io da servo.</seg>
+				</ab>
+				<p>Ercole teneva duro, e gli spiattellava che non
+si aspettasse mai da lui complimenti:</p>
+			    <ab>
+			        <seg>687
+			            Ardi, le carni bruciami, rimpìnzati
+			        bevendo il negro sangue mio. Chè prima
+			            sprofonderanno nella terra gli astri</seg>
+			    </ab>			
+<pb n="XXVII"/>
+<ab>
+<seg>e s' alzerà nell' ètere la terra
+che il labbro io pieghi a verbo adulatore.</seg>
+				</ab>
+				<p>Tuttavia Sileo s' induce a comperarlo, e lo
+manda a lavorar la vigna. E mal glie ne inco-
+glie. Eracie sbarbica le viti, ne fa un bel muc-
+chio, e col pretesto d'offrire un sacrifizio a Giove,
+sgozza il bove più pingue, e lo fa arrosto. E
+sfonda poi l'uscio di cantina, e adopera per ta-
+vola le imposte, e stappa il tino più grosso, e
+mangia e beve e canta. Una scena simile, certo
+più grottesca e buffonesca, a quella che possiamo
+leggere nell' <hi rend="italic">Alcesti</hi> dello stesso Euripide. Arriva
+Sileo, ma Ercole non si fa nè in qua nè in là:
+lo sfida a chi trinca di più :</p>
+				<ab>
+					<seg>691
+Siedi, e beviamo : e aver di me potrai
+sùbito un saggio, se di me più vali.</seg>
+				</ab>
+				<p>E pare gli ordinasse per giunta di recare frutta
+e leccornie.</p>
+				<p>Questa scena di vandalismo sembrerebbe di
+veder riprodotta in una rozza pittura vascolare (1).
+Molto più fine è l'altra che qui riproduciamo
+(pag.XXVIII), e che, sebbene si riferisca ad altro sog-
+<note type="footnote">(1) Annali dell'lstituto, 1878, tav. C.</note>
+<pb n="XXVIII"/>
+Eracle che manomette le masserizie d'una casa.
+getto, e non sembri attingere a dramma satiresco,
+è però ispirata al medesimo motivo.</p>
+				<p>Come nel mito finisse la storiella è variamente
+narrato. O sviava dall' alveo un fiume, e som-
+mergeva ogni cosa : o accoppava Sileo e la figlia.
+Ma nel drammetto d'Euripide la fine era meno
+tragica. Pare lo dimostrino due frammenti. Il
+primo ha l'aria d'una esortazione erotica :</p>
+				<pb n="XXIX"/>
+				<ab>
+					<seg>694
+Entriamo, andiamo a letto. Eh via, rasciuga
+quelle lacrime!</seg>
+				</ab>
+				<p>Anche più equivoco è I' altro:</p>
+				<ab>
+					<seg>693
+Svegliati, andiamo, sù, piòlo caro,
+mostrati audace!</seg>
+				</ab>
+				<p>Nudi titoli, magre esposizioni, briciole di versi,
+potremmo racimolare ancora nei monumenti let-
+terarî : nulla più che realmente illumini. Qualche
+cosa vediamo invece nelle rappresentazioni cera-
+miche.</p>
+				<p>Il posto d' onore spetta al celebre vaso di Brygos.
+Le rappresentazioni che lo adornano risalgono
+senza dubbio a drammi satireschi (Tav. 6).</p>
+				<p>Nella prima vediamo un’ ara, e dietro ad essa
+un magnifico Diòniso, solennemente vestito, con
+una gran coppa nella sinistra, e uno scettro nella
+destra. Persona o idolo? Direi piuttosto idolo, per
+quanto sembri che segua con un certo interesse,
+quasi con meraviglia, la scena che si svolge sotto
+i suoi occhi.</p>
+				<p>Iride, una bellissima ragazza con vesti ampie
+svolazzanti, con un magnifico paio d'ali e una
+<pb n="XXX"/>
+cuffia in testa, si lancia verso destra. Nella si-
+nistra impugna un caduceo. Essa è venuta dun-
+que in terra, messaggera di Giove. Ma è capi-
+tata male : fra una compagnia di satiri. Ne ve-
+diamo tre che le si precipitano addosso: due
+l' hanno già ghermita, e sembrano contendersela.
+Si salverà? Chi potrebbe dirlo? Negli <hi rend="italic">Uccelli</hi> di
+Aristofane troviamo una scena perfettamente
+uguale a questa, e lì la messaggera celeste se
+la cava con la paura. Ma i satiri eran certo più
+pericolosi compagnoni che non il salace vecchietto
+Gabbacompagno.</p>
+				<p>Certo si sarà salvata Era che vediamo nel-
+l' altra figura. Anch' essa è accerchiata da satiri,
+che, senza un rispetto al mondo per la sposa di
+Giove, le si fanno addosso. Ma Era trova i di-
+fensori. Ermete, innanzi tutto, che, impugnando
+il suo bravo caduceo, sbarra la via, e con un
+espressivo gesto della mano, li trattiene, e sembra
+perori e li dissuada con le buone dal nefando sa-
+crilegio. Ma non tanto dal gesto ermetico i Satiri
+saranno indotti alla titubanza evidentissimamente
+espressa nelle loro movenze, quanto dalla più
+energica azione del secondo difensore, che è nien-
+temeno Ercole. L' eroe si precipita contro la sel-
+vatica masnada, stringendo con la sinistra l'arco,
+<pb n="XXXI"/>
+con la destra la clava. La soluzione non sarà
+stata neppur qui troppo cruenta. Conosciamo bene
+il coraggio dei Satiri; e nessun dubbio che di
+fronte all’indiscutibile eroe si saranno condotti
+con la massima prudenza.</p>
+				<p>Interessantissima è anche la scena d’un vaso
+a figure nere (Tav. 7). Siamo, a giudicar dalla
+palma, in paese orientale. Quattro satiri hanno
+afferrato una vecchia negra, brutta e flaccida,
+l’hanno legata, mani e piedi, a un albero, e la
+torturano. Uno la fustiga, uno le strappa la lin-
+gua con le tenaglie, un terzo sta per ghermirle
+e dilaniarle i seni e infliggerle con una torcia
+una più oscena tortura, un quarto accorre a per-
+cuoterla con un pestello gigantesco. A dritta un
+ultimo satiro se ne sta tranquillamente appog-
+giato a un bastone, e sembra ci guardi negli
+occhi. Max Mayer, che pubblicò il vaso (1), crede
+sia il corifeo, forse Sileno, che fa i suoi grotteschi
+commenti alla macabra scena. È assai probabile.
+Certo sembra ad ogni modo che la scena sia in-
+spirata ad un dramma satiresco.</p>
+				<p>A quale, di qual soggetto, non sapremmo dire.
+Ma vediamo, ed è interessante, che anche la Musa
+<note type="footnote">(1) Nelle Athenische Mitiheilungen, 1891, tav. XX.</note>
+<pb n="XXXII"/>
+satiresca non isdegnò il tesoro di leggende e su-
+perstizioni popolari a cui tanto attingeva la com-
+media. Quella vecchia non è una vera e propria
+persona mitica. È una delle tante streghe, o
+Lamia, o Akkò, o Makkò, o Empusa, di cui ra-
+gionavano a veglia le donnicciuole d' Atene, e
+imputavano ad esse ogni sorta di ribalderie e
+malefici (1).</p>
+				<p>Qui la vediamo scontar la pena: e possiamo
+esser sicuri che il popolino d’ Atene non si sarà
+troppo intenerito pel suo martirio. Che poi l'in-
+trusione di simili creature nel regno dei Satiri
+non fosse eccezionale, lo vediamo da un' altra
+rappresentazione vascolare, in cui un satiretto
+fornito di fiaccola e di tamburello s' irrigidisce
+inorridito davanti ad una orribile Megera. Inte-
+ressante è vedere che il popolino attribuiva a
+queste creature mostruose i lineamenti della razza
+negra. Anche per la nostra plebe, la romana, per
+esempio, o la siciliana, uno spauracchio è sempre
+un moro. E nelle nostre figure il carattere etnico
+è così nettamente definito, che non so vederlo
+senza pensare alla mirabile pittura del <hi rend="italic">Moreitum</hi>
+virgiliano (v. 31 sg.) :</p>
+				<note type="footnote">(1) Cfr. il mio lavoro Ninfe e Cabiri, nel volume Mu-
+sica e poesia dell'antica Grecia, Bari Laterza 1911.</note>
+<pb n="ΧΧΧΙII"/>
+				<ab>
+					<seg>Interdum clamai Scybalen. Erat unica custos,
+afra genus, tota patriam testante figura,
+torta cornarti, labroque tumcns et fusca colore,
+pectore lata, jacens mammis, compressior alvo,
+cruribus ezilis, spatiosa prodiga pianta,
+continuis rimis calcanea scissa rigebant.</seg>
+				</ab>
+				<p>Sileno ed i Satiri avevano pure ima pagina
+gloriosa nella loro vita fannuliona : avevano,
+nella lotta dei Numi contro i Giganti, combat-
+tuto a fianco del loro nume Diòniso. Poi erano
+divenuti così sfiaccolati e svergognati, che il loro
+capo Sileno, ripensando a quella sua gesta, si
+chiedeva se non fosse stato per avventura un
+sogno (<hi rend="italic">Ciclope</hi>, v. 9). Non fu sogno. E anche
+le opere d’ arte serie e indipendenti dal dramma
+satiresco la glorificarono (tav. 8).</p>
+				<p>Ma, naturalmente, anche il dramma satiresco
+dovè spesso esaltarla. Quello, per esempio, a cui
+probabilmente si ispirarono le due rappresentazioni
+pubblicate pure da Max Mayer (tav. 9-10) (1).</p>
+				<p>Li vediamo nella prima lanciarsi intrepidi, con
+le lance fieramente brandite, dietro il loro Nume
+che ha già rovesciato e trafigge il suo nemico.
+Nell' altra, due di essi si sono aggiogati al coc-
+chio, un loro compagno regge le redini, e un
+<note type="footnote">(1) Die Giganten und Titanen, Tav. Π, pag. 324.</note>
+<pb n="XXXIV"/>
+altro soffia con piglio eroico nella gran tromba
+di guerra.</p>
+				<p>Ed anche i monumenti figurati oramai ci ab-
+bandonano. Tra le infinite repliche di scene sa-
+tiresche possiamo quasi certamente ritenere ispi-
+rate ad azioni sceniche quelle in cui satiri sbi-
+gottiscono dinanzi alla testa di Medusa presentata
+da Perseo; o retrocedono sgomenti dinanzi a
+Diòniso e Cora emergenti improvvisi dal suolo
+(cfr. tav. 5) o approfittano del momento in
+<pb n="XXXV"/>
+cui Ercole dal rogo fatale ascende nel cocchio
+dell' apoteosi olimpica (fig. 13) per rubargli le
+armi. Meno sicuri sono i rapporti col dramma
+satiresco della rappresentazione in cui un satiro
+ballonzola dinanzi al carro, tirato da quattro
+centauri, che conduce Ercole all' Olimpo, e del-
+I' altra, bellissima, in cui l'eroe, accompagnato da
+Satiri e da Menadi, s’ è sdraiato sotto la finestra
+d' una bella, e una vecchia s'affaccia e gli ro-
+vescia addosso una brocca d'acqua (1).</p>
+				<note type="footnote">(1) Beandotf, Griechische und sicilische Vasenbilder,
+tav. 44.</note>
+				<pb n="XXXVI"/>
+				<p>Dobbiamo ora varcare molti anni, e recarci dal
+suolo sacro d'Atene alle sponde barbariche del-
+l'Idàspe. Qui, nel 324, Alessandro vittorioso ce-
+lebrò feste dionisiache. E vi fu rappresentato un
+dramma satiresco dal titolo non comprensibile,
+l'<hi rend="italic">Agén,</hi> Ateneo che lo riferisce, è incerto se ne
+fosse autore un certo Pitone di Catania o un
+Pitone di Bisanzio, o addirittura lo stesso Ales-
+sandro. Ragioni plausibili per escludere l'ultima
+seducente attribuzione, non ne vedo. Comunque,
+per intendere il frammento che Ateneo riferisce,
+non breve e non spregevole, bisogna brevemente
+riandare le vicende di Arpalo, l'infedel tesoriere
+di Alessandro.</p>
+				<p>Arpalo aveva seguito Alessandro in Asia Mi-
+nore, e, compiute malversazioni, era fuggito
+prima della battaglia d'lsso. Perdonato e richia-
+mato, raggiunse il re a Tiro, e riprese il suo
+ufficio. Quando Alessandro lo lasciò e proccdè
+alle sue conquiste, egli ad Ecbatana e in Babi-
+lonia dilapidò nuovamente i tesori del re. Fece
+venire da Atene la famosa cortigiana Pitonice,
+e, poi che fu morta, le fece elevare due tumuli,
+<pb n="XXXVII"/>
+uno ad Ecbatana, l'altro ad Atene A Pitonico
+succede Glicera, e fu trattata con uguale muni-
+ficenza.</p>
+				<p>Così operando, Arpalo s' illudeva che Ales-
+sandro non sarebbe tornato più mai dall' audace
+gesta. Quando poi seppe che tornava trionfatore,
+s'impadronì di cinquemila talenti, accozzò seimila
+mercenarî, e fece vela per l'Attica. E lasciati
+uomini e flotta al capo Tenaro, si recò ad Atene
+che in ricompensa d'un ricchissimo dono di fru-
+mento da lui ricevuto, gli aveva conferito la
+cittadinanza. Ma non gli diè allora altro pratico
+appoggio; ed egli dovè tornare ai suoi mer-
+cenarî, e con questi si recò a Creta dove fu poi
+ucciso.</p>
+				<p>Ed ecco senz' altro il frammento, che è un
+dialogo fra due non identificabili personaggi:
+Pallide pare sia nomignolo dato burlescamente
+ad Arpalo (1).</p>
+				<ab>
+					<seg>A
+Dove tal pianta cresce, ivi un fastigio
+sorge, agli alati impervio; e a manca è il tempio
+della bagascia. Il costruì Pallìde,
+e sè stesso punì poi con la fuga.</seg>
+				</ab>
+				<note type="footnote">(1) Come da pallakîs, mantenuta.</note>
+				<pb n="XXXVIII"/>
+				<p>Alcuni maghi barbari, vcggendolo
+ridotto a mal partito, lo convinsero
+ch' essi rïevocar saprebber l' anima
+di Pitonìce al sole. — Ma desidero
+da te qualche notizia aver dell'Attica:
+ne son lungi da un secolo! Gli affari
+là, come vanno? Come se la passano?</p>
+				<p>B</p>
+				<p>Quando la loro vita assimigliavano
+a quella degli schiavi, tanto tanto
+combinavano il pranzo : ora non mangiano
+che baccelli e finocchi : e addio panfresco!</p>
+				<p>A</p>
+				<p>Ma, sento dire, vettovaglie a iosa,
+al par d'Agèno, a lor spediva Arpàlo :
+sì che gli han data la cittadinanza.</p>
+				<p>A</p>
+				<p>Erano vettovaglie di Dolcetta :
+arra non di dolcezza ma di guai.</p>
+				<p>Non sapendo chi fosse Ageno, non intendiamo
+il quartultimo verso : e oscuro rimane pure lo
+scherzo sul nome di Dolcetta (Glicera). Del rest'
+se non avessimo esplicita testimonianza cb
+frammento appartenne a un dramma sa(??)
+potremmo crederlo tolto a qualche c(??)
+Tanto ricorda le tipiche scene in cui(??)
+<pb n="XXXIX"/>
+ρer esempio dell'Ade, chiedono a chi giunge dalla
+terra notizie della vita bella.</p>
+				<p>Ed eccoci all'ultimo rappresentante del genere,
+al <hi rend="italic">Menedemo</hi> di Licofrone. Il fiorire della nuova
+pleiade tragica a cui Licofrone apparteneva, e
+l'ingerenza di Menedemo nella cosa pubblica,
+coincidono in cifra tonda, nel 280 (1). Della filo-
+sofia di Menedemo e del dramma di Licofrone
+rimane troppo poco per poterne ragionare. Ad
+ogni modo, sembrerebbe che qui come nelle <hi rend="italic">Na-
+vale</hi> aristofanesche, non si discutesse troppo sul
+serio di teorie filosofiche. Si picchiava molto,
+invece, sul solito e vecchio ritornello :</p>
+				<ab>
+					<seg>Povera e nuda vai, filosofia.</seg>
+				</ab>
+				<p>Sileno andava dunque a pranzo da Mene-
+demo, e, tornato, descriveva le delizie di quel
+banchetto :</p>
+				<ab>
+					<seg>1
+D' ottimo padre scellerati figli,
+io. lo vedete, me la sto scialando.
+Affedidio, nè in Caria un pranzo simile
+nè in Lidia o in Rodi l' ho veduto mai!
+Apollo Apollo mio, che squisitezza!</seg>
+				</ab>
+				<note type="footnote">(1) Suida - Diogene Laerzio, II, 140-44.</note>
+				<pb n="XL"/>
+				<p>Ed entrava in più minuti particolari :</p>
+				<ab>
+					<seg>2
+In giro il bimbo andò con un bicchiere
+tanto, di vin da cinque, inacidito
+ed annacquato. E poi, senza risparmio
+íl plebeo sovraggiunse empio lupino,
+dei pezzenti alle mense ospite fido.</seg>
+				</ab>
+				<p>E ancora :</p>
+				<ab>
+					<seg>3
+E dopo il magro desinare, gira,
+misurato a miccino, il bicchieruccio;
+e per frutta, discorsi, che dispensano
+buoni consigli a chi ci piglia gusto.</seg>
+				</ab>
+				<p>Con una bazza simile, il tempo passa e non
+ce n' accorgiamo; così avvenne a questi filosofi;</p>
+				<ab>
+					<seg>e su l'aurora li sorprese il gallo
+col suo chicchirichì : non sazi ancora.</seg>
+				</ab>
+				<p>Ma che cosa fu propriamente un dramma sa-
+tiresco? O, per definir meglio la quistione, in
+che, a parte la presenza dei satiri, distingueremmo
+un dramma satiresco da una tragedia, da una
+commedia?</p>
+				<p>Sappiamo intanto che i poeti comici solevano
+<pb n="XLI"/>
+scrivere parodie mitiche, con numi ed croi. E
+nella commedia eroi e Numi scendevano a livello
+degli altri personaggi, ed usavano un linguaggio
+non meno sconcio e scurrile. Lo vediamo, per ci-
+tare i maggiori esempî, nelle <hi rend="italic">Donne alla Festa di
+Demetra,</hi> nella <hi rend="italic">Pace</hi> e negli <hi rend="italic">Uccelli</hi> di Aristofane.
+Ciò pare non avvenisse mai nel dramma satiresco.
+Lo dice Orazio, giudice competente e preciso
+(<hi rend="italic">Ars poetica</hi> 227):</p>
+				<ab>
+					<seg>Ne quicumque deus, quicumque adhibebitur beros,
+regali conspectus in auro nuper et ostro
+migret in obscuras humili sermone tabernas.</seg>
+				</ab>
+				<p>E nè il <hi rend="italic">Ciclope,</hi> ne alcuno dei frammenti d'altri
+drammi satireschi lo smentiscono. Ulisse parla
+sempre come conviene ad eroe : e perfino Eracle,
+come abbiam veduto, si teneva sù (pag. XXVI sg).
+La parte buffonesca era dunque affidata intera-
+mente ai Satiri, a Sileno, alle creature mostruose: e
+oltre che per sè, faceva ridere per il contrasto con
+la conservata solennità degli eroi.</p>
+				<p>Anche in tanta scarsezza di testi possiamo
+istituire un confronto preciso: fra il <hi rend="italic">Ciclope</hi> d'Eu-
+ripide e l'<hi rend="italic">Ulisse,</hi> commedia di Cratino, che svol-
+gevano il medesimo soggetto, e coincisero certo
+in più d'una scena.</p>
+				<pb n="XLII"/>
+				<p>Nella commedia, l’eroe, per esempio, raccon-
+tando la strage dei suoi compagni, diceva:</p>
+				<ab>
+					<seg>137
+Si vanno a rifugiar sotto i divani.</seg>
+				</ab>
+				<p>I divani nella spelonca del Ciclope, capite! E
+quando, uscito il Ciclopc, gli tendeva il noto
+tranello del nome. lo insaporiva con la seguente
+beffa:</p>
+				<ab>
+					<seg>141
+To' dunque, adesso prendi e bevi questo;
+e dopo, il nome mio chiedimi.... presto!</seg>
+				</ab>
+				<p>E il Ciclope gli diceva di saper da una pre-
+dizione che un certo figlio di Laerte l’avrebbe
+acciecato, e gli chiedeva se girando il mondo si
+fosse per caso imbattuto in lui (136) :</p>
+				<ab>
+					<seg>CICLOPE
+Dimmi, quell' uomo l' hai veduto mai?
+ULISSE
+Chi? Di Laerte il prediletto figlio?
+L' ho visto a Paro : comperava un grosso
+cocomero da semi.</seg>
+				</ab>
+				<p>Simili burlette l’Ulisse d’Euripide non se le
+permette.</p>
+				<p>Ma di che specie era questa comicità dei Satiri
+e dei Sileni? Diversa, s’intende, in certa misura,
+<pb n="XLIII"/>
+per ciascun poeta, anzi per ciascun dramma. Pure
+un esame un po’ diligente dei frammenti ci fa
+presto accorti che qui, come nella commedia, ci
+fu molta convenzione e molta ripetizione; e che
+anche il dramma satiresco cercò spesso i suoi
+effetti nel vecchissimo repertorio della farsa po-
+polare, al quale attingeva a piene mani anche
+la commedia (1).</p>
+				<p>Per cominciare dai più volgari, ricordiamo che
+il Ciclope d’Euripide dichiara di rispondere ai
+tuoni di Giove come Strepsiade a quelli delle
+<hi rend="italic">Nuvole.</hi> E nel <hi rend="italic">Chedalione</hi> di Sofocle si diceva di
+uno che</p>
+				<ab>
+					<seg>305
+Per la paura, sino il condimento
+ha rifatto!</seg>
+				</ab>
+				<p>E alla categoria medesima appartiene il fram-
+mento già ricordato del <hi rend="italic">Salmoneo</hi> di Sofocle, dove
+i satiri vituperano con sì sconcio confronto i tuoni
+artificiali dell’eroe fanfarone.</p>
+				<p>Anche predilette della farsa popolare e della
+commedia attica erano le scene in cui si man-
+<note type="footnote">(1) Cfr. il mio lavoroElementi e origini della com-
+media d'Aristofane, in Studi italiani di filologia clas-
+sica.</note>
+<pb n="XLIV"/>
+giava e si beveva. Il dramma satiresco aveva
+analoghe predilezioni. Nel nostro <hi rend="italic">Ciclope,</hi> a parte
+le accarezzate descrizioni di preparativi culinari,
+abbiamo la scena in cui il Ciclope esce ubriaco,
+e bercia e seguita a bevcre. E personaggi che
+ingollavano e cioncavano senza risparmio, pare
+ci fossero un po' dappertutto anche negli altri
+drammi. Ercole, naturalmente, a capofila. Nel-
+l'<hi rend="italic">Onfate</hi> di Ione, si preparava un gran banchetto.
+E l'eroe</p>
+				<ab>
+					<seg>29
+Si mandava giù gòmene e carboni
+pure, per la gran fame.</seg>
+				</ab>
+				<p>E gli altri pochi frammenti del dramma son
+tutti pieni di reminiscenze gastronomiche :</p>
+				<ab>
+					<seg>20
+Fanciulle, via, portate dei bicchieri
+e delle tazze ben panciute.</seg>
+				</ab>
+				<p>E ancora :</p>
+				<ab>
+					<seg>26
+Vino non ce n’è più, dentro la coppa!</seg>
+				</ab>
+				<p>Infine, qualcuno, spaventato della bulimia d'Era-
+cle, sdamava :</p>
+				<ab>
+					<seg>27
+Hai già bevuto! Oh asciuga la corrente
+del Pattolo!</seg>
+				</ab>
+				<pb n="XLV"/>
+				<p>Nell' <hi rend="italic">Eracle al denaro</hi> di Sofocle, l'eroe scén-
+deva all' Ade per impadronirsi di Cerbero; e pare
+che avanti facesse provvista di legna, per am-
+mannire in ogni eventualità un po' di pranzo (1).</p>
+				<ab>
+					<seg>205
+Raccolta ho questa legna, che per via
+potessi accender sempre un po'di fuoco.</seg>
+				</ab>
+				<p>Nell' <hi rend="italic">Etone</hi> (Ulisse) di Acheo, un personaggio
+diceva :</p>
+				<ab>
+					<seg>7
+Sminuzzatemi un po’ di leccornie.</seg>
+				</ab>
+				<p>Ed un'altro :</p>
+				<ab>
+					<seg>6
+Non vive, in pancia vuota amor di giovani :
+Cipride sa d’ amaro agli affamati!</seg>
+				</ab>
+				<p>E dello stesso dramma rimane questo dialo-
+ghetto (Framm. 9) :</p>
+				<ab>
+					<seg>A
+E c’ era mescolata acqua dimolta?
+B
+Da non poterci avvicinar la lingua!
+A
+Bel sugo, allora, portar qui le tazze!</seg>
+				</ab>
+				<note type="footnote">(1) Che fosse destinata a questo uso si ricava dalle parole
+con cui Polluce riferisce il brano.</note>
+				<pb n="XLVI"/>
+				<p>Giova riferire, per il confronto, alcune battute
+d' una commedia, la <hi rend="italic">Corianno</hi> di Ferecrate.</p>
+				<p>Corranno è in casa di Glice, e questa le fa
+mescere vino. Ma l' altra appressato appena il
+bicchiere alle labbra, lo discosta nauseata :</p>
+				<p>Impossibile</p>
+				<p>mandarlo giù, dice mia!</p>
+				<p>GLICE</p>
+				<p>Troppo languido?</p>
+				<p>CORIANNO</p>
+				<p>Acqua!</p>
+				<p>GLICE</p>
+				<p><hi rend="italic">alla figlia che ha mesciuto</hi></p>
+				<p>Oh briccona, com’ hai fatto a mescere!</p>
+				<p>FIGLIA</p>
+				<p>Due d’ acqua, o mamma....</p>
+				<p>GLICE</p>
+				<p>E di vin?</p>
+				<p>FIGLIA</p>
+				<p>Quattro!</p>
+				<p>GLICE</p>
+				<p>Al diavolo!</p>
+				<p>Tu puoi far da coppiera alle ranocchie.</p>
+				<p>È proprio come si vede, la stessa musica.</p>
+				<p>E nell' <hi rend="italic">Efesto,</hi> dello stesso Acheo (17):</p>
+				<ab>
+					<seg>A
+Τ' hai da godere prima il pranzo. È pronto.
+B
+E come vuoi deliziarmi, dopo?</seg>
+				</ab>
+				<pb n="XLVII"/>
+				<ab>
+					<seg>A
+Τ' ungerò prima d'odorosa mirra.
+B
+Non mi dài prima l' acqua per le mani?</seg>
+				</ab>
+				<p>La paura inconsulta, altra gran risorsa della
+commedia dei burattini, sta naturalmente a casa
+sua nel dramma dei satiri fannulloni e vigliac-
+chi. Nel <hi rend="italic">Ciclope,</hi> a parte lo spavento generale
+all' arrivo del mostro, è gustosissima la scenetta
+in cui, dopo tante fanfaronate, trovano mille spe-
+dienti per non prender parte al pericoloso giuo-
+chetto che doveva costar la pupilla al Ciclopc.
+In un altro lavoro un satiro mandava accidenti
+ad Eraclc e minacciava mari e monti; ma al
+primo avvicinarsi dell' eroe si dava alla fuga (1).
+E assai spesso l' intero coro dovè compiere la bril-
+lante manovra che vediamo in una vivace rap-
+presentazione ceramica (tav. 11).</p>
+				<p>Della salacia, superfluo parlarne. Molti brani
+del <hi rend="italic">Ciclope,</hi> la scena delle sofoclee <hi rend="italic">Nozze di Elena,</hi>
+in cui i satiri tentavano di mettere in pratica
+quanto vagheggiano nel <hi rend="italic">Ciclope</hi> (frm. 182), il
+vaso già ricordato di <hi rend="italic">Brygos,</hi> e l'altro bellissimo
+che qui pubblichiamo (tav. 12) parlano abba-
+stanza chiaro.</p>
+				<note type="footnote">(1) Aristide, 46. 2. 310.</note>
+				<pb n="XLVIII"/>
+				<p>E così, senza andar più pel sottile, è da farsa
+il cantar canzoncine popolari, come fanno i sa-
+tirelli all' arrivo del Ciclope, e il frigido scherzar
+stille parole, che giunge al culmine quando il
+Ciclope impone ai satirelli di guardare in sù, di
+guardarlo in faccia, e quelli si mettono a con-
+templare addirittura il cielo.</p>
+				<p>E a parte questi spedienti che son patrimonio
+comune di tutta la tradizione comica popolaresca,
+somiglianze meno ovvie mostrano quanto il dram-
+ma satiresco seguisse la commedia anche in più
+caratteristici motivi di comicità.</p>
+				<p>La scena finale del Ciclope in cui i satirelli
+ingannano e sviano il mostro acciecato in cerca
+d' Ulisse, è svolta sullo stesso schema della scena
+finale delle <hi rend="italic">Tesmoforiazuse,</hi> coi satiri al posto
+delle donne, il Ciclope a quello dell' arciere scita (1).
+E lo stesso motivo d' intima comicità anima la
+scena della <hi rend="italic">Lisistrata</hi> in cui Mirrina trova mille
+sotterfugi per far allungare il collo al marito in
+fregola, e quella del Ciclope in cui Sileno sca-
+vizzola scuse su scuse per non far bevere il mo-
+stro sitibondo.</p>
+				<note type="footnote">(1) Naturalmente non tocco la questione cronologica, che
+dei resto qui importa poco.</note>
+				<pb n="XLIX"/>
+				<p>E finalmente, un occhio esercitato coglie qua
+e là per tutti i frammenti di drammi satireschi,
+temi, spunti, accenti della commedia. Ad un noto
+brano del <hi rend="italic">Piato</hi> ci fa pensare quello che nello
+<hi rend="italic">Scirone</hi> d' Euripide si diceva d' un paraninfo di
+illeciti amori:</p>
+				<ab>
+					<seg>675
+Queste le reca dandogli un puledro,
+quelle una coppia. Ed altre vanno a quattro
+cavalli.... quelli, sai, delle monete (1).
+E voglion bene a chi gli reca molte
+ragazze ateniesi.</seg>
+				</ab>
+				<p>Ha infine saper di commedia il ricordar pro-
+verbi, come quello, notissimo, sull' ombra dell'a-
+sino, nel <hi rend="italic">Chedalione</hi> di Sofocle (framm. 708). Sanno
+di commedia certe contumelie:</p>
+				<ab>
+					<seg>200
+Scrocconi, groppe da fruste, da pungoli;</seg>
+				</ab>
+				<note type="footnote">(1) al δέ φοιτώσιν έπΐ τεσσάρων ίππων . — Sono i ca·-
+valli alati che si vedevano sulle monete di Corinto, città
+famosa per abbondanza di cortigiane. E Ιπποι son chiamate
+qui le monet, come γλαυκές (nottole) le monete di Atene in
+cui erano incise nottole (Aristofane, Uccelli, v. 1106). Anche
+le ragazze dell'ultimo emistichio son monete, come afferma
+Polluce a cui dobbiamo questo brano.</note>
+				<pb n="L"/>
+				<p>di commedia certe filze di vocaboli :</p>
+				<ab>
+					<seg>154
+Gru, tartarughe, nibbi, lepri, nottole.</seg>
+				</ab>
+				<p>Ma non indugiamo a sentir crescere l’erba.</p>
+				<p>Naturalmente, tutti codesti erano clementi greggi
+liberamente utilizzati ed elaborati da ciascun dei
+poeti. Nel caso nostro, con tanta scarsezza di
+materiale, sarebbe presunzione voler dire circa
+le peculiarità dei tre grandi tragici altro che
+quanto è più ovvio immaginare, che cioè cia-
+scuno abbia più o meno mantenuto il carattere
+che lo distingue nelle tragedie. Pure, qualche
+tratto concreto e preciso possiamo coglierlo an-
+cora. Abbiamo già visto il brano dei <hi rend="italic">Raccoglitori
+d'Ossa di</hi> Eschilo, in cui un personaggio si lagna
+d’ un altro che gli ha tirato sul capo un vaso
+poco fragrante. E con metafora proprio eschilea
+si dice che la spregiata creta naufragò sulla testa
+percossa :</p>
+				<ab>
+					<seg>Questi è colui che contro me scagliò
+un ridicolo dardo, un orinale
+puzzolente; nè il colpo andò fallito.</seg>
+				</ab>
+				<pb n="LI"/>
+				<ab>
+					<seg>Naüfragò, picchiando sul mio capo,
+e ridotto in frantumi, una fragranza
+d' altro che mirra m' alitò sul viso.</seg>
+				</ab>
+				<p>Sofocle, nel <hi rend="italic">Convegno degli Achei,</hi> imitava
+quasi alla lettera il brano; ma il naufragio spa-
+riva :</p>
+				<ab>
+					<seg>140
+Mi scagliò, preso d’ ira, l'orinale
+puzzolente, ed il colpo non fallì.
+S’infranse il coccio, e non sapea di mirra;
+e pel gran puzzo il cuor mi venne meno.</seg>
+				</ab>
+				<p>La più raffinata squisitezza di Sofocle si osserva
+anche in un altro grazioso frammento che ci fa
+pensare ai molti gruppi statuari di Sileno con in
+braccio il bambinello Diòniso. Parla Sileno:</p>
+				<ab>
+					<seg>Quando gli porto da mangiar, mi picchia
+sul naso, stende sulla zucca mia
+lucida la manina, e ride e ride (1).</seg>
+				</ab>
+				<p>Euripide, naturalmente, filosofeggia.</p>
+				<p>E non sempre, come nella chiacchierata del Ci-
+clope ad Ulisse, semiburlescamentc; ma talora
+<note type="footnote">(1) Traduco dal tedesco di Wilamowitz, prefazione alla
+versione del Ciclope, pag. 17. Non ho potuto avere il testo,
+rinvenuto da poco; anzi, non so dove sia, e Wilamowitz
+non lo dice.</note>
+<pb n="LII"/>
+anche con serietà che sembrerebbe poco oppor-
+tuna in dramma satiresco. Così, per esempio, in
+questa specie di parafrasi d'una elegia di Seno-
+fane, che troviamo nel suo <hi rend="italic">Autolico</hi> :</p>
+				<p>
+
+</p>
+				<ab>
+					<seg>282
+Mille malanni e mille son ne l' Eliade,
+ma niun ve n' è peggiore dell' atleta.
+Prima di tutto, non sa stare al mondo.
+E come lo potrebbe? E come un uomo
+schiavo del ventre e schiavo della gola
+può procurare alla sua patria un bene?
+Nè povertà sopportano, nè sanno
+alla fortuna rassegnarsi. L' animo
+lor non temprato, a malincuore lascia
+la lieta sorte per l' avversa. Brillano,
+fregi della città, finché son giovani;
+ma come giunge la vecchiezza amara,
+gabbani lisi, sputano la trama.
+E pur l'usanza degli Ellèni io biasimo,
+che s' adunan per essi, e questi insulsi
+piacer', per farci sù banchetti, onorano.
+Quale gagliardo lottator, qual uomo
+nei piè veloce, chi lanciando il disco
+o scazzottando un viso a stile d'arte
+con le corone sue salvò la patria?
+E che? Tenendo nelle mani un disco
+pugnano coi nemici? E percotendo
+gli scudi l'uno contro l'altro, scacciano
+dalla patria i nemici? E via, che all'armt</seg>
+				</ab>
+			    <pb n="LIII"/>
+				<ab>
+					<seg>non s' accostano, no! Mica son pazzi!
+Convien di foglie ghirlandare gli uomini
+saggi e dabbene, e chi la città guida
+con giustizia e con senno, e lunge i mali
+tien coi savi consigli, e ribellioni
+evita e zuffe. A tutte le città,
+giovan tai cose, e ai cittadini tutti.</seg>
+				</ab>
+				<p>È proprio una tirata, e non so quanto avrà
+divertiti gli uditori. Ma se perfino nel dramma
+satiresco trascinava le sue malinconie filosofiche
+che tanto davano sui nervi ad Aristofane, anche
+faceva alitare in esso il suo fine sentimento
+agreste. Tutto il Ciclopc, e specie le prime scene,
+hanno gustosissima tempra georgica. E squisito
+è il canto d' ingresso, in cui i satirelli descrivono
+con vivi colori le delizie godute un tempo con
+le Ninfe sulla libera alpe.</p>
+				<p>Così questo sottilissimo artista stringe in lince
+nitide eleganti il sogno di selvatica indipendenza
+che la fantasia ellenica aveva sognato coi com-
+pagni di Diòniso: e crea un satirello non già tutto
+scioperataggine e lascivia e ghiottoneria, ma ca-
+pace anche di sentir l' incanto della monta-
+gna, della sorgiva, della selva profonda. Dopo
+tanti e tanti secoli Guglielmo Shakespeare pla-
+smava un tipo identico nel suo Caliban, che
+è come i suoi fratelli in Euripide pigro ghiotto
+<pb n="LIV"/>
+e lascivo (1); ma come loro sente la viva poesia
+delia campagna. E spesso la esprime, e specie
+nell'apostrofe ispiratagli dalla sua ridicola am-
+mirazione per Trincalo (A. II, sc. II):</p>
+				<ab>
+					<seg>Fa' ch' iο ti guidi dove i gamberetti
+formicolano; con l' unghie mie lunghe
+per te rizomi scaverò : di gracci
+voglio indicarti un nido, ammaestrarti
+a insidiare l' agii marmottino :
+poi vo' recarti ai grappoli fioriti
+dell' avellana; e sniderò per te
+dalla rupe gabbiani : or vuoi venire?</seg>
+				</ab>
+				<p>Si possono aggiungere questi ai tratti, già ri-
+levati da altri, nei quali Shakespeare s'incontra coi
+drammaturgi greci. E non la meno mirabile fra
+le sue mirabilissime intuizioni è questo costruire
+d' un colpo, per virtù d' immaginazione, un tipo
+di creatura agreste tanto simile a quello foggiato
+in Grecia dal lento travaglio della fantasia po-
+polare, dal sentimento pittoresco d'un sensibilis-
+simo artista.</p>
+				<note type="footnote">(1) Atto II, scena 2 : That's a brave god, and bears ce-
+lestial liquor : — I will kneel to him. = Atto I, se. Π :
+O ho, O ho! would't had been done! — Thou didst pre-
+vent me; I had people else — This isle with Calibans =
+Pare proprio una versione da versi satireschi.</note>
+				<pb n="LV"/>
+				<p>Un vaso dipinto d'inestimabile valore (1), forse
+dono votivo d' un corego, ci pone sott' occhio con
+evidenza straordinaria l'allestimento scenico d'un
+dramma satiresco (tav. 13). Diòniso siede in fondo
+su un tettuccio, e abbraccia la sua diletta Arianna.
+Non sono certo attori del dramma; ma il nume
+è tratto dalla olimpica sfera ideale al mondo
+reale per presiedere il dramma, posto, come ogni
+altra rappresentazione drammatica, sotto la sua
+protezione. Un attore riccamente vestito sta a
+sinistra del lettuccio, e regge con la destra una
+maschera giovanile. È quasi certamente un re.
+E forse è una regina, certo una attrice e non
+una persona allegorica, come taluno vorrebbe (2),
+la donna che siede sul lettuccio a destra, tenendo
+in mano anch'essa una maschera, di donna gio-
+vane e bella, con chiome prolisse. Ancora a destra,
+un altro attore indossa, sopra ricche vesti, il fa-
+<note type="footnote">(1) Del Museo di Napoli.</note>
+<note type="footnote">(2) Il Kuhner (in Roscher, Satyros) la chiama Musa del
+dramma. Il De Witte (A. d. I., 1841, pag. 305) Onfale
+(e Mida il re) che poi identifica con Afrodite. Così Reinacha.
+Ma e la maschera?</note>
+<pb n="LVI"/>
+moso vello di leone, e tiene appoggiata sulla
+spalla destra la clava. Con la sinistra regge an-
+ch' egli la maschera. Questi tre, un re, dunque,
+una regina, ed Ercole, sono i tre personaggi eroici
+del dramma satiresco. Nel vestito, come ve-
+demmo, nel contegno e nella loquela, nulla li
+distingue dagli eroi della tragedia.</p>
+				<p>Eracle è rivolto, forse parla con un attore ve-
+stito da Sileno. Questo indossa un vestito attil-
+lato e interamente villoso, che lo fa somigliare
+ad uno scimmiotto. Sulla sua spalla sinistra è
+negligentemente gittata una pelle di pantera, la
+rituale nebride. Con la sinistra leva all' altezza
+dei suoi occhi, e pare la fissi, una maschera da
+vecchione, inghirlandata di foglie. È proprio il
+Papposileno, il vecchio padre, il nonno dei Satiri.</p>
+				<p>Intorno a questo gruppo centrale troviamo
+undici satirelli, quanti per l'appunto antiche no-
+tizie ne assegnano al dramma satiresco (1): e
+con Sileno facevano la dozzina. Mentre gli attori
+principali son uomini maturi, questi satirelli che
+formano il coro son giovanissimi. Non indos-
+sano altro vestimento che un paio di mutandine
+<note type="footnote">(1) Tzetze, Proleg. in Licofr., 254 : τήν δέ τραγψδίαν
+καί τούς σατύρους έτιίσης μέν έχειν χορευτάς ιά.</note>
+<pb n="LVII"/>
+pelose, che sul di dietro recano la solita coda
+equina (1). Del resto sono ignudi, ed uno (a de-
+stra) non ha ancora lasciate le sue vesti. Ricche
+vesti : forse questi coreuti non erano professio-
+nisti, e la rappresentazione eternata nel nostro
+vaso fu speciale ed insigne. Tutti meno uno
+hanno in mano la maschera satiresca: uno se
+l'è già adattata al viso, e già ballonzola. Tutte
+le maschere rappresentano satiri barbuti, di mezza
+età. Polluce (2) distingue parecchie specie di sa-
+tiri : il Satiro canuto, il barbuto, lo sbarbato, 1
+Nonnosileno, il più selvatico di tutti nell'aspetto.
+Questi del vaso appartengono alla seconda specie.
+Quelli del <hi rend="italic">Ciclope</hi> alla terza : sono, a quanto dice
+Sileno (v. 30), Satirelli di primo pelo. I nomi,
+infine, dei satirelli del nostro vaso, Eunicos, Eva-
+pan, Dorotheos, Callias, Filinos, Dion, Nikokles,
+<note type="footnote">(1) Neppure accenno alla nota questione circa le diffe-
+renze fra Satiri e Sileni. Da tutti i monumenti ricaviamo
+con sicurezza che nei drammi satireschi questi compagni di
+Diòniso ebbero coda equina e si chiamarono satiri.</note>
+<note type="footnote">(2) 4. 142 : Σατυρικά Ss πρόσωπα Σάτυρος πολιός, Σά-
+τυρος γενειών, Σάτυρος άγένειος, Σιληνός πάππος. Τάλλα
+δμοια τά πρόσωπα, πλήν δσοις έκ των δνομάτων αί πα-
+ραλλαγαΐ δηλοΰνται, ώσπερ καί δ πάππος Σιληνός τήν
+Ιδέαν έστί θηριοδέστερος. </note>
+<pb n="LVIII"/>
+non son nomi dei satiri, ma degli attori. E il fatto
+che l' artista li ha ricordati, conferma nell’ idea che
+si sia trattato d’ una rappresentazione eccezionale.
+Certo sembra però strano che abbia taciuto il
+nome per l’appunto dei personaggi principali.</p>
+				<p>Ed eccoci alle ultime tre persone Un uomo,
+piccolo di statura e un po’ meschino, a quanto
+pare, siede su uno sgabello, ignudo, inghirlan-
+dato, e tiene nella sinistra un rotolo Sarà l’istrut-
+tore dei cori, se non forse l’autore stesso Più a
+destra, su una comoda scranna, siede una donna,
+elegantemente vestita, che suona il doppio flauto.
+Sta dinanzi a lei, e le fa cenno con la destra,
+un giovine ignudo, con un mantello gittate sulle
+spalle, e una cetera nella sinistra Il flauto e la
+cetcra: la piccola orchestra d’allora.</p>
+				<p>Mi pare d’ avere offerti al lettore non filo-
+logo i principali elementi che servono alla intel-
+ligenza del nostro Ciclope. Se non che un amico
+mio filosofo mi avverte che io non ho fatto an-
+cora nulla, che adesso anzi, dove io faccio punto,
+viene il buono, che studiar l’opera del genio è
+scopo e non limite della critica, che dovere del
+<pb n="LIX"/>
+critico è rivivere l'opera d'arte, fare la sintesi
+spirituale, eccetera eccetera eccetera.</p>
+				<p>Amico mio filosofo, contentati di quel che
+t'offro. lo voglio far qui semplicemente opera
+d' esegeta. Le impressioni che produce in me il
+<hi rend="italic">Ciclope</hi> come opera d'arte, ho cercato d'infon-
+derle tutte nella versione : non chiedermi che te
+le riscriva qui giustificandole con dimolte ragioni,
+e giungendo a una determinazione del valore
+assoluto di questo lavoro. Tanto più che in fatto
+di determinazioni io sono molto scettico. Figúrati.
+Ulrico di Wilamowitz, che è il primissimo dei
+filologi viventi, ha tradotto in tedesco questo
+Ciclope, e conclude la sua bella prefazione di-
+cendo che come opera d'arte gli sembra però poca
+cosa. Io l'ho letto e riletto non saprei dirti quante
+volte, e quasi lo so a mente, e più ci tomo e
+più mi pare per ogni verso un piccolo capolavoro.
+Capirai che di fronte a tale commovente con-
+cordia un terzo in causa non ha che una via
+d' uscita : leggere il dramma. Io per me penserei
+di non aver perduto il tempo se fossi riuscito a
+rendere tollerabile per un' oretta al paziente let-
+tore la pericolosa compagnia del monocolo pa-
+store etnese.</p>
+<p><hi rend="italic">Ettore Romagnoli.</hi></p>
+			</div>
+			<div type="edition" subtype="volume" xml:space="preserve">
+				<div type="textpart" subtype="book" n="1">
+					<div type="textpart" subtype="chapter" n="1">
+						<pb n="2"/>
+						<head>
+							<title>PERSONAGGI
+SILENO
+CORO DI SATIRI
+ULISSE
+COMPAGNI D’ULISSE
+CICLOPE.</title>
+						</head>
+						<pb n="3"/>
+						<p>Una selvaggia e rocciosa balza montana. In
+fondo si spalanca la negra bocca d'una caverna.</p>
+					</div>
+					<div type="textpart" subtype="chapter" n="2">
+						<head>
+							<title>SILENO</title>
+						</head>
+						<p>Passo un mondo di guai, Bacco, per te,
+e n’ho passati ai miei verdi anni. Prima
+quando Giunone il senno ti rapì,
+e tu lasciasti le montane Ninfe
+<lb n="5"/>
+nutrici tue. Poi nella cruda mischia
+contro i Giganti. Alla tua destra, piede
+contro piede, io pugnavo; e con la lancia
+<pb n="4"/>
+forai lo scudo a Encèlado, e l' uccisi.</p>
+						<ab>
+							<seg>interrompendosi, fra sè</seg>
+						</ab>
+						<p>Un momento. L’ avrei forse sognato?</p>
+						<p><lb n="10"/>
+No, che, perdio, mostrai le spoglie a Bacco!</p>
+						<ab>
+							<seg>ripigliando come sopra</seg>
+						</ab>
+						<p>E adesso n’ ho passata una di peggio.</p>
+						<p>Quando Giunone ai danni tuoi la razza
+dei tirreni pirati scatenò,
+per farti in lungo e in largo errar pel mondo,
+<lb n="15"/>
+io che lo seppi, m’ imbarcai coi satiri
+miei figli, a rintracciarti. lo sulla poppa,
+governando il timone, e i miei figliuoli
+sedendo ai remi, e biancheggiar facendo
+coi tonfi il glauco mar, ti si cercava.</p>
+						<p><lb n="20"/>
+Quando eravamo già presso al Malèa,
+gonfiò le vele un vento di levante,
+e ci gittò su questa rupe etnèa,
+dove in antri deserti hanno dimora
+i Ciclopi monocoli, omicidi,
+<lb n="25"/>
+figli del dio del pelago. E noi, presi
+<pb n="5"/>
+da un di questi, gli facciamo in casa
+da servitori. E ha nome Polifemo.</p>
+						<p>E così, scambio dei tripudi bacchici,
+custodiamo le greggi del Ciclope.</p>
+						<p><lb n="30"/>
+I figli miei, che son ragazzi, guidano
+le bestie giovinette in vetta ai colli,
+e io sto in casa, a riempir le secchie
+e spazzare le stalle a questo infame
+Ciclope, ghiotto di nefandi pasti.</p>
+						<p><lb n="35"/>
+Dunque, eseguiamo gli ordini! Spazziamo
+col rastrello, e rendiam nette le stalle
+per accoglier le greggi ed il Ciclope.</p>
+						<p>Ma vedo che i miei figli riconducono
+di già le greggi. Oh che succede? Sento
+<lb n="40"/>
+strepito di trescone. — Oh che pensate
+d’essere ai tempi che fra sciali ed orgie
+andavate con Bacco alla dimora
+d’Altèa, ballando al suono delle cétere?</p>
+						<ab>
+							<seg>I satirelli invadono l' orchestra, cacciandosi
+avanti la greggia, con movimenti appena
+disciplinati da una danza vivacissima.</seg>
+						</ab>
+					</div>
+					<div type="textpart" subtype="chapter" n="3">
+						<pb n="6"/>
+						<head>
+							<title>C<hi rend="smallcap">oro</hi>
+Una voce</title>
+						</head>
+						<p>STROFE</p>
+						<p>Dove ti sbandi, o figlio
+<lb n="45"/>
+di balde madri e validi
+padri, su per le rupi?</p>
+						<p>Non è qui rezzo mite,
+non sono erbe fiorite?</p>
+						<p>Vicino agli antri cupi
+<lb n="50"/>
+dove belan gli agnelli
+<pb n="7"/>
+è l' acqua tolta ai gorghi dei ruscelli.</p>
+						<ab>
+							<seg>un’altra voce</seg>
+						</ab>
+						<p>Presto, sù, tu qui, tu li, sopra le zolle
+del rugiadoso colle!</p>
+						<ab>
+							<seg>un’altra voce</seg>
+						</ab>
+						<p>Ohè, tra poco ti lancio un sasso!</p>
+						<ab>
+							<seg>un’altra voce</seg>
+						</ab>
+						<p><lb n="55"/>
+Oh tu, montone, allunga allunga il passo,
+torna al vecchio che queste
+rocce guarda al Ciclope, al pecoraro agreste.</p>
+						<ab>
+							<seg>la prima voce</seg>
+						</ab>
+						<p>ANTISTROFE</p>
+						<p>Offri le mamme turgide,
+accogli i tuoi lattonzoli!</p>
+						<p><lb n="60"/>
+Li lasci, e il lungo giorno
+giacciono addormentati
+nell’ antro. Or coi belati
+bramano il tuo ritorno.</p>
+						<p>Lascia il pascolo e l' erba,
+<lb n="65"/>
+entra nella rocciosa etnèa caverna!</p>
+						<pb n="8"/>
+						<ab>
+							<seg>un’altra voce</seg>
+						</ab>
+						<p>Presto sù! Tu qui, tu li, sopra le zolle
+del rugiadoso colle!</p>
+						<ab>
+							<seg>un’altra voce</seg>
+						</ab>
+						<p>Ohè, tra poco ti lancio un sasso!</p>
+						<ab>
+							<seg>un’altra voce</seg>
+						</ab>
+						<p>Oh tu, montone, allunga, allunga il passo,
+<lb n="70"/>
+torna al vecchio che queste
+rocce guarda al Ciclope, al pecoraro agreste.</p>
+						<ab>
+							<seg>Tutti i satiri sono oramai radunati
+sulla scena. Il movimento di danza
+è sempre più stretto.</seg>
+						</ab>
+						<p>C<hi rend="smallcap">ORIFEO</hi></p>
+						<p>Non è qui Bromio, non qui le danze,
+non le tirsigere</p>
+						<p>Bacche, o dei timpani l' alto frastuono
+<lb n="75"/>
+presso cadenti sorgive linfe,
+né stilla gocce d’ambra la vite,
+né tra le Ninfe
+in Nisa l' inno bacchico intono
+per Afrodite,
+<pb n="9"/>
+<lb n="80"/>
+su la cui traccia spingeami a volo
+con le Baccanti dal bianco piè.</p>
+						<p>Oh caro Bacco, dove, o diletto, vagando solo,
+scuoti le anella del biondo crine?
+Io, tuo ministro, servo il monocolo</p>
+<p><lb n="85"/>
+						Ciclope, ed erro, cinto di misere
+vesti caprine,
+lungi da te!</p>
+					    <pb n="10"/>
+						<p>S<hi rend="smallcap">ILENO</hi></p>
+						<p>Zitti, figliuoli. Ed imponete ai servi
+di radunar le greggi entro lo speco.</p>
+						<p>C<hi rend="smallcap">ORIFEO</hi></p>
+						<ab>
+							<seg>a servi di scena</seg>
+						</ab>
+						<p><lb n="90"/>
+						Andate. Ma che fretta hai dunque, o babbo?</p>
+						<p>S<hi rend="smallcap">ILENO</hi></p>
+						<p>Vedo una nave greca sulla spiaggia,
+e i rematori e il loro capo, muovono
+verso quest’ antro, e portano sul capo
+<pb n="11"/>
+brocche per l' acqua ed altri vasi vuoti.</p>
+						<p><lb n="95"/>
+Vengono a far provviste. Ah, disgraziati!</p>
+						<p>Chi mai saranno? Non lo sanno che
+razza d’ uomo è il padrone Polifemo,
+che vengono a quest’ antro inospitale,
+a finir sotto i denti del Ciclope?</p>
+						<p><lb n="100"/>
+Ma zitti, via. Sentiamo un po’ di dove
+giunsero a questa etnèa sicula rupe.</p>
+						<p>U<hi rend="smallcap">LISSE</hi></p>
+						<ab>
+							<seg>vestito da navigatore, seguito da uno stuolo
+di compagni</seg>
+						</ab>
+						<p>Indicar ci sapreste, amici, dove
+scorra l'acqua d’ un fiume, a cui s’attinga
+un ristoro alla sete, e se alcun vuole
+<lb n="105"/>
+vendere provvigioni ai navicchieri?</p>
+						<ab>
+							<seg>movimento di sorpresa</seg>
+						</ab>
+						<p>Ma che? Di Bromio alla città, mi sembra,
+ci gittâr l'onde! Tanta schiera io veggo
+presso all' antro, di satiri. Salute
+al più vecchio di voi, per prima, io dico!</p>
+						<pb n="12"/>
+						<p>S<hi rend="smallcap">ileno</hi></p>
+						<p><lb n="110"/>
+Salve! Chi sei? Di qual paese? Parla!</p>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<p>Il re dei Cefalleni, Ulisse d’ Itaca!</p>
+						<p>S<hi rend="smallcap">ileno</hi></p>
+						<p>La progenie di Sisifo? Quel bindolo?</p>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<p>Io son quel desso; e tu non oltraggiarmi!</p>
+						<p>S<hi rend="smallcap">ileno</hi></p>
+						<p>E di dove giungesti alla Sicilia?</p>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<p><lb n="115"/>
+Da Troia riedo e dall’ iliache gesta.</p>
+						<p>S<hi rend="smallcap">ileno</hi></p>
+						<p>E non sapevi andar diritto a casa?</p>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<p>Ventosi nembi a forza qui mi spinsero.</p>
+						<p>S<hi rend="smallcap">ileno</hi></p>
+						<p>Come è toccata a me. Poveri noi!</p>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<p>Qui trascinato a forza anche tu fosti?</p>
+						<pb n="13"/>
+						<p>S<hi rend="smallcap">ileno</hi></p>
+						<p><lb n="120"/>
+Mentre inseguia di Bromio i rapitori.</p>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<p>Qual terra è questa, e chi dimora in essa?</p>
+						<p>S<hi rend="smallcap">ileno</hi></p>
+						<p>È di Sicilia il clivo eccelso, l' Etna.</p>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<p>Mura io non veggo o cittadine torri!</p>
+						<p>S<hi rend="smallcap">ileno</hi></p>
+						<p>Non ce n’è. Qui, straniero, uomo non vive.</p>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<p><lb n="125"/>
+E chi occupa il suol? Dei bruti, forse?</p>
+						<p>S<hi rend="smallcap">ileno</hi></p>
+						<p>I Ciclopi, in caverne e non in case.</p>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<p>A chi soggetti? Oppur sovrano è il popolo?</p>
+						<p>S<hi rend="smallcap">ileno</hi></p>
+						<p>Nomadi. Niuno a ninno in nulla impera.</p>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<p>E coltivan la spiga? O di che vivono?</p>
+						<pb n="14"/>
+						<p>S<hi rend="smallcap">ileno</hi></p>
+						<p><lb n="130"/>
+Di latte e cacio, e di caprine carni.</p>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<p>Hanno il suco dell' uva, il licor bacchico?</p>
+						<p>S<hi rend="smallcap">ileno</hi></p>
+						<p>Punto! E però non danze ha la contrada.</p>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<p>Sono ospitali e pii con gli stranieri?</p>
+						<p>S<hi rend="smallcap">ileno</hi></p>
+						<p>Dicon che la lor ciccia è gustosissima!</p>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<p><lb n="135"/>
+Che sento! Ghiotti son d' umana carne!</p>
+						<p>S<hi rend="smallcap">ileno</hi></p>
+						<p>Nessuno arriva qui che non l' accoppino.</p>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<p>E il Ciclope dov’ è? Dentro lo speco?</p>
+						<p>S<hi rend="smallcap">ileno</hi></p>
+						<p>Lungi, pel monte, coi suoi cani, a caccia.</p>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<p>Sai, per mandarci via, che devi fare?</p>
+						<pb n="15"/>
+						<p>S<hi rend="smallcap">ileno</hi></p>
+						<p><lb n="140"/>
+Non lo so. Ma per te siam pronti a tutto.</p>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<p>Vendine cibo, che ne siamo a corto.</p>
+						<p>S<hi rend="smallcap">ileno</hi></p>
+						<p>Già te l' ho detto! Altro non c’ è che carne.</p>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<p>Buon rimedio alla fame anche la carne.</p>
+						<p>S<hi rend="smallcap">ileno</hi></p>
+						<p>E cacio sodo e latte di giovenca.</p>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<p><lb n="145"/>
+Portate fuori, io compero alla luce!</p>
+						<p>S<hi rend="smallcap">ileno</hi></p>
+						<p>E tu quanti quattrini mi darai?</p>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<p>Non quattrini : il licor meco ho di Bacco.</p>
+						<p>S<hi rend="smallcap">ileno</hi></p>
+						<p>Dolci parole! Non se n’ ha da un secolo.</p>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<p>Marone me lo diè, figlio del Nume.</p>
+						<pb n="16"/>
+						<p>S<hi rend="smallcap">ileno</hi></p>
+						<p><lb n="150"/>
+Quello che crebbi un dì fra le mie braccia?</p>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<p>Di Bacco il figlio, se la vuoi più chiara.</p>
+						<p>S<hi rend="smallcap">ileno</hi></p>
+						<p>È nelle navi, o tu con te lo rechi?</p>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<p>Lo contiene quest’ otre. Eccolo, guarda!</p>
+						<p>S<hi rend="smallcap">ileno</hi></p>
+						<p>Di questo non ne fo neppure un sorso.</p>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<p><lb n="155"/>
+Come lo versi, si riempie a doppio.</p>
+						<p>S<hi rend="smallcap">ileno</hi></p>
+						<p>Ah, gusto mio! Bella fontana, dici!</p>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<p>Ne vuoi prima gustare un sorso pretto?</p>
+						<p>S<hi rend="smallcap">ileno</hi></p>
+						<p>Si, l’assaggio è il richiamo della compera.</p>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<p>Ho portato con l' otre anche il bicchiere.</p>
+						<pb n="17"/>
+						<p>S<hi rend="smallcap">ileno</hi></p>
+						<p><lb n="160"/>
+Ingozzamene, via, che lo ricordi.</p>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<p>Toh!</p>
+						<ab>
+							<seg>si accinge a versargli in gola il vino</seg>
+						</ab>
+						<p>S<hi rend="smallcap">ileno</hi></p>
+						<p>Cospettone, ha proprio un bell’odore!</p>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<p>Che, lo vedi, l’odore?</p>
+						<p>S<hi rend="smallcap">ileno</hi></p>
+						<p>Eh, no, lo fiuto!</p>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<p>Non per intesa, hai da lodarlo! Gustane!</p>
+						<ab>
+							<seg>gli versa vino nella gola</seg>
+						</ab>
+						<p>S<hi rend="smallcap">ileno</hi></p>
+						<p>Bene mio! Bacco già m’invita a danza!</p>
+						<p><lb n="165"/>
+Uh, uh, uh!</p>
+						<ab>
+							<seg>ballonzola</seg>
+						</ab>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<p>Τ’ ha infilato per bene il gorgozzule?</p>
+						<p>S<hi rend="smallcap">ileno</hi></p>
+						<p>Lo credo! M’è arrivato in punta all’ unghie!</p>
+						<pb n="18"/>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<p>Dunque, portate il cacio ed i capretti.</p>
+						<p>S<hi rend="smallcap">ileno</hi></p>
+						<p>Certo. E m’ infischio tanto dei padroni!</p>
+						<p><lb n="170"/>
+Ci farei patto di scaraventarmi
+giù da una roccia a picco, se potessi
+bevere un buon bicchiere, übbriacarmi,
+schiacciare un sonnellino, e dare in cambio
+le vettovaglie di tutti i Ciclopi!</p>
+						<p><lb n="175"/>
+Chi non ha gusto a bere, è mentecatto!
+Bere! È aver ritto questo, e brancicare
+mammelle, e palpeggiare pratellini
+ben ben falciati, e ballare e scordarsi
+dei mali. E io non ho da comprar questo
+<lb n="180"/>
+licor, mandando al diavolo quell’asino
+di Ciclope, e quell’ occhio a mezza fronte?</p>
+						<ab>
+							<seg>entra nella caverna.</seg>
+						</ab>
+						<p>C<hi rend="smallcap">orifeo</hi></p>
+						<p>Ulisse, di, si fanno quattro chiacchiere?</p>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<p>Vi rivolgete amici ad un amico.</p>
+						<pb n="19"/>
+						<p>C<hi rend="smallcap">orifeo</hi></p>
+						<p>Prendeste Troia? Aveste Elena in pugno?</p>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<p><lb n="185"/>
+E sterminammo i Priamìdi tutti.</p>
+						<p>C<hi rend="smallcap">orifeo</hi></p>
+						<p>E allora, già, pigliata la ragazza,
+l’avrete tutti cavalcata a turno :
+aver mariti a iosa è il gusto suo!</p>
+						<p>Un altro Satiro</p>
+						<p>La traditrice! Che a vedere un uomo
+<lb n="190"/>
+con le brache a fiorami ed un collare
+di princisbecche al collo, restò cotta,
+e piantò quel tesoro d’ un ometto
+di Menelao!</p>
+						<p>Un altro Satiro</p>
+						<p>Non fossero mai nate</p>
+						<p>femmine al mondo!</p>
+						<p>Un altro Satiro</p>
+						<p>Meno che per me!</p>
+						<p>S<hi rend="smallcap">ileno</hi></p>
+						<p><lb n="195"/>
+Eccoti, o Sire Ulisse, questi capi
+<pb n="20"/>
+di greggi, figli di belanti agnelli,
+e cacio sodo senza economia.</p>
+						<p>Portateveli, andatevene subito
+subito via dall’ antro, e in cambio datemi
+<lb n="200"/>
+l' evio succo del grappolo... Ahimè!</p>
+<p>Viene il Ciclope! E adesso che si fa?</p>
+						<ab>
+							<seg>S'ode dal di dentro canticchiare una voce roca
+e stonata, e il calpestio d'un passo pesantissimo.</seg>
+						</ab>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<p>Siamo perduti! Ove fuggire, oh vecchio?</p>
+						<p>S<hi rend="smallcap">ileno</hi></p>
+						<p>Dentro lo speco! Lì c’ è da nascondersi.</p>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<p>Che brutto affare! Entrar dentro la rete!</p>
+						<p>S<hi rend="smallcap">ileno</hi></p>
+						<p><lb n="205"/>
+Brutto! Macché! C' è tanti nascondigli!</p>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<ab>
+							<seg>sta per entrare, si ripiglia</seg>
+						</ab>
+						<p>Ebbene, no! Chè d’ onta macchierei
+l' iliaca gesta, se un sol uom fuggissi,
+<pb n="21"/>
+io che sovente col mio scudo feci
+fronte dei Frigi all’ infinite schiere!</p>
+						<p><lb n="210"/>
+No! Se d’uopo è morir, morrò da prode,
+o vivo serberò l' antica fama!</p>
+						<p>C<hi rend="smallcap">ICLOPE</hi></p>
+						<ab>
+							<seg>urlando</seg>
+						</ab>
+						<p>State sù! Largo! Che avviene! Che è
+questa baldoria, questo baccanale?</p>
+						<p>Qui non è aria né per Bacco, né
+<lb n="215"/>
+pei crotali di bronzo, né pei timpani!</p>
+						<ab>
+							<seg>un po'raddolcito</seg>
+						</ab>
+						<p>Come mi stanno gli agnelletti nati
+di fresco? Sono alla mammella? Corrono
+sotto i fianchi alle madri? Sono pieni
+di cacio fresco i corbelli di giunco?</p>
+						<p><lb n="220"/>
+Non rispondete? Dite, via! Qualcuno
+dovrà toccarne e lagrimare, presto
+presto! Guardate in sù, e non in giu!</p>
+						<p>C<hi rend="smallcap">oro</hi></p>
+						<ab>
+							<seg>i satiri alzano tutti il viso al ciclo</seg>
+						</ab>
+						<pb n="22"/>
+						<p>Ecco: la faccia abbiam rivolta proprio
+al cielo, e gli astri ed Orione io miro!</p>
+						<p>C<hi rend="smallcap">ICLOPE</hi></p>
+						<p><lb n="225"/>
+Il pranzo è preparato in piena regola?</p>
+						<p>C<hi rend="smallcap">orifeo</hi></p>
+						<p>È pronto. Manca sol chi se lo pappi!</p>
+						<p>C<hi rend="smallcap">ICLOPE</hi></p>
+						<p>E le mezzine son piene di latte?</p>
+						<p>C<hi rend="smallcap">orifeo</hi></p>
+						<p>Da berne, se n’ hai voglia, un tino intero.</p>
+						<p>C<hi rend="smallcap">ICLOPE</hi></p>
+						<p>Di pecora, di vacca, o mescolato?</p>
+						<p>C<hi rend="smallcap">orifeo</hi></p>
+						<p><lb n="230"/>
+Quel che vuoi : sol che non ingozzi me!</p>
+						<p>C<hi rend="smallcap">ICLOPE</hi></p>
+						<p>Punto! Che sgambettandomi nel ventre
+m’ ammazzereste con i vostri balli.</p>
+						<ab>
+							<seg>s' accorge d' Ulisse</seg>
+						</ab>
+						<p>Ehi! Che gente è costi, presso la stalla?</p>
+						<p>Son dei pirati forse? Dei ladroni?</p>
+						<pb n="23"/>
+						<p><lb n="235"/>
+Oh guarda! Agnelli della mia caverna
+avvincigliati con i giunchi, e ceste
+di formaggio assortito. E quel pelato
+del vecchio, ha il viso gonfio per le busse</p>
+						<p>S<hi rend="smallcap">ileno</hi></p>
+						<ab>
+							<seg>piagnucoloso</seg>
+						</ab>
+						<p>Tapino me! La febbre ho, per le bòtte!</p>
+						<p>C<hi rend="smallcap">ICLOPE</hi></p>
+						<p><lb n="240"/>
+Di chi? Chi mai t’ ha scazzottato il viso?</p>
+						<p>S<hi rend="smallcap">ileno</hi></p>
+						<p>Questi : perché, Ciclope, non volevo
+che portassero via la roba tua!</p>
+						<p>C<hi rend="smallcap">ICLOPE</hi></p>
+						<p>Sapean che Nume io son, figlio di Numi?</p>
+						<p>S<hi rend="smallcap">ileno</hi></p>
+						<p>Glie l’ho detto, io! Ma ho avuto un bell’oppormi!</p>
+						<p><lb n="245"/>
+Pigliavano la roba, si mangiavano
+il cacio, e trascinavano gli agnelli.</p>
+<p>E disser che t' avrebbero legato
+con un collare di tre braccia, e a forza
+<pb n="24"/>
+t' avrebbero falciate le budella
+<lb n="250"/>
+di mezzo all' ombelico, e scorticata
+ben ben la groppa con la frusta, e poi,
+legatoti e gittatoti fra i banchi
+della nave, t’avrebbero venduto
+per girare la ruota o scalzar pietre!</p>
+						<p>C<hi rend="smallcap">ICLOPE</hi></p>
+						<p><lb n="255"/>
+Davvero? E tu non corri ad affilare
+i coltellacci da scannare, e a fare
+un gran mucchio di legna, e dargli fuoco?</p>
+<p>Vo’ sgozzarli alla spiccia, e riempirmene
+il buzzo. Parte me li pappo caldi
+<lb n="260"/>
+caldi, levati appena dalla brace,
+senza aiuto di scalchi, e parte lessi
+nella caldaia e spappolati. Giusto
+di selvaggina n’ ho fin sopra gli occhi.</p>
+						<p>Leoni e cervi n’ ho mangiati troppi,
+<lb n="265"/>
+e che non gusto carne umana, è un secolo!</p>
+						<p>S<hi rend="smallcap">ileno</hi></p>
+						<p>Le novità, padrone, dopo il solito
+tran, tran, dànno piu gusto. E forestieri
+<pb n="25"/>
+a casa tua, da un pezzo non ne càpita.</p>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<p>Ciclope, ascolta pure i forestieri.</p>
+<p><lb n="270"/>
+Noi per bisogno di comprar provviste
+dalla nave appressammo alla tua grotta.</p>
+<p>E questo, in cambio d’ un boccal di vino,
+ci ha venduti gli agnelli : ce li ha dati
+ed ha bevuto; d’ amore e d’ accordo,
+<lb n="275"/>
+e tutto andò senz’ ombra di violenza.</p>
+						<p>Ma ora, colto a vender di soppiatto
+la roba tua, sbalestra a tutt’ andare.</p>
+						<p>S<hi rend="smallcap">ileno</hi></p>
+						<p>Io? Ti pigli un malanno....</p>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<p>Se mentisco!</p>
+						<p>S<hi rend="smallcap">ileno</hi></p>
+						<p>Per Nettuno, o Ciclope, onde sei nato,
+<lb n="280"/>
+pel gran Tritone, per Nerèo, per le
+Nerèidi, per Calipso, per i sacri
+flutti, e dei pesci per la stirpe tutta,
+ti giuro, o Ciclopuccio, o padroncino,
+<pb n="26"/>
+bellezza rara, ch’ io non ho venduto
+<lb n="285"/>
+ai forestieri la tua roba. E s’io
+mentisco, pigli un accidente a queste
+birbe dei figli miei, ch’ amo, che adoro!</p>
+						<p>C<hi rend="smallcap">oro</hi></p>
+						<p>A te ti pigli! Io t’ho veduto vendere
+la roba a quelli! E se mentisco, crepi
+<lb n="290"/>
+il babbo mio! Rispetta i forestieri.</p>
+						<p>C<hi rend="smallcap">ICLOPE</hi></p>
+						<p>Voi dite il falso. Io credo a questo piú
+che a Radamanto, e dico ch’ è piú giusto
+di lui. Ma voglio interrogarli. Donde
+giungeste, o forestieri? Di che stirpe
+<lb n="295"/>
+originati? In qual città cresciuti?</p>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<p>Itaca è nostra patria. E dalla rocca
+d’llio espugnata, dai marini venti
+spinti, giungiam, Ciclope, alla tua terra!</p>
+						<p>C<hi rend="smallcap">ICLOPE</hi></p>
+						<p>Quelli che ad Ilio, allo Scamandro in riva,
+<lb n="300"/>
+corsero dietro a quella peste d’ Elena?</p>
+						<pb n="27"/>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<p>Quelli. E compiemmo una ben dura gesta</p>
+						<p>C<hi rend="smallcap">ICLOPE</hi></p>
+						<p>Vituperosa gesta! Navigare
+per una donna sino ai lidi frigi!</p>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<p>Dio lo volle! Non dar colpa ai mortali!</p>
+						<p><lb n="305"/>
+Or ti preghiamo e franchi ti parliamo,
+del Dio del mare o generoso figlio :
+non voler, no, sgozzare ed empio pasto
+far dei tuoi denti uomini amici, giunti
+alle tue case! Noi salvammo, o sire,
+<lb n="310"/>
+nel cuor d’ Eliade i tempi di tuo padre.</p>
+<p>È di Tenaro illeso il sacro porto,
+e di Malea gli eccelsi anfratti; salvi
+i Geresti recessi, e l' argentifero
+Sunio, diletto alla divina Atena.
+<lb n="315"/>
+Né condonammo i temulenti affronti
+ai Frigi. E sei di ciò tu pur partecipe,
+tu che nel cuore d’Ellade hai dimora,
+sotto la rupe etnèa fuoco stillante.</p>
+						<pb n="28"/>
+						<p>E se queste ragioni non ti valgono,
+<lb n="320"/>
+è legge fra i mortali ai peregrini
+naufraghi offrir doni ospitali e vesti,
+non infilarli a madornali spiedi,
+ed empirtene il ventre e il gorgozzule.</p>
+						<p>Già vedovò di Priamo la terra
+<lb n="325"/>
+tanto la Grecia, e tanto sangue bevve
+d’ eroi caduti sotto l' aste, ed orbe
+di figliuoli e di sposi e spose e madri
+rese, e padri canuti. Or se i superstiti
+arrostisci, e ne fai truce banchetto,
+<lb n="330"/>
+dove salvarsi più? M’ odi, o Ciclope :
+della tua gola l' ingordigia frena,
+e meglio eh’ empio essere pio ti piaccia;
+ché l' empietà fruttò castigo a molti.</p>
+						<p>S<hi rend="smallcap">ileno</hi></p>
+						<ab>
+							<seg>al Ciclope</seg>
+						</ab>
+						<p>Ascolta un mio consiglio. Della carne
+<lb n="335"/>
+di costui non lasciarne un solo briciolo;
+ché se ingolli la lingua, diverrai
+tutto lingua, o Ciclope, e tutto spirito.</p>
+						<pb n="29"/>
+						<p>C<hi rend="smallcap">ICLOPE</hi></p>
+						<ab>
+							<seg>sentenzioso</seg>
+						</ab>
+						<p>Il dio di chi capisce, ometto mio,
+sono i quattrini : tutto quanto il resto
+<lb n="340"/>
+sono fanfaronate e belle frasi.</p>
+						<p>Tanti saluti ai promontori dove
+mio padre ha i tempi; a che tirarli in ballo?
+Io, forestiere mio, non ho paura
+del fulmine di Giove; e non capisco
+<lb n="345"/>
+perchè mai Giove sia più dio di me.</p>
+						<p>Del resto, poi, non me n’ importa; e senti
+perchè non me n’ importa. Quando lui
+di lassù versa pioggia, io sto al riparo
+in questa grotta : e lì, pappando qualche
+<lb n="350"/>
+vitello arrosto e qualche buon boccone
+di selvaggina, mi consolo il buzzo,
+a pancia all' aria, e poi ci bevo sopra
+una secchia di latte, e avvento peti,
+e coi miei tuoni tengo testa a Giove.</p>
+						<p><lb n="355"/>
+Quando poi versa neve il tracio Borea,
+m’ avvolgo in buone pelli, e attizzo il fuoco,
+<pb n="30"/>
+e della neve me n’ infischio tanto.</p>
+<p>E la terra, volere o non volere,
+produce l' erba, e ingrassa le mie greggi.</p>
+						<p><lb n="360"/>
+E io non le sacrifico a nessuno,
+tranne che a me, e a questo ventre, il primo
+degl’ Immortali. E i Numi a becco asciutto!</p>
+						<p>Chè bevere e mangiare alla giornata,
+questo è il dio della gente che capisce;
+<lb n="365"/>
+e non stare a pigliarsela. E quei tali
+che scrissero le leggi, e complicarono
+la vita dei mortali, te li mando
+a quel paese. Io mai non lascerò
+di far quel che mi gusta... e di papparti.</p>
+						<p><lb n="370"/>
+E per non farmi guardar dietro, avrai
+questi doni ospitali : il fuoco e l' acqua
+e la caldaia, che col suo bollore
+ti terrà caldo meglio d’ un vestito.</p>
+<p>Ma entrate, via : che stando intorno all’ ara
+<lb n="375"/>
+del dio dell’ antro... m’ammanniate il pranzo!</p>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<p>Ai perigli di Troia, ahimè sfuggii,
+<pb n="31"/>
+all’ insidie del mare; ed or mi frango
+contro un animo duro, inospitale.</p>
+						<p>Oh, Palla, o Dea che Giove a padre avesti,
+<lb n="380"/>
+or tu m’ aiuta; chè a maggior travagli
+degl’ iliaci giunsi, e all' orlo estremo
+della rovina. E tu, Giove ospitale,
+che fra lucide stelle hai la dimora,
+qui volgi il guardo : chè se ciò non miri,
+<lb n="385"/>
+dio ti chiamano a torto, e dio non sei!</p>
+						<p>Il Ciclope, cacciandosi avanti brutalmente
+Ulisse e i compagni, entra nella spelonca.</p>
+					</div>
+					<div type="textpart" subtype="chapter" n="4">
+						<pb n="32"/>
+						<head>
+							<title>C<hi rend="smallcap">oro</hi>, C<hi rend="smallcap">orifeo</hi></title>
+						</head>
+						<p>STROFE</p>
+						<p>Ciclope, spalanca le fauci
+del tuo gorgozzule capace;
+chè gli ospiti allesso ed arrosto levar dalla brace
+puoi già, sgretolarli, trinciarne,
+<lb n="390"/>
+steso su velli morbidi, la carne.</p>
+						<p>TUTTO IL CORO</p>
+						<p>Non me n’ offrire, non me n’ offrire!</p>
+						<p>Solo soletto impinza la sentina!</p>
+						<pb n="33"/>
+						<p>Lungi da me quest’ antro,
+lunge la carneficina,
+<lb n="395"/>
+l' immondo rito che il Ciclope celebra
+etnèo, che mangia tanto volentieri
+ciccia di forestieri!</p>
+						<p>C<hi rend="smallcap">orifeo</hi></p>
+						<p>ANTISTROFE</p>
+						<p>Crudele, sacrilego! I supplici
+stranieri che giungono presso
+<lb n="400"/>
+al tuo focolare, li accoppi, li accomodi allesso,
+ne rodi la carne coi sozzi tuoi denti,
+levata appena dai carboni ardenti!</p>
+						<p>TUTTO IL CORO</p>
+						<p>Non me n’ offrire, non me n’ offrire!</p>
+						<p>Solo soletto impinza la sentina!</p>
+						<p><lb n="405"/>
+Lungi da me quest’ antro,
+lungi la carneficina,
+l' immondo rito che il Ciclope celebra
+etnèo, che pappa tanto volentieri
+ciccia di forestieri!</p>
+						<pb n="34"/>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<ab>
+							<seg>esce dalia caverna esterrefatto</seg>
+						</ab>
+						<p><lb n="410"/>
+Oh Giove, che dirò! Visto ho nell’ antro
+incredibili orrori, a fole simili,
+non ad opere umane!</p>
+						<p>C<hi rend="smallcap">orifeo</hi></p>
+						<p>Ulisse, che
+cosa è successo? Alcun dei tuoi compagni
+s’ è pappato l' empissimo Ciclope?</p>
+						<pb n="35"/>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<p><lb n="415"/>
+Due! Li ha sbirciati e li ha trascelti a peso:
+i due ch’ eran più grassi e più pasciuti.</p>
+						<p>C<hi rend="smallcap">orifeo</hi></p>
+						<p>Come tal danno, o miseri, patiste?</p>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<p>Come nella spelonca entrati fummo,
+prima gittò sul focolare grossi
+<lb n="420"/>
+ceppi d’ eccelsa quercia, una catasta
+da portarla tre carri, e accese il fuoco,
+e ci mise a bollire una caldaia
+di bronzo; e accosto al fuoco, a farne un letto,
+stese frasche d’ abete. E le giovenche
+<lb n="425"/>
+poi munse, e riempi di bianco latte
+un secchio che tenea dieci boccali,
+ed una tazza d’ ellera vi pose
+presso, larga tre braccia e fonda quattro,
+e rami di verruca, a mo’ di spiedi
+<lb n="430"/>
+lisciati con la falce, e resi duri
+in cima sopra il fuoco, e scannatole
+col morso della scure arrotondate.</p>
+						<pb n="36"/>
+						<p>Quando tutto fu pronto, l' odioso
+cuoco d’ inferno, afferrò due de’ miei
+<lb n="435"/>
+compagni, e li ammazzò : questo nel cavo
+d’ un bacile di bronzo; e quello, presolo
+per un calcagno, lo sbattè sull’ aspra
+sporgenza d’ una rupe, e gli schizzò
+fuori il cervello; e fatto a brani il corpo
+<lb n="440"/>
+con un ferro affilato, ne gittò
+parte a lessar nella caldaia, e parte
+ne mise ad arrostire. lo, sciagurato,
+versando pianto da queste pupille,
+stavo accanto al Ciclope, e lo servivo;
+<lb n="445"/>
+gli altri, senza piú sangue nelle vene,
+stavano rimpiattati come uccelli
+negli anfratti dell' antro. Or poi che pieno
+fu della carne dei compagni, e cadde
+rovescioni, emettendo un fiato greve,
+<lb n="450"/>
+qualche Dio m’ispirò : colma una coppa
+di vin maronio, glie l' offersi, e dissi :
+Figlio del dio del mar, Ciclope, vedi
+che divino licor dalle sue viti,
+<pb n="37"/>
+bacchico refrigerio, Ellade t' offre!</p>
+						<p><lb n="455"/>
+Ed egli, gonfio del nefando cibo,
+accetta, e trinca, e manda giù d’ un sorso,
+e se ne loda, e volge a me la mano :
+« Dopo un buon pranzo, ospite mio carissimo,
+tu m’ offri un buon bicchiere! » Ed io, veduto
+<lb n="460"/>
+che ci pigliava gusto, glie ne mesco
+un’ altra tazza : ben sapea che il vino
+gli avrebbe dato in testa, e glie l' avrei
+fatta presto scontare. E lui si diede
+alle canzoni. Ed io glie ne mescevo
+<lb n="465"/>
+una sull’ altra; e bevi e bevi, andava
+in bollore. Ei berciava, e i miei compagni
+piangevano; e nell’ antro era un rimbombo.
+Io zitto zitto sono uscito, e voglio
+me salvare, e insiem voi, se lo bramate.</p>
+						<p><lb n="470"/>
+Ditemi, via, volete o non volete
+fuggir questo selvaggio, e nelle case
+viver di Bacco, insieme con le Naiadi?</p>
+<p>Il padre tuo, ch’ è lí dentro, consente;
+ma troppo fiacco, e al vino troppo dedito,
+<pb n="38"/>
+<lb n="475"/>
+come un uccello al vischio, se ne sta
+presso al bicchiere, e invan dibatte l' ale.</p>
+						<p>Tu che giovine sei, salvati meco,
+e a Diòniso torna, al vecchio amico
+tuo, che per nulla è simile al Ciclope.</p>
+						<p>C<hi rend="smallcap">oro</hi></p>
+						<p><lb n="480"/>
+Oh, se potessi, amico mio, vedere
+tale giorno, e fuggir l' empio Ciclope!</p>
+						<p>Chè da gran tempo a becco asciutto sta
+questo doccione, nè rifugio trova!</p>
+						<ab>
+							<seg>gesto equivoco.</seg>
+						</ab>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<p>Odi or com’ io disegno trar vendetta
+<lb n="485"/>
+dell’ empia fiera, e a libertà te rendere!</p>
+						<p>C<hi rend="smallcap">orifeo</hi></p>
+						<p>Parla : chè dolce più di lidia cetera
+sariami udire del Ciclope il rantolo!</p>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<p>Reso allegro dal vino, ei vuol recarsi
+dai fratelli Ciclopi a far baldoria.</p>
+						<pb n="39"/>
+						<p>C<hi rend="smallcap">orifeo</hi></p>
+						<p><lb n="490"/>
+Intendo. Solo fra i querceti coltolo,
+vuoi scannarlo o gittarlo in un burrone.</p>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<p>Punto! Servirmi dell' astuzia io penso!</p>
+						<p>C<hi rend="smallcap">orifeo</hi></p>
+						<p>Quale? Da un pezzo so che tu sei fino!</p>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<p>Distorlo vo’ da tal baldoria, e dirgli
+<lb n="495"/>
+che ai Ciclopi non dia questo licore,
+ma lo beva da solo, e se la sciali.</p>
+						<p>Quando poi dormirà vinto dal vino,
+ho visto dentro un ramo d’ oleastro,
+che in vetta aguzzerò con questa spada.
+<lb n="500"/>
+e lo porrò sul fuoco. E quando sia
+ben rosolato, toltolo rovente
+lo pianterò nel ciglio del Ciclope,
+e gli sfarò col fuoco la pupilla.</p>
+						<p>C<hi rend="smallcap">oro</hi></p>
+						<p>Evviva, evviva!</p>
+						<p><lb n="505"/>
+Che gusto il tuo trovato! Io ne vò pazzo!</p>
+						<pb n="40"/>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<p>Poi, te, gli amici e il vecchio condurrò
+al curvo scafo della nave nera,
+e a tutti remi fuggirò di qui.</p>
+						<p>C<hi rend="smallcap">oro</hi></p>
+						<p>Impugnar non potrei pure io la fiaccola,
+<lb n="510"/>
+come si fa nei sacrifizi, e immergergliela
+nell'occhio? Anch’ io vo’ esserci a finirlo!</p>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<p>Anzi, lo devi : è grande assai, la face!</p>
+						<p>C<hi rend="smallcap">oro</hi></p>
+						<p>Solleverei di cento carri il carico,
+pure d’ affumicar come un vespaio
+<lb n="515"/>
+l' occhio al maledettissimo Ciclope!</p>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<p>Dunque, silenzio. Or sai la trama. Quando
+comando, s’ obbedisca a chi l' ordì.</p>
+						<p>Salvarmi solo non voglio io, non voglio
+lasciar dentro lo speco i miei compagni.</p>
+						<p><lb n="520"/>
+Fuggir potrei, chè son dall’ antro fuori;
+ma non giusto è lasciar gli amici miei,
+coi quali venni, e pormi in salvo solo.</p>
+						<ab>
+							<seg>entra nella caverna.</seg>
+						</ab>
+						<pb n="41"/>
+						<p>U<hi rend="smallcap">n</hi> S<hi rend="smallcap">atiro</hi></p>
+						<p>Sù! Chi per primo, chi per secondo,
+l' elsa impugnando di quel tizzone,
+<lb n="525"/>
+del ciglio fulgido spintalo al fondo,
+l' occhio al Ciclope stritolerà!</p>
+						<p>U<hi rend="smallcap">n secondo</hi> S<hi rend="smallcap">atiro</hi></p>
+						<p>Zitto! Sta zitto! Presa ha la cotta;
+e urlando, senza garbo nè grazia,
+quell’ arfasatto lascia la grotta.</p>
+						<p><lb n="530"/>
+Che stonatore! Mai schianterà!</p>
+						<pb n="42"/>
+						<p>C<hi rend="smallcap">orifeo</hi></p>
+						<p>Su via, cantiamo qualche canzone,
+ammaestriamo quel bietolone :
+tanto fra poco non ci vedrà!</p>
+						<p>C<hi rend="smallcap">oro</hi></p>
+						<p>Oh beato chi tripudia
+<lb n="535"/>
+con l' umor dolce dei grappoli,
+dopo i fumi del banchetto,
+steso presso a un giovinetto,
+o su molle materasso
+con la bella si dà spasso,
+<lb n="540"/>
+e di mirra asperso i riccioli,
+						canta : « Chi dunque l' uscio m’ aprirà? »</p>
+<p>C<hi rend="smallcap">ICLOPE</hi></p>
+						<ab>
+							<seg>esce ubriaco, poggiandosi a Sileno e ad Ulisse</seg>
+						</ab>
+						<p>Tra la la là, son pien di vino,
+sono brillo pel festino :
+rimpinzata è la mia stiva,
+<lb n="545"/>
+sino al ponte il vino arriva!</p>
+						<p>Primavera! L' erba fresca
+fra i Ciclopi a gir m’ adesca
+<pb n="43"/>
+miei fratelli, a far baldoria.</p>
+						<p>Oh forestiere, dammi l' otre qua!</p>
+						<p>C<hi rend="smallcap">oro</hi></p>
+						<p><lb n="550"/>
+Esce il giovine leggiadro
+fuor di casa : ah, l' occhio ladro!</p>
+<p>Noi si piace a chi ci piace!</p>
+<p>Per te pronta è già la face,
+e una Ninfa ben formosa
+<lb n="555"/>
+nella grotta rugiadosa;
+e di serti un color vario
+ben presto ai crini tuoi s’avvolgerà.</p>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<p>Ciclope, ascolta, eh’ io son vecchio amico
+di questo Bacco ch’ io t' ho dato a bere.</p>
+						<p>C<hi rend="smallcap">ICLOPE</hi></p>
+						<p><lb n="560"/>
+Bacco! E che stima gode questo Dio?</p>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<p>D’allegrar più che ogni altro i giorni agli uomini.</p>
+						<p>C<hi rend="smallcap">ICLOPE</hi></p>
+						<p>Eh, difatti, ruttarlo è un gusto pazzo!</p>
+						<pb n="44"/>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<p>Tale è il dio; niun degli uomini danneggia.</p>
+						<p>C<hi rend="smallcap">ICLOPE</hi></p>
+						<p>E un dio si adatta a star chiuso in un otre?</p>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<p><lb n="565"/>
+Si trova bene ovunque lo si collochi.</p>
+						<p>C<hi rend="smallcap">ICLOPE</hi></p>
+						<p>Dentro una pelle un dio! Non c’ è decoro!</p>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<p>Che fa la pelle, se ti dà sollazzo?</p>
+						<p>C<hi rend="smallcap">ICLOPE</hi></p>
+						<p>L' otre l' ho in tasca, ma il licore l' amo.</p>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<p>Qui resta allor, Ciclope, e bevi e sciala!</p>
+						<p>C<hi rend="smallcap">ICLOPE</hi></p>
+						<p><lb n="570"/>
+Non debbo dunque offrirne ai miei fratelli?</p>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<p>Se l' avrai solo, avrai maggior prestigio!</p>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<p>Ma se l' offro agli amici, acquisto merito.</p>
+						<pb n="45"/>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<p>Risse produce la baldoria, e pugni!</p>
+						<p>C<hi rend="smallcap">ICLOPE</hi></p>
+						<p>Pur se brillo son io, guai chi mi tocca!</p>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<p><lb n="575"/>
+Rimanga in casa chi ha bevuto, grullo!</p>
+						<p>C<hi rend="smallcap">ICLOPE</hi></p>
+						<p>Citrullo chi non trinca in compagnia!</p>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<p>Saggio chi resta, quand'è brillo, in casa!</p>
+						<p>C<hi rend="smallcap">ICLOPE</hi></p>
+						<ab>
+							<seg>a Sileno</seg>
+						</ab>
+						<p>Sileno, che si fa? Si va? Si resta?</p>
+						<p>S<hi rend="smallcap">ileno</hi></p>
+						<p>Restiamo. Oh a che ci servono altre bocche?</p>
+						<p>C<hi rend="smallcap">ICLOPE</hi></p>
+						<p><lb n="580"/>
+E il tappeto c’ è, qui, d’ erbetta fresca!</p>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<p>E il calore del sole invita a bere.</p>
+						<pb n="46"/>
+						<p>S<hi rend="smallcap">ileno</hi></p>
+						<p>Sdràiati, e stendi sulla terra il fianco.</p>
+						<ab>
+							<seg>nasconde il boccale dietro al Ciclopc.</seg>
+						</ab>
+						<p>C<hi rend="smallcap">ICLOPE</hi></p>
+						<p>Oh perchè dietro me poni il boccale?</p>
+						<p>S<hi rend="smallcap">ileno</hi></p>
+						<p>Perchè qualcuno non lo rubi!</p>
+						<p>C<hi rend="smallcap">ICLOPE</hi></p>
+						<p>Vuoi</p>
+						<p><lb n="585"/>
+berlo tu di nascosto? In mezzo, mettilo!</p>
+						<ab>
+							<seg>ad Ulisse</seg>
+						</ab>
+						<p>E tu, straniero, dimmi il nome tuo!</p>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<p>Nessuno! E per che grazia avrò a lodarti?</p>
+						<p>C<hi rend="smallcap">ICLOPE</hi></p>
+						<p>Te dei compagni tuoi papperò ultimo!</p>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<p>Bel regalo offri all' ospite, o Ciclope!</p>
+						<p>C<hi rend="smallcap">ICLOPE</hi></p>
+						<ab>
+							<seg>a Sileno che beve</seg>
+						</ab>
+						<p><lb n="590"/>
+Che fai lì, coso? Trinchi di nascosto?</p>
+						<pb n="47"/>
+						<p>S<hi rend="smallcap">ileno</hi></p>
+						<p>No! Mi baciava lui perchè son bello!</p>
+						<p>C<hi rend="smallcap">ICLOPE</hi></p>
+						<p>Ami chi non ti vuole! Saran lagrime!</p>
+						<p>S<hi rend="smallcap">ileno</hi></p>
+						<p>Lagrime, sì, se dici che non m’ ama.</p>
+						<p>C<hi rend="smallcap">ICLOPE</hi></p>
+						<p>Andiamo, via, colma una tazza, e dammela.</p>
+						<p>Sileno</p>
+						<p><lb n="595"/>
+Come si tempra? Aspetta, che ricordi.</p>
+						<p>C<hi rend="smallcap">ICLOPE</hi></p>
+						<p>Tu m’assassini! Dammelo così.</p>
+						<p>S<hi rend="smallcap">ileno</hi></p>
+						<p>Non te lo mescerò, perdio, se prima
+						non t’ho veduto la corona in capo!</p>
+						<p>C<hi rend="smallcap">ICLOPE</hi></p>
+						<p>Briccone d’ un coppiere!</p>
+						<p>S<hi rend="smallcap">ileno</hi></p>
+						<p>Oh, che! Non sono
+						<lb n="600"/>
+briccone io : il vino è troppo buono!</p>
+						<p>Ma se vuoi bere, prima hai da forbirti!</p>
+						<pb n="48"/>
+						<p>C<hi rend="smallcap">ICLOPE</hi></p>
+						<ab>
+							<seg>si forbisce goffamente</seg>
+						</ab>
+						<p>Ecco : forbiti son labbra e mustacchi.</p>
+						<p>S<hi rend="smallcap">ileno</hi></p>
+						<p>Adesso appoggia con bel garbo il gomito,
+e dopo bevi come faccio io,
+e smetti come me.</p>
+						<ab>
+							<seg>beve d' un sorso.</seg>
+						</ab>
+						<p>C<hi rend="smallcap">ICLOPE</hi></p>
+						<p><lb n="605"/>
+Ehi, ehi, che fai?</p>
+						<p>S<hi rend="smallcap">ileno</hi></p>
+						<p>Ho fatto un sorso solo! Ah, che dolcezza!</p>
+						<p>C<hi rend="smallcap">ICLOPE</hi></p>
+						<ab>
+							<seg>a Ulisse</seg>
+						</ab>
+						<p>Piglia, straniero, sii tu mio coppiere.</p>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<p>Amici son la vigna e questa mano.</p>
+						<p>C<hi rend="smallcap">ICLOPE</hi></p>
+						<p>Mesci, via!</p>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<p>Mesco : basta che tu taccia.</p>
+						<pb n="49"/>
+						<p>C<hi rend="smallcap">ICLOPE</hi></p>
+						<p><lb n="610"/>
+Tacer col vino in corpo? È dura assai!</p>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<p>Toh, piglia, bevi, e non lasciarne gocciola!</p>
+						<p>Sopra il bicchiere s’ ha da lasciar l' anima.</p>
+						<p>C<hi rend="smallcap">ICLOPE</hi></p>
+						<ab>
+							<seg>briaco fradicio</seg>
+						</ab>
+						<p>Bene mio! Fino, il frutto della vite!</p>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<p>Se tu sopra un buon pranzo ne tracanni
+<lb n="615"/>
+senza risparmio, che t’annaffi il ventre
+e ti disseti, ti concilia il sonno.</p>
+						<p>Se ci vai fiacco, il vin ti dà l' arsura.</p>
+						<p>C<hi rend="smallcap">ICLOPE</hi></p>
+						<p>Evviva, evviva!</p>
+						<p>Eccomi a riva! Oh pura voluttà!</p>
+						<p><lb n="620"/>
+Mi par che cielo e terra insiem confusi
+roteino; e di Giove il trono scorgo,
+e dei Celesti le beate schiere.</p>
+						<p>Mi tentano le Grazie. E non vi voglio
+baciare!</p>
+						<pb n="50"/>
+						<ab>
+							<seg>afferra Sileno</seg>
+						</ab>
+						<p>Ho meco questo Ganimede
+<lb n="625"/>
+bello più delle Grazie; e mi soddisfano
+i ragazzetti meglio delle femmine.</p>
+						<p>S<hi rend="smallcap">ileno</hi></p>
+						<ab>
+							<seg>esterrefatto</seg>
+						</ab>
+						<p>Ganimede son io dunque, o Ciclope?</p>
+						<p>C<hi rend="smallcap">ICLOPE</hi></p>
+						<p>Perdio, certo! E t' involo a questo Dàrdano!</p>
+						<p>S<hi rend="smallcap">ileno</hi></p>
+						<ab>
+							<seg>reluttando invano al Ciclope che lo trascina</seg>
+						</ab>
+						<p>Figliuoli miei, son fritto! Patirò
+l' ultimo oltraggio!</p>
+						<p>C<hi rend="smallcap">ICLOPE</hi></p>
+						<p><lb n="630"/>
+Sdegni il tuo patito?</p>
+						<p>Fai lo spocchioso perchè son briaco?</p>
+						<p>S<hi rend="smallcap">ileno</hi></p>
+						<p>Ahi! Mi torna in veleno, oggi, quel vino!</p>
+						<ab>
+							<seg>spariscono nella spelonca.</seg>
+						</ab>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<p>Su via, di Bacco generosi figli,
+						<pb n="51"/>
+						dentro è colui. Vinto dal sonno, presto
+<lb n="635"/>
+dal gozzo osceno erutterà la carne.</p>
+						<p>Nella caverna già la face fumiga,
+e tutto è pronto : resta sol che s’ arda
+la pupilla al Ciclope. Uomo or ti mostra!</p>
+						<p>C<hi rend="smallcap">oro</hi></p>
+						<p>Di sasso il cuore, d’ adamante avremo.</p>
+						<p><lb n="640"/>
+Va’ dentro, prima che mio padre soffra
+qualche nefandità. Noi siamo pronti.</p>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<ab>
+							<seg>volto al cielo</seg>
+						</ab>
+						<p>Oh Signore dell’Etna, o Efesto, brucia
+la pupilla fulgente al tuo vicino
+empio, e una volta alfin da lui t’ affranca.</p>
+						<p><lb n="645"/>
+E tu, figliuol dell’ atra Notte, o Sonno,
+profondo invadi l' odioso mostro,
+sì che non cada, Ulisse e i suoi compagni,
+dopo l' iliache gloriose gesta,
+per mandi tal ch’ uomini e Numi spregia.</p>
+						<p><lb n="650"/>
+O credere dovrem che il caso è dio,
+e che meno del caso i Numi valgono!</p>
+						<ab>
+							<seg>entra nella grotta.</seg>
+						</ab>
+						<pb n="52"/>
+						<p>C<hi rend="smallcap">oro</hi></p>
+						<p>Omai ghermirà la tenaglia
+con solida stretta la strozza
+d’ un tale che gli ospiti ingozza :
+<lb n="655"/>
+le molle arderan la pupilla
+ch’ or lucida brilla.</p>
+						<p>1. S<hi rend="smallcap">emicoro</hi></p>
+						<p>STROFE</p>
+						<p>Fra i carboni ascosa aspetta
+rosolata già, la fiaccola,
+di querciolo immane vetta.</p>
+						<pb n="53"/>
+						<p>II. S<hi rend="smallcap">emicoro</hi></p>
+						<p>ANTISTROFE</p>
+						<p><lb n="660"/>
+Fa’, Marone, il tuo dovere,
+al Ciclope cava l' occhio,
+che in velen gli torni il bere!</p>
+						<p>T<hi rend="smallcap">utto IL</hi> C<hi rend="smallcap">oro</hi></p>
+						<p>Ed io vo’ rivedere il caro Bromio,
+<lb n="665"/>
+sospiro del cuor mio, d’ ellera adorno,
+e queste del Ciclope solitudini
+abbandonare. Ah! Vedrò mai tal giorno!</p>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<ab>
+							<seg>esce dalla caverna.</seg>
+						</ab>
+						<p>Tacete, o fiere, per gli Dei! Sbarrate
+il varco della bocca! Io non vi lascio
+<lb n="670"/>
+spurgarvi, nè ammiccar, nè respirare,
+se prima il fuoco arso al Ciclope l' occhio
+non abbia! Guai, se si ridesta il mostro!</p>
+						<p>C<hi rend="smallcap">oro</hi></p>
+						<p>Acqua in bocca! Siam muti come pesci!</p>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<p>Entrate dentro, dunque, ed alla fiaccola
+						<pb n="54"/>
+						<lb n="675"/>
+date di piglio : è arroventata a punto.</p>
+						<p>C<hi rend="smallcap">orifeo</hi></p>
+						<p>Oh dunque, ordina tu, chi deve primo
+dar di piglio alla trave, e bruciar l' occhio
+del mostro, ed affrontar teco la sorte!</p>
+						<p>A<hi rend="smallcap">lcuni</hi> S<hi rend="smallcap">atiri</hi></p>
+						<p>Noi siam troppo lontani dall’ ingresso
+<lb n="680"/>
+per arrivar col trave alla pupilla!</p>
+						<p>A<hi rend="smallcap">ltri</hi></p>
+						<p>Noi ci siamo azzoppiti, adesso adesso!</p>
+						<p>A<hi rend="smallcap">ltri</hi></p>
+						<p>Toh! Come noi! C' è preso, non so come,
+a furia di star ritti, il granchio ai piedi.</p>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<p>Il granchio a star diritti?</p>
+						<p>A<hi rend="smallcap">ltri</hi></p>
+						<p>E abbiamo pieni
+						<lb n="685"/>
+gli occhi, non so, di polvere o di cenere.</p>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<p>Oh vile gente! Oh inutili alleati!</p>
+						<pb n="55"/>
+						<p>C<hi rend="smallcap">oro</hi></p>
+						<p>Perchè uso riguardo al mio groppone
+e al filo della schiena, e non ho voglia
+di sputare i miei denti pei cazzotti,
+<lb n="690"/>
+sarò vile? So invece un canto magico
+infallibil, d’ Orfeo, per cui la fiaccola,
+mossa di per sè stessa, arderà l' occhio
+al monocolo figlio della terra.</p>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<p>Da un pezzo eh’ eri tal sapevo : adesso
+<lb n="695"/>
+n’ho la prova. Dovrò servirmi a forza
+dei miei compagni. Almen, poi che tu nulla
+per la man vali, almen dacci l’aire,
+e con la voce i miei compagni incora.</p>
+						<p>C<hi rend="smallcap">orifeo</hi></p>
+						<p>Che ci si perde? Siamo pronti! Basta
+<lb n="700"/>
+dar l’aire? Il Ciclope è bello e cieco!</p>
+						<ab>
+							<seg>Ulisse entra nella caverna.</seg>
+						</ab>
+						<p>S<hi rend="smallcap">atiri</hi></p>
+						<p>Coraggio, sotto! Che s’indugia?</p>
+						<p>L’occhio bruciate a quel selvaggio
+<pb n="56"/>
+che gli ospiti trangugia!</p>
+						<p>Affumicate, ohop!,
+<lb n="705"/>
+ardete, ohop!,
+dell’ Etna il pecoraio!</p>
+<p>Spingi, trapana, attento
+che scattando pel tormento
+non combini qualche guaio!</p>
+						<ab>
+							<seg>dalla caverna esce un urlo formidabile</seg>
+						</ab>
+						<p>C<hi rend="smallcap">iclope</hi></p>
+						<p><lb n="710"/>
+Ahi! Deir occhio il fulgore inceso m'hanno!</p>
+						<p>C<hi rend="smallcap">orifeo</hi></p>
+						<ab>
+							<seg>al Ciclope.</seg>
+						</ab>
+						<p>Bello questo peana! Vuoi ripeterlo?</p>
+						<p>C<hi rend="smallcap">iclope</hi></p>
+						<p>Che strazio, che rovina, ahi! Ma fuggire
+non potrete di qui, gente da nulla!</p>
+						<p>Corro a piantarmi sull’ ingresso, a mani
+<lb n="715"/>
+protese; e avrete da star poco allegri!</p>
+						<ab>
+							<seg>sbuca e sbarra le mani avanti all'ingresso.</seg>
+						</ab>
+						<p>C<hi rend="smallcap">oro</hi></p>
+						<p>Perchè gridi, o Ciclope?</p>
+						<pb n="57"/>
+						<p>C<hi rend="smallcap">iclope</hi></p>
+						<p>Sono morto!</p>
+						<p>C<hi rend="smallcap">oro</hi></p>
+						<p>Quanto sei brutto!</p>
+						<p>C<hi rend="smallcap">iclope</hi></p>
+						<p>E più sono infelice!</p>
+						<p>C<hi rend="smallcap">oro</hi></p>
+						<p>Sei caduto briaco sui carboni?</p>
+						<p>C<hi rend="smallcap">iclope</hi></p>
+						<p><hi rend="italic">Nessuno</hi> mi finì!</p>
+						<p>C<hi rend="smallcap">oro</hi></p>
+						<p>Sei dunque illeso!</p>
+						<p>C<hi rend="smallcap">iclope</hi></p>
+						<p><hi rend="italic">Nessuno</hi> m’ accecò!</p>
+						<p>C<hi rend="smallcap">oro</hi></p>
+						<p><lb n="720"/>
+Dunque ci vedi!</p>
+						<p>C<hi rend="smallcap">iclope</hi></p>
+						<p>Così tu ci vedessi!</p>
+						<p>C<hi rend="smallcap">oro</hi></p>
+						<p>E come mai
+						può accecare, nessuno?</p>
+						<pb n="58"/>
+						<p>C<hi rend="smallcap">iclope</hi></p>
+						<p>Ah! Tu mi beffi!</p>
+						<p><hi rend="italic">Nessuno</hi>, dove sta?</p>
+						<p>C<hi rend="smallcap">oro</hi></p>
+						<p>In nessun luogo!</p>
+						<p>C<hi rend="smallcap">iclope</hi></p>
+						<p>Il forestiero, sappilo, m’ ha ucciso!</p>
+<p><lb n="725"/>
+Mi diè una coppa, ed io mi ci affogai!</p>
+						<p>C<hi rend="smallcap">oro</hi></p>
+						<p>Non ci si può, col vino! È traditore!</p>
+						<p>C<hi rend="smallcap">iclope</hi></p>
+						<p>Per gli Dei, son fuggiti, o sono in casa?</p>
+						<p>C<hi rend="smallcap">oro</hi></p>
+						<p>Si son messi al riparo della roccia,
+e stan lì, zitti, zitti.</p>
+						<p>C<hi rend="smallcap">iclope</hi></p>
+						<p>Da che mano?</p>
+						<p>C<hi rend="smallcap">oro</hi></p>
+						<p>Alla tua destra</p>
+						<p>C<hi rend="smallcap">iclope</hi></p>
+						<p>Dove?</p>
+						<pb n="59"/>
+						<p>C<hi rend="smallcap">oro</hi></p>
+						<p><lb n="730"/>
+Proprio addosso
+						alla roccia. Li hai presi?</p>
+						<p>C<hi rend="smallcap">iclope</hi></p>
+						<ab>
+							<seg>si avventa e picchia il capo contro la roccia.</seg>
+						</ab>
+						<p>Male sopra
+						male! Ho picchiato e mi son rotto il capo!</p>
+						<p>C<hi rend="smallcap">oro</hi></p>
+						<p>Ti son fuggiti ancora!</p>
+						<p>C<hi rend="smallcap">iclope</hi></p>
+						<p>E da che parte?</p>
+						<p>Non m’ hai detto da questa?</p>
+						<p>C<hi rend="smallcap">oro</hi></p>
+						<p>Nooh! Da quella!</p>
+						<p>C<hi rend="smallcap">iclope</hi></p>
+						<p>Da quale, insomma?</p>
+						<p>C<hi rend="smallcap">oro</hi></p>
+						<p><lb n="735"/>
+Gìrati a mancina!</p>
+						<p>C<hi rend="smallcap">iclope</hi></p>
+						<ab>
+							<seg>si lancia come sopra</seg>
+						</ab>
+						<p>Ahi! Mi beffate! Mi spezzate il cuore
+						<pb n="60"/>
+						nella sciagura!</p>
+						<p>C<hi rend="smallcap">oro</hi></p>
+						<p>Ora no, basta. È avanti
+						a te!</p>
+						<p>C<hi rend="smallcap">iclope</hi></p>
+						<p>Pozzo d' infamia, ove sei tu?</p>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<p>Da te lontano, ed al securo è Ulisse!</p>
+						<p>C<hi rend="smallcap">iclope</hi></p>
+						<p><lb n="740"/>
+Che sento? Un nome nuovo? L’hai cambiato?</p>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<p>Mi pose il padre mio d’Ulisse il nome.</p>
+						<p>Pagar dovevi il fio dell’ empio pasto.</p>
+						<p>Ho arsa Troia, e non dovevo farti
+scontar la morte dei compagni miei?</p>
+						<p>C<hi rend="smallcap">iclope</hi></p>
+						<p><lb n="745"/>
+						Ahimè! Si compie un vaticinio antico,
+che delle luci tu m’ avresti orbato
+ritornando da Troia. Ma dovrai
+pagar tu pure il fio di questo scempio,
+errando a lungo alla mercè dei flutti.</p>
+						<pb n="61"/>
+						<p>U<hi rend="smallcap">lisse</hi></p>
+						<p><lb n="750"/>
+Ti pigli un male! E te l' ho fatto prendere
+già! Sulla spiaggia or vado, e il legno spingo
+sovra il siculo mar, verso la patria!</p>
+						<p>C<hi rend="smallcap">iclope</hi></p>
+						<p>No, chè le creste a questa rupe svelte
+le scaglierò su te, ti affonderò
+<lb n="755"/>
+coi tuoi compagni. E benchè cieco, posso
+per questo foro arrampicarmi in cima.</p>
+						<ab>
+							<seg>sparisce in un foro della rupe.</seg>
+						</ab>
+						<p>C<hi rend="smallcap">oro</hi></p>
+						<p>E noi, la nave ascesa con Ulisse,
+di Bacco, d’ ora in poi, servi saremo!</p>
+						<p>FINE.</p>
+					</div>
+					<div type="textpart" subtype="chapter" n="5">
+						<pb n="63"/>
+						<head>
+							<title>NOTE</title>
+						</head>
+						<p>Verso 4. - Dice Apollodoro (III, 5, 1) che Diòniso, reso
+pazzo da Era, andò errando per l' Egitto e
+la Siria.</p>
+						<p>„ 9. - Vedi Introduzione, pag. ΧΧΧIIΙ</p>
+						<p>„ 112. - Vedi Introduzione, pag. XIV seg.</p>
+						<p>„ 155. - In questo punto il testo è corrotto e forse mu-
+tilato. Credo che il senso fosse però quello che
+risulta della mia versione. Il motivo delle vet-
+tovaglie che, consumate, raddoppiano, era co-
+mune in Grecia come presso ogni popolo. Nei
+<hi rend="italic">Minatori</hi> del commediografo Fececrate un per-
+sonaggio descriveva un immaginario paese di
+Bengodi, e concludeva : Chi poi fra tante
+grasce — alcuna o beva o mangi, il doppio,
+ecco, ne nasce.</p>
+						<p>„ 161. - Anche ora i Siciliani dicono che un odore è
+bello. Circa il frigido giuoco di parole a coi
+dà luogo l' espressione, vedi Introduzione,
+pag. XLVIII.</p>
+						<p>„ 167. - I Siciliani usano anche oggi una espressione si-
+mile per dire che sono saturi di alcuna felicità.</p>
+						<p>„ 186. - Leggo coi codici <foreign xml:lang="grc">oùxoOv</foreign>.</p>
+						<p>„ 250. - Tutto quel po' po’ di roba, dopo falciategli le
+budella, sembra un po' troppo.</p>
+						<pb n="64"/>
+						<p>„ 309. - Veramente al tempo della guerra troiana i
+tempi della Grecia non avevano corso alcun
+pericolo. Ma con grazioso anacronismo, appena
+accennato, Ulisse parla come un Ateniese che
+abbia ancora presente l'invasione persiana
+e le gloriose guerre dell' indipendenza greca.</p>
+						<p>„ 334. - É ancor vivo in molte plebi il pregiudizio che
+mangiando certe parti di animali si acquistino
+determinate qualità.</p>
+						<p>„ 366. - Le leggi, secondo il ciclope, non sono se non
+complicazioni della vita naturale, che sarebbe
+in sè tanto semplice.</p>
+						<p>„ 455. - Il gesto di chi voleva rivolgere altrui la parola.</p>
+						<p>„ 502. - Seguono nel testo i seguenti versi : “ E come
+fabbro di navil con duplice — cinghia governa
+il trapano, così — gli girerò la fiaccola nel-
+l'occhio — e le pupille secche gli farò. — Mi
+decido a espungerli dalla versione, non tanto
+perchè ripetono troppo pedissequamente e inop-
+portunamente la descrizione omerica (i 384),
+quanto perchè sono una ripetizione, concor-
+dante spesso anche nel suono (cfr. v. 459 e
+463) di quanto è detto poco sopra.</p>
+						<p>„ 507. - Nei sacrifizi si soleva togliere un tizzone ar-
+dente dall'ara e tuffarlo in un catino d'acqua
+per ispruzzarne poi tutti i presenti.</p>
+						<p>„ 532. - Forse tutta questa strofctta e certo l' ultimo
+verso appartennero ad una canzoncina popo-
+lare. E reminiscenze popolaresche sono qua e
+là in tutto questo brano.</p>
+					</div>
+				</div>
+			</div>
+			<div type="textpart" subtype="back">
+				<pb n="65"/>
+				<p>INDICE</p>
+				<p>Il dramma satiresco.... pag. IX</p>
+				<p>Il Ciclope........„ 1</p>
+				<p>Note......... „ 63</p>
+			</div>
+		</body>
+	</text>
+</TEI>

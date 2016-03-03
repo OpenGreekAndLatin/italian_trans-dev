@@ -1,0 +1,2924 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>L’ODISSEA</title>
+				<sponsor>University of Leipzig</sponsor>
+				<funder>European Social Fund Saxony</funder>
+				<principal>Gregory Crane</principal>
+				<meeting/>
+				<respStmt>
+					<persName xml:id="DDD">Digital Divide Data</persName>
+					<resp>Corrected and encoded the text</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Greta Franzini</persName>
+					<resp>Project Manager (University of Leipzig)</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Frederik Baumgardt</persName>
+					<resp>Technical Manager (University of Leipzig)</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Simona Stoyanova</persName>
+					<resp>Project Assistant (University of Leipzig)</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Bruce Robertson</persName>
+					<resp>Technical Advisor</resp>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>University of Leipzig</authority>
+				<idno type="filename">TO BE ADDED BY LEIPZIG</idno>
+				<availability>
+					<p>Available under a Creative Commons Attribution-ShareAlike 4.0 International License</p>
+				</availability>
+				<date>2015</date>
+				<publisher>University of Leipzig</publisher>
+				<pubPlace>Germany</pubPlace>
+			</publicationStmt>
+			<sourceDesc>
+				<listBibl xml:lang="it">
+					<biblStruct>
+						<monogr>
+							<title>L’ODISSEA</title>
+							<editor>
+								<persName>
+									<name xml:lang="it">VINCENZO COSTANZI</name>
+								</persName>
+							</editor>
+							<author ref="urn:tmp">VINCENZO COSTANZI</author>
+							<imprint>
+								<pubPlace>MILANO-ROMA-NAPOLI</pubPlace>
+								<publisher>SOCIETÀ EDITRICE DANTE ALIGHIERI DI ALBRIGHI, SEGATI &amp; C.</publisher>
+								<date>1914</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+				</listBibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<p>Text encoded in accordance with the latest EpiDoc standards (January 2014)</p>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="it">Italian</language>
+				<language ident="grc">Greek</language>
+			</langUsage>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2015-01-13" who="dwp"/>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="bibliography">
+				<listBibl>
+					<bibl/>
+				</listBibl>
+			</div>
+			<div type="commentary" subtype="preface">
+				<pb n="7"/>
+				<head>
+					<title>PREFAZIONE</title>
+				</head>
+				<p>A questa seconda edizione ho premessa un’introduzione, la
+quale non vuol essere una trattazione completa relativa alla fi-
+gura di Ulisse nei poemi omerici e alla contenenza del libro
+undecimo dell’ Odissea. Non ho creduto però inopportuno
+uno sguardo sommario a tutte le questioni attinenti alla
+persona di Ulisse e alla struttura dei poemi omerici, senza
+curarmi di segnalare dove manifestassi un’opinione personale
+nel riferire le opposte teorie. Le indicazioni bibliografiche
+date a p. 14 N. I danno le opere più salienti, in qualcune
+delle quali si trovano riferimenti a libri a monografie utili
+a consultarsi da chi volesse approfondire le questioni.</p>
+				<p>Pel testo ho seguito l’edizione curata da C. Hentze sulla
+collezione di Lipsia, senza però intendere che questo testo
+sia il definitivo; ma data la finalità modesta del lavoro, non
+ho creduto introdurre cambiamenti; poichè i problemi gram-
+maticali il professore potrà trattarli da sè, qualora trovi una
+scolaresca che corrisponda alle sue cure dotte e zelanti.</p>
+				<p>V. C.</p>
+			</div>
+			<div type="commentary" subtype="other">
+				<pb n="9"/>
+				<head>
+					<title>INTRODUZIONE</title>
+				</head>
+				<p>§ 1. — Il libro undecimo dell’ Odissea tratta della
+discesa di Ulisse all’ inferno, e porta il titolo di <foreign xml:lang="grc">νέκνια,</foreign>
+che propriamente significa evocazione dei morti. In
+quale relazione stia quest’ episodio con la struttura
+del poema e in generale con la leggenda di Ulisse,
+vedremo dopo aver riassunto a larghi tratti le no-
+tizie che abbiamo sulla figura di quest’ eroe, e le
+sue relazioni con la guerra di Troia.</p>
+				<p>§ 1. U<hi rend="smallcap">LISSE NELL’</hi>I<hi rend="smallcap">ILIADE</hi>. — Iliade Ulisse
+non ha alcuna parte necessaria nell’ azione epica, ma
+tuttavia ci appare come una figura cospicua e con
+caratteri ben rilevati. Lo troviamo prima incaricato
+di restituire Criseide al padre (A 144, 311, 430-487).
+Poscia, quando in seguito alla dichiarazione d’Aga-
+mennone che bisognava abbandonare l’assedio di
+Troia (B 110 sg.,) gli Achei corrono alle navi, Ulisse
+(B 188 sg.) con la coercizione o con la persuasione,
+secondo la qualità delle persone, li trattiene dalla
+fuga, e in questa occasione rintuzza la protervia del
+linguacciuto Tersite (B 215-277).</p>
+				<p>Nel catalogo delle navi (B 631 sg.) Ulisse con-
+duce oltre gli Itacensi, i Cefalleni, gli abitanti del-
+<pb n="10"/>
+l’isoletta di Crocilia ed Egilipe, di Zacinto e di
+Same, nonchè gli abitanti delle coste dirimpetto
+(l’ Acarnania?).<hi rend="superscript">1</hi> Nella <foreign xml:lang="grc">τειχοσκοκíα</foreign> è da Elena indi-
+cato anche Ulisse, (<foreign xml:lang="grc">Γ</foreign> 191 sg.) e Antenore ricorda che
+venne come ambasciadore per richiedere Elena, of
+frendoci di lui un ritratto molto efficace e caratteri-
+stico, specialmente del suo contegno e della sua elo-
+quenza (<foreign xml:lang="grc">Γ</foreign> 204-224).</p>
+				<p>Quando poi Ettore sfida a singolar tenzone chiun-
+que voglia degli Achei, è compreso insieme coi due
+Aiaci e altri eroi (N. 168) nel sorteggio per cimen-
+tarsi con lui. Lo ritroviamo quando Ettore fa strage
+dei Greci (<foreign xml:lang="grc">Θ</foreign> 92-98; 222 sg.); ma quivi ha una parte
+poco rilevante. Egli è poi incaricato di recarsi am-
+basciadore ad Achille per placarlo e indurlo a ritor-
+nare all’accampamento (I 169; 225 sg.); e quindi con
+Diomede si reca agli accampamenti traci per una
+ricognizione; in questa circostanza ambedue gli eroi
+achivi arrestano e uccidono Dolone, il quale ve-
+niva a spiare il campo dei Greci; uccidono anche
+Reso e tornano agli accampamenti (è questo il con-
+tenuto di K, libro che già gli antichi ritenevano
+un poemetto staccato da tutto il resto dell’ Iliade).
+Nella continuazione della guerra (K 310-sg.) Ulisse
+è ferito da Soco, e tralasciando di notare altri epi-
+<note type="footnote">1 Gli antichi o non avevano fatto attenzione al senso
+di questo luogo, o ne avevano data un’altra interpretazione,
+poichè i Romani per venire in soccorso agli Acarnani contro
+gli Etoli, facevano loro un merito di non aver preso parte
+alla guerra di Troia. IUSTIN VXXVIII 1, 6.</note>
+<pb n="11"/>
+sodi in cui ha parte, ricordiamo la sua lotta d’ esito
+incerto con Aiace Telamonio per le gare di forza
+fatte in onore di Patroclo (<foreign xml:lang="grc">Ψ</foreign> 709-739).</p>
+			 <p>U<hi rend="smallcap">LISSE NELL</hi>’O<hi rend="smallcap">DISSEA</hi> — Gli dei riuniti a concilio
+stabiliscono di ritogliere Ulisse dall’isola Ogigia, dove
+era nella dolce prigionia della ninfa Calipso, e re-
+stituirlo ad Itaca, mentre Telemaco delibera di an-
+dare a Pilo e quindi a Sparta per ricevere il padre
+(a 5). Calipso riceve l’ ordine da Zeus di rilasciare
+libero Ulisse, e la ninfa ci si rassegna con dolore:
+fa costruire una nave; ma l’ira di Posidone, per
+avergli accecato il figlio Polifemo (<foreign xml:lang="grc">κ</foreign>), lo perseguita
+ancora, tanto che la sua nave naufraga, ed egli si
+salva sulla costa del paese dei Feaci. Trovato dalla
+figlia del re dei Feaci Alcinoo, Nausicaa, e accolto
+dal re, ed invitato a raccontare le sue avventure
+(<foreign xml:lang="grc">ζ-θ</foreign>), che si possono cosi riassumere.</p>
+				<p>Tornando da Troia, egli e i suoi compagni ap-
+prodano presso Maronea sul territorio dei Cleoni, dove
+sono sopraffatti dal numero (<foreign xml:lang="grc">ς</foreign> 1-61). Di qui, in seguito
+alla violenza del vento Borea, è trasportato al pro-
+montorio Malea (280), e, passando presso Citera, giunge
+alla terra dei Lotofagi. Dalle terre dei Lotofagi si
+porta a quelle dei Ciclopi (<foreign xml:lang="grc">ì</foreign> 105), isola angusta (<foreign xml:lang="grc">έλάχεια</foreign>)
+(<foreign xml:lang="grc">i</foreign> 115). Il Ciclope Polifemo, divorati molti compagni
+d’ Ulisse, è accecato con astuzia da lui che salva in
+tal modo se e i compagni superstiti, ma si attira cosi
+l’ira di Posidone (<foreign xml:lang="grc">i</foreign> 535).</p>
+				<p>Ulisse si porta quindi all’ isola di Eolo, che gli
+consegna i venti rinchiusi in un otre, ma la mal-
+<pb n="12"/>
+sana curiosità dei compagni li induce ad aprire
+l’ otre, onde i venti friggono. Tornati da Eolo questi
+li discaccia. Di procella in procella, Ulisse giunge
+alle terre dei Lestrigoni antropofagi, da cui si
+salva solo una nave, con cui egli e i compagni giun-
+gono all’ isola di Circe, contro le cui insidie solo
+lui è premunito per i consigli di Hermes. Ella poi
+gli suggerisce di andare all’ Erebo per consultare il
+vate Tiresia (<foreign xml:lang="grc">λ</foreign> 488 sg.) sul suo ritorno ad Itaca.</p>
+				<p>Rimessisi in mare, Ulisse e i compagni giungono
+con la nave ai confini dell’Oceano, dove si trovano
+i Cimmeri ravvolti sempre in densa oscurità. Giunti
+al luogo indicato da Circe, Ulisse scanna le vittime,
+in modo che il sangue si raccolga in una fossa. Dopo
+aver parlato con l’ombra di Elpenore, si avvicina ad
+Ulisse il vate Tiresia (<foreign xml:lang="grc">A</foreign> 100 sg.), il quale gli predice
+penoso il ritorno, tuttavia sicuro, qualora, approdati
+all’isola <foreign xml:lang="grc">Θρινακίη</foreign>, egli e i compagni si astengano dai
+buoi e dalle pecore sacre a Helios. Tornato poi in
+patria, avrebbe trovato uomini tracotanti che inten-
+devano a dilapidare le sostanze, e aspiravano alle
+nozze della consorte (<foreign xml:lang="grc">A</foreign> 117). Uccisili o per insidia o
+apertamente, egli riprenderebbe la via del mare, per
+giungere in luogo abitato da persone che ignorano
+il mare, e si dovrebbe arrestare nel punto in cui
+un uomo incontrandolo, avesse scambiato il remo
+con un ventilabro. Quivi avendo conficcato il remo,
+e fatto sacrificio a Posidone di un agnello, di un
+toro e di un verro (<foreign xml:lang="grc">A</foreign> 131), dovrebbe ritornare in pa-
+tria, e fare sacrifizio successivamente (<foreign xml:lang="grc">έξείης A</foreign> 184)
+<pb n="13"/>
+a tutti gli dei. Poscia nella sua terra sarebbe morto
+di vecchiaia.</p>
+				<p>Ci siamo trattenuti su questa profezia di Tiresia,
+perchè essa si riferisce a un ciclo d’avventure del
+nostro eroe più ampio di quello compreso nell’azione
+dell’Odissea, la quale ha l’epilogo con l’uccisione dei
+Proci. Su quest’argomento ritorneremo: frattanto
+notiamo che la madre di Ulissé, Anticlea (<foreign xml:lang="grc">A</foreign> 181-202),
+non sa nulla dei proci e delle loro dilapidazioni, ma
+rappresenta Telemaco in possesso del suo <foreign xml:lang="grc">γέρας</foreign>,<hi rend="superscript">1</hi>,
+e Laerte vivente nella campagna, addolorato per la
+lunga assenza del figlio.</p>
+				<p>Segue una lunga enumerazione di donne, figli,
+mogli e madri d’eroi (<foreign xml:lang="grc">A</foreign> 235-382), e dopo una piccola
+interruzione (<foreign xml:lang="grc">A</foreign> 333-384) provocata da Arete, moglie
+<note type="footnote">1 Γέρας Per la differenza tra γέρας e τιμή è caratteristico
+questo luogo: Y 178 sq.
+Αινεία, τί αν τόαοον δμίλου πολλόν επελΰών
+εστης; Η αέγε βυμός εμο'ι μαχέαασ&amp;αι άνώγει
+έλπόμενον Τρώεσαιν άνάξειν ιπποδάμοιαιν,
+τιμής τής Πριάμου; ’Ατάρ εϊ κεν έμ’ εξεναρίξης
+ου τοι τοννεκά γε Πρίαμος γέρας εν χέρι ϋήαει.
+Τιμή ha significato più astratto : Z 193 δώκε δέ οί τιμής βασι-
+ληίδος ήμιου πάαης. Cfr. DIOD. VIII 29.
+Βάττ’ επί φωνήν ήλβες; άναξ δέ σε Φοίβος Απόλλων
+είς Λιβύην πέμπει καλλιατέφανον Κνρήνης
+ενρείης άρχειν καί έχειν βασιληΐδα τιμήν
+e l’espressione dell’iscrizione di ISILLO d’Epidauro 1.5 (W&lt;ILA
+MOWITZ lsyllos p. 22. COLLITZ Diolekt - Inschriften 212
+3342) εβέλων άνελεΐν βασιληΐδα τιμήν. Invece γέρας ha significato
+più concreto (£ 150). Le pratiche funebri come la combustione
+sono dette γέρας ΰανόντων.</note>
+<pb n="14"/>
+di Alcinoo, Ulisse ripiglia l’esposizione degli incontri
+fatti nell’ inferno: prima di tutti quello di Agamen-
+none, che gli racconta la sua tragica morte in modo
+diverso da quel che si trova nell’Agamennone eschi-
+leo (<foreign xml:lang="grc">A</foreign> 405434); quello di Achille, che gli domanda
+del figlio Neottoleno e del padre Peleo (<foreign xml:lang="grc">A</foreign> 492497), ed
+Ulisse ne lo ragguaglia; quello di Aiace, che mal-
+grado la dolce allocuzione di Ulisse (<foreign xml:lang="grc">A</foreign> 538-564), si
+discosta sdegnosamente da lui, memore di essere stato
+defraudato delle armi d’Achille.</p>
+				<p>Chiude la <foreign xml:lang="grc">νέκνια</foreign> un’enumerazione di eroi che
+richiama quella delle donne, improntata a concetti
+religiosi trascendenti l’orizzonte metafisico e morale
+dell’epopea, parlandosi di premi e remunerazioni
+(<foreign xml:lang="grc">A</foreign> 668-626).</p>
+				<p>Quindi Ulisse ritornato nell’ isola di Circe (Eea),
+seppellisce Elpenore. Circe gli raccomanda di evitare
+le Sirene, egli esprime la necessità di passare at-
+traverso Scilla e Cariddi, dove è passata soltanto la
+nave Argo (<foreign xml:lang="grc">μ</foreign> 70); e riguardo ai buoi e alle pecore
+sacre ad Helios della Thrinakia, gli fa le medesime
+raccomandazioni rivoltegli da Tiresia, tanto che sorge
+legittimamente la questione perchè Circe avesse con-
+sigliato Ulisse di andare all’inferno per apprendere
+dal vate Tiresia un vaticinio che le fa essa stessa
+(<foreign xml:lang="grc">μ</foreign> 128-141). Avendo i compagni violato gli ordini
+di Ulisse di risparmiare le greggi di Zeus, morirono
+tutti nella tempesta (<foreign xml:lang="grc">μ</foreign> 419), ed egli solo giunge al-
+l’isola Ogigia presso Calipso.</p>
+				<pb n="15"/>
+				<p>I Feaci lo colmano di doni, e l’imbarcano per
+Itaca, dove la dea Atena lo rende irriconoscibile
+(<foreign xml:lang="grc">v</foreign> 430-438), e cosi è visto da Eumeo, cui dice di
+essere originario di Creta (<foreign xml:lang="grc">£</foreign> 199-359) come aveva
+simulato di essere con Atena, che non aveva rico
+nosciuta; ma nel racconto ad Eumeo è notevole la
+circostanza che egli, dissimulando l’essere suo, avrebbe
+sentito parlare d’Ulisse presso i Trespoli, il cui re
+Fidone lo aveva riscattato e gli avea detto che Ulisse
+era andato a consultare l’oracolo di Dodona (<foreign xml:lang="grc">ξ</foreign> 314-
+330). Eumeo rimane scettico a questo racconto, ma
+ha cura amorosa dell’ospite.</p>
+			 <p>Intanto Telemaco è ritornato (<foreign xml:lang="grc">o</foreign>) e riconosce il
+padre, cui Atena ha reso le sue vere sembianze (<foreign xml:lang="grc">π</foreign>).
+Ma quando toma Eumeo, Atena ha già restituito ad
+Ulisse le sembianze di vecchio, in cui l’aveva la-
+sciato. (<foreign xml:lang="grc">π</foreign> 452-481).</p>
+				<p>Telemaco, che era scampato alle insidie dei proci,
+racconta il viaggio alla madre, e il vate Teoclimeno
+predice il prossimo ritorno di Ulisse (<foreign xml:lang="grc">ρ</foreign> 84-165). Ar-
+riva Ulisse, e Penelope lo tratta ospitalmente.</p>
+				<p>Dopo qualche episodio relativo alla permanenza
+di Ulisse nel palazzo (<foreign xml:lang="grc">a</foreign>), Ulisse racconta a Penelope
+la storia che aveva raccontato ad Eumeo (<foreign xml:lang="grc">v</foreign> 47-307),
+Euriclea lava i piedi di Ulisse, e riconosce nella gamba
+il colpo di zanna infertogli da un cinghiale, nella
+cui caccia in gioventù era stato ferito; ma in seguito
+a insistenze minacciose d’Ulisse, si tace (<foreign xml:lang="grc">τ</foreign> 308-507).
+Penelope racconta ad Ulisse il sogno delle oche di-
+laniate dallo sparviero e il ritorno dello sparviero,
+che in voce umana le rivela lui stesso simboleggiare
+<pb n="16"/>
+Ulisse uccisore dei Proci (<foreign xml:lang="grc">τ</foreign> 508-558), e Ulisse la con-
+ferma in questa speranza. Penelope tuttavia stabilisce
+per l’ indomani una gara di tiro tra i pretendenti,
+promettendo di sposarsi al vincitore.</p>
+				<p>Segue poi la mnesterofonia, il riconoscimento di
+Ulisse da parte di Penelope, la prevenzione contro
+la vendetta delle famiglie dei proci, e la discesa dei
+proci all’inferno.</p>
+				<p>Senza entrare nella questione irta e aggrovigliata
+della struttura materiale dell’Odissea<hi rend="superscript">1</hi>, è certo che
+le ineguaglianze e le incongruenze in questi capitoli
+contrastano all’idea che nel poema abbiamo un or-
+ganismo armonico e omogeneo. Pur ammettendo
+che l’ampio sviluppo del racconto relativo al viaggio
+di Telemaco a Pilo e a Sparta possa entrare in un poema
+sul ritorno d’Ulisse, è certo che a nessun poeta in
+una concezione di getto potrebbe venire in mente di
+far dare da Circe il consiglio ad Ulisse di recarsi
+all’inferno per consultare il vate Tiresia, quando
+proprio essa doveva fargli le stesse raccomandazioni.
+<note type="footnote">1 Singoli richiami non sarebbero opportuni, e nemmeno
+metto conto di offrire una bibliografia particolareggiata.
+Mi limiterò a ricordare :
+KIRCHHOFF : Die homerische Odyssee. — WILAMOWITZ :
+Homerische Untersuchungen. SEECK : Quellen der home-
+rischen Odyssee. — FINSLER : Homeros, (dove trovasi una larga
+bibliografia dei lavori posteriori a quello del Wilamowitz).
+D&lt;smRERUP: Omero nella traduzione italiana del Cinquini e
+Grimaud. — DE&lt;/sm SANCTIS : Per la scienza dell’antichità (i
+priraica pitoli). — Paul Caubr : Grundfragender Homerkritik.
+— BELZNER: Homerische Probleme, Vol. II.</note>
+<pb n="17"/>
+È evidente che correvano due tradizioni: una che
+l’ammonimento di risparmiare le greggie sacre a
+Helios era stato dato ad Ulisse dalla dea Circe e l’altra
+che gli era stato dato da Tiresia. Ciò non significa
+ancora che le due versioni siano state giustaposte
+meccanicamente; ma è possibile che si fossero già in-
+crociate in modo da porre dei limiti all’ attività del
+poeta.</p>
+				<p>Inoltre è ragionevole pensare che la deformazione
+di Ulisse per opera di Atena, affine di evitare l’ imme-
+diato riconoscimento, sia la riduzione del motivo
+originale che Ulisse dopo vent’anni d’assenza avevu
+perduto la freschezza giovanile; ma dell’impostatura
+presupposta da questo motivo non è rimasta altra
+traccia, se non il riconoscimento fatto da Euriclea
+in seguito alla vista della cicatrice, quando essa gli
+lavava i piedi.</p>
+				<p>La situazione poi dell’ incontro di Penelope con
+Ulisse, soprattutto poi per ciò che riguarda il sogno
+di Penelope interpretato come presagio del ritorno
+immediato di Ulisse, è logica e naturale ove si am-
+metta che Ulisse allora proprio si fa riconoscere dalla
+moglie, e con essa prepara la strage dei proci. For-
+tunatamente questa non è solo congettura, ma un
+fatto accertato, poiché nella seconda <foreign xml:lang="grc">νέκυια</foreign> (<foreign xml:lang="grc">ω</foreign> 167)
+è detto esplicitamente;</p>
+				<ab>
+					<seg><foreign xml:lang="grc">αύτάρ ο ην αλοχον πολυκερδείησιν ανωγεν
+τόξον μνηστήρεσοί ϋ~έμεν πολιόν τε σίδηρον</foreign>.</seg>
+				</ab>
+				<p>Infatti che Penelope, dopo aver sentita la predi-
+zione del ritorno d’Ulisse, si risolva a sposare quello
+<pb n="18"/>
+tra i proci che riesca vincitore nel trar d’ arco, pre-
+scindendo dalla probabilità che Ulisse si trovi fra
+i gareggianti, non può essere venuto in mente ad
+alcuno poeta di concepire; e solo la contaminazione
+di due tradizioni diverse può spiegare una tale stra-
+nezza.</p>
+				<p>Intorno al ritorno d’Ulisse potevano bene circo-
+lare due versioni : una, secondo cui giunto e fattosi
+conoscere da Penelope, con essa preparò la strage
+dei proci : l’ altra che, sopraggiunto come ospite, si
+rivelò alla consorte dopo averla compiuta<hi rend="superscript">1</hi>. Quest’ul-
+tima si sostituì all’ altra, senza poterne cancellare
+tutte le traccio, perchè alcuni canti di essa erano
+ormai diventati troppo popolari da potersi rag-
+giungere un perfetto lavoro d’adattamento e ar-
+monizzazione. La scena del riconoscimento di Eu-
+riclea in seguito alla vista della cicatrice può ap-
+partenere alla seconda versione : l’ agone per le nozze
+di Penelope apparteneva di certo alla prima ver-
+sione, ma non è escluso che fosse un motivo co-
+mune mercè il quale venisse facilitata la contamina-
+zione. In particolari non è possibile entrare, perchè
+— giova tenerlo presente — non abbiamo semplici
+ricuciture, ma fusioni siano quanto si vuole ine-
+guali e imperfette, in cui solo nella sostanza si pos-
+sono constatare le traccie di redazioni diverse.</p>
+				<p>Inoltre il vaticino di Tiresia ad Ulisse esorbita
+<note type="footnote">1 Ciò non mi sembra sufficientemente rilevato dai critici
+che primi hanno segnalato l’ incongruenza della situazione,
+quale ci è presentata dalla redazione definitiva dell’Odissea.</note>
+<pb n="19"/>
+l’ aziono dell’ Odissea, poiché concerno anche le av-
+venture d’ Ulisse dopo il suo ritorno da Itaca, che
+costituisce l’ epilogo dell’ Odissea. Anche qui ab-
+biamo nella leggenda del <foreign xml:lang="grc">νόστος</foreign> d’ Ulisse l’ attra-
+zione di azioni trattate in altri poemi : come il sog-
+giorno di Ulisse in Trespozia, il quale è presentato
+come un espediente di simulazione nella nostra
+Odissea. Il paese infatti i cui abitanti ignorano il
+mare, è proprio la Trespozia, e nell’ Odissea si ri-
+produce una fase della leggenda più arcaica di quella
+che formava materia della Telegonia e di altri poemi,
+poichè l’ azione è nell’ Odissea molto più semplice
+e più spedita.</p>
+				<p>L’ episodio di Circe è più organico nella nostra
+Odissea della discesa all’ inferno; poichè le predi-
+zioni di Circe si adattano pienamente alla trama
+del poema, le previsioni di Tiresia no. Quando
+quest’ ultimo episodio fu attratto nella compagine
+dell’ attuale Odissea, si congiunsero abbastanza mec-
+canicamente le due versioni, rappresentando la di.
+scesa all’ inferno per consultare il vate Tiresia come
+l’ effetto d’ un consiglio di Circe, senza sopprimere
+il duplicato del vaticinio.</p>
+				<p>Quanta parte in questo lavoro di connessione
+spetti ad un unico compilatore, è difficile dire, poichè
+si tratta di varie stratificazioni che imponevano -
+l’ ultimo rimaneggiatore dei limiti cui egli non po-
+teva superare, essendosi venuto gradatamente for-
+mando un consenso sulla coesistenza di tante parti
+<pb n="20"/>
+discrepanti, le cui incongruenze non davano più al-
+l’ occhio per la forza dell’ abitudine.</p>
+				<p>Molto scabrosa sarebbe la ricerca delle interpo-
+lazioni, poichè, nel loro senso rigoroso, intrusioni
+inorganiche nel contesto datano fin dal fiorire del-
+l’ epopea; ma in tal caso si saprebbe dove incomin-
+ciare, non si saprebbe dove finire nel notare i passi
+interpolati, e dopo aver fatta una fatica immane, ci
+accorgeremmo che i luoghi di piú sincera antichità
+sono stati adattati a quelli inseriti. Ma se ci limi-
+tiamo a riguardare come interpolazioni le aggiunte
+posteriori alla redazione dell’ Odissea secondo l’ at-
+tuale struttura, tra esse debbono essere annoverate
+l’ enumerazione delle donne, mogli e madri di eroi
+(v. 235-332), e quella delle ultime anime, Minosse,
+Orione, Sisifo, (568-635) Tantalo ed Herakles, nella
+quale l’ idea di compensi e di pene ci riporta al
+tèmpo in cui fiorirono le dottrine orfiche.</p>
+				<p>Difficile è il problema delle idee geografiche sul-
+l’ Odissea, poichè è seriamente a dubitare se gli stessi
+poeti avessero in proposito idee molto chiare. Il
+vento di Borea (267) sospinge Ulisse dalla Tracia
+al capo Malea e a Citera (<foreign xml:lang="grc">£</foreign> 80-81), e di qui nelle
+terre dei Lotofagi, che è identificata con la Libia
+occidentale (P<hi rend="smallcap">OLYB</hi>. apd. S<hi rend="smallcap">TRAB</hi> 25; P<hi rend="smallcap">LIN</hi>. N. N. v. 41)
+Difficile identificare il paese dei Ciclopi, poichè sa-
+rebbe una piccola isola (<foreign xml:lang="grc">ς</foreign> 116), e gli scogli che si
+incontrano sulla costa africana non corrispondono ai
+caratteri di fertilità che loro attribuisce il poeta.
+Forse la designazione di <foreign xml:lang="grc">νήσος</foreign> non va presa troppo
+<pb n="21"/>
+alla lettera o rivela un’ idea inesatta del paese nei
+primi navigatori dai quali si è avuto notizia di queste
+regioni.</p>
+				<p>Del pari non è facile identificare l’ isola del re
+dei venti, Eolo; e forse si tratta di un’ isola mito-
+logica che non era stata ancora localizzata al tempo
+in cui va posta la redazione dell’ Odissea. Ad una
+delle isole Lipari, con cui fu posteriormente iden-
+tificata, non si può pensare; poichè il poeta (<foreign xml:lang="grc">κ</foreign> 28)
+suppone che con un vento d’ occidente propizio si
+giunga da essa in dieci giorni (<foreign xml:lang="grc">a</foreign> 29) alle coste di
+Itaca in mare sempre aperto : almeno lo stretto di
+Messina non è indicato nè dalla navigazione dal-
+l’isola dei Ciclopi nè da quella verso l’ isola di Itaca.</p>
+				<p>Ma il teatro dei viaggi cambia addirittura nel
+corso del racconto. Dopo essere stati scacciati da Eolo,
+Ulisse e i compagni in mezzo alla tempesta sono
+stati trasportati alla terra dei Lestrigoni, presso Ar-
+tacia, località non lungi da Cizico (<hi rend="italic">Schol. ad</hi> A<hi rend="smallcap">POLL</hi>. I
+957; <hi rend="italic">Orphica</hi> 496; H<hi rend="smallcap">EROD</hi>. IV 14). Siamo dunque nelle
+Propontide. Dalla terra dei Lestrigoni la sola nave
+in cui era Ulisse scampata alle pietre lanciate dai
+Lestrigoni (<foreign xml:lang="grc">κ</foreign> 121-122, 132) giunge all’ isola di Eea
+(<foreign xml:lang="grc">Αίαίην &lt;s’ ές νήσον,</foreign>), presso Circe (<foreign xml:lang="grc">κ</foreign> 135).</p>
+				<p>È strano poi che dall’ isola di Circe si vada con
+l’ aiuto del vento Borea all’ Oceano (<foreign xml:lang="grc">κ</foreign> 507), dove si
+trova il paese dei Cimmeri, che non c’ è dubbio
+sia da porsi alle coste settentrionali del Mar Nero,
+dove la persistenza del nome Crimea<hi rend="superscript">1</hi> alla nota pe-
+<note type="footnote">1 Per i Cimmeri vedi la nota al v. 4. Che i Cimmerisiano qui un popolo immaginario, come qualche critico ha
+sostenuto, non sembra in alcun modo credibile.</note>
+<pb n="22"/>
+nisola, sta a rischiararne l’ ubicazione. Qui dobbiamo
+vedere solo un’ inesattezza d’orientamento, prodotta da
+confusione nell’ interpretare i dati dei viaggiatori. Al
+ritorno, dopo avere attraversati i luoghi delle Sirene,
+si trovano a Scilla e Cariddi, la cui identificazione
+con le Simplegadi nel Bosforo è messo fuori di di-
+scussione per l’indicazione esplicita del poeta (<foreign xml:lang="grc">μ</foreign> 70)
+che era passata per colà la nave Argo. La <foreign xml:lang="grc">Θρινακίη</foreign>
+sembra essere il Peloponneso; ma poichè l’ isola di
+Galipso, dove dopo tante vicende dovea approdare
+Ulisse rimasto solo, è chiamato <foreign xml:lang="grc">Ώγνγίη νήσος</foreign>, cioè
+<foreign xml:lang="grc">Ώκεανίς νήσος</foreign>, e Galipso (H<hi rend="smallcap">ESIOD</hi>. <hi rend="italic">Theog</hi>. 806) era
+proprio una figlia di Oceano e di Thetis, si ricava
+che ci troviamo nello stesso orizzonte geografico del
+poeta dei canti <foreign xml:lang="grc">&lt;gt&gt;κ-μ</foreign>, dove gli errori d’ Ulisse ven-
+gono localizzati nel Mar Nero.</p>
+				<p>Può bene essere che in seguito al movimento
+esplorativo e colonizzatore delle regioni d’ Occidente
+la <foreign xml:lang="grc">Θρινακίη</foreign>, in cui si deve vedere il Peloponneso<hi rend="superscript">1</hi>,
+fosse già prima della redazione finale dell’ Odissea
+identificata con la Sicilia, e l’isola di Galipso venisse
+quindi posta nel Mar Ionio; ma difficilmente presso
+Crotone, dove la pone il Pseudo Scilace (verso 13).</p>
+				<p>L’isola dei Peaci si identificò ben presto con Cor-
+<note type="footnote">1 WILAMOWITZ Hom. Unters. p. 168. L’idea del GRUPPE
+(Griech. Mythologie p. 639) che la &lt;grΘρινακίη sia Rodi, per-
+chè qui abbiamo un eroe Θρΐναξ é da respingere.</note>
+<pb n="23"/>
+cira; ma che sia da ricercare in Creta, è ben diffi-
+cile, malgrado i riscontri archeologici coi dati della
+tradizione che un recente omerista ha creduto scor-
+gervi<hi rend="superscript">1</hi>. In origine è certo un’ isola mitologica, non
+diversamente da Ea, quella in cui ha abitato Ca-
+lipso : nella localizzazione di essa si rispecchiano
+tutte le impressioni dei poeti secondo la loro patria
+e le leggende da loro assimilate.</p>
+				<p>Come abbiamo ricavato dall’ esame dei luoghi
+dell’ Iliade in cui è menzionato Ulisse, questi, se non
+era un personaggio necessario allo svolgimento dell’a-
+zione, aveva delle parti non trascurabili in singoli
+episodi. Qualcuno risente certo dell’ influenza del-
+l’ Odissea<hi rend="superscript">2</hi>, ma altri sono certo anteriori; onde di
+un’Odissea senza alcuna connessione con la leggenda
+troiana non è il caso di parlare fin dal momento che
+Ulisse è concepito come un eroe umano. Ma Ulisse
+non è un personaggio storico, e in origine era una
+divinità. La prima prova di ciò l’ abbiamo nel fatto
+d’ essere il marito di Penelope; questa secondo una
+tradizione (H<hi rend="smallcap">EROD</hi>. II 145) era moglie di Hermes e
+madre di Pane. E infatti un <foreign xml:lang="grc">τάφος</foreign> di Penelope si
+trovava a Mantinea (P<hi rend="smallcap">aus</hi>. VIII 12, 5). Il raziona-
+<note type="footnote">1 DRERUP o. c. p. 258 sg.; 269 sg.</note>
+<note type="footnote">2 Β 260 μηδ’ ετι Τηλεμάχοιο πατήρ κεκλημενος εΐη.
+Δ 854 Τηλεμάχοιο φίλον πατέρα προμάχοισι μιγέντα
+Τρώων ίπποδάμων.
+Il poeta si rappresenta Telemaco non già come in λ 448 che
+pendeva dalle poppe della madre, ma come almeno un ado-
+lescente e ciò senza dubbio sotto l’ influenza dell’Odissea.</note>
+<pb n="24"/>
+lismo posteriore ha fatto conciliare questa tradizione
+con una versione in aperto contrasto con la leg-
+genda odissiaca: che Penelope ripudiata da Ulisse
+per avere accolti i Proci, si recò a Sparta e di qui
+a Mantinea. Ma è chiaro che Penelope madre di
+Pane e moglie di Hermes era una divinità : la tela
+che fa e disfa è una riduzione antropomorfica delle
+fasi della luna. Inoltre Ulisse discende all’ inferno :
+la dimora presso Calipso, sia essa la terra che na-
+sconde, sia essa la notte, ha lo stesso significato.
+Un altro atteggiamento della fuga è la visita di
+Ulisse a Polyxenos, re dell’Elide (P<hi rend="smallcap">AUSAN</hi>. VI 25, 2);
+e <foreign xml:lang="grc">Πολνξενος</foreign> è l’ epiteto della divinità infernale. Pro-
+babilmente la visita di Telemaco, che è uno sdop-
+piamento d’Ulisse (<foreign xml:lang="grc">= έκατός</foreign>), a Pilo, dove erano
+le porte dell’ inferno è una variazione dello stesso
+motivo<hi rend="superscript">1</hi>. La mnesterofonia (<foreign xml:lang="grc">φ</foreign> 267) avviene nel-
+l’ occasione d’ una festa ad Apollo: anche qui ab-
+biamo la conversione antropomorfica dell’ azione so-
+lare.</p>
+				<p>È stata veduta in Ulisse un’ ipostasi di Posidone<hi rend="superscript">2</hi>;
+e può essere che elementi del mito di Posidone
+siansi infiltrati e compenetrati con quelli di Apollo.
+Ma è molto dubbio che la collera di Posidone sia
+un tratto fondamentale del mito di Ulisse, piutto-
+stoche una creazione della novella; e poco conforta
+l’ etimologia di <foreign xml:lang="grc">Όδνοσενς</foreign>, che può applicarsi tanto
+<note type="footnote">1 BELOCH Griech. Gesch. I2 1 p. 194.</note>
+<note type="footnote">2 E. MEYER Hermes XXX p. 267.</note>
+<pb n="25"/>
+alla violenza del mare, quanto all’ azione violenta
+del sole canicolare, se pure il nome di <foreign xml:lang="grc">Όδυσσεις</foreign> ha re-
+lazione col mito originario. L'epiteto di <foreign xml:lang="grc">Πτολιπόρ&amp;ης</foreign>
+non è un predicato di Posidone, come è stato sup-
+posto, quantunque si adatti all’ azione deleteria dei
+terremoti, attribuiti a Posidone. (H<hi rend="smallcap">EROD</hi>. VII)<hi rend="superscript">1</hi>: poi-
+ché il riscontro dello stesso epiteto per altri eroi della
+guerra troiana rende estremamente improbabile que-
+sta spiegazione.</p>
+				<p>Però se le avventure di Ulisse come divinità
+solare sono state trasformate in tante gesta umane,
+il ciclo troiano si e per tempo impadronito della sua
+figura, ed è a lui toccata sorte diversa da Elena, di
+cui si favoleggiò che fosse stata rapita da Teseo e
+da Proteo, e come essere umano ha avuto vita indi-
+pendente dalle guerre di Troia, per quanto meno
+rigogliosa. Di Ulisse eroe ed essere umano non si
+ha memoria che in relazione alla leggenda troiana<hi rend="superscript">2</hi>.</p>
+				<note type="footnote">1 B 278 per Aiace Oileo, E 333 perEnio, Y384 per Otrinte,
+Ω 108 per Achille, Y 152 per Ares.</note>
+				<note type="footnote">2 Sulle vicende della figura d’ Ulisse nella poesia ciclica,
+non ci tratterremo per non impinguare troppo quest’ intro-
+duzione.</note>
+			</div>
+			<div type="edition" subtype="volume" xml:space="preserve">
+				<div type="textpart" subtype="book" n="1">
+					<div type="textpart" subtype="chapter" n="1">
+						<pb n="27"/>
+						<head>
+							<title><foreign xml:lang="grc">Ο Λ ΥΣΣΕΙΑΣ Λ</foreign>.</title>
+						</head>
+						<p><foreign xml:lang="grc">Ν έ κ ν ι a.</foreign></p>
+						<p><foreign xml:lang="grc">αύτάρ έπεί ρ’ επι νήα κατήλϋσμεν ήδε θάλασσαν,
+νήα μεν αρ πάμπρωτον ερνσσαμεν εις άλα δίαν,
+εν δ3 Ιστόν τι&amp;έμεσ&amp;α και Ιστία νηΐ μελαίνμ,
+έν δετά μήλα λαβόντες εβήσαμεν, αν δε καί αυτοί
+βαίνομεν άχνύμενοι θαλερόν κατά δάκρυ χέοντες.</foreign>
+<lb n="5"/>
+<foreign xml:lang="grc">ήμΐν δ’ αν κατόπισ&amp;ε νέος κνανοπρώροιο
+ΐκμενον ονρον ϊει πλησίστιον, εσ'&amp;λόν εταίρον,</foreign>
+<pb n="28"/>
+<foreign xml:lang="grc">Κίρκη ένπλόκαμος, δεινή &amp;εός αϋδήεσσα.
+ημείς δ’ όπλα εκαστα πονησάμενοι κατά νήα
+ήμε&amp;α' την δ’ άνεμός τε κυβερνήτης τ1 ιΰννεν</foreign>.
+<lb n="10"/>
+<foreign xml:lang="grc">τής δε πανημερίης τέτα&amp;’ Ιστία ποντοπορονσης.
+δνσετό τ ήέλιος σκιόωντό τε πασαι άγνιαί,
+ή δ' ές Πειραΰ’ ικανέ βα&amp;υρρόου Ωκεανοίο,
+εν&amp;α δε Κιμμερίων άνδρών δήμός τε πόλις τε,
+<lb n="15"/>
+ήερι και νεφέλη κεκαλνμμένοι ’ ουδέ ποπ’ αντονς</foreign>
+<foreign xml:lang="grc">ήελιος φαέύων καταδέρκεται άκτίνεσσιν,
+ovff όπότ’ αν στείχηαι προς ουρανόν άστερόεντα,</foreign>
+<pb n="29"/>
+<foreign xml:lang="grc">οϋδ' δτ’ Β,ν αψ επί γάϊαν άπ’ ούρανό'&amp;εν προτράπηται,
+άλλ’ έπΐ ννξ όλο η τέταται δειλοΐαι βροτοΐαιν.
+νήα μεν ενϋ·’ έλ'&amp;όντες εκέλοαμεν, έκ δε τα μήλα</foreign>
+<lb n="20"/>
+<foreign xml:lang="grc">είλόμεϋ·’˙ αυτοί δ’ άντε παρά ρόον Ώκεανοιο
+ήομεν, δφρ’ ες χώρον άφικόμε·&amp;’, ον φράαε Κίρκη.</foreign></p>
+						<p><foreign xml:lang="grc">ενΰ·’ ίερήια μεν Περιμήδης Ευρνλοχός τε
+εσχον' εγώ δ’ αορ δξυ ερνσσάμενός παρά μηρόν
+βόθρον ορνξ\ δσσον τε πυγονσιον ενϋ·α καί δν&amp;α,</foreign>
+<lb n="25"/>
+<foreign xml:lang="grc">άμφ’ αύτώ δε χοήν χεόμην πάοιν νεκνεσσιν,
+πρώτα μελικρήτω, μετέπειτα δε ήδέι οΐνω,
+το τρίτον avfì·' ϋδατι' επί δ’ άλφιτά λευκά πάλννον.
+πολλά δέ γουνονμην νεκύων άμενηνά κάρηνα,
+έλϋών εις Ί&amp;άκην στεΐραν βουν, η τις άρίστη,</foreign>
+<lb n="30"/>
+<foreign xml:lang="grc">ρέξειν εν μεγάροισι πνρήν τ’ έμπληοέμεν έο&amp;λών,
+Τειρεοίγ} δ’ άπάνεν'&amp;εν οιν ίερευσέμεν οΐω
+παμμέλαν’, ος μήλο un μετ άπρεπε t ήμετέροισιν.
+τους δ’ έπεί ενχωλήοι λιτήσί τε, ίί&amp;νεα νεκρών,</foreign>
+<pb n="30"/>
+<foreign xml:lang="grc">έλλισάμην, τάδε μήλα λαβών άπεδειροτόμησα</foreign>
+<lb n="35"/>
+<foreign xml:lang="grc">ες βό'&amp;ρον, ρέε δ’ al μα κελαινεφές* ai δ’ άγέροντο
+ψνχαΐ νπεξ Έρέβενς νεκνων κατατεϋνηώτων,
+ννμφαι τ’ ηί'&amp;εοί τε πολντλητοί τε γέροντες
+παρ'&amp;ενικαί τ’ άταλαι νεοπεν&amp;έα ΰυμόν εχονσαι,
+πολλοί δ’ ούτάμενοι χαλκήρεσιν εγχείησιν,</foreign>
+<lb n="40"/>
+<foreign xml:lang="grc">άνδρες άρηίφατοι βεβροτωμένα τενχε’ εγοντες ’
+οΐ πολλοί περί βόθρον εφοίτων άλλοϋεν άλλος
+ΰεοπεοίη Ιαχή' εμέ δε χλωρόν δέος ηρειν.
+δη τότ’ επειϋ’ έτάροισιν έποτρύνας εκέλενσα
+μήλα, τά δη κατέκειτ εοφαγ μένα νηλέι χαλκω,</foreign>
+<lb n="45"/>
+<foreign xml:lang="grc">δείραντας κατακήαι, έπενξασΰαι δε ΰ'εοΐσιν,
+Ιφϋ'ίμω τ’ Άίδη καί έπαινή Περσεφονείη ’
+αυτός δε ξίφος δξυ έρυοσάμενος παρά μηρόν
+η μην, ονδ’ εΐων νεκνων άμενηνά κάρηνα
+αίματος άασον ΐμεν, πριν Τειρεσίαο πν&amp;έσ&amp;αι.</foreign>
+<lb n="50"/></p>
+						<p><foreign xml:lang="grc">πρώτη δε ψνχη Έλπήνορος ηλ'&amp;εν εταίρου·</foreign>
+<pb n="31"/>
+<foreign xml:lang="grc">ου γάρ πω ετέ&amp;αππο υπό χ&amp;ονδς εύρνοδείης ’
+σώμα γάρ εν Κίρκης μελάΰ'ρω κατελείπομεν ημείς
+άκλαντον και άΰαπτον, επει πόνος άλλος επειγεν.
+τον μèv εγώ δάκρυσα ίδών Ιλεησά τε ’&amp;υμω</foreign>
+<lb n="55"/>
+<foreign xml:lang="grc">καί μιν φωνηοας επεα πτερόεντα προοηύδων
+“ Έλπήνορ, πώς ηλ&amp;ες υπό ζόφον ήερόεντα;
+εψ'&amp;ης πεζός ιών ή εγώ συν νηί μελαίνη;”</foreign></p>
+						<p><foreign xml:lang="grc">ώς εψάμην, δ δε μ οίμώξας ημείβετο μύ&amp;ω ’
+“ διογενες Λαερτιάδη, πολυμήχαν’ Όδνοσεν</foreign>
+<lb n="60"/>
+<foreign xml:lang="grc">άσε με δαίμονας αΐοα κακή καί ά'&amp;έοφατος οίνος.
+Κίρκης δ’ εν μεγάρω καταλέγμένος ονκ ενόησα</foreign>
+<pb n="32"/>
+<foreign xml:lang="grc">δψορρον καταβήναι Ιών ές κλίμακα μακρήν,
+άλλά Καταντικρυ τέγεος πέοον ’ εκ δέ μοι αύχήν
+αστραγάλων έάγη, ψυχή δ’*Αιδόσδε κατήλΰεν</foreign>.
+<lb n="65"/>
+<foreign xml:lang="grc">νυν δε οε των δπΐ'&amp;εν γοννάζομαι, ου παρεόντων,
+ηρός τ’ άλόχον και πατρός, δ αε τρέφε τυτ&amp;όν Ιόντα,
+Τηλεμάχου s’, ον μοΰνον ένι μεγάροιοιν ελειπες’</foreign>
+<foreign xml:lang="grc">οΐδα γάρ, ώς έν&amp;ένδε κιών δόμου έξ Άίδαο
+νήσον ές ΑΙαίην αχήσεις έυεργέα νήα</foreign>˙
+<lb n="70"/>
+<foreign xml:lang="grc">ενΰα σ’ επειτα, άναξ, κέλομαι μνήοασΰαι εμεΐο.
+μή μ’ ακλαυτον αΰαπτον ιών δπΐ'&amp;εν καταλείπειν
+νοσφισ&amp;είς, μή τοί τι &amp;εών μήνιμα γένωμαι,
+άλλά με κακκήαι συν τεύχεσιν, άσσα μοι Εστιν,
+οήμά τέ μοι χεΰαι πολιής έπί &amp;ινϊ θαλάσσης,</foreign>
+<lb n="75"/>
+<pb n="33"/>
+<foreign xml:lang="grc">άνδρός δυοτήνοιο καί έσοομενοισι πυ&amp;έσ&amp;αι.
+ταύτά τέ μοι τελέοαι πήξαί τ’ έπϊ τύμβω έρετμόν,
+τώ καί Ζωος ερεσσον έών μετ' έμοίϊς ετάροισιν.”</foreign></p>
+						<p><foreign xml:lang="grc">ώς εφατ’, αυτάρ έγώ μιν άμειβόμενος προσέειπον
+“ ταυτά τοι, ώ δύστηνε, τελευτήσω τε και ερξω.”</foreign>
+<lb n="80"/></p>
+						<p><foreign xml:lang="grc">νώι μεν ώς έπέεσσιν άμειβομένω στυγεροίοιν
+ήμε&amp;’, εγώ μέν άνευ&amp;εν έφ’ αϊματι φάσγανον ΐσχών,
+εΐδωλον δ’ έτέρω&amp;εν εταίρου πόλλ’ άγόρευεν'
+ήλ'&amp;ε δ* έπΐ ψυχή μητρός κατατε&amp;νηκυίης,
+Αύτολύκου &amp;νγάτηρ μεγαλήτορος Άντίκλεια,</foreign>
+<lb n="85"/>
+<foreign xml:lang="grc">την ζωήν κατέλειπον Ιών εις*Ιλιον ίρήν.
+την μεν έγώ δάκρυσα Ιδών έλεησά τε &amp;υμω ’
+άλλ’ οϋδ* ως εΐων προτέρην, πυκινόν περ άχεύων,
+αίματος άσσον ΐμεν, πρίν Τειρεσίαο πυ&amp;εο&amp;αι.</foreign></p>
+						<p><foreign xml:lang="grc">ήλ&amp;ε δ’ επί “ψυχή Θηβαίου Τειρεσίαο</foreign>
+<lb n="90"/>
+<foreign xml:lang="grc">χρύσεον σκήταρον Εχων, εμε δ' εγνω καί προσέειπεν'
+“ διογενές Ααερτιάδη, πολυμήχαν1 Όδυσσεϋ,
+τίπτ’ αυτ, ώ δύστηνε, λιπών φάος ήελίοιο</foreign>
+<pb n="34"/>
+<foreign xml:lang="grc">ήλν&amp;ες, δφρα ΐδη νέκνας και άτερπέα χώρον;
+άλλ’ άποχάζεο βόύρον, απισχε δε φάσγανον δξν,</foreign>
+<lb n="95"/>
+<foreign xml:lang="grc">αίματος δφρα πιω καίτοι νημερτέα εϊπω.”</foreign></p>
+						<p><foreign xml:lang="grc">ώς φάτ, εγώ Ò’ άναχασαάμενος ζίφος άργνρόηλον
+κονλεφ έγκατέπηξ’. δ δ’ επεϊ πίεν αίμα κελαινόν,
+καί τότε δή μ’ έπεεσσι προσηνδα μάντις άμνμων ’
+“ νόστον δίζηαι μελιηδέα, φαίδιμ' ’Οδνσσεν</foreign>
+<lb n="100"/>
+<foreign xml:lang="grc">τον δε τοι άργαλέον &amp;ήσει $εός’ ον γάρ δίω
+λήσειν Έννοαίγαιον, δ τοι κότον εν&amp;ετο ΰνμφ
+χωόμενος, δτι ol viòv φίλον έξαλάωσας.
+άλλ* ετι μεν κε και ώς κακά περ πάοχοντες ΐκοισ'&amp;ε,
+αΐ κ έ'&amp;έλ'ης σον ϋνμόν ερνκακεειν καί Εταίρων,</foreign>
+<lb n="105"/>
+<foreign xml:lang="grc">δππότε κε πρώτον πελάοης ένεργέα vija
+Θρινακίη νήσω προφνγών ίοειδέα πόντον,
+βοσκομένας δ’ εν ρητέ βόας καί ϊφια μήλα
+Ήελίον, δς πάντ’ εφορά καί πάντ’ επακονει.
+τάς εΐ μεν κ’ άσινέας έάας νόστον τε μέδηαι,</foreign>
+<lb n="110"/>
+<foreign xml:lang="grc">καί κεν ετ’ εις Ί&amp;άκην κακά περ πάσχαντες ΐκοισ&amp;ε ’
+εΐ δε κε σίνηαι, τότε τοι τεκμαίρομ δλε&amp;ρον,
+νηί τε καί έτάροις. αυτός δ’ εΐ πέρ κεν άλνξης,
+άψε κακώς νεΐαι, δλέοας άπο πάντας έταίρονς,</foreign>
+<pb n="35"/>
+<foreign xml:lang="grc">νηδς ίπ* άλλοτρίης* δήεις δ’ év πήματα οικφ</foreign>
+<lb n="115"/>
+<foreign xml:lang="grc">ανδρας υπερφιάλους, οι τοι βίοτον καχέδοναιν
+μνώμενοι, άντιΰ·έην άλοχον καί εδνα διδόντες.
+άλλ’ ή τοι κείνων γε βίας άποτίοεαι έλ&amp;ών'
+αϋτάρ έπην μνηστήρας évi μεγάροισι τεοΐαιν
+κτείνης ήε δόλω ή άνφαδόν δξέι χαλκφ,</foreign>
+<lb n="120"/>
+<foreign xml:lang="grc">ερχεσ&amp;αι δη Επειτα λαβών εύήρες έρετμόν,
+είς δ κε τους άφίκηαι, οι ούκ Iσασί θάλασσαν
+άνέρες ουδέ &amp;’ άλεσαι μεμιγμνένον εϊδαρ ϊδουοιν'
+ουδ’ άρα τοί γ’ ισαοι νέας φοινικοπαρήους
+ονδ’ έυήρε’ έρετμά, τά τε πτερά νηυσί πέλονται.</foreign>
+<lb n="125"/>
+<foreign xml:lang="grc">αήμα δέ τοι έρέω μάλ’ άριφραδές, ουδέ αε λήοει.
+δππότε κεν δή τοι αυμβλημένος άλλος όδίτης
+φήη άΦηρηλοιγόν εχειν άνά φαιδίμφ ώμφ,
+καί τότε δη γαίη πήξας έυήρες έρετμόν,
+ρέξας Ιερά καλά Ποσειδάωνι άνακτι,</foreign>
+<lb n="130"/>
+<foreign xml:lang="grc">άρνειόν ταϋρόν τε ονών τ’ έπιβήτορα κάπρον,
+οΐκαδ’ άποοτείχειν ερδειν &amp;’ Ιεράς έκαχόμβας
+άΰανάτοισι &amp;εοΐαι, τοί ουρανόν ενρϋν εχουοιν,
+πάσι μάλ’ έξείης. θάνατος δέ τοι έξ αλός αύτω</foreign>
+<pb n="36"/>
+<foreign xml:lang="grc">άβληχρός μ άλα τοΐος έλενσεται, δς κέ σε πέφνγ</foreign>
+<lb n="135"/>
+<foreign xml:lang="grc">γήραι νπο λιπαρώ άρημένον, άμφϊ δε λαοί
+όλβιοι ϊοαονται. τά δέ τοι νημερτέα εϊρω.”</foreign></p>
+						<p><foreign xml:lang="grc">ως ζφατ’, αντάρ έγώ μιν άμειβόμενος προοέευτον
+“ Τειρεσίη, τά μ&amp;ν άρ που έπέκλωσαν &amp;εοΙ αυτοί'
+άλλ' άγε μοι τόδε είπ&amp; καί ότρεκέως κατάλεξον.</foreign>
+<lb n="140"/>
+<foreign xml:lang="grc">μητρός τήνδ’ δρόω ιμυχην κατατεέλνηκνίης*
+η δ’ άκέουσ' ησται σχεδόν αίματος, ουδ’ έόν υίδν
+έτλη έσάντα Ιδεΐν ουδέ προτιμνΰήσασ'&amp;αι ’
+είπέ, άναξ, πώς κέν με άναγνοίη τον ιόντα; ”</foreign></p>
+						<p><foreign xml:lang="grc">ώς έφάμην, δ όέ μ’ αύτίκ* άμειβό μένος προσέειπεν*
+“ φηίδιόν τοι ίίπος έρέω καί èm φρεσΐ ’&amp;ήσω</foreign>.
+<lb n="146"/>
+<foreign xml:lang="grc">ον Τινα μεν κεν έάς νεκνων κατατε&amp;νηώτων
+αίματος άσσον ΐμεν, δ δετοι νημερτές ένίψει ’
+ω δέ κ’ έπιφΰονέβς, δ δέ τοι πάλιν εϊσιν δπίσσω.”</foreign></p>
+						<p><foreign xml:lang="grc">ώς φαμενη ψυχή μέν εβη δόμον “Αιδος εΐοω</foreign>
+<lb n="150"/>
+<foreign xml:lang="grc">Τειρεσίαο άνακτος, έπεί κατά ΰέοφατ’ έλεξεν ’
+αυτάρ έγών αυτόν μένον εμπεδον, δφρ’ επί μήτηρ
+ηλυsε καί πίεν αίμα κελαινεφές. αύτίκα δ* εγνω,
+καί μ’ όλοφνρομενη ΐπεα πτερόεντα προσηνδα*
+“ τέκνον έμόν, πώς ήλ&amp;ες υπό ζόφον ηερόεντα</foreign>
+<lb n="155"/>
+<foreign xml:lang="grc">ζωός εών; χαλεπόν δε τάδε ζωοΐσιν δράο'&amp;αι.
+μέσσφ γάρ μεγάλοι ποταμοί καί δεινά ρεεΰρα,
+Ωκεανός μεν πρώτα, τον οϋ πως ϊστι περηοαι</foreign>
+<pb n="37"/>
+<foreign xml:lang="grc">πεζόν Ιόντ, ήν μη τις έχη έυεργέα νήα.
+ή νυν δη Τροίη'&amp;εν άλώμενος ένΰάδ’ Ικάνεις</foreign>
+<lb n="160"/>
+<foreign xml:lang="grc">νηί τε καί ετάροισι Πολυν χρόνον; ουδέ πω ήλ&amp;ες
+είς Ί&amp;άκην, ουδ’ είδες évi μεγάροισι γυναίκα; ”</foreign></p>
+						<p><foreign xml:lang="grc">ώς εφατ’, αύτάρ Ιγώ μιν άμειβό μένος προσέεπιον*
+“ μήτερ έμή, χρειώ με κατήγαγεν είς Άίδαο
+ψυχή χρησόμενον Θηβαίου Τειρεσίαο.</foreign>
+<lb n="165"/>
+<foreign xml:lang="grc">ού γάρ πω σχεδόν ήλ&amp;ον Άχαιίδος, ουδέ πω άμής
+γης επέβην, άλλ’ alkv εχων άλάλημαι διζνν,
+εξ ον τα πρώτισ&amp;’ έπόμην Άγαμέμνονι δίω
+νΙλιον είς ένπωλον, iva Τρώεσσι μαχοίμην.
+άλλ' αγε μοι τόδε είπέ καί άτρεκέως κατάλεξον.</foreign>
+<lb n="170"/>
+<foreign xml:lang="grc">τις νν σε κήρ έδάμασσε τανηλεγέος ΰανάτοιο;
+ή δολιχή νονσος, ή'Άρτεμις Ιοχέαιρα
+οΐς άγανοΐς βελέεσσιν έποιχομένη κατέπεφνεν;
+είπέ δε μοι πατρός τε και νΐέος, ον κατέλειπον,
+ή ετι πάρ κείνοιαιν έμόν γέρας, ήέ τις ήδη</foreign>
+<lb n="175"/>
+<foreign xml:lang="grc">άνδρών άλλος έχει, è με δ1 ούκέτι φασ'ι νέεσ&amp;αι.
+είπε δέ μοι μνηστής άλόχον βουλήν τε νόον τε,
+ήε μένει παρά παιδί καϊ έμπεδα πάντα φυλάσσει,
+ή ήδη μιν έγημεν*Αχαιών δς τις δριστος.”</foreign></p>
+						<pb n="38"/>
+						<p><foreign xml:lang="grc">ώς Ιφάμην, ή δ’ αύτίκ’ άμείβετο πότνια μήτηρ.</foreign>
+<lb n="180"/>
+<foreign xml:lang="grc">και λίην κείνη γε μένει τετληότι έλυμώ
+σοΐσιν évi μεγάροισιν’ διζνραί δέ οί αίεί
+ψ&amp;ίνονσιν νύκτες τε καί ή ματ a δάκρυ χεούση.
+σδν δ’ ον πώ τις έχει καλόν γέρας, αλλά έκηλος
+Τηλέμαχος τεμένεα νέμεται καί δαϊτας έίσας</foreign>
+<lb n="185"/>
+<foreign xml:lang="grc">δαίνυται, δίς ίπέοικε δικασπόλον δνδρ’ άλεγύνειν
+πάντες γάρ καλέονσι. πατήρ δε σος αυτόθι μίμνει
+άγρω, ονδε πόλινδε κατέρχεται, ουδέ οι εύναί
+δέμνια καί χλαΐναι καί ρήγεα σιγαλόεντα,
+άλλ’ δ γε χεϊμα μϊν ενδει, δϋι δμώες ivi οΐκω,</foreign>
+<lb n="190"/>
+<foreign xml:lang="grc">εν κόνι άγχι πνρός, κακά δε χροι εΐματα εϊται'
+αύτάρ έπήν ελ&amp;ησι ύλέρος τε&amp;αλνΐά τ δπώρη,
+πάντη οί κατά γουνόν άλωής οίνοπέδοιο
+φύλλων κεκλιμένων γ&amp;αμαλαϊ βεβλήαται εύναί.
+έν&amp;’ ο γε κειτ άχεων, μέγα δέ φρεοί πέν&amp;ος άέξει</foreign>
+<lb n="195"/>
+<foreign xml:lang="grc">σον νόστον πούλέων, χαλεπόν δ’ επί γήρας ίκάνει.
+ούτω γάρ και έγών δλόμην καί πότμον έπέσπον’
+ον τ’ èμε γ' εν μεγάροισιν εύσκοπος ίοχέαιρα
+οΐς άγανοΐς βελέεσσιν εποιχομένη κατέπεφνεν,
+οντε τις ονν μοι νονσος έπήλν&amp;εν, ή τε μάλιστα</foreign>
+<lb n="200"/>
+<foreign xml:lang="grc">τηκεδόνι στυγερή μελέων εξείλετο ΰυμόν.</foreign>
+<pb n="39"/>
+<foreign xml:lang="grc">άλλά με σός τε τιό&amp;ος Σά τε μήδεα, φαίδιμ1 Όδυσσεν,
+σή τ άγανοφροσννη μελιηδέα ΰυμόν άπηνρα.”</foreign></p>
+						<p><foreign xml:lang="grc">ώς εφατ\ αντάρ έγώ γ’ εΰελον φρεσϊ μερ μη ρίζας
+μητρός έμής ψυχήν έλέειν κατατεΌνηκυίης.</foreign>
+<lb n="205"/>
+<foreign xml:lang="grc">τρϊς μεν έφωρμήΰην, έλέειν χέ με ϋ'νμός άνώγειν,
+τρίς 6έ μοι εκ χειρών axifj εϊκελον ή καί δνείρφ
+ϊτνιατ’. έμοί Ò’ άγος δξν γενέσκετο κηρά&amp;ι μάλλον,
+καί μιν φωνήσας επεα πτερόεντα προσηνδων*
+“ μήτερ έμή, τί νν μ’ ού μίμνεις έλέειν μεμαώτα,</foreign>
+<lb n="210"/>
+<foreign xml:lang="grc">δφρα καί είν Άίδαο φιλάς περί χεΐρε βαλόντε
+άμφοτέρω κρνεροιο τεταρπώμεοϋα γόοιο;
+η τί μοι εΐδωλον τόδ’ άγανή Περσεφόνεια
+ώτρννδφρ’ hi μάλλον άδυρόμένος στεναχίζω;”</foreign></p>
+						<p><foreign xml:lang="grc">ώς έάμην, ή δ’ αυτίκ’ άμείβετο πότνια μήτηρ.</foreign>
+<lb n="215"/>
+<foreign xml:lang="grc">ώ μοι, τέκνον έμόν, περί πάντων κάμμορε φωτών,
+ον τι σε Περαεφόνεια A ιός ’&amp;υγάτηρ άπαφίσκει,
+άλλ' αυτή δίκη εστι βροτών, δτε τις κε &amp;άντ}σιν'
+ού γάρ ετι σάρκας τε και δστέα Ινες ίίχουοιν,
+άλλά τά μέν τε πυράς κρατερόν μένος αΐ&amp;ομενοιο</foreign>
+<lb n="220"/>
+<foreign xml:lang="grc">δάμνατ’, έπεί κε πρώτα λίπη λεΰκ’ όσχεα ΰνμός,</foreign>
+<pb n="40"/>
+<foreign xml:lang="grc">ψυχή δ’ ήύτ’ δνειρος άποττταμένη πεπότηται.
+άλλα φόωσδε τάχιστα λιλαίεο' ταϋτα δε πάντα
+ισ&amp;’, iva καί μετόπισ·&amp;ε τεή εΐπησΰα γυναικί.”</foreign></p>
+						<p><foreign xml:lang="grc">νώι μεν ώς έπεεσσιν άμειβόμεΰ’, ai δε γυναίκες</foreign>
+<lb n="225"/>
+<foreign xml:lang="grc">ηλν&amp;ον, ώτρννεν γάρ άγαυη Περσεφόνεια,
+δσσαι άριστήων άλογοι εσαν ήδε ΰύγατρες.
+Αΐ δ’ άμφ’ αίμα κελαινόν όολλεες ήγερέ&amp;οντο,
+αυτάρ έγώ βουλευον, όπως έρεοιμι έκάοτην.
+ήδε δέ μοι κατά sνμόν άρίστη φαίνεχο βουλή.</foreign>
+<lb n="230"/>
+<foreign xml:lang="grc">σπασσάμενος τανύηκες άορ παχέος παρά μηρού
+ονκ εϊων πίνειν άμα πάσας αίμα κελαινόν.
+al δε προμνηστΐναι έπήισαν, ήδε έκάοτη
+ον γόνον έξαγόρευεν’ έγώ δ’ ερεεινον άπάσας.</foreign></p>
+						<p><foreign xml:lang="grc">sν&amp;' ή τοι πρώτην Τυρώ ΐδον ευπατερειαν,</foreign>
+<lb n="235"/>
+<foreign xml:lang="grc">ή φάτο Σαλμωνήος άμύμονος έκγονος είναι,
+φή δε Κρη&amp;ήος γυνή εμμεναι ΑΙολίδαο'
+η ποταμού ήράοσατ’ Ένιπήος ’&amp;είοιο,
+δς πολύ κάλλιανος ποταμών έπΐ γαΐαν ιηοιν,
+καί έπ''Ενιπήος πωλέσκετο καλά ρέε&amp;ρα.</foreign>
+<lb n="240"/>
+<foreign xml:lang="grc">τώ δ’ άρα εΐοάμενος γαιήοχος έννοσίγαιος
+έν ποταμού παρελέξατο δινήεντος*
+πορφύρεον δ’ άρα κύμα περιστά'&amp;η ουρεί ΐαον,</foreign>
+<pb n="41"/>
+<foreign xml:lang="grc">κυρτω&amp;έν, κρύψεν δέ ΰεδν θνητήν τε γυναίκα.
+[λϋσε δέ παρΰενίην ζώνην, κατά δ’ ύπνον έχευεν.]</foreign>
+<lb n="245"/>
+<foreign xml:lang="grc">αύτάρ έπεί §’ έτέλεσσε &amp;εός φιλοτήοια 8ργα,
+εν τ’ δρα οί φν χειρί, έπος τ' εψατ’ ϊκ τ δνόμαζεν ’
+“χοίρε, γνναι, φιλότητι* περιπλομένον Ò* ένιαντον
+% έξεις άγλαά τέκνα, έπεί ούκ άποφώλιοι ενναΐ
+αθανάτων' ον όέ τους κομέειν άτιταλλεμεναί τε.</foreign>
+<lb n="250"/>
+<foreign xml:lang="grc">νυν δ’ £ρχευ προς δώμα καί ϊοχεο μηδ’ δνομήνης'
+αντάρ έγώ τοί είμι Ποοειδάων ενοαίχ&amp;ων.”
+ώς είπών υπό πόντον έδνσετο κνμαίνοντα.
+ή δ’ υποκυοαμένη Πελίην τεκε καί Νηλήα,
+τω κρατερώ ΰεράποντε A ιός μεγάλοιο γενέα&amp;ην</foreign>
+<lb n="255"/>
+<foreign xml:lang="grc">άμφοτέρω' Πελίης μεν έν εύρνχόρω Ίαωλκώ
+ναΧε πολύρρηνος, ό δ* αρ’ έν ΙΤνλω ήμα&amp;όεντι.
+τους δ’ ετέρους Κρη&amp;ήι τέκεν βασίλεια γυναικών,
+Αΐσονά τ’ ηδέ Φέρητ’ Aμν&amp;άονά Ιππιοχάρμην,</foreign></p>
+						<p><foreign xml:lang="grc">την δε μετ’ Άντιόπην ϊδον Άσωποΐο {λυγατρα,</foreign>
+<lb n="260"/>
+<pb n="42"/>
+<foreign xml:lang="grc">ή δη καί Διός εϋχετ’ έν άγκοίνησιν ΐανσαι,
+καί β’ ϊτεκεν δύο παΐδ’, Άμφίονά τε Ζή&amp;όν τε,
+οΐ πρώτοι Θήβης έδος έκτιααν έττταπύλοιο,
+πύργωοάν τ’ έπεί ού μέν άπύργωτόν γε δύναντο
+ναιέμεν εύρύχορον Θήβην κρατερώ περ έόντε.</foreign>
+<lb n="265"/></p>
+						<p><foreign xml:lang="grc">την δε μετ’ A λκ μήνην ΐδον'Αμφιτρύωνας δκοιτιν,
+ή ρ Ήρακλήα ι&amp;ραονμέμνονα év μα λέοντα
+γείνατ’ èv άγκοίνησι Δ ιός μεγάλοιο μιγεΐσα’
+καί Μεγάρην Κρείοντος ΰπερϋύμοιο ΰύγατρα,
+την εχεν 1Αμφιτρύωνας νιος μένος αίεν άτειρής.</foreign>
+<lb n="270"/></p>
+						<p><foreign xml:lang="grc">μητέρα δ’ ΟΙδιπόδαο Iδον, καλήν Έπικάοτην,
+η μέγα έργον ερεξεν άιδρείησι νόοιο
+γημαμένη φ νϊι' ό δ’ ον παχέρ’ ~έξεναρίξας
+γημεν* άφαρ δ1 άνάπνοτα &amp;εοί ΰέσαν άν&amp;ρώποισιν.
+άλλ' 6 μεν εν Θήβη ηολυηράτω αλγεα ττάοχων</foreign>
+<lb n="275"/>
+<foreign xml:lang="grc">Καδμείων ηνασσε ’&amp;εών δλοάς διά βονλάς'
+ή δ1 εβη είς Άίδαο πνλάρταο κραχεροϊο</foreign>
+<pb n="43"/>
+<foreign xml:lang="grc">άψαμένη βρόχον αίπνν άφ* υψηλοΐο μελά&amp;ρον,
+ω αχεί σχομένη* τω Ò’ δ,λγεα κάλλιπ’ δτιίοσω
+πολλά μάλ’, δσσα χε μητρός ’Σρινύες έκτελέονσιν.</foreign>
+<lb n="280"/></p>
+						<p><foreign xml:lang="grc">και Χλώριν είδον περικαλλέα, την ποτέ Νηλενς
+γήμεν Εον διά κάλλος, έπεϊ πόρε μνρία εδνα,
+δπλοτάτην κονρην Άμφίονος Ίασίδαο,
+δς ποτ’ Εν Όρχο/ιενω Μινυηιφ ΐφι άνασοεν*
+ή δε Πύλου βασίλευε, τέκεν δέ οΐ άγλαά τέκνα,</foreign>
+<lb n="285"/>
+<foreign xml:lang="grc">Νέστορά τε Χρομίον τε Περικλνμενόν τ' άγέρωχον.
+τοισι δ’ Επ’ ΙφΜμην Πηρώ τέκε, &amp;ανμα βροτοΐσιν.
+την πάντες μνώοντο περικτίται* ονδ' άρα Νηλενς
+τώ έδίδου, δς μη Ελικας βόας ενρνμετώπονς
+έκ Φνλάκης έλάσειε βίης Ίφικληείης</foreign>
+<lb n="290"/>
+<foreign xml:lang="grc">άργαλέας. τάς δ' όίος νπέοχετο μάνας άμνμων
+έξελάαν χαλεπή δέ ΰεον κατά μοίρα πέδησεν,
+δεσμοί τ άργαλέοι καί βουκόλοι άγροιώται.
+άλλ’ δτε δη μήνες τε καί ήμέραι έξετελενντο,
+άψ περιτελλομένον ετεος καί έπήλν&amp;ον ώραι,</foreign>
+<lb n="295"/>
+<pb n="44"/>
+<foreign xml:lang="grc">καί τότε δή μιν ελνσε βίη Ίφικληείη
+θέσφατα πάντ’ είπόντα, A ιός δ} ετελείετο βουλή.</foreign></p>
+						<p><foreign xml:lang="grc">καί Λήδην έίδον την Τννδαρέον παράκοαιν,
+η ρ* υπό Τυνδαρεφ κραχερόφρονε γείναχο παιδε,
+Κάαχορά ϋ·1 Ιππόδαμον καί πνξ άγα&amp;όν Πολνδενκεα,
+τους Άμφω ζωους κατέχει φνσίζοος ala.</foreign>
+<lb n="300"/>
+<foreign xml:lang="grc">οΐ καί νέρ&amp;εν γης τιμήν προς Ζηνός ϊχοντες
+άλλοτε μέν ζώουσ* έτερήμεροι, άλλοτε δ" άντε
+τε&amp;νάσιν’ τιμήν δε λελόγχαοιν ΐοα ΰεοΐοιν.</foreign></p>
+						<p><foreign xml:lang="grc">τήν δε μετ’ Ίφιμεδειαν ’Αλωήος παράκοιτιν</foreign>
+<lb n="305"/>
+<foreign xml:lang="grc">ειοιδον, ή δή φάσκε Ποσειδάωνι μιγήναι,
+καί ρ’ ετεκεν δύο παϊδε, μιννν&amp;αδίω δε γενέσϋην,
+*Ωτόν τ’ άντί'&amp;εον τηλεκλειτόν τ’ Εφιάλτην,
+τούς δή μηκίστονς ΰ·ρέψε ζείδωρος άρουρα
+καί πολύ καλλίοτονς μετ’ άγακλντον Ώρίωνα.</foreign>
+<lb n="310"/>
+<foreign xml:lang="grc">έννέωροι γαρ τοί γε καί έννεαπήχεες ήσαν
+εύρος, άτάρ μήκος γε γενέσ&amp;ην έννεόργυιοι.
+οι ρα καί ά&amp;ανάτοισιν άπειλήτην έν ’Ολνμπω
+φνλόπιδα στήοειν ηολνάικος πολέμοιο</foreign></p>
+						<p><foreign xml:lang="grc">Οοσαν έπ’ Ούλνμπφ μέμασαν ύλέμεν, αϋτάρ έπ’ "Οαση.</foreign>
+<pb n="45"/>
+<foreign xml:lang="grc">Πήλιον είνοοίφυλλον, ΐν' ουρανός άμβατύς εΐη.</foreign>
+<lb n="316"/>
+<foreign xml:lang="grc">καί νυ κεν έξετέλεσσαν, εΐ ήβης μέτρον ΐκοντο’
+άλλ* δλεοεν Διάς υίός, δν ήύκομος τέκε Λητώ,
+άμφοτέρω, πριν οφωιν υπό κροτάψοιοιν Ιούλους
+άν&amp;ήσαι πυκάοαι τε γενυς έυαν&amp;ει λάχνη.</foreign>
+<lb n="320"/></p>
+						<p><foreign xml:lang="grc">Φαιδρήν τε Πρόκριν τε Iδον καλήν τ' Άριάδνην,
+κονρην Μίνωος ολοόφρονον, ήν ποτέ Θηοευς
+έκ Κρήτης ες γουνόν Ά&amp;ηνάων Ιεράων
+ήγε μέν, ουδ* άπόνητο ’ πάρος δέ μιν "Αρτεμις ϊκτα
+Δίη έν άμφιρντη Διονύσου μαρτνρίησιν.</foreign>
+<lb n="325"/></p>
+						<p><foreign xml:lang="grc">Μάϊράν τε Κλνμένην τε Ι'δον στυγερήν τ’ Έριφύλην,
+ή χρυσόν φίλου άνδρός έδέξατο τιμήεντα.
+πάσας δ’ ούκ δν έγώ μυ&amp;ήσομαι ούδ’ δνομήνω,</foreign>
+<pb n="46"/>
+<foreign xml:lang="grc">δοοας ηρώων άλόχονς ΐδον fjòk ΰνγατρας'
+πριν γάρ κεν καί ννξ φΰΐτ’ αμβροτος. &lt;UAd και ωρη
+εϋδειν, ή έπϊ νήα ΰοην έλΰ·όντ’ ές εταίρους</foreign>
+<lb n="331"/>
+<foreign xml:lang="grc">ή αίηον* πομπή δε ΰεοΐς νμϊν τε μελήσει</foreign></p>
+						<p><foreign xml:lang="grc">ώς έφαΰ·οί δ* άρα πάντες άκην έγένοντο oioìnfj,
+κηλη&amp;μω δ' ίοχοντο κατά μέγαρα οκιόεντα.
+τοΐαιν δ’*Αρήτη λενκώλενος ήρχετο μνΰων.</foreign>
+<lb n="335"/>
+<foreign xml:lang="grc">“Φαίηκες, πώς ϋμμιν άνήρ δδε φαίνεται είναι
+εΐδός τε μέγεΰός τε Ιδε φρένας ένδον είσας;
+ξεΐνος δ’ αντ έμός Ιστιν, έκαστος δ’ εμμορε τιμής*
+τώ μή επειγόμενοι άποπέμπετε, μη δε τά δώρα
+οϋτω χρηίζοντι κολονετε' πολλά γάρ νμιν</foreign>
+<lb n="340"/>
+<foreign xml:lang="grc">κτήματ* ενϊ μεγάροισι ΰεών ίότητι κέονται</foreign></p>
+						<p><foreign xml:lang="grc">τοΐσι óè καί μεχέενπε γέρων Ηρως Έχενηος,
+δς δη Φαιήκων άνδρών προγενέστερος ηεν ’
+και μν&amp;ονς έκέκαοτο παλαιά τε πολλά τε είδώς</foreign>
+<note type="marginal">343 b·</note>
+<foreign xml:lang="grc">“ώ φίλοι, ου μάν ημιν από σκοπού ονδ’ από δόξης
+μν&amp;ειται βασίλεια περίφρων' αλλά πί&amp;εσ'&amp;ε.</foreign>
+<lb n="345"/>
+<foreign xml:lang="grc">’Αλκινόου ò’ εκ τοΰδ’ εχεται Εργον τε έπος τε.</foreign>”</p>
+						<p><foreign xml:lang="grc">τον δ1 αύτ ’Αλκίνοος άπαμείβετο φώνηοέν τε.</foreign>
+<pb n="47"/>
+<foreign xml:lang="grc">“τούτο μεν οντω δη εοται ϊπος, αϊ κεν έγώ γε
+ζωός Φαιήκεσσι φιληρέτμοισιν άνάσσω'
+ξείνος δε τλήτω μάλα περ νόστοιο χατίζων</foreign>
+<lb n="350"/>
+<foreign xml:lang="grc">εμπης ούν έπιμεΐναι ες ανριον, εις δ χε πάσαν
+δωτίνην τελεσω. πομπή Ò’ άνδρεσσι μελήσει
+πάσι, μάλιστα δ’ εμοί' τον γάρ κράτος εστ ενί δήμω”</foreign></p>
+						<p><foreign xml:lang="grc">τον δ’ άπαμειβό μένος προσέφη πολνμητις ’Οδνοαενς'
+“’Αλκίνοε κρεΐον, πάντων άριδείκετε λαών,</foreign>
+<lb n="355"/>
+<foreign xml:lang="grc">εΐ με καί είς ενιαυτόν άνώγοιτ' αυτόθι μίμνειν,
+πομπήν δ’ δτρννοιτε καί άγλαά δώρα διδοϊτε,
+καί κε το βονλοίμην, καί κεν πολύ κερδιον εΐη,
+πλειοτέρη συν χειρϊ φίλην ές πατρίδ’ Ικέο&amp;αι’
+καί κ’ αίδοιότερος καί φίλτερος άνδράοιν εΐην</foreign>
+<lb n="360"/>
+<foreign xml:lang="grc">πάοιν, δσοι μ’ Ί&amp;άκηνδε Ιδοίατο νοστήσαντα."</foreign></p>
+						<p><foreign xml:lang="grc">τον δ’ αυτ’ 5Αλκίνοος άπαμείβετο φώνηοέν τε*
+“ ώ Όδνσεϋ, τό μεν ον τί α’ έίσκομεν είσορόωντες,
+ήπεοοπήά τ' εμεν καί Ιπίκλοπον, olà τε πολλούς
+βόσκει γαΐα μέλαινα πολνοπερέας ανθρώπους,</foreign>
+<lb n="365"/>
+<foreign xml:lang="grc">ψενδεά τ’ άρτννοντας, δ&amp;εν κέ τις ον δε ΐδοιτο'
+σοι δ’ επι μεν μορφή έπέων, ενι δε φρένες έα&amp;λαΐ.
+μνΰον δ’ ώς δτ άοιδός επισταμένως κατέλεξας,
+πάντων τ’ Άργείων σέο τ’ αυτόν κήδεα λνγρά.
+άλλ’ αγε μοι τάδε είπε καί άτρεκεως κατάλεξον,</foreign>
+<lb n="370"/>
+<foreign xml:lang="grc">εΐ τινας άντιΰέων έτάρων ιδες, όϊ τοι &amp;μ’ αντώ</foreign>
+<pb n="48"/>
+<foreign xml:lang="grc">”Ιλιον είς &amp;μ’ ϊπονχο καί αυτοί) πότμον έπέσπον.
+νυξ δ' ηδε μάλα μάκρη, άΰέαφατος' ουδέ πω ώρη
+ενδειν έν μεγάρω, συ δέ μοι λέγε ΰέσκελα έργα,
+καί κεν ές ηώ δίαν άναοχοίμην, δτε μοι ον</foreign>
+<lb n="375"/>
+<foreign xml:lang="grc">τλαίης έν μεγάρω τα σά κήδεα μν&amp;ήαασ&amp;αί."</foreign></p>
+						<p><foreign xml:lang="grc">τόν δ’ άπαμειβόμενος προσέφη πολύμητις Όδυοσεύς*</foreign>
+<foreign xml:lang="grc">“ Αλκίνοε κρεΐον, πάντων άριδείκετε λαών,
+ώρη μεν πόλεων μύθων, ώρη δε καί ύπνου*
+εΐ δ’ έτ’ άκουέμεναι γε λιλαίεαι, ούκ αν έγώ γε</foreign>
+<lb n="380"/>
+<foreign xml:lang="grc">τούτων σοι φθονέοιμι καί οίκτρότερ1 αλλ’ άγορεύειν
+κήδε* έμών έτάρων, οΐ δή μετόπισθεν δλοντο,
+οΐ Τρώων μεν ύπεξέφυγον στονόεοοαν αυτήν,
+εν νόοτω δ' άπόλοντο κακής Ιότητι γυναικός.</foreign></p>
+						<p><foreign xml:lang="grc">αύτάρ έπεϊ ψνχάς μεν άπεσκέδαο’ αλλυδις άλλη</foreign>
+<lb n="885"/>
+<foreign xml:lang="grc">αγνή Περαεφόνεια γυναικών ΰηλυτεράων,
+ήλ'&amp;ε δ' έπι ψυχή Άγαμέμνονος Άτρεΐδαο
+άχννμένη* περί δ’ &amp;λλαι άγηγέραΰ’ δσσοι αμ! αντω
+οΐκφ έν ΑΙγίαΰοιο ΰάνον καί πότμον επέοπον.
+εγνω δ' αΐψ' εμ} έκεΐνος, έπεϊ ΐδεν οψϋαλμοΐοιν.</foreign>
+<lb n="390"/>
+<foreign xml:lang="grc">κλαϊε δ1 δ γε λιγέως θαλερόν κατά δάκρυον εΐβων,
+πιτνας είς èμε χεΐρσς, δρέξαοθαι μενεαίνων ’
+άλλ’ ού γάρ οί έτ’ ήν ίς έμπεδος ουδέ τι κικυς,
+οΐη περ Πάρος έσκεν ένϊ γναμπτοΐοι μέλεοοιν.</foreign>
+<pb n="49"/>
+<foreign xml:lang="grc">τόν μέν έγώ δάκρυσα Ιδων έλέησά τε ΰυμώ,</foreign>
+<lb n="395"/>
+<foreign xml:lang="grc">καί μιν φωνήοας ϊπεα τηερόεντα προσηύδων’
+“ Άτρειδη κύδιστε, άναξ άνδρών Άγάμεμνον,
+τις νυ σε κηρ έδάμασσε τανηλεγέος ΰανάτοιο;
+ηε σε γ* έν νήεσσι Ποσειδάων Ιόάμασσεν
+δρσας άργαλέων άνέμων άμέγαρτον άυτμήν;</foreign>
+<lb n="400"/>
+<foreign xml:lang="grc">ηέ σ' άνάρσιοι άνόρες έδηλήοαντ’ έπΐ χέρσου
+βοϋς περιταμνόμενον ηδ’ οΐών πώεα καλά,
+ηέ περί πτόλιος μαχεούμενον ήδέ γυναικών;”</foreign></p>
+						<p><foreign xml:lang="grc">ώς έφάμην, 6 δέ μ* αντ'νκ άμειβόμένος ττροοέευτεν'
+“ διογενές Ααερτιάδη, πολνμήχαν* Όδυαοεν,</foreign>
+<lb n="405"/>
+<foreign xml:lang="grc">οντ έμε γ1 èv νήεσσι Ποοειδάων έδάμασσεν
+δρσας άργαλέων άνεμων άμέγαρτον άυτμήν,
+ούτε μ' άνάρσιοι ανδρες έδηλήσαντ' έπΐ χέρσου,
+άλλά μοι Αΐγισΰος τεύξας θάνατόν τε μόρον τε
+έκτα συν ονλομένγ] άλόχω, οίκόνδε καλέσσας,</foreign>
+<lb n="410"/>
+<foreign xml:lang="grc">δειπνίσσας, ώς τις τε κατέκτανε βουν επί φάτνγ].
+ώς ’&amp;άνον οίκτίοτω έλανάτω' περί δ’ άλλοι, εταίροι
+νωλεμέως κτείνοντο σύες ώς άργιόδοντες,
+οι ρά τ' έν άφνειοϋ άνδρός μέγα δνναμένοιο
+ή γάμω fj έράνω η είλαπίνγ] τεΰαλνίγ.</foreign>
+<lb n="415"/>
+<pb n="50"/>
+<foreign xml:lang="grc">ηδη μεν πόλεων φόνφ άνδρών άντεβόληοας,
+μοννάξ κτεινομενών καί évi κρατερη νομίνη'
+αλλά κε κείνα μάλιστα Ιδών όλοφνραο ΰνμω,
+ώς άμφ'ι κρητήρα τραπέζας τε πλη&amp;ονσας
+κείμεΰ’ évi μεγάρω, δάπεδον άπαν αΐματι &amp;νεν.</foreign>
+<lb n="420"/>
+<foreign xml:lang="grc">οίκτροτάτην δ1 ήκονσα δπα Πριάμοιο &amp;νγατρος
+Καοοάνδρης, την κτεΐνε Κλνταιμήατρη δολόμητις
+άμφ’ εμοί, αύτάρ εγώ ποτι γαίη χεΐρας άείρων
+βάλλον άπο&amp;νήσκων περί φασγάνω' ή δε κννώπις
+νοοφίσατ*, ουδέ μοι ετλη Ιόν τι περ είς ’Αίδαο</foreign>
+<lb n="425"/>
+<foreign xml:lang="grc">χερσί κατ’ δφ&amp;αλμονς έλέειν ανν τε στόμ’ έρεΐσαι.
+ώς ούκ αινότερον καί κνντερον άλλο γνναικός,
+η τις δη τοιαντα μετά φρεοϊ έργα βάληται'
+olov δη και κείνη έμήσατο Εργον αεικες
+κονριδίω τενξαοα πόσει φόνον' η τοι εφην γε</foreign>
+<lb n="430"/>
+<foreign xml:lang="grc">άοπάσιος παίδεσσιν ιδε δμώεσοιν εμοΐοιν
+οΐκαδ’ έλενοεσ&amp;αι' ή δ’ εξοχα λνγρά Ιδνϊα</foreign>
+<pb n="51"/>
+<foreign xml:lang="grc">τε κατ' αίσχος εχευε καί έσσομένηοιν δπίσσω
+’&amp;ηλυτέρησι γυναιξί, καί η κ’ έυεργός εησιν.”</foreign></p>
+						<p><foreign xml:lang="grc">ώς εφατ', αύτάρ εγώ μιν αμεφό μένος προσέειπον'
+“ ώ πόποι, η μάλα δη γόνον Άτρέος εύρνοπα Ζενς</foreign>
+<lb n="436"/>
+<foreign xml:lang="grc">εκπάγλως ηχ&amp;ηρε γυναικείας διά βουλάς
+εξ άρχης**Ελένης μϊν άπωλόμεΰ’ εΐνεκα πολλοί,
+σοι δε Κλυταιμήοτρη δόλον ηρτυε τηλόΰ' έόντι ”
+ως Ιφάμην, όδε μ’ αύτίκ’ άμειβόμένος προσέειπεν.</foreign>
+<lb n="440"/>
+<foreign xml:lang="grc">“τώ νυν μή ποτέ καί συ γυναικί περ ήπιος είναι,
+μή οι μΰ'&amp;ον άπαντα πιφαυοκέμεν, ον κ' έυ ειδής,
+άλλα το μεν φάσ&amp;αι, το δε καί κεκρυμμένον είναι,
+άλλ’ ου οοί γ’, Όδυσεϋ, φόνος εασεται εκ γε γυναικός.
+λίην γάρ πινυτή τε καί ευ φρεσΐ μήδεα όίδεν</foreign>
+<lb n="445"/>
+<foreign xml:lang="grc">κονρη Ίκαρίοιο, περίφρων Πηνελόπεια.
+η μεν μιν νύμφην γε νέην κατελείπο μεν ήμεΐς
+έρχόμενοι πολεμόνδε’ πάις δε οι ην επί μαζω
+νήπιος, δς που νυν γε μετ’ άνδρών ΐζει άρΐ'&amp;μώ,</foreign>
+<pb n="52"/>
+<foreign xml:lang="grc">όλβιος* rj γάρ τόν γε πατήρ φίλος δψεται έλ'&amp;ών,</foreign>
+<lb n="450"/>
+<foreign xml:lang="grc">καί κείνος πατέρα προσπτνξεται, η ΰέμις εστίν.
+ή δ’ Ιμη ουδέ περ νιος ενιπληο&amp;ήναι ακοιτις
+δψ&amp;αλμοΐοιν εαοε' πόρος δε με πέφνε και αυτόν,
+[άλλο δέ τοι έρέω, ον δ* ενί φρενί βάλλεο afjoiv.
+κρύβδην, μη δ’ άναφανδά, φίλην ες πατρίδα γαϊαν</foreign>
+<lb n="455"/>
+<foreign xml:lang="grc">νήα κατισχέμεναι, επει ούκέτι πιστά γυναιξίν].
+άλλ’ άγε μοι τάδε είπε καί άτρεκέως κατάλεξον,
+εΐ που Ζτι ζώοντος άκούετε παιδδς εμοΖο,
+η που έν Όρχομενω fj έν Πύλω ήμα&amp;όεντι,
+fj που πάρ Μενελάω έπΐ Σπάρτη εύρείη.</foreign>
+<lb n="460"/>
+<foreign xml:lang="grc">ου γάρ πω τέέλνηκεν επί χ&amp;ονϊ δΐος Όρέστης.</foreign></p>
+						<p><foreign xml:lang="grc">ώς έφατ’ αύτάρ Ιγώ μιν άμειβόμενος προοέειπον
+“ Άτρεΐδη, τί με ταϋτα διείρεαι; ουδέ τι oh5α,
+ζώει δ γ’ ή τέ&amp;νηκε' κακόν δ’ άνεμώλια βάζειν.”
+νώι μεν ώς Ιηέεααιν άμειβομένω οτνγεροΐσιν</foreign>
+<lb n="465"/>
+<foreign xml:lang="grc">εσταμεν άχννμενοι θαλερόν κατά όάκρν χέοντες'
+ήλ&amp;ε δ1 έπΐ ψνχη Πηληιάδεω Άχιλήος
+καί Πατροκλήος καί άμύμονος Άντιλόχοιο
+Αϊαντός δς άριστος Ζην εϊδός τε δέμας τε
+των άλλων Δαναών μετ’ άμνμονα Πηλεΐωνα.</foreign>
+<lb n="470"/>
+<foreign xml:lang="grc">Ζγνω δε ψυχή με ποδώκεος ΑΙακίδαο
+καί ρ’ όλοφυρομένη επεα πτερόεντα προσηύδα</foreign>
+<pb n="53"/>
+<foreign xml:lang="grc">"διογενες Λαερτιάδη, πολνμήχαν* Όδνσσεν,
+σχέτλιε, τίπτ’ έτι μεϊζον évi φρενί μήσεαι έργον;
+πώς έτλης Ά ιδόσδε κατελ&amp;έμεν, έν&amp;α τε νεκροί</foreign>
+<lb n="475"/>
+<foreign xml:lang="grc">άφραδέες ναίονσι, βροτών είδωλα καμόντων</foreign></p>
+						<p><foreign xml:lang="grc">ώς εφατ, αυτάρ εγώ μιν άμειβόμενος προσέειπον ’
+“ ώ Άχιλεν Πηλήος νΐέ, μέγα φέρτατ’ 5Αχαιών,
+ηλ&amp;ον Τειρεσίαο κατά χρέος, εϊ uva βουλήν
+εΐποι, όπως Ίΰάκην ές παυιαλόεσσαν Ικοίμην.</foreign>
+<lb n="480"/>
+<foreign xml:lang="grc">ου γάρ πω σχεδόν ηλ&amp;ον Άχαάδος, ουδέ πω άμής
+γης έπέβην, άλλ’ αίεν εχω κακά, σεϊο δ’, Άχιλλεν,
+ον τις άνηρ προπάρον&amp;ε μακάρτατος οντ1 &amp;ρ’ δπίσσω*
+πριν μεν γάρ σε ζωόν έτίομεν ίσα ΰεοΐσιν
+Άργεϊοι, ννν άντε μέγα κρατεεις νεκνεσσιν</foreign>
+<lb n="485"/>
+<foreign xml:lang="grc">έν&amp;άδ’ Ιών' τω μη τι &amp;ανών άκαχίζεν, Άχιλλεν.”</foreign></p>
+						<p><foreign xml:lang="grc">ώς εφάμην, ο δε μ1 αύτίκ' άμειβόμένος προοέειπεν*
+“ μη δή μοι'θάνατόν γε παρανδα, φαίδιμ’*0δνσαεν.
+βονλοίμην κ1 έπάρονρος ιών θήτευε μεν άλλω,
+άνδρΐ παρ' άκλήρφ, ω μη βίοτος πολύς εΐη,</foreign>
+<lb n="490"/>
+<foreign xml:lang="grc">ή παοιν νεκνεσοι καταψ&amp;ιμένοκην άνάσσειν.
+άλλ’ άγε μοι τον παιδός άγανον μν&amp;ον ένίσπες,</foreign>
+<pb n="54"/>
+<foreign xml:lang="grc">ή έπετ' ές πόλεμον πρόμος έμμεναι, ήε καί ούχί.
+είπε δέ μοι Πηλήος άμύμονος, εϊ τι πέπυσσαι,
+ή έτ' έχει τιμήν πολέσιν μετά Μνρμιδόνεσσιν,</foreign>
+<lb n="495"/>
+<foreign xml:lang="grc">ή μιν άτιμάζουσιν άν'*Ελλάδα τε ΦύΗην τε,
+οννεκά μιν κατά γήρας έχει χεΐράς τε πόδας τε.
+εΐ γάρ έγών έπαρωγός ΰπ' αύγάς ήελίοιο,
+τοιος έών, όίός ποτ' ένί Τροίη εύρείη
+πέφνον λαόν άριστόν άμύνων Άργείοισιν</foreign>
+<lb n="500"/>
+<foreign xml:lang="grc">εΐ τοιόσδ' έλύλοιμι μίνυν&amp;ά περ ές πατέρος δώ,
+τω κέ τεω στύξαιμι μένος και χεΐρας άάπτους,
+οΐ κείνον βιόωνται έέργουσίν τ' άπό τιμής."</foreign></p>
+						<p><foreign xml:lang="grc">ώς εφατ\ αντάρ έγώ μιν άμειβόμενος προοέειπον'
+“ η τοι μεν Πηληος άμνμονος ον τι πέπνομαι,</foreign>
+<lb n="505"/>
+<foreign xml:lang="grc">αυτάρ τοι παιδός γε Νεοπτολέμοιο φίλοιο
+πάσαν άληύλείην μν&amp;ήσομαι, ώς με κελεύεις,
+αυτός γάρ μιν έγώ κοίλης επί νηός έίσης
+ήγαγον ϊκ Σκύρου μετ' ενκνή μίδας Αχαιούς,
+η τοι óV άμφί πόλιν Τροίην φραζοίμεύλα βονλάς,</foreign>
+<lb n="510"/>
+<foreign xml:lang="grc">ahi πρώτος ϊβαζε καί ουχ ήμάρτανε μύ'&amp;ων.</foreign>
+<pb n="55"/>
+<foreign xml:lang="grc">Νέστωρ άντί&amp;εος καί έγώ νικάσκομεν οΐω.
+αύτάρ δτ’ èv πεδίω Τρώων μαρναίμεΰα χαλκω,
+ου ποτ’ évi πληϋνΐ μεν εν άνδρών ούδ’ èv δμίλω,
+άλλά πολύ προΰέεσκεν έόν μένος ούδενι εΐκων,</foreign>
+<lb n="515"/>
+<foreign xml:lang="grc">πολλούς δ’ άνδρας επεφνεν èv alvfj δηιοτήτι.
+πάντας δ’ ουκ αν έγώ μυΰήσομαι ούδ* δνομήνω,
+δοαον λαόν επεφνεν άμύνων Άργείοιοιν,
+αλλ’ οΐον τον Τηλεφίδην κατενήρατο χαλκω
+ήρω' Ευρνπυλον, πολλοί δ’ άμφ’ αυτόν εταίροι</foreign>
+<lb n="520"/>
+<foreign xml:lang="grc">Κήτειοι κτείνοντο γυναίων εΐνεκα δώρων,
+κείνον δή κάλλιο τον ΐδον μετά Μεμνονα δϊον.
+αύτάρ δτ1 εις ίππον κατεβαίνομεν, ον κάμ’ Έπειός
+Άργείων οΐ άριατοι, έμοϊ δ’ επί πάντα τέταλτο.
+[ήμεν άνακλΐναι πυκινόν λόχον ήδ’ έπι&amp;εΐναι],</foreign>
+<lb n="525"/>
+<foreign xml:lang="grc">ενΡ άλλοι Δαναών ηγήτορες ήδέ μέδοντες
+δάκρυα τ’ ώμόργννντο τρεμον υπό γυϊα έκάστον</foreign>
+<pb n="56"/>
+<foreign xml:lang="grc">κείνον δ’ οϋ ποτέ πάμπαν Ιγων ΐδον δψ'άαλμοισιν
+οντ’ ώχρήσαντα χρόα κάλλιμον οϋτε παρειών
+δάκρυ δμορξάμενον' 6 δέ με μάλα πόλλ’ Ικέτενεν</foreign>
+<lb n="530"/>
+<foreign xml:lang="grc">ίππό&amp;εν έξίμεναι, ξίφεος δ1 έπεμαίετο κώπην
+καί δόρν χαλκοβαρές, κακά δέ Τρώεσσι μενοίνα.
+άλλ* δτε δη Πριάμοιο πόλιν διεπέρσαμεν αΐπήν,
+μοίραν καί γέρας έσ·&amp;λόν έγων έπϊ νηός έβαινεν
+άσκη&amp;ής, ονχ’ άρ βεβλημένος δξέι χαλκφ</foreign>
+<lb n="535"/>
+<foreign xml:lang="grc">ονχ’ αύχοσχεδίην ούτασμένος, οϊά χε πολλά
+γίγνειαι έν πολέμω ’ έπιμίξ δέ χε μαίνεται*Άρης.ν</foreign></p>
+						<p><foreign xml:lang="grc">ώς έφάμην, ψνχη δέ ποδώκεος ΑΙακίδαο
+φοίτα μακρά βιβάσα κατ’ άοφοδελόν λειμώνα,
+γη&amp;οσύνη, ο ol vlòv έφην άριδείκετον είναι.</foreign>
+<lb n="540"/></p>
+						<p><foreign xml:lang="grc">al δ' άλλαι ψνχαΐ νεκνων κατατε&amp;νηώτων
+έσχασαν άχννμεναι, εΐροντο δέ κηδε! έκαστη,
+οΐη δ’ Αϊαντος ψυχή Τελαμωνιάδαο
+νόσφιν άφεοτήκει, κεχολωμένη εινεκα νίκης,
+την μιν έγώ νίκησα δικαζόμενος παρά νηνσίν</foreign>
+<lb n="545"/>
+<foreign xml:lang="grc">τενχεσιν άμφ’ Αχιλήος' έΰηκε δε πότνια μήτηρ’
+παϊδες δε Τρώων δίκασαν καί Παλλάς ’Α&amp;ήνη.
+ώς δέ] μη δφελον νικάν τοιωδ’ Ιπ άέ&amp;λψ’</foreign>
+<pb n="57"/>
+<foreign xml:lang="grc">τοίην γάρ κεφαλήν ενεκ1 αυτών γαΐα κατέσχεν,
+Αιανθος πέρι μέν είδος, πέρι δ1 έργα τέτνκτο</foreign>
+<lb n="550"/>
+<foreign xml:lang="grc">των άλλων Δαναών μετ' άμνμονα Πηλεΐωνα.
+τον μεν έγών έπέεσσι προσηνδων μειλιχίοιοιν’
+“ Αίαν, παι Τελαμώνος άμνμονος, ονκ άρ' έμελλες
+ουδέ ’&amp;ανών λήσεσέλαι έμοί χόλον εΐνεκα τευχέων
+ούλομένων; τά δέ πημα &amp;εοΙ ύλέσαν Αργείοισιν.</foreign>
+<lb n="555"/>
+<foreign xml:lang="grc">τοΐος γάρ σφιν πύργος άπώλεο σεΐο δ1 ’Αχαιοί
+ίσον*Αχιλληος κεφαλή Πηληιάδαο
+άχννμεΰα φύέιμένοιο διαμπερές, ουδέ τις άλλος
+αίτιος, άλλά Ζευς Δαναών στρατόν αίχμητάων
+εκπάγλως ηχ&amp;ηρε, τειν δ1 έπϊ μοίραν έ&amp;ηκεν.</foreign>
+<lb n="560"/>
+<foreign xml:lang="grc">άλλ’ άγε δεύρο, άναξ, ΐν' έπος καί μύ&amp;ον άκούοβς
+ήμέτερον δάμασον δέ μένον και άγηνορα ύλνμδν.”</foreign></p>
+						<p><foreign xml:lang="grc">ώς έφάμην, δ δέ μ! ούδϊν άμείβετο, βη òh μετ' &amp;λλας
+ψνχάς είς*Ερεβος νεκνων κατατε$νηώτων.
+ενΰα χ' δμώς προοέφη κεχολωμένος,*rj καί έγώ τόν.</foreign>
+<lb n="565"/>
+<foreign xml:lang="grc">αλλά μοι ή&amp;ελε ΰυμός évi στή&amp;εσσι φίλοισιν
+των άλλων ψνχάς ιδέειν κατατε&amp;νηώτων.
+[ενϋ·' η τοι Μίνωα ϊδον1 Αιός άγλαόν νίόν,
+χρνσεον σκηπτρον ϊχοντα ’&amp;εμιοτενοντα νέκνσσιν,</foreign>
+<pb n="58"/>
+<foreign xml:lang="grc">ήμενον, οΐ δέ μιν άμφί δίκας εΐροντο άνακτα</foreign>
+<lb n="570"/>
+<foreign xml:lang="grc">ημενοι έσταότες τε κατ’ ενρνπνλες νΑ ιδος δώ.</foreign></p>
+						<p><foreign xml:lang="grc">τον δε μετ' Ώρίωνα τιελώριον εΐοενόηοα
+·&amp;ήρας όμον είλενντα κατ' άοφοδελον λειμώνα,
+τους αυτός κατέπεφνεν έν οΐοπόλοιαιν δρεσαιν
+χερσίν έχων βόπαλον παγχάλκεον, alkv άαγές.</foreign>
+<lb n="575"/></p>
+						<p><foreign xml:lang="grc">καί Τιτνόν εϊδον, Γαίης έρικνδέος νΐόν,
+κείμενον έν δαπεδφ, δ δ’ έπ* èwéa κεϊτο πέλε&amp;ρα'
+γνπε δε μιν έκάτερ&amp;ε παρημένω ήπαρ εκειρον
+δέρτρον ϊοω δννοντες, δ δ’ ονκ άπαμννετο χερσίν'
+Λητώ γάρ ηλκησε, Διος κνδρην παράκοαιν,</foreign>
+<lb n="580"/>
+<foreign xml:lang="grc">Πνΰώδ’ έρχομένην διά καλλιχόρον Πανοπήος.</foreign></p>
+						<p><foreign xml:lang="grc">καί μην Τάνταλον εΐαεΐδον κρατέρ’ άλγε1 εχοντα
+εστεώτ’ έν λίμνη ’ ή δε προαέπλαζε γενείω'
+οτεντο δέ διψάων, πιέειν δ1 ούκ εϊχεν έλέο&amp;αι'
+όσσάκι γάρ κύψει 6 γέρων πιέειν μενεαίνων,</foreign>
+<lb n="585"/>
+<foreign xml:lang="grc">τοσσάχ’ ύδωρ άπολέακετ’ άναβροχέν, άμφί δε ποασιν</foreign>
+<pb n="59"/>
+<foreign xml:lang="grc">γαΐα μέλαινα φάνεσκε, καταζήνασκε δε δαίμων.
+δένδρεα δ' υψιπέτηλα κατά κρή&amp;εν χέε καρπόν,
+δγχναι και ροιαι καί μηλέαι άγλαόκαρποι
+ανκέαι τε γλυκεροί και έλαΐαι τηλε&amp;όωσαι.</foreign>
+<lb n="590"/>
+<foreign xml:lang="grc">των δπότ' ί&amp;νσει' 6 γέρων έπ'ι χερσϊ μάσαο&amp;αι,
+τάς δ' άνεμος ρίπταακε ποτί νέφεα σκιόεντα.</foreign></p>
+						<p><foreign xml:lang="grc">καί μην Σίσυφον είσεΐδον κρατερ' άλγε' εχοντα
+λάαν βαστάζοντα πελώριον άμφοτέρησιν.
+η τοι ο μεν σκηρ urtò μένος χεροίν τε ποοίν τε</foreign>
+<lb n="595"/>
+<foreign xml:lang="grc">λάαν άνω ώ&amp;εσκε ποτί λόφον άλλ' δτε μέλλοι
+άκοον νπερβαλέειν, τότ’ άποστρέψασκε Κραταιΐς’
+αυτις επειτα πέδονδε κυλίνδετο λάας άναιδής.
+αυτάρ δ γ1 άψ ώοασκε τιταινόμενος, κατά δ1 Ιδρώς
+ερρεεν έκ μελέων, κονίη &lt;5’ έκ κράτος δρώρειν.</foreign>
+<lb n="600"/></p>
+						<p><foreign xml:lang="grc">τον δε μετ' εΐοενόηοα βίην Ήρακληείην,
+εΐδωλον’ αυτός δέ μετ' ά&amp;ανάτοισι ΰεοϊσιν
+τέρπεται εν sαλίης καί Εχει καλλίσφνρον “Ηβην,</foreign>
+<pb n="60"/>
+<foreign xml:lang="grc">παΧδα Διδς μεγάλοιο καί Ήρης χρυσοπεδίλου.
+άμφί δε μιν κλαγγή νεκύων ην οΙωνών ώς,</foreign>
+<lb n="605"/>
+<foreign xml:lang="grc">πάντοσ' άτυζομένων' 6 δ’ έρεμνη ννκτί έοικώς,
+γυμνόν τόξον έχων καί έπΐ νενρήφιν δ ιστόν,
+δεινόν παπταίνων, ahi βαλέοντι έοικώς.
+σμερδαλέος δέ οΐ άμφί περί στήΰεσσιν άορτηρ
+χρνσεος ην τελαμών, ΐνα Φέσκελα έργα τέτνκτο,</foreign>
+<lb n="610"/>
+<foreign xml:lang="grc">άρκτοι τ’ άγρότεροί τε ονες χαροποί τε λέοντες,
+νσμΤναί τε μάχαι τε φόνοι τ’ άνδροκτασίαι τε.
+μη τεχνησάμενός μηδ’ άλλο τι τεχνήσαιτο,
+δς κείνον τελαμώνα éfj έγκάν&amp;ετο τέχνη,
+έγνω Ò' αυτ1 έμ’ έκεϊνος, έπει ΐδεν δφ&amp;αλμοΐοιν,</foreign>
+<lb n="615"/>
+<foreign xml:lang="grc">μ’δλοφνρόμένος έττεα πτερόεντα προσηνδα·
+“ διογενές Λαερτιάδη, πολνμήχαν1 ’Οδνσσεν</foreign>
+<pb n="61"/>
+<foreign xml:lang="grc">δ, δείλ\ η τινά καί αν κακόν μόρον ήγηλάζεις,
+δν περ έγών δχέεσκον νπ’ αύγάς ηελίοιο.
+Ζηνός μέν πάις ηα Κρονίονος, αύτάρ διζνν</foreign>
+<lb n="620"/>
+<foreign xml:lang="grc">εΐχον άπειρεοίην' μάλα γάρ πολύ χείρονι φωτί
+δεδμήμην, δ δέ μοι χαλεπούς έπετέλλετ’ άέ&amp;λονς.
+καί πστέ μ' èr&amp;dÒ’ επεμψε κνν’ άξοντ1, ον γάρ £τ’ άλλον
+φράζετο του δε γέ μοι κρατερώτερον είναι άε&amp;λον'
+τον μεν έγών άνένεικα καί ήγαγαν έξ Άίδαο,</foreign>
+<lb n="625"/>
+<foreign xml:lang="grc">Έρμείας δέ μ1 ϊπεμψεν ìòk γλανκώπις Ά&amp;ήνη.”</foreign></p>
+						<p><foreign xml:lang="grc">ώς είπών 6 μεν αντις ϊβη δόμον*Αιδος εΐοω,
+αύτάρ έγών αυτόν μένον έμπεδον, εΐ τις ετ' έλ&amp;οι
+άνδρών ηρώων, οΐ δη το πρόσ&amp;εν δλοντο.
+καί νν κ' hi προτέρονς ιδον άνέρας, οΟς Ιί&amp;ελόν περ,
+Θηαέα Πειρίΰοόν τε, ΰεών έρικυδέa τέκνα.</foreign>
+<lb n="631"/>
+<foreign xml:lang="grc">άλλά πρϊν ènl ε&amp;νε1 άγείρετο μύρια νεκρών
+ήχβ ’&amp;εσπεοίγι' εμϊ δε χλωρόν δέος βρειν,
+μή μοι Γοργείην κεφαλήν δεινοϊο πελώρου
+εξ Άίδεω πέμψειεν άγαυη Περσεφόνεια.]</foreign>
+<lb n="635"/>
+<pb n="62"/>
+<foreign xml:lang="grc">αυτίκ' ϊπειτ* έπί νήα χιών έκέλενον έταίρονς
+αυτούς τ’ άμβαίνειν άνά τε πρυμνήσια λνααι.
+οί δ' αϊψ' εΐσβαινον καί έπί κληΐοι καϋίζον.
+την δε κατ'*Ωκεανόν ποταμόν φέρε κύμα ρόοιο,
+πρώτα μεν είρεσίη, μετέπειτα δέ κάλλιμος ονρος,”</foreign>
+<lb n="640"/></p>
+					</div>
+				</div>
+			</div>
+<pb n="27"/>		 
+			<div type="translation" subtype="volume" xml:space="preserve">
+				<div type="textpart" subtype="book" n="2">
+					<div type="textpart" subtype="chapter" n="1">
+						<p>1. <foreign xml:lang="grc">αντάρ.</foreign> Ripiglia il pen-
+siero espresso negli ultimi
+versi del libro precedente.
+(531-574). Ulisse ba avvisato i
+compagni che qsi dovrà intia-
+prendere il viaggio nel regno
+dei morti (561-565); costoro
+si abbandonano ad energiche
+manifestazioni di dolore (566-
+568); nondimeno s’incammi-
+nano verso il mare, nel qual
+tempo Circe, senza esser ve-
+duta, lega un agnello e una
+nera pecora alla nave (569-574).
+— <foreign xml:lang="grc">ρ’</foreign> non si traduce. — <foreign xml:lang="grc">κατ-
+ήλ&amp;ομεν.</foreign> Il viaggio dalla terra-
+ferma al mare si concepisce
+come una discesa; il viaggio
+dal mare alla terraferma come
+una salita, cfr. <foreign xml:lang="grc">κ,</foreign> 274 (ed
+altrove) <foreign xml:lang="grc">παρά νηός άνήιον ήδε
+&amp;αλάσσης</foreign>.</p>
+						<p>3. <foreign xml:lang="grc">τιϋέμεαΰα.</foreign> Imperfetto
+senza aumento, non presente.</p>
+						<p>4. <foreign xml:lang="grc">àv = ava,</foreign> da congiun-
+gersi con <foreign xml:lang="grc">βαίνομεν</foreign> imperfetto.</p>
+						<p>5. <foreign xml:lang="grc">θαλερόν κατά δάκρυ χέοντες.</foreign>
+Forma stereotipa, in cui <foreign xml:lang="grc">κατά</foreign>
+si unisce con <foreign xml:lang="grc">χέοντες.</foreign> Il <foreign xml:lang="grc">θαλε-
+ρόν,</foreign> il cui primo significato
+è quello di <hi rend="italic">fiorente, rigoglioso,</hi>
+qui significa <hi rend="italic">abbondante</hi>.</p>
+						<p>7. <foreign xml:lang="grc">ΐκμενον.</foreign> Secondo taluni
+si deve connettere con la ra-
+<pb n="28"/>
+dice di <foreign xml:lang="grc">Ικμάς,</foreign> <hi rend="italic">umidità,</hi> e il si-
+gnificato di <hi rend="italic">favorevole</hi> sarebbe
+secondario; meglio vederci il
+tema <foreign xml:lang="grc">Γκ</foreign> del verbo <foreign xml:lang="grc">ίκνεόμαι</foreign>:
+la psilosi non può far meravi-
+glia, riscontrandosi in altre pa-
+role, come <foreign xml:lang="grc">άμαξα, ήώς, ήέλιος.</foreign>
+Nondimeno la prima interpre-
+tazione si potrebbe sostenere
+col confronto di <foreign xml:lang="grc">ε</foreign> 478 <foreign xml:lang="grc">ανέμων
+μένος υγρόν άέντων.</foreign> Vi si è
+voluta vedere la radice di
+<foreign xml:lang="grc">Ικέτης</foreign> nell’analogia del latino
+<hi rend="italic">flatus optati, optatoe attrae</hi>.</p>
+						<p>8. <foreign xml:lang="grc">δεινή,</foreign> <hi rend="italic">potente</hi>. Allude al-
+la virtù magica. <foreign xml:lang="grc">ανδήεσσα.
+(ανδάω),</foreign> vedi X, 136. Che
+parla con voce umana. Cfr.
+Supplementi alle Note. A-
+ristotele, secondo la testi-
+monianza dello scolio <foreign xml:lang="grc">e</foreign> 334 ha
+letto <foreign xml:lang="grc">ανλήεσσα.</foreign></p>
+						<p>9. <foreign xml:lang="grc">δπλα,</foreign> <hi rend="italic">attrezzi della nave</hi>.
+— <foreign xml:lang="grc">πονησάμενοι = διαταξάμενοι.
+ κατά νήα.</foreign> Si congiunga con
+<foreign xml:lang="grc">ήμεδα.</foreign></p>
+						<p>11. <foreign xml:lang="grc">πανημερίης... ποντοπο-
+ρονσης διά πάσης τής ημέ-
+ρας ποντοπορονσης.</foreign></p>
+						<p>13. <foreign xml:lang="grc">πείρα... βα&amp;νρρόου
+‘Ωκεανοΐο.</foreign> Si ricordi la conce-
+zione omerica dell’Oceano co-
+me fiume che circonda tutta
+la terra. Cf. v. 639 e <foreign xml:lang="grc">μ</foreign> 3.</p>
+						<p>14. <foreign xml:lang="grc">Κιμμερίων.</foreign> È il popolo
+che abitava sulle spiagge set-
+tentrionali del Mar Nero.
+Onde il nome alla penisola
+di Crimea. Vedi Supplementi
+alle Note. Va notato inoltre
+che in Omero spessisimo
+<foreign xml:lang="grc">άνήρ</foreign> equivale ad <foreign xml:lang="grc">αν&amp;ρωπος.</foreign></p>
+						<p>15. <foreign xml:lang="grc">Ουδέ ηοτ’ αντονς κτλ.</foreign>
+V<hi rend="smallcap">IRGILIO</hi> (<hi rend="italic">Georgicon</hi> III, 357-
+359) cosi imita questi versi
+di Omero:</p>
+						<p>Tum Sol pallentes band umquam
+disontit umbrae</p>
+						<p>Nec cum invectus equis altum pe-
+tit aeqnora neo cum</p>
+						<p>Praecipitem Oceani rubro lavit
+aequore currum.</p>
+						<p>16. <foreign xml:lang="grc">φαέΰων</foreign>. È ancora un
+epiteto del sole; non ancora
+l’ attributo ha acquistata una
+propria individualità.</p>
+						<p>17. <foreign xml:lang="grc">αν.</foreign> E’ la particella del
+congiuntivo. Difficilmente si
+<pb n="29"/>
+potrebbe prendere per la for-
+ma abbreviata da <hi rend="italic">ava</hi> come
+al v. 4, non perchè la par-
+ticella <foreign xml:lang="grc">àv</foreign> sia indispensabile,
+trovandosi in Omero il con-
+giuntivo senza di essa in pro-
+posizioni temporali e condi-
+zionali, ma perchè nel v. 18
+non si potrebbe avere un
+<foreign xml:lang="grc">άναπρ οτράπη ται,</foreign></p>
+						<p>18. <foreign xml:lang="grc">απ' ούρανό&amp;εν = άπ’
+ονρανον.</foreign> Per l’uso d’una locu-
+zione avverbiale di moto da
+luogo equivalente ad un geni-
+tivo cf. V. 588 <foreign xml:lang="grc">κατά κρή&amp;εν.</foreign></p>
+						<p>20. <foreign xml:lang="grc">μήλα.</foreign> Vedi <foreign xml:lang="grc">κ</foreign> 532.</p>
+						<p>22. <foreign xml:lang="grc">ον φράαε Κίρκη/gr&gt;. Cf. κ,</foreign>
+504-520.</p>
+						<p>24. <foreign xml:lang="grc">εσχον,</foreign> <hi rend="italic">afferrarono</hi>. —
+<foreign xml:lang="grc">ερυσσάμενος = απασάμενος.</foreign></p>
+						<p>25. <foreign xml:lang="grc">ενϋα καί εν&amp;α.</foreign> In lungo
+ed in largo. Cfr. <foreign xml:lang="grc">κ</foreign> 517.</p>
+						<p>27. <foreign xml:lang="grc">μελικρήτφ... ήδέι οΐνω...
+νδατι.</foreign> Cf. X 518-520. Liba-
+zioni in uso anche nell’epoca
+storica. Soph. <hi rend="italic">Elect</hi>. 894-895.
+Ad Helios, secondo A<hi rend="smallcap">teneo</hi>
+(XV, 48, p. 698), non si libò
+mai vino, ma solo miele.
+<foreign xml:lang="grc">πρώτα μελικρήτω κ</foreign> 618-520.</p>
+						<p>32. <foreign xml:lang="grc">Τειρεσίη. κ</foreign> 524.</p>
+						<p>33. <foreign xml:lang="grc">μήλοισι.</foreign> I verbi che in-
+dicano <hi rend="italic">emergere</hi> reggono il ge-
+nitivo; il dativo ha significato
+locale.</p>
+<pb n="30"/>
+						<p>37. <foreign xml:lang="grc">Έρέβενς = Ερέβους.</foreign></p>
+						<p>38. <foreign xml:lang="grc">ννμφαι κζλ.</foreign> Versi imitati
+da V<hi rend="smallcap">irgilio</hi> <hi rend="italic">Georg</hi>. IV 475 sg.
+« matres atque viri defun-
+ctaque corporavita magna-
+nimum heroum, pueri innu-
+ptaeque puellae, — impositi-
+que rogis iuvenes ante ora pa-
+rentum » riprodotti nell’<hi rend="italic">E-
+neide</hi> v. 306 591.</p>
+						<p>43. <foreign xml:lang="grc">ΰεσπεσίη Ιαχή.</foreign> L’agget-
+tivo <foreign xml:lang="grc">&amp;εαπέαιος</foreign> significa <hi rend="italic">sovru-
+mano, divino</hi>. Dal significato
+di <hi rend="italic">divino</hi> è passato a deno-
+tare <hi rend="italic">grande</hi>. Qui non può
+significare altro che il pro-
+lungato stridore della voce
+dei morti. Cf, I, 7 <foreign xml:lang="grc">&amp;εοπεσίη
+Εχε φνξα,</foreign> dove <foreign xml:lang="grc">ϋ·εσπεσίη = πολ-</foreign>
+<foreign xml:lang="grc">λή. ήρειν.</foreign> Il <foreign xml:lang="grc">ν</foreign> paragogico
+nelle terze persone delle for-
+me contratte dei tempi storici
+si trova anche altrove p. e.
+Z 170.</p>
+						<p>46. <foreign xml:lang="grc">δείραντας κατακηαι = δεΐ-
+ραι και κατ.</foreign></p>
+						<p>47.<foreign xml:lang="grc">επαινη.</foreign> Quest’epiteto non
+ha nulla che vedere col so-
+stantivo <foreign xml:lang="grc">έπαινος,</foreign> come ha in-
+teso qualche scoliasta antico
+e come sembra averlo inter-
+pretato qualche poeta bizan-
+tino, ma è composto della
+preposizione <foreign xml:lang="grc">επί</foreign> e dell’agget-
+tivo <foreign xml:lang="grc">αίνος = δεινός.</foreign> Cosi l’ ha
+inteso Oraz. I, 28... Nullum
+saeva caput Proserpina fugit.</p>
+						<p>51. <foreign xml:lang="grc">πρώτη δε ψνχη Έλπήνορος</foreign>
+<pb n="31"/>						 
+<foreign xml:lang="grc">ήλ&amp;εν εταίρου.</foreign> Le anime si erano
+già riunite intorno alla fossa
+del sangue (<foreign xml:lang="grc">v</foreign> 36). Ma il poeta
+ha presente la circostanza che
+quella di Elpenore fu la prima
+ad avvicinarsi a lui. Vedi v.
+84 <foreign xml:lang="grc">ηλϋ·ε δ' επί ψυχή Μητρος πα-
+τ άτεκνη κυίης.</foreign> Elpenore era
+asceso ubbriaco sopra una
+scala nella casa di Circe, e si
+era addormentato; scosso dal
+rumore prodotto dal movi-
+mento dei compagni, precipi-
+tò dalla scala, e si franse la
+cervice (<foreign xml:lang="grc">κ</foreign> 552-560). Ritornati
+alla dimora di Circe, Ulisse
+insieme ai compagni gli dà
+sepoltura (<foreign xml:lang="grc">μ</foreign> 10-15).</p>
+						<p>52. <foreign xml:lang="grc">υπό</foreign>. Ha significato loca-
+le, non di agente. Vedi <foreign xml:lang="grc">κ,</foreign>
+552-560.</p>
+						<p>57. <foreign xml:lang="grc">υπό ζόφον ήερόεντα.</foreign> Il
+nome <foreign xml:lang="grc">ζόφος</foreign> significa <hi rend="italic">oscurità,</hi>
+e probabilmente il nome del
+vento <foreign xml:lang="grc">ζέφυρος</foreign> ha con <foreign xml:lang="grc">ζόφος.</foreign>
+parentela etimologica. L’ag-
+gettivo <foreign xml:lang="grc">ήερόεντα,</foreign> deriva da
+<foreign xml:lang="grc">αήρ</foreign> usato ancora nel signifi-
+cato di <hi rend="italic">nebbia</hi>.</p>
+						<p>58. <foreign xml:lang="grc">εφ&amp;ης πεζός κτλ.</foreign> <hi rend="italic">Adve-
+nisti tu citius, quamvis pedi-
+bus usus, quam ego navi?</hi></p>
+						<p>61. <foreign xml:lang="grc">άσε</foreign> da <foreign xml:lang="grc">άάω.</foreign></p>
+						<p>62. <foreign xml:lang="grc">καταλέγμενος.</foreign> Vi si vede
+la radice <foreign xml:lang="grc">λεχ</foreign> di <foreign xml:lang="grc">λέχος,</foreign> Cf. <foreign xml:lang="grc">κ</foreign>
+554-555 <foreign xml:lang="grc">ο? μοι ανευΰε ετάρων
+ίεροΐς εν δώμααι Κίρκης, ψύ-
+χεος Ιμείρων κατελέξατο οίνο-
+βαρείων.&lt;/gr&gt;</foreign> In tutt’e due i luo-
+ghi il significato che acquista
+il verbo è quello di addor-
+mentarsi.</p>
+						<p>62. Il <foreign xml:lang="grc">μέγαρον</foreign> è proprio la
+sala principale del palazzo
+reale, il cui tetto era sorretto
+da quattro colonne poste in-
+torno al focolare: al plurale
+significa tutto il palazzo rea-
+le (68). Talvolta ha questo
+significato anche al singolare,
+e questa sembra l’interpreta-
+zione di questo luogo. Cfr.
+nota precedente dove si par-
+la di <foreign xml:lang="grc">Ir δώμααι.</foreign></p>
+<pb n="32"/>					 
+						<p>63. <foreign xml:lang="grc">αψορρον καταβήναι.</foreign> Si
+vede che l’aveva preso il son-
+no quando era asceso al ca-
+po della scala.</p>
+						<p>64. Lo scoliasta di <foreign xml:lang="grc">κ</foreign> 560
+interpreta <foreign xml:lang="grc">τέγεος</foreign> con <foreign xml:lang="grc">οίκον.</foreign></p>
+						<p>65. <foreign xml:lang="grc">αστραγάλων.</foreign> Genitivo lo-
+cale, come <foreign xml:lang="grc">κ</foreign> 560; E 6 <foreign xml:lang="grc">Ωκε-
+ανοίο</foreign> 1, 1. — <foreign xml:lang="grc">ΆΙδόσδε. Άιδης
+e Αιδονενς</foreign> in Omero è quasi
+sempre personale. Laonde non
+si può prendere <foreign xml:lang="grc">Άιδός</foreign> come
+accusativo neutro; ma va in-
+terpretato come un genitivo.
+Il suffisso <foreign xml:lang="grc">δε,</foreign> con un genitivo,
+non dee meravigliare, attesa
+l'espressione ellitica.</p>
+						<p>66. <foreign xml:lang="grc">των 6nι&amp;εν.</foreign> Omessa la
+preposizione πρός usata nel-
+l’apposizione al v. 67. Pel
+significato è uguale a <foreign xml:lang="grc">των εν
+τη ση πατρίδι καταλελειμμένων.</foreign></p>
+						<p>70. <foreign xml:lang="grc">ΑΙαίην.</foreign> Isola favolosa;
+ma il poeta ha in mente le
+regioni bagnate dal Ponto
+Bussino. Altrove (<foreign xml:lang="grc">μ</foreign> 70) egli
+accenna al passaggio per il
+luogo dove navigò la nave
+<foreign xml:lang="grc">Αργώ πάσι μέλονσα.</foreign> Di questo
+fa fede anche la vicinanza del
+Tartaro colla regione dei Cim-
+meri.</p>
+						<p>72. <foreign xml:lang="grc">καταλείπειν</foreign> ha senso im-
+perativo.</p>
+						<p>73. <foreign xml:lang="grc">μή τοι τι άεών μήνιμα
+γένωμαι.</foreign> Cf. H<hi rend="smallcap">ORAT</hi>. I, 28,
+33-34, precibus non linquar
+inultis, — Teque piacula nulla
+resolvent.</p>
+						<p>74. <foreign xml:lang="grc">κακκήαι = κατακήαι</foreign> ome-
+rico per <foreign xml:lang="grc">κατακανααι.</foreign> L’infinito
+sta pure in senso imperativo.</p>
+						<p>75. <foreign xml:lang="grc">σήμα.</foreign> Qui è adoperato
+addirittura per tomba, ma il
+significato originario era quel-
+lo di <hi rend="italic">segno di riconoscimento,
+</hi> che si poneva sopra al tumu-
+<pb n="33"/>						 
+lo: in questo caso un remo
+(cfr. v 77).</p>
+						<p>76. <foreign xml:lang="grc">και έσοομένοισι πνΦέα&amp;αι
+= ώστε τους έσομενονς πν&amp;έ-
+o&amp;at.</foreign> Però l’idea non è con-
+cepita come consecutiva. In
+greco si adopera l’infinito
+complementare nella forma
+attiva, mentre in latino si
+adopera l’espressione passiva.
+Comunissimo il <foreign xml:lang="grc">νεμεσαητάνίδέ-
+αδαι e ύλανμα ίδέο&amp;αι</foreign>.</p>
+						<p>82. <foreign xml:lang="grc">ιαχών,</foreign> coordinato con
+anacoluto all’ <foreign xml:lang="grc">άγόρενεν</foreign> del ver-
+so seguente.</p>
+						<p>83. <foreign xml:lang="grc">εταίρου.</foreign> retto da <foreign xml:lang="grc">εΐ-
+δωλον.</foreign> Tutto questo episodio
+è stato imitato da Virgilio
+(<hi rend="italic">Aen</hi>. 337-383) nell’episodio
+di Palinuro.</p>
+						<p>84. <foreign xml:lang="grc">Αύτολύκου.</foreign> Di quest’eroe
+si fa menzione a <foreign xml:lang="grc">x</foreign> 394 sg.
+Ulisse, recandosi da Autolico,
+si era imbattuto in un cin-
+ghiale il quale gli aveva re-
+cata una ferita.</p>
+						<p>90. <foreign xml:lang="grc">χρΰαεον σκήπτρον εχων.</foreign>
+Anche lo scettro di Crise (A
+15, 374) è detto <foreign xml:lang="grc">χρύσεος.</foreign> Pro-
+babilmente erano d’oro solo
+le borchie sparse sul fusto.</p>
+						<p>91. <foreign xml:lang="grc">εχων.</foreign> A senso concor-
+dato con Tiresia.</p>
+						<p>93. <foreign xml:lang="grc">άντε =</foreign> <hi rend="italic">rursus</hi> Tiresia,
+<pb n="34"/>
+con una percezione confusa
+delle preregrinazioni di Ulis-
+se, esprime la sorpresa di ve-
+derlo, dopo tanti viaggi, vivo
+nell’inferno.</p>
+						<p>102. <foreign xml:lang="grc">λήαειν,</foreign> sottint. <foreign xml:lang="grc">αε,</foreign> sog-
+getto.</p>
+						<p>102. <foreign xml:lang="grc">o</foreign> adoperato in senso
+relativo.</p>
+						<p>103. <foreign xml:lang="grc">νίόν.</foreign> Polifemo il ci-
+clope.</p>
+						<p>105. <foreign xml:lang="grc">ερνκακεειν.</foreign> Più comu-
+nemente <foreign xml:lang="grc">ερνκειν.</foreign></p>
+						<p>107. <foreign xml:lang="grc">θρινακίγι.</foreign> <hi rend="italic">L'isola del
+Tridente:</hi> Molto probabilmen-
+te il Peloponneso. L’identi-
+ficazione di quest’isola colla
+Sicilia appartiene ad epoca
+molto recente, alterandosi la
+forma <foreign xml:lang="grc">θρινάκίη</foreign> in <foreign xml:lang="grc">Τρινακρία.</foreign></p>
+						<p>109. <foreign xml:lang="grc">δς πάντα κτλ. Γ </foreign> 177.</p>
+						<p>114. = <foreign xml:lang="grc">ι</foreign> 534 sg.</p>
+<pb n="35"/>					 
+						<p>115. <foreign xml:lang="grc">δήεις.</foreign> Il presente <foreign xml:lang="grc">δήω</foreign>
+è ipotetico. Questa voce tro-
+viamo adoperata solo in sen-
+so di futuro. E<hi rend="smallcap">SICHIO</hi> dà <foreign xml:lang="grc">έδηεν
+ενρεν.</foreign></p>
+						<p>117. <foreign xml:lang="grc">εδνα.</foreign> Per la forma cfr.
+v. 282 e i <hi rend="italic">supplementi alle
+note</hi>.</p>
+						<p>121. <foreign xml:lang="grc">ερχεσΰαι.</foreign> <hi rend="italic">Continua la
+tua corsa</hi>. Se avesse voluto
+dire <hi rend="italic">riprendi il tuo viaggio,</hi>
+avrebbe usato l’aoristo.</p>
+						<p>124. <foreign xml:lang="grc">φοινικοπαρήους.</foreign> Cfr. la
+nota a v. 6.</p>
+						<p>125. <foreign xml:lang="grc">τά τε.</foreign> Nel <foreign xml:lang="grc">τε</foreign> è oscurato
+il valore copulativo.</p>
+						<p>128. <foreign xml:lang="grc">ά&amp;ηρηλοιγόν =</foreign> <hi rend="italic">ventila-
+hrum</hi>. Il prendere un remo
+per un ventilabro, prova la
+completa ignoranza delle cose
+marittime. <foreign xml:lang="grc">εχειν.</foreign> Sottin-
+tenti <foreign xml:lang="grc">αε.</foreign></p>
+						<p>134. <foreign xml:lang="grc">έξ άλός.</foreign> Taluni inter-
+preti sottintendono <foreign xml:lang="grc">γενομένφ,</foreign>
+ma non è necessario.</p>
+<pb n="36"/>					 
+						<p>135. <foreign xml:lang="grc">άβληχρός.</foreign> Si riconnet-
+te etimologicamente con <foreign xml:lang="grc">βλάξ,</foreign>
+<hi rend="italic">debilis, delicatus</hi>.</p>
+						<p>136. <foreign xml:lang="grc">άρημένος.</foreign> Parola d’in-
+certa derivazione. Nel linguag-
+gio omerico <foreign xml:lang="grc">άρή</foreign> significa vio-
+lenza, danno, sciagura; Cfr.
+<foreign xml:lang="grc">Σ</foreign> 100 <foreign xml:lang="grc">άρής άλκτήρα γενέσ&amp;αι.</foreign></p>
+<p>143. <foreign xml:lang="grc">τον εόντα</foreign>: che io sono
+suo figlio.</p>
+						<p>147. <foreign xml:lang="grc">6 δέ.</foreign> Il <foreign xml:lang="grc">δέ</foreign> non ha si-
+gnificato disgiuntivo. L’ e-
+spressione equivale al latino
+<hi rend="italic">ipse</hi>.</p>
+						<p>151. Congiungi <foreign xml:lang="grc">κατά</foreign> col
+verbo.</p>
+<pb n="37"/>					 
+						<p>157-159. Cfr. S<hi rend="smallcap">upplementi
+ALLE NOTE</hi>.</p>
+						<p>164. <foreign xml:lang="grc">χρειώ</foreign> epico per <foreign xml:lang="grc">χρεώ.</foreign></p>
+						<p>166. <foreign xml:lang="grc">Άχαιιδος</foreign> scil. <foreign xml:lang="grc">γης.
+άμής = ήμετέρας.</foreign></p>
+						<p>171. <foreign xml:lang="grc">τανηλεγέος.</foreign> <hi rend="italic">Doloroso</hi>.</p>
+						<p>172. <foreign xml:lang="grc">Ιοχέαιρα</foreign> <hi rend="italic">saettatrice.</hi> Il
+verbo <foreign xml:lang="grc">χαίρω</foreign> nella composi-
+zione non c’entra per nulla.</p>
+						<p>173. <foreign xml:lang="grc">οΤοι άγανοΐς κτλ.</foreign> Versi
+stereotipi, applicati ora ad
+Apollo, ora ad Artemide, che
+che si riteneva avessero vir-
+tù di uccidere senza far pro-
+vare dolore. Cfr. S<hi rend="smallcap">upplemen-
+ti ALLE NOTE</hi>.</p>
+						<p>175. <foreign xml:lang="grc">γέρας.</foreign> Qui é il com-
+plesso dei diritti e dei privi-
+legi inerenti all’autorità, re-
+gia. Vedi I<hi rend="smallcap">ntroduzione</hi>.</p>
+						<p>176. <foreign xml:lang="grc">έχει</foreign> scil. <foreign xml:lang="grc">γέρας.</foreign></p>
+						<p>178. <foreign xml:lang="grc">έμπεδα.</foreign> In italiano si
+può anche non tradurlo.</p>
+<pb n="38"/>					 
+						<p>180. <foreign xml:lang="grc">πότνια.</foreign> Si suppone
+ragionevolmente che que-
+st’epiteto abbia comune eti-
+mologia con <foreign xml:lang="grc">πόσις,</foreign> marito;
+significherebbe <hi rend="italic">maestosa, ve-
+nerabile</hi>.</p>
+						<p>183. <foreign xml:lang="grc">φ&amp;Ινουαι,</foreign> intransitivo.</p>
+						<p>185. <foreign xml:lang="grc">είσας.</foreign> Troviamo que-
+st’ aggettivo applicato alle
+navi per indicare che sono
+ben frabbricate. Pertanto il
+significato che può acquistare
+in questo luogo è quello di
+<hi rend="italic">convienienti</hi>. Cfr. v. 337.</p>
+						<p>188. <foreign xml:lang="grc">άγρφ = èv άγρφ.</foreign></p>
+						<p>189. <foreign xml:lang="grc">δέμνια κτλ.</foreign> Sono il sog-
+getto, <foreign xml:lang="grc">ενναί</foreign> il predicato.</p>
+						<p>190. <foreign xml:lang="grc">χεϊμα.</foreign> <hi rend="italic">Durante l’in-
+verno</hi>.</p>
+						<p>191. <foreign xml:lang="grc">χροι = σώματι.</foreign></p>
+						<p>192. <foreign xml:lang="grc">sX&amp;flai</foreign> come <foreign xml:lang="grc">οτείχΐβοι</foreign> al
+v. 17.</p>
+<pb n="39"/>					 
+						<p>202. <foreign xml:lang="grc">σός τε πόΰος αά τε μή-
+δεα... αή τ' άγανοφροσννη =
+δ πό&amp;ος και τά μήδεά σου καί
+τής σεαντοΰ άγανοφροσννης.</foreign></p>
+						<p>206. <foreign xml:lang="grc">τρίς μεν έφορμτγ&amp;ην κτλ.</foreign>
+V<hi rend="smallcap">KRGk</hi>. <hi rend="italic">Aen</hi>. Il, 792-794; VI,
+701-702. ter frustra compren-
+sa manu effugit imago par
+levibus ventis volucrique si-
+miliima somno.</p>
+						<p>208. <foreign xml:lang="grc">γενέσκετο γένετο.</foreign></p>
+						<p>208. <foreign xml:lang="grc">κηρό&amp;ι.</foreign> <hi rend="italic">Nel cuore</hi>.</p>
+						<p>210. <foreign xml:lang="grc">μεμαώτα.</foreign> Al presen te
+<foreign xml:lang="grc">μαίοιιαι.</foreign></p>
+						<p>216. <foreign xml:lang="grc">κάμμορε = κακόμορε.</foreign>
+Da <foreign xml:lang="grc">κατάμορος</foreign>: <hi rend="italic">fatale:</hi> quindi
+<hi rend="italic">sfortunato</hi>.</p>
+						<p>218. <foreign xml:lang="grc">δίκη</foreign> <hi rend="italic">sorte</hi>.</p>
+						<p>219. <foreign xml:lang="grc">ον γάρ Ετι σάρκας...</foreign> Non
+abbiamo più corpo. Il nome
+<foreign xml:lang="grc">ινες</foreign> significa <hi rend="italic">tendini</hi> o <hi rend="italic">nervi,</hi>
+che sono concepiti come mez-
+zi di collegamento delle carni
+e dell’ossa.</p>
+						<p>220. <foreign xml:lang="grc">άλλά τά uh...</foreign> Si rife-
+risce a <foreign xml:lang="grc">σάρκας,</foreign> a <foreign xml:lang="grc">δστέα</foreign> e ad
+<foreign xml:lang="grc">Ινες.</foreign></p>
+<pb n="40"/>					 
+						<p>222. <foreign xml:lang="grc">άποπταμένη πεπότηται,</foreign></p>
+						<p>228. <foreign xml:lang="grc">φόύοαδε... λιλαίεο</foreign>: <hi rend="italic">ad lu-
+cem quam primum ertitere</hi>.</p>
+						<p>228. <foreign xml:lang="grc">ήγερί&amp;ονχο = ήγβίρονχο.</foreign></p>
+						<p>231. <foreign xml:lang="grc">παχέος</foreign> <hi rend="italic">robusto</hi>.</p>
+						<p>238. <foreign xml:lang="grc">Ένιπήος.</foreign> Un fiume di
+questo nome si trova nella
+Elide e nella Tessaglia (V<hi rend="smallcap">erg</hi>.
+<hi rend="italic">Georg</hi>. IV, 367).</p>
+						<p>239. <foreign xml:lang="grc">έπί γαΐαν = δια γαίης.
+ΐηοι.</foreign> Espressione ellittica: si
+sottintende <foreign xml:lang="grc">νδωρ ο ρέε&amp;ρα.</foreign></p>
+						<p>240. <foreign xml:lang="grc">πωλέσκετο.</foreign> Ha per sog-
+getto <foreign xml:lang="grc">Τυρώ.</foreign>"</p>
+						<p>242. <foreign xml:lang="grc">παρελέξατο.</foreign> Cfr. ν. 62.</p>
+						<p>243. <foreign xml:lang="grc">κνμα περιατά&amp;η.</foreign> Cfr.
+V<hi rend="smallcap">ERGIL</hi>. <hi rend="italic">Georg</hi>. IV, 360-362.
+La <hi rend="italic">correptio</hi> dell’ <foreign xml:lang="grc">η</foreign> finale in
+tesi per la consecuzione d’u-
+na vocale.</p>
+<pb n="41"/>					 
+						<p>245. <foreign xml:lang="grc">παρ&amp;ενίην.</foreign> È in con-
+traddizione col ν. 237.</p>
+						<p>247. <foreign xml:lang="grc">εν.</foreign> Da congiungersi
+con <foreign xml:lang="grc">φν</foreign>: <hi rend="italic">adhaesit</hi>. — <foreign xml:lang="grc">εκ τ’ &lt;5-
+νόμαζεν.</foreign> Forse è qui oscurata la
+nozione di « chiamare a no-
+me » e vi è ripetuta l’idea del-
+<foreign xml:lang="grc">Γεπος εφατο.</foreign></p>
+						<p>248. <foreign xml:lang="grc">περιπλομένον δ’ ένιαν-
+τον.</foreign> Nel giro di un anno.</p>
+						<p>250. <foreign xml:lang="grc">κομέειν άτιταλλέμεναί τε.</foreign>
+Hanno senso imperativo.</p>
+						<p>251. <foreign xml:lang="grc">ιαχεο μηδ’ όνομήνης
+ϊοχεο τον όνομήναί με.</foreign></p>
+						<p>256. <foreign xml:lang="grc">ενρνχόρφ.</foreign> Non <foreign xml:lang="grc">χώρα,</foreign>
+ma <foreign xml:lang="grc">χορός</foreign> è il secondo ele-
+mento di questa parola. Il so-
+stantivo <foreign xml:lang="grc">χορός</foreign> era una volta
+adoperato a significare il luo-
+go dove si danza. Cfr, <foreign xml:lang="grc">u</foreign> 260,
+<foreign xml:lang="grc">λείηναν δε χορόν.</foreign> L’immagine
+della danza è strettamente as-
+sociata all'idea di un campo
+largo ed aperto. H<hi rend="smallcap">EROD</hi>. I 66,
+10 <foreign xml:lang="grc">δώαω τοι Ίεγέην ποοαίκρο-
+χον όρμήααα&amp;αι.</foreign></p>
+						<p>257. <foreign xml:lang="grc">πολνρρηνος,</foreign> <hi rend="italic">dai molti
+agnelli;</hi> quindi <hi rend="italic">ricco di be-
+stiame</hi>.</p>
+						<p>259. <foreign xml:lang="grc">ιππιοχάρμην,</foreign> <hi rend="italic">che com-
+batte a cavallo</hi>.</p>
+						<p>260.<foreign xml:lang="grc">Άσωποϊο.</foreign> L’Asopo scor-
+re nella Beozia, e, attraver-
+sando la regione settentrio-
+nale dell’Attica, si getta nel
+mare Egeo.</p>
+<pb n="42"/>					 
+						<p>263. <foreign xml:lang="grc">Θήβης εδος = Θήβας,</foreign>
+Omero non conosce le tradi-
+zione che fa Cadmo fondatore
+di Tebe. Le due tradizioni fu-
+rono in seguito combinate in
+modo che Cadmo fosse rite-
+nuto il primo fondatore, Am-
+fione e Zeto i restauratori
+(D<hi rend="smallcap">IODOR</hi>. XIX 53-5).</p>
+						<p>269. <foreign xml:lang="grc">Μεγάρην.</foreign> I figli avuti
+da Megara furono persegui-
+tati da Lieo mentre Herakles
+compieva la discesa all’lnfer-
+no. Herakles tornato uccide Li-
+eo, ma per la collera di Era
+divenuto furente, uccide i fi-
+gli e la moglie. Questo è
+l’argomento dell’Herakles di
+Euripide.</p>
+						<p>270. <foreign xml:lang="grc">Αμφιτρύωνας νίός.</foreign> E
+in apparente contraddizione
+col v. 267; ma la contraddi-
+zione è dovuta all’uso di for-
+inole stereotipe. P. e. <foreign xml:lang="grc">i</foreign> 107
+<foreign xml:lang="grc">οΐ (Κύκλωπες) ρα &amp;εοϊσι πεποι-
+ύλότες άΰανάτοιαιν</foreign> e t, 275-276
+<foreign xml:lang="grc">Ον γάρ Κύκλωπες Διος Αίγιόχον
+άλέγονσιν - ονδε &amp;εων μακάρων,</foreign>
+solo apparentemente si con-
+traddicono.</p>
+						<p>271. <foreign xml:lang="grc">Έπικάοτην.</foreign> Lo stesso
+personaggio che Giocasta, ma-
+dre e sposa di Edipo.</p>
+						<p>274. <foreign xml:lang="grc">άνάπνοτα</foreign> scil. <foreign xml:lang="grc">ταϋτα.</foreign></p>
+						<p>277. <foreign xml:lang="grc">πνλαρτάο. Θ</foreign> 367. <hi rend="italic">Che
+tiene ben chiusa la porta,</hi> per
+impedire d’uscirne, secondo
+la spiegazione degli antichi.
+<pb n="43"/>
+Questa è giusta, perchè” <foreign xml:lang="grc">Άιδης</foreign>
+è persona. Cfr. n. a v. 65.</p>
+						<p>278. <foreign xml:lang="grc">μελά&amp;ρον.</foreign> Designa pro-
+prio la trave principale del
+soffitto quindi tutto il pa-
+vimento che fa da volta al
+piano inferiore.</p>
+						<p>279. <foreign xml:lang="grc">σχομένη.</foreign> Uno dei due
+o tre casi in cui l’ aoristo
+medio assume significato pas-
+sivo.</p>
+						<p>280. <foreign xml:lang="grc">δσσα τε μητρός ’Σριννες
+έκτελέονσι.</foreign> Pel valore del <foreign xml:lang="grc">τβ</foreign>
+cfr. v. 125 Le Erinni sono le
+divinità della vendetta.</p>
+						<p>282. <foreign xml:lang="grc">εδνα.</foreign> Cfr. S<hi rend="smallcap">upplemen-
+ti ALLE NOTE</hi>.</p>
+						<p>284. <foreign xml:lang="grc">Όρχομένω Μιννηΐφ.</foreign> Οr-
+comeno di Beozia.</p>
+						<p>289. <foreign xml:lang="grc">έλικας,</foreign> <hi rend="italic">dalle ritorte cor-
+na</hi>. — <foreign xml:lang="grc">έδίδον,</foreign> <hi rend="italic">voleva darla</hi>.</p>
+						<p>290. <foreign xml:lang="grc">Φνλάκης.</foreign> Vi è una <foreign xml:lang="grc">Φνλάκη</foreign>
+in Tessaglia, e a questa allu-
+de lo scoliaste.</p>
+						<p>291. <foreign xml:lang="grc">άργαλέας.</foreign> Si sottinten-
+de <foreign xml:lang="grc">έλάααι</foreign> che si rileva dal-
+l’ <foreign xml:lang="grc">έλάσειε</foreign> precedente.</p>
+						<p>293. <foreign xml:lang="grc">δεσμοί r’ άργαλέοι κτε.</foreign>
+Cfr. P<hi rend="smallcap">ROPERT</hi>. II, 4, v. 7-1.</p>
+						<p>Turpia perpessus vates et vincla
+Melampus</p>
+						<p>Cognitus Ipbìcli surripuisse bo·
+ves;</p>
+						<p>Quem non lucra, magie Pero for·
+mosa coëgit,</p>
+<pb n="44"/>					 
+						<p>Μοx Amythaonia nupta futura
+domo.</p>
+						<p>301. <foreign xml:lang="grc">τούς άμφω κτλ.</foreign> Nella
+<foreign xml:lang="grc">Τειχοσκοπία</foreign> (<foreign xml:lang="grc">Γ</foreign> 237) e seguito
+abbiamo:
+<foreign xml:lang="grc">τούς δ} ήδη κάτεχεν φυοίζοος Αία
+εν Δακεδαίμονι αν&amp;ι φίλη εν
+πατρίδι γαίη</foreign>
+dove da tutto il contesto è
+evidente che si parla di morte
+vera e propria. Il passo del-
+l’Odissea è un tentativo in-
+felice d’adattamento della te-
+stimonianza dell’lliade con
+la credenza posteriore della
+immortalità di Polluce, figlio
+di Zeus. Nella tradizione o-
+merica più antica, i figli degli
+dei sono soggetti a morte.</p>
+						<p>303. <foreign xml:lang="grc">ετερήμεροι,</foreign> <hi rend="itlaic">altemis die-
+bus</hi>. Si riscontra la tendenza
+del Greco e del Latino a rap-
+presentare come predicati del
+soggetto o dell’oggetto certe
+relazioni di tempo, di luogo
+e simili.</p>
+						<p>311. <foreign xml:lang="grc">έννέωροι.</foreign> <hi rend="italic">A nove anni</hi>.</p>
+						<p>315. <foreign xml:lang="grc">“Oaoav επ' Ούλνμπφ</foreign>
+<pb n="45"/>						 
+<foreign xml:lang="grc">κτε.</foreign> Cfr. Ε 385-387 e V<hi rend="smallcap">erg</hi>.
+<hi rend="italic">Georg</hi>. I 281-282.</p>
+						<p>Ter sunt conati imponere Pelio
+Ossam
+scilioet, atque Ossae frondosum
+involvere Olympum.</p>
+						<p>321. Fedra, la seconda mo-
+glie di Teseo, Procri, figlia
+di Eretteo e moglie di Cefalo.</p>
+						<p>324. <foreign xml:lang="grc">μιν ”Αρτεμις,</foreign> Omero
+ignora la leggenda dell’amo-
+re di Dioniso per Arianna.</p>
+						<p>325. <foreign xml:lang="grc">Aifl.</foreign> Isola identificata
+dagli antichi con Nasse.</p>
+						<p>326. <foreign xml:lang="grc">Μαΐραν</foreign> etc. Mera figlia
+di Prete, re di Argo, e di
+Antea, si consacrò alla ver-
+ginità, e si associò ad Arte-
+mide. Avendo ceduto alle bra-
+me di Zeus, venne saettata
+da Artemide. — Olimene, fi-
+glia di Ifio e madre di Ificlo.
+Secondo altri il padre non
+sarebbe stato Ifio, ma Minio,
+figlio di Posidone. Enfile,
+figlia di Talao, fratello di
+Adrasto. Amfiarao essendo
+una volta in dissidio con A-
+drasto si riconciliarono a con-
+dizione che qualunque causa
+di disaccordo fosse sottoposta
+ad Erifile, e alle sue deci-
+sioni dovessero acquietarsi.
+Volendo Adrasto muovere
+contro Tebe per ristabilire
+sul trono Polinice, e oppo-
+nendosi Amfiarao, si rimise-
+ro secondo i patti al giudi-
+zio di Erifile, la quale corrotta
+con un donativo da Adrasto,
+consigliò la partecipazione
+alla guerra.</p>
+						<p>327. <foreign xml:lang="grc">φίλον άνδρός = αντί
+φίλον άνδρός.</foreign> Amfiarao, spinto
+dalla moglie, corrotta con un
+monile aureo da Adrasto o da
+Polinice, a prender parte alla
+spedizione contro Tebe.</p>
+<pb n="46"/>					 
+						<p>330. <foreign xml:lang="grc">φ&amp;ΐτο.</foreign> È un ottativo
+aoristo invece di <foreign xml:lang="grc">φΊΗ-ι-το.</foreign></p>
+						<p>331. <foreign xml:lang="grc">η επί νήα ελ&amp;όντα... ή
+αυτόν ή εν νηί, εάν ελ&amp;ω, ή
+αυτόν.</foreign></p>
+						<p>332. <foreign xml:lang="grc">πομπή.</foreign> Cfr. V. 352.</p>
+						<p>334. <foreign xml:lang="grc">κατά μέγαρα οκιόεντα.</foreign>
+<hi rend="italic">Il palazzo ombreggiato</hi>. Que-
+to aggettivo si riferisce al
+porticato del cortile (<foreign xml:lang="grc">αυλή</foreign>).</p>
+						<p>337. <foreign xml:lang="grc">είαας.</foreign> Cfr. ν. 185.</p>
+						<p>338. <foreign xml:lang="grc">έκαστος δ' έμμορε τιμής.</foreign>
+Il senso è questo: Quantun-
+que Ulisse sia ospite mio,
+nondimeno dell’onore di ospi-
+tare un si illustre personag-
+gio, partecipate anche voi.</p>
+						<p>343. Il participio <foreign xml:lang="grc">είδώς</foreign> una
+volta aveva il digamma. Così
+il re non va apostrofato.</p>
+						<p>344. <foreign xml:lang="grc">ήμιν.</foreign> Questa <hi rend="italic">correptio</hi>
+per ragione di verso in nessun
+poeta posteriore la troviamo,
+tranne in Sofocle, in cui è
+frequentissima nella forma os-
+sitona <foreign xml:lang="grc">ήμίν.</foreign></p>
+						<p>346. <foreign xml:lang="grc">’Αλκινόου ό’ εκ τοΰδε
+κτλ. = παρά Άλκινόω εατι κε-
+λεϋοαι δ αν ποιεϊσ&amp;αι προαιρήται.</foreign>
+L’accoppiamento <foreign xml:lang="grc">έργον τε έπος
+τε</foreign> è isterologico e paratattico.</p>
+<pb n="47"/>						 
+<p>352. <foreign xml:lang="grc">τελέοω.</foreign> Non tuturo, ma
+congiuntivo aoristo.</p>
+						<p>355. <foreign xml:lang="grc">λαών.</foreign> Omero adopera
+il plurale, quantunque per il
+senso collettivo si sarebbe ri-
+chiesto il singolare.</p>
+						<p>360. <foreign xml:lang="grc">καί κ' αίδοιότερος κτλ.</foreign>
+Ricorre spesso il pensiero del-
+la repugnanza per la povertà.
+Cfr. H<hi rend="smallcap">ESIOD</hi>. O D, 316.</p>
+						<p>364. <foreign xml:lang="grc">οΐά τε πολλούς,</foreign> <hi rend="italic">ut mul-
+tos quos</hi> etc. etc.</p>
+						<p>366. <foreign xml:lang="grc">δ&amp;εν,</foreign> <hi rend="italic">per le quali</hi>. —
+<foreign xml:lang="grc">ΐδοιτο scil. ψενδεα είναι.</foreign></p>
+						<p>368. <foreign xml:lang="grc">ώς δτ’ άοιδός acil. κα-
+ταλέγει.</foreign></p>
+<pb n="48"/>					 
+						<p>373. <foreign xml:lang="grc">ήδε.</foreign> L’e fa posizione
+perchè il <foreign xml:lang="grc">μ</foreign> seguente era pro-
+nunciato come doppio.</p>
+						<p>375. <foreign xml:lang="grc">ήώ δίαν.</foreign> Cfr. v. 2.</p>
+						<p>384. <foreign xml:lang="grc">κακής Ιότητι γυναικός.</foreign>
+Taluni intendono che si parli
+di Elena, taluni di Clitenne-
+stra. È molto più verosimile
+la seconda ipotesi, tenuto
+conto del verso preced. e dei
+v. 388-389.</p>
+						<p>388 <foreign xml:lang="grc">δαοοι.</foreign> Sottintendi a <foreign xml:lang="grc">ψν
+χαί</foreign> il genitivo possessivo <foreign xml:lang="grc">πάν
+των.</foreign></p>
+						<p>390. <foreign xml:lang="grc">επεί ΐδεν δφθαλμοΐοιν.</foreign>
+Per la mancanza di coerenza,
+cfr. S<hi rend="smallcap">UPPLEMENTI ALLE NOTE</hi>.</p>
+						<p>393. <foreign xml:lang="grc">κικνς.</foreign> <hi rend="italic">La forza dei
+movimento,</hi> secondo la spie-
+gazione degli scoliasti an-
+tichi.</p>
+<pb n="49"/>					 
+						<p>400. <foreign xml:lang="grc">άμέγαρτον = αφ&amp;ονον
+(μεγαίρω = φΰονέω).</foreign> I verbi
+che significano <hi rend="italic">invidiare,</hi> tan-
+to in Greco (cfr. v. 381),
+quanto in Latino vengono
+adoperati a indicare priva-
+zione.</p>
+						<p>402. <foreign xml:lang="grc">βοϋς περςταμνόμενον</foreign> <hi rend="italic">in-
+tercipientem</hi>.</p>
+						<p>403. <foreign xml:lang="grc">μαχεούμενον.</foreign> Si suole
+ritenere come un presente: tal
+tempo infatti ricniede il con-
+testo.</p>
+						<p>410. <foreign xml:lang="grc">οίκόνδε καλέοαας.</foreign> La
+tradizione omerica differisce
+quasi del tutto dalla tradizione
+seguita da fischilo nell’Aga-
+mennone, dove quest’ eroe è
+ucciso nel bagno da Cliten-
+nestra stessa.</p>
+						<p>411. <foreign xml:lang="grc">κατέκτανε.</foreign> Aoristo gno-
+mico. Cfr. <foreign xml:lang="grc">δ</foreign> 435.</p>
+						<p>415. <foreign xml:lang="grc">έράνφ... είλαπίνγ</foreign>). Cfr.
+<foreign xml:lang="grc">a</foreign> 225-226. Il primo significa
+<hi rend="italic">cena collaticia,</hi> la seconda
+<hi rend="italic">epulum opiparum</hi>.</p>
+<pb n="50"/>					 
+						<p>418. <foreign xml:lang="grc">κε... όλοφνραο.</foreign> Αρο-
+dosi del periodo irreale.</p>
+						<p>420. <foreign xml:lang="grc">ΰνεν.</foreign> L’interpretazione
+più. comune è <hi rend="italic">gorgogliava :
+</hi> qualche interprete intende
+<hi rend="italic">fumava</hi>. Il senso originario
+di <foreign xml:lang="grc">ΰνω</foreign> è certo quest’ultimo
+(<hi rend="italic">fumus</hi>).</p>
+						<p>421. <foreign xml:lang="grc">οίκτροτάτην.</foreign> Sopra, v.
+412 ha usato <foreign xml:lang="grc">οίκτίστω.</foreign></p>
+						<p>422. <foreign xml:lang="grc">Καοοάνδρης, την κτεΐνε
+Κλνταιμήατρη δολόμητις-άμφ'
+εμοί.</foreign> Cfr. ν. 41.</p>
+						<p>424. <foreign xml:lang="grc">περί φασγάνφ.</foreign> Va ri-
+ferito ad <foreign xml:lang="grc">άποδνήσκων,</foreign> come in-
+tende qualche interprete, ri-
+chiamando l’espressione <foreign xml:lang="grc">πβρ'ι
+δονρ'ι ήοπαιρε</foreign> di <hi rend="italic">Ν</hi> 670-671 e
+<foreign xml:lang="grc">περί δουρ'ι πεπαρμένος</foreign> di <foreign xml:lang="grc">Φ</foreign> 577.</p>
+						<p>425. <foreign xml:lang="grc">νοοφίαατο κτλ.</foreign> In Ε-
+schilo il carattere di Cliten-
+nestra è nobilitato, poichè
+essa stessa (<hi rend="italic">Agam</hi>. 1550, sg.)
+protesta di rendergli i pub-
+blici onori; e inoltre l’ ucci-
+sione di Agamennone è pre-
+sentata come una vendetta
+per il sacrificio d’Ifigenia.
+La variante poteva esistere
+presso qualche poeta ciclico,
+ma non è improbabile che si
+debba al poeta, costretto ad
+adattare il carattere di Cli-
+tennestra alle esigenze della
+tragedia.</p>
+						<p>426. <foreign xml:lang="grc">X*QOÌ χατ’ όφ&amp;αλμονς.</foreign>
+<pb n="51"/>						 
+Quest’ uso di chiudere gli
+occhi e la bocca si è conser-
+vato anche in tempi posteriori.
+Vedi anche <foreign xml:lang="grc">A</foreign> 453, <foreign xml:lang="grc">ω</foreign> 296. Il
+cadavere poscia si lavava, si
+imbalsamava, si poneva sopra
+un letto, con le gambe rivolte
+verso la porta. Anche oggi
+in molte regioni d’ltalia si
+ha ripugnanza a porre il letto
+in direzione della porta, ri-
+tenendolo un segno di cattivo
+augurio.</p>
+						<p>434. <foreign xml:lang="grc">xai η κ’ ενεργός sjjaiv,</foreign>
+<hi rend="italic">vel ei, quae bona sit</hi>.</p>
+						<p>436. <foreign xml:lang="grc">εύρύοπα.</foreign> S’interpreta
+sin dall’antichità come <hi rend="italic">ampi-
+veggente,</hi> ma è probabile —
+come mostra di aver creduto
+anche qualche antico com-
+mentatore — che sia un sino-
+nimo di <foreign xml:lang="grc">ερίγδονπος.</foreign> Cfr. P<hi rend="smallcap">INDAR</hi>
+<hi rend="italic">Pyth</hi>. XI, verso 23 seg.:
+<foreign xml:lang="grc">μάλιστα μεν Κρονΐδαν βα-
+ρνόπαν ατεροπάν χεραννώντε
+πρντανιν σέβεσΰαι.</foreign> (Cfr. <foreign xml:lang="grc">βα-
+ρνβόαν</foreign> di Pindaro in P<hi rend="smallcap">LU-
+TARCH</hi>. <hi rend="italic">Moralia</hi> pagine 167 e
+1075).</p>
+						<p>437. <foreign xml:lang="grc">διά βονλάς = δια ου-
+λομένας βονλάς.</foreign></p>
+						<p>443. <foreign xml:lang="grc">χεκρνμμένον είναι.</foreign> L’in-
+finito in senso imperativo si
+trova usato anche nella terza
+persona <hi rend="italic">H</hi> 79.</p>
+						<p>448. <foreign xml:lang="grc">επί μαζφ.</foreign> Lattante. Cfr.
+<foreign xml:lang="grc">Ψ</foreign> 101, dove Telemaco accen-
+na al ritorno di Ulisse dopo
+<pb n="52"/>
+un'assenza di venti anni dalla
+patria.</p>
+						<p>451. <foreign xml:lang="grc">άέμις εατίν.</foreign> L’attra-
+zione al predicato è comune
+anche latino.</p>
+						<p>453. <foreign xml:lang="grc">αυτόν.</foreign> Va riferito a <foreign xml:lang="grc">με,</foreign>
+non va preso come un og-
+getto distinto; ove si riferis-
+se ad Oreste, sorgerebbe con-
+traddizione con quanto si dice
+al v. 460.</p>
+						<p>458. <foreign xml:lang="grc">παιδός εμοΐο περί
+παιδός εμοΐο.</foreign></p>
+						<p>471. <foreign xml:lang="grc">ΑΙακίδαο.</foreign> Achille poi-
+ché si faceva discendente da
+Eaco.</p>
+<pb n="53"/>					 
+						<p>474. <foreign xml:lang="grc">χίπχε εχι κτλ.</foreign> <hi rend="italic">quid un-
+quam molieris quod hoc sii
+maius</hi>. Vedi v. 92.</p>
+						<p>476. <foreign xml:lang="grc">άφραδέες.</foreign> <hi rend="italic">Privi di sen-
+so</hi>. Significa che non hanno
+molto chiara la coscienza.</p>
+						<p>478. <foreign xml:lang="grc">vU.</foreign> La <foreign xml:lang="grc">e</foreign> è in posizio-
+ne, come a v. 373.</p>
+						<p>479. <foreign xml:lang="grc">κατά χρέος.</foreign> <hi rend="italic">Per inter-
+rogare</hi>.</p>
+						<p>481. <foreign xml:lang="grc">άμής.</foreign> Lo scoliaste an-
+nota: <foreign xml:lang="grc">έμής.Ρβτό άμός</foreign> viene a-
+doperato anche per <foreign xml:lang="grc">ήμέτερος.</foreign></p>
+						<p>488. <foreign xml:lang="grc">μη δήμοι θάνατόν γε</foreign>
+<foreign xml:lang="grc">παρανδα.</foreign> <hi rend="italic">Ne mihi mortem con
+solando levaveris</hi>. Questi ver-
+si son riportati da Platone
+nel <hi rend="italic">De Repubblica</hi> III c. I
+387 C.</p>
+						<p>490. <foreign xml:lang="grc">φ μή βίοτος πολύς εΐη.</foreign>
+L’idea di indigenza era già
+contenuta in <foreign xml:lang="grc">άκλήρφ.</foreign> Spiega
+meglio il concetto.</p>
+						<p>591. <foreign xml:lang="grc">άνάσαειν.</foreign> Quando i ver-
+bi che indicano dominio si
+trovano col dativo, questo va
+inteso in senso locale.</p>
+						<p>492. <foreign xml:lang="grc">τον παιδός άγανοϋ.</foreign> Cfr.
+<pb n="54"/>					 
+						v. 458. E’ Neottolemo. Vedi
+ν. 506.</p>
+						<p>498. <foreign xml:lang="grc">πρόμος εμμεναι = ώατε
+πρόμος εμμεναι.</foreign></p>
+						<p>501. <foreign xml:lang="grc">εΐ</foreign> epanalessi.</p>
+						<p>502. <foreign xml:lang="grc">οτύξαιμι.</foreign> Ha senso at-
+tivo.</p>
+						<p>503. <foreign xml:lang="grc">οΐ</foreign> concordato a senso
+con <foreign xml:lang="grc">τέφ.</foreign></p>
+						<p>509. <foreign xml:lang="grc">έκ Σκύρου.</foreign> Anche in
+questo passo non s’accorda
+colla tradizione dell’lliade. In
+I 439-441 Fenice dice espressa-
+mente che ha condotto Achil-
+le fanciullo (<foreign xml:lang="grc">νήπιον</foreign>) da Ftia
+direttamente al campo di A-
+gammennone. Nella Patroclea
+(<hi rend="italic">T</hi> 826-827) invece è supposta
+la dimora di Achille in Sciro;
+la tradizione seguita nell’O-
+dissea (cfr. anche <foreign xml:lang="grc">γ</foreign> 188-189)
+è tutt’ una con quest’ ultima
+e di gran lunga più recente
+della prima. Il nome di <foreign xml:lang="grc">Νεο-
+πτόλεμος</foreign> con cui è conosciuto
+il figlio di Achille, era in
+origine un attributo di questo
+eroe, come Tisameno di Ore-
+ste, Telemaco e Ptoliporte di
+Ulisse.</p>
+<pb n="55"/>					 
+						<p>519. <foreign xml:lang="grc">οΐον τον Τηλεφίδην κα-
+ζενήρατο χαλκφ = ozi τον Τη-
+λεφίδην κατενήρατο τοιοντον
+όντα.</foreign></p>
+						<p>520. Euripilo, figlio di Te-
+lefo e di Astioche, regnava
+sulla Misia. Venuto in soc-
+corso di Priamo, fu ucciso da
+Neottolemo.</p>
+						<p>521. <foreign xml:lang="grc">Κήτειοι.</foreign> L’interpreta-
+zione di Aristarco <foreign xml:lang="grc">οι μεγάλοι</foreign>
+non è accettabile. Meglio quel-
+lo che vi vede un popolo della
+Misia.</p>
+						<p>521. <foreign xml:lang="grc">γυναίων εΐνεκα δώρων.</foreign>
+Euripilo fu indotto a venire in
+soccorso di Priamo, persuaso
+dalia madre che aveva rice-
+vuto appositamente in dono
+da Priamo una vite aurea.</p>
+						<p>522. <foreign xml:lang="grc">Μέμνονα.</foreign> Il figlio del-
+l’Aurora, che, a capo degli
+Etiopi, venne in soccorso di
+Troia: questa spedizione era
+I’argomento dell’Etiopide at-
+tribuita ad Aretino, trattata
+eziandio da Quinto Smirneo
+nel libro secondo.</p>
+						<p>525. <foreign xml:lang="grc">ήμεν άνακλΐναι κτέ.</foreign> Cfr.
+<foreign xml:lang="grc">Θ</foreign> 815 lo stesso verso; tranne
+che invece di <foreign xml:lang="grc">λόχον</foreign> si trova
+<foreign xml:lang="grc">νέφος.</foreign> Se qil verso fosse ge-
+nuino, Ulisse avrebbe avuto
+l’incarico di aprire o chiudere
+il ventre del cavallo dentro
+cui era la schiera (<foreign xml:lang="grc">λόχος</foreign>).</p>
+						<p>527. <foreign xml:lang="grc">νπό</foreign> con <foreign xml:lang="grc">τρέμεον.</foreign> È uno
+di quei casi caratteristici per
+mostrare il significato avver-
+biale delle preposizioni nel
+linguaggio omerito.</p>
+<pb n="56"/>					 
+						<p>528. <foreign xml:lang="grc">Γδον όφΰαλμοΐαιν.</foreign> Ri-
+dondanza frequentissima.</p>
+						<p>537. <foreign xml:lang="grc">ΙπιμΙξ δε μαίνεται Άρης.</foreign>
+Costruzione paratattica : si
+sarebbe aspettata una propo-
+sizione temporale, subordinata
+alla proposione antecedente.</p>
+						<p>540. <foreign xml:lang="grc">δ = δτι.</foreign></p>
+						<p>642. <foreign xml:lang="grc">εΐροντο δε κήδεα έκά-
+οτη,</foreign> Secondo taluni <foreign xml:lang="grc">εΐρομαι</foreign>
+ha il senso di <hi rend="italic">narrare</hi> (P<hi rend="smallcap">lat</hi>.
+<hi rend="italic">Cratyl</hi>. p. 398 D <foreign xml:lang="grc">τό γάρ εΐρειν</foreign>
+<foreign xml:lang="grc">λέγειν έατίν.</foreign>) Vedi Id.P. 408 A.
+Secondo altri di <hi rend="italic">domandare.
+</hi> La seconda interpretazione
+quadrerebbe meglio al conte-
+sto perchè le anime hanno piut-
+tosto da interrogare Ulisse sul-
+le sorti dei lori cari lasciati in
+vita che materia da narrare.</p>
+						<p>544. <foreign xml:lang="grc">κεχολωμένη εΐνεκα νί-
+κης.</foreign> Vedi Q<hi rend="smallcap">uinto</hi> S<hi rend="smallcap">MIRNEO</hi>
+V 139-179. O<hi rend="smallcap">VID</hi>. <hi rend="italic">Metam
+</hi>. XIII 1-398.</p>
+<pb n="57"/>					 
+						<p>549. <foreign xml:lang="grc">τοίην.... κεφαλήν =
+τοιοϋτον άνδρα</foreign> esclamativo.Ve-
+di sott. ν. 556 <foreign xml:lang="grc">τοΐος... πύργος.</foreign></p>
+						<p>560. <foreign xml:lang="grc">τεΐν = οο'ι.</foreign></p>
+						<p>565. <foreign xml:lang="grc">δμώς... ή.</foreign> Sia che s’in-
+terpreti per <hi rend="italic">pariter ac,</hi> sia
+che l’<foreign xml:lang="grc">δμώς</foreign> si lasci stare da sè
+e si prenda l'<foreign xml:lang="grc">ή</foreign> per disgiun-
+tiva, il senso è lo stesso. Si-
+gnifica; Allora (<foreign xml:lang="grc">ένϋ·α</foreign>) Aiace,
+benché adirato, mi avrebbe
+rivolta la parola come io la
+rivolsi a lui. Ulisse vuol dire
+che se avesse insistito, Aiace
+avrebbe ritardata la sua par-
+tenza; ma Ulisse non se ne
+curò perchè altri erano gli og-
+getti della sua sollecitudine.</p>
+						<p>567. <foreign xml:lang="grc">Μίνωα... Δ ιός άγλαόν
+υιόν</foreign>. Ιn <foreign xml:lang="grc">τ</foreign> 172 è dato solo come
+compagno di <foreign xml:lang="grc">Zeyg</foreign>; ma non si
+può fare nessuna argomenta-
+zione <hi rend="italic">ex silentio</hi> contro la coe-
+renza delle due tradizioni.</p>
+						<p>569. <foreign xml:lang="grc">ΰεμιοτενοντα νέκνσαι.</foreign>
+Cfr. v. 491.</p>
+<pb n="58"/>					 
+						<p>570. <foreign xml:lang="grc">δίκας εΐροντο</foreign> = <hi rend="italic">causas
+dicebant</hi>. Cfr. v. 537.</p>
+						<p>572. <foreign xml:lang="grc">’Ωρίωνα.</foreign>.. amato da
+<foreign xml:lang="grc">’Ηώς,</foreign> e ucciso da Artemide.
+Cfr. <foreign xml:lang="grc">Σ</foreign> 121.</p>
+						<p>576. <foreign xml:lang="grc">xaì Tixvòv xxi.</foreign> Cfr.Y<hi rend="smallcap">ER-
+GIL</hi>. <hi rend="italic">Aen</hi>. VI 595-600:</p>
+						<p>necnon et Tityon, Terrae omnipa-
+rentie alumnum</p>
+						<p>cernere erat, per tota cui iugera
+corpus</p>
+						<p>porrigitur, rostroque immanis val-
+tur obunco</p>
+						<p>immortale iecur tondone fecunda-
+que poenis</p>
+						<p>viscera rimaturque epulis habitat-
+que sub alto</p>
+						<p>pectore: neo fìbris requies datur
+alla renatis.</p>
+						<p>Avendo tentato di far vio-
+lenza a Latona, fu ucciso da
+Apollo ed Artemide.</p>
+						<p>580. <foreign xml:lang="grc">δερτρον Εσω = εις μέ-
+σον το δερτρον.</foreign> Il vocabolo
+<foreign xml:lang="grc">δέρτρον</foreign> ha senza dubbio affi-
+nità etimologica con <foreign xml:lang="grc">δέρμα.</foreign>
+Si crede che sia il perito-
+neo.</p>
+						<p>581. <foreign xml:lang="grc">Πανωπήος.</foreign> Città della
+Focide.</p>
+						<p>582. <foreign xml:lang="grc">Τάνταλον.</foreign> Qui compare
+la prima volta: nella tradi-
+zione posteriore è dato come
+padre di Pelope; ma in B 201
+non sembra dubbio che padre
+di Pelope sia Hermes.</p>
+						<p>584. <foreign xml:lang="grc">στεντο.</foreign> Parola d’incerta
+etimologia, e si trovano solo
+<pb n="59"/>
+le forme <foreign xml:lang="grc">στενμαι</foreign> e <foreign xml:lang="grc">στεντο.</foreign> Vie-
+ne interpretato: <hi rend="italic">sembrava</hi>.</p>
+						<p>587. <foreign xml:lang="grc">καταζήνασκε δε δαίμων.</foreign>
+Disseccava l’acqua una poten-
+za divina.</p>
+						<p>589. <foreign xml:lang="grc">δγχναι</foreign> <hi rend="italic">pere</hi>.</p>
+						<p>593. <foreign xml:lang="grc">Σίσυφον.</foreign> 154 Sisifo è
+detto <foreign xml:lang="grc">ΑΙολίδης.</foreign> Quivi è fatto
+abitante di Efira, in cui si
+riconosce Corinto. Sarebbe
+stato punito per aver svelato
+ad Asopo, padre di Egina,
+che Zeus aveva rapita costei;
+e Asopo avrebbe fatto zam-
+pillare la fonte Pirene nel-
+l'Acrocorinto.</p>
+						<p>597. <foreign xml:lang="grc">Κραταιΐς.</foreign> Erodiano pren-
+deva questa parola in senso
+avverbiale: per conseguenza
+<foreign xml:lang="grc">άποοτρέψασκε</foreign> sarebbe intran-
+sitivo. Troviamo però a <foreign xml:lang="grc">μ</foreign> 124
+la medesima parola nel senso
+di nome proprio, come la ma-
+dre di Scilla. Non sarebbe
+inverosimile che colei fosse
+addetta alla punizione di Si-
+sifo, dovendo rivolgere in giù
+la pietra che questi aveva
+sollevata. Si ricordi che il
+brano dal 568 al 635 è un
+interpolazione molto recente
+dovuta agli Orfici, di cui i-
+gnoriamo tutti i più minuti
+particolari.</p>
+						<p>602.<foreign xml:lang="grc">μετ’ ά&amp;ανάτοισι δεοΐαιν</foreign> An-
+che qui è evidente la contrad-
+<pb n="60"/>
+dizione con <foreign xml:lang="grc">7</foreign> 117, dove He-
+rakles è rappresentato come
+mortale.</p>
+						<p>606. <foreign xml:lang="grc">οσε άτυζομένων =
+πάντοσε ακεδαννυμένων άτε άτυ-
+ξομένων</foreign>. Si aspettava il fu-
+turo; ma il participio presen-
+te, esprimente il conato, si
+trova anche in prosa invece
+del participio futuro.</p>
+						<p>609. <foreign xml:lang="grc">ηρ</foreign> è lo stesso che
+<foreign xml:lang="grc">τελαμών</foreign> da cui è spiegato nel
+verso seguente.</p>
+						<p>610. <foreign xml:lang="grc">iva = év φ.</foreign> Sul balteo
+di Ercole erano effigiati leoni,
+cinghiali, battaglie, uccisioni.</p>
+						<p>613. <foreign xml:lang="grc">μη τεχνηαάμενος μηδ’
+άλλο τι τεχνήααιτο.</foreign> Qualche in-
+terprete costruisce cosi: <foreign xml:lang="grc">τεχνη-
+οάμενος, (τούτον τον τελαμώνα)
+μη τεχνήααιτο μηδ1 άλλο τι (τού-
+το) δμοιον</foreign>). Io credo che vi
+sia una brachilogia equivalen-
+te a questo pensiero: <foreign xml:lang="grc">εϊ&amp;ε
+ώψελε μη τεχνήσασ&amp;αι (τούτον
+τον τελαμώνα) (δμως δέ, επειδή
+ετεχνήσατο), εΐίλε μη τεχνήααιτο
+(άλλον τούτω δμοιον)</foreign>. Cfr. <foreign xml:lang="grc">δ</foreign>
+684-685.</p>
+						<p><foreign xml:lang="grc">μη μνηοτενσαντες μηδ’ άλλο&amp;’
+δμιλησαν τες,
+ύστατα καί πύματα νΰν εν&amp;άδε
+δειπνήοειαν.</foreign></p>
+						<p>È evidente che la negazione
+si riferisce ai participhii qua-
+li si possono svolgere in due
+proposizioni precative.</p>
+						<p>614. <foreign xml:lang="grc">κείνον τελαμ. éfj εγκάτ-
+sετο τέχνην.</foreign> Si trovava anche
+l’altra lezione, come appren-
+diamo da uno scolio, <foreign xml:lang="grc">κείνω
+τελαμώνι έήν εγκάτ&amp;ετο τέχνην.</foreign>
+Quest’ultima era molto proba-
+bilmente una glossa della pri-
+ma: <hi rend="italic">posuit operam in hoc bal-
+teo perficiendo</hi>.</p>
+<pb n="61"/>					 
+						<p>618. <foreign xml:lang="grc">μόρον ήγηλάζεις</foreign> = <hi rend="italic">fa-
+ttiva sustines</hi>.</p>
+						<p>621. <foreign xml:lang="grc">χείρονι φωτί,</foreign> Euristeo
+<hi rend="italic">T</hi> 92-132.</p>
+						<p>621. <foreign xml:lang="grc">χαλεπούς αλάλους.</foreign> Le
+così dette dodici fatiche di
+Herakles, tra le quali l’ucci-
+sione del leone Nemeo, del-
+l’Idra di Lerna e la discesa
+all’inferno.</p>
+						<p>623. <foreign xml:lang="grc">xvva.</foreign> Cerbero. Cfr. <foreign xml:lang="grc">Θ,</foreign>
+368.</p>
+						<p>624. <foreign xml:lang="grc">φράζετο,</foreign> <hi rend="italic">cogitabat</hi>.</p>
+						<p>631. <foreign xml:lang="grc">θήαεα κτλ.</foreign> Poco bene
+si unisce al verso precedente.
+Piritoo aiutò Teseo a rapire
+Elena. In compenso Teseo lo
+dovette aiutare a discendere
+all’Inferno per rapire Perse-
+fone. Furono quivi incatena-
+ti: Teseo fu liberato da He-
+rakles, Piritoo vi rimase. Se
+i versi facessero parte orga-
+nica dell’interpolazione orfica
+che si chiude al verso 635,
+alla concezione del poeta sa-
+rebbe estranea onesta tradi-
+zione. Ma è difficile che il
+verso possa essere una dichia-
+zione di <foreign xml:lang="grc">ονς εάελόν περ.</foreign></p>
+						<p>633. <foreign xml:lang="grc">άεσπεαίγι,</foreign> Cfr. ν. 43.</p>
+<pb n="62"/>					 
+						<p>639. <foreign xml:lang="grc">’Ωκεανός.</foreign> Cfr. ν. 13.
+L’avere Efesto posto come
+ultimo circuito dello scudo
+di Achille (<foreign xml:lang="grc">Σ</foreign> 608) l’Oceano,
+era suggerito dall’ opinione
+che il fiume Oceano circon-
+dasse tutta la terra.</p>
+					</div>
+					<div type="textpart" subtype="chapter" n="2">
+						<pb n="I"/>
+						<head>
+							<title>SUPPLEMENTI ALLE NOTE</title>
+						</head>
+						<p>6. <foreign xml:lang="grc">κνανοπρφροιο.</foreign> L’aggettivo <foreign xml:lang="grc">κυάνεος</foreign> esprime qualunque
+colore oscuro come in <foreign xml:lang="grc">ξ</foreign> 303 <foreign xml:lang="grc">κνανέην νεφέλην</foreign> e in <hi rend="italic">A</hi> 528 <foreign xml:lang="grc">κνα-
+νέησιν έπ δφρναι.</foreign> Ma non è improbabile che la prora delle
+navi fosse dipinta effettivamente in color azzurro, come
+i fianchi erano tinti in color rosso (<foreign xml:lang="grc">λ</foreign> 124 <foreign xml:lang="grc">φοινικοπάρηοι</foreign>). Gli
+antichi sembrano aver inteso nel suo primo senso - e non a
+torto - l'epiteto <foreign xml:lang="grc">κνανοχαΐτα</foreign> di Posidone, come mostra il fram-
+mento d’una statua conservata nel museo dell’acropoli, anche
+se questa non rappresenta un genio della tempesta, come
+ritenevano i primi illustratori.</p>
+						<p>7. <foreign xml:lang="grc">ΐκμένος.</foreign> Per le varie interpretazioni vedi B<hi rend="smallcap">OISACQ,</hi> <hi rend="italic">Dic-
+tionnaire etymologique de la langue grecque</hi> p. 370.</p>
+						<p>8. Aristarco, come risulta dallo scolio <foreign xml:lang="grc">χ,</foreign> 136 del codice ar-
+leiano, leggeva <foreign xml:lang="grc">ονδήεσσα.</foreign> Aristotele invece leggeva <foreign xml:lang="grc">ανλήεσσα.</foreign>
+La prima variante avrebbe un senso (<foreign xml:lang="grc">ούδήεααα = επίγειος</foreign>), se
+è giusta l’interpretazione degli scoliasti.: poiché in <foreign xml:lang="grc">ονδήεσσα</foreign>
+si potrebbe vedere una forma eolica dello stesso verbo <foreign xml:lang="grc">ανδάω.</foreign>
+La seconda contiene un grande anacronismo, poichè l’uso
+degli istrumenti per le operazioni magiche è d’una data
+molto recente. La lezione <foreign xml:lang="grc">ανδήεασα</foreign> sembra del resto accre-
+ditata da <foreign xml:lang="grc">e</foreign> 334 e ha tutta l’apparenza d’ uno stereotipo: il
+mutamento della lezione si deve probabilmente al non essersi
+compreso il vero senso dell’aggettivo.</p>
+						<pb n="II"/>
+						<p>14. <foreign xml:lang="grc">Κιμμερίων.</foreign> Aristarco leggeva <foreign xml:lang="grc">Κερβερέων</foreign> e Cratete <foreign xml:lang="grc">Κερ-
+βερίων.</foreign> L’una e l’altra derivano dall’aver frainteso il travi-
+samento comico della voce <foreign xml:lang="grc">Κιμμερίων</foreign> presso Aristofene (R<hi rend="smallcap">A-
+NAE</hi> v. 187). La lezione <foreign xml:lang="grc">Χειμερίων</foreign> che si trovava in alcuni
+manoscritti, deve essere stata una glossa in cui si dava l’eti-
+mologia di <foreign xml:lang="grc">Κιμμέριοι</foreign> derivandolo da <foreign xml:lang="grc">χειμών,</foreign> come ricaviamo
+da questo scolio di Eustazio: <foreign xml:lang="grc">βορειότατοι γαρ εκείνοι καί διά
+τούτο ειμέριοι.</foreign> La parola <foreign xml:lang="grc">κίμμερος</foreign> adoperata da Licofrone nel
+senso di nebbia è formata su <foreign xml:lang="grc">Κιμμέριοι,</foreign> che è il nome epi-
+coreo, come lo prova il nome di Crimea rimasto all’ isola.
+La conoscenza dei Cimmeri è dovuta alla colonizzazione della
+costa settentrionale del Ponto per opera di Milesi. Istro sa-
+rebbe stata fondata al sud delle bocche del Danubio nel 656,
+secondo Eusebio, Olbia presso le bocche dell’ Hypanis nel
+645. Spedizioni commerciali possono essere anteriori alla co-
+lonizzazione, ed è probabile che nell’ indicazione omerica ab-
+biano l’ eco delle prime spedizioni.</p>
+						<p>16. <foreign xml:lang="grc">καταδέρκεται.</foreign> Nell’ inno omerico a Demetra (v. 70) e in
+Esiodo (Th. v. 76O) troviamo <foreign xml:lang="grc">επιδέρκεται.</foreign> Strabono ripete lo
+stesso verso in due luoghi distinti: a p. 6 dà <foreign xml:lang="grc">επιλάμπεται,</foreign> a
+p. 244 <foreign xml:lang="grc">επιδέρκεται.</foreign> Lo scolio del codice arleiano dice che Ari-
+stofane di Bizanzio e Aristarco hanno preferita la lezione
+<foreign xml:lang="grc">καταδέρκεται</foreign> che in verità non ci sono ragioni sufficienti per
+cambiare: anzi l’unione del dativo strumentale <foreign xml:lang="grc">άκτίνεαοι</foreign> rac-
+comanda maggiormente la volgala, perchè oltre all’idea di
+<hi rend="italic">guardare,</hi> vi è così espressa anche quella di <hi rend="italic">colpire</hi> con i
+raggi. La preposizione <foreign xml:lang="grc">κατά</foreign> esprime proprio il movimento
+dalle regioni superne verso il basso come in <hi rend="italic">A</hi> 44 <foreign xml:lang="grc">βή κατ’
+Ονλνμποιο καρήνων.</foreign> Se non vi fosse stato il dativo, l’analogia
+della notissima espressione <foreign xml:lang="grc">πάντα έφορό, καί πάντα επακονει</foreign>
+avrebbe consigliata l’adozione della variante.</p>
+						<p>23. <foreign xml:lang="grc">Ιερήϊα.</foreign> Gli antichi scoliasti notarono l’improprietà del-
+l’uso di questo nome applicato al sacrificio pei morti, <foreign xml:lang="grc">έπί
+γάρ νεκρών τόμια καί έντομα.</foreign> Nei tempi classici si faceva di-
+stinzione tra <foreign xml:lang="grc">αφάγια</foreign> e <foreign xml:lang="grc">ίερεΐα</foreign>: il primo corrisponde a quel sa-
+<pb n="III"/>
+orifizio che gli scoliasti chiamavano <foreign xml:lang="grc">τόμια</foreign><hi rend="superscript">1</hi>, ed era destinato
+alle divinità ctoniche, agli eroi morti, e le carni non erano
+mangiate. Vedi gli esempi raccolti dallo S<hi rend="smallcap">TENGEL</hi> <hi rend="italic">Opferbräuche
+der Griechen</hi> p. 92; il secondo corrisponde al sacrificio agli
+dei, e non solo cruento; quando cosi fosse le carni venivan
+mangiate (Id. p. 96). Di questo significato si trova traccia in
+Omero § 250-251</p>
+						<ab>
+							<seg><foreign xml:lang="grc">αΰτάρ εγών Ιερήϊα πολλά παρείχαν
+ϋεοΐσιν χε ρέζειν, ανχοϊαι δε δαΐτα πένεο&amp;αι</foreign>.</seg>
+						</ab>
+						<p>Ma nell’ epoca omerica non si aveva sempre molta coerenza
+dell’ uso.</p>
+						<p>26. <foreign xml:lang="grc">χεόμην.</foreign> Alcuni mscr. dànno <foreign xml:lang="grc">χέομεν.</foreign> La prima persona
+singolare è raccomandata dal <foreign xml:lang="grc">πάλννον</foreign> al v. 28.</p>
+					 <p>38-43. <foreign xml:lang="grc"> </foreign> </p>
+						<p>Questi versi sono espunti da Zenodoto e Aristofane. Sembra
+che Aristarco non accettasse l’atetesi. Infatti le ragioni per
+cui questi versi si condannavano, si fondano sul presupposto
+della coerenza che avrebbe dovuto tenere il poeta nel descri-
+vere lo stato delle anime nell’ Erebo: <foreign xml:lang="grc">ον γάρ μεμιγμέναι, πα-
+ραγίνονται al ψνχαί, καί άλλως ονδε τά τραύματα επί των ειδώλων
+όράται. δύεν έρωτρ (Όδνσοενς), τις νν αε κήρ έδάμασοε; τον ’Αγα-
+μέ μνονα.</foreign> Ma anche questo non è un argomento convincente.
+<note type="footnote">1 Cfr. sch. ad A 459 πάλιν δ’ ηρωαιν ώς κατοιχομένοις έντομα
+ε&amp;νον άποβλέποντα κάτω είς την γην. Ad APOLLO. RHOD. I 587
+έντομα δετά σφάγια· κνρίως δε τοΐς νεκροϊς έναγιζόμενα διά το
+έν τη γη αυτών άποτέμνεα&amp;αι τάς κεφαλάς· οντω γάρ ΰνονσι τοΐς
+χ&amp;ονίοις.</note>
+<pb n="IV"/>
+Ulisse poteva domandare ad Agamennone chi l’avesse ucciso,
+solo vedendogli la ferita. Del resto, in un componimento cosi
+pieno di contraddizione, non è prudente ripudiare un brano,
+solo per una piccola incongruenza concepibile anche in un
+poeta recente. Il Wilamowitz (o. c. p. 142 n. 3) sembra ri-
+tenere spurio solo il v. 43 come motivato male a proposito
+dal v. 633 dove il <foreign xml:lang="grc">χλωρόν δέος</foreign> ha ragione di esservi, temendo
+Ulisse di guardare la testa pietrificatrice della Gorgone.</p>
+						<p>50. <foreign xml:lang="grc">αίματος άσσον ΐμεν.</foreign> Le anime bevono il sangue per rin-
+vigorire la loro coscienza. Questo concetto non è niente af-
+fatto inconciliabile col fatto che il versamento del sangue è
+una parte inseparabile dal sacrificio funebre, e non si può
+attribuire a pura finzione del poeta, come sembra al Rohde
+(<hi rend="italic">Psyche</hi> p. 57). L’anima d’Elpenore (v. 61-12) sembra che
+non abbia bisogno di bere il sangue, perchè il suo corpo era
+ancora incremato e insepolto. Forse si credeva alla possibilità
+che l’anima potesse mantenere sempre un contatto col corpo,
+e quindi non avesse bisogno di ricorrere al mezzo solito per
+ricuperare la coscienza necessaria alle anime, il cui corpo era
+stato bruciato. Questa dottrina non domina però in tutto la
+<foreign xml:lang="grc">νέκνια.</foreign> Cfr. v. 390.</p>
+						<p>52-54. <foreign xml:lang="grc">άκλαυτον καί ά&amp;απτον· ènei πόνος άλλος επείγεν. τον εν
+εγώ δάκρυσα Ιδών, ελέησα δε &amp;υμφ.</foreign> Callistrato li esgungeva
+per una ragione <hi rend="italic">a priori</hi>. Si comprende, egli pensa, che El-
+penore è morto: allora a che la domanda <foreign xml:lang="grc">πώς ήλϋες υπό ζόφον
+ήερόβντα</foreign>; che gli rivolge al v. 58? Quasi Omero avesse dovuto
+ragionare colle seste!</p>
+						<p>58. <foreign xml:lang="grc">Ιών.</foreign> La preferenza da darsi alla lezione <foreign xml:lang="grc">Ιών</foreign> su l’altra
+<foreign xml:lang="grc">Ιών</foreign> ha l’autorità del Codice Veneto, e la testimonianza di
+Didimo, poiché grammaticalmente si sostiene anche <foreign xml:lang="grc">Ιών.</foreign></p>
+						<p>60. <foreign xml:lang="grc">Διογενες Λαερτιάδη, πολυμήχανε ’Οδυσσεϋ.</foreign> Contro la mag-
+gior parte degli editori, non ritengo affatto giustificata l’atetesi.</p>
+						<p>63. <foreign xml:lang="grc">ες κλίμακα μακρήν</foreign>. Non può essere la scala che dal-
+<foreign xml:lang="grc">l’ ΰπερφον</foreign> conduce al piano terreno come in <foreign xml:lang="grc">a</foreign> 328 e<foreign xml:lang="grc">φ</foreign> 5, poiché
+da <foreign xml:lang="grc">κ</foreign> 555 si ricava che Elpenore voleva andare all’aria aperta.
+Questo luogo si può mettere a riscontro di <foreign xml:lang="grc">Ψ</foreign> 712.</p>
+						<pb n="V"/>
+						<ab>
+							<seg><foreign xml:lang="grc">ώς οτ’ άμείβοντες, τούς τε κλυτός ηραρε τέκτων
+δώματος ύψηλοϊο, βίας άνεμων άλεείνων</foreign>.</seg>
+						</ab>
+						<p>Il poeta descrive la lotta di Ulisse e di Aiace, e dice che
+erano avvinghiati come i travi sul tetto (ad <foreign xml:lang="grc">άμείβοντες</foreign> va
+unito <foreign xml:lang="grc">δοκοί</foreign> sottinteso); i quali secondo lo. scoliasta rendevano
+l’immagine di un <foreign xml:lang="grc">A.</foreign> La. <foreign xml:lang="grc">κλίμα</foreign>- metteva l’interno dell’abita-
+zione in comunicazione con questo spazio rassomigliante a
+una terrazza.</p>
+						<p>64. <foreign xml:lang="grc">καταντικρν.</foreign> Lo mantengo perchè si trova nei manoscritti
+e non è forma assurda, trovandosi già in <hi rend="italic">H</hi> 362. Reputo
+indifferente scrivere <foreign xml:lang="grc">κατ' άντικρν</foreign> o una sola parola.</p>
+						<p>72. <foreign xml:lang="grc">άκλαυτον.</foreign> Alcuni mscr. e Plutarco (<hi rend="italic">Quomodo adulescens
+poetas audire debeat</hi> p. 17 <hi rend="italic">E</hi>.) dànno <foreign xml:lang="grc">ακλαυατον.</foreign></p>
+						<p>74. <foreign xml:lang="grc">aooa.</foreign> Di gran lunga preferibile alla lezione <foreign xml:lang="grc">oooa</foreign> data
+da Macrobio (V 7, 13) e da alcuni manoscritti.</p>
+						<p>77. <foreign xml:lang="grc">πήξαί τ’ επί τύμβφ έρετμόν.</foreign> La maggior parte delle volte
+si poneva sul tumulo una stele commemorativa, come in <hi rend="italic">A</hi>
+371; <hi rend="italic">II</hi> 457, 675; <hi rend="italic">P</hi> 434. L’ erezione del remo non ha qui
+alcun significato recondito; ma si deve ricercarne la causa
+nella difficoltà da parte di Ulisse di innalzare una stele sul
+tumulo. In <hi rend="italic">Z</hi> 414-420 le ninfe orestiadi fanno crescere intorno
+al tumulo di Lezione degli olmi. È difficile stabilire se fra
+l’uno e l’altro uso vi sia una relazione.</p>
+						<p>92. <foreign xml:lang="grc">Διογενές.</foreign> Cfr. v. 60.</p>
+						<p>99. <foreign xml:lang="grc">με επεασι.</foreign> L’uso del digamma raccomanda probabil-
+mente questa lezione in confronto dell’altra <foreign xml:lang="grc">μ’ επέεοαι.</foreign></p>
+						<p>102. <foreign xml:lang="grc">λήσειν.</foreign> Qualche antica variante dovea esserci, come si
+rileva dagli scolli <foreign xml:lang="grc">λήαεις</foreign> oppure <foreign xml:lang="grc">λήσει Έννοοίγαιον.</foreign> L’esempio
+di <hi rend="italic">H</hi> 358 e <hi rend="italic">M</hi> 233 conferma la possibilità dell’ ellissi del sog-
+getto.</p>
+						<p>117. <foreign xml:lang="grc">εδνα.</foreign> Doni che lo sposo donava alla famiglia della
+sposa. Poscia significò, cambiati i costumi, la dote della moglie
+(<foreign xml:lang="grc">a</foreign> 277).</p>
+						<ab>
+							<seg>157-159. <foreign xml:lang="grc">μέοαω γάρ μεγάλοι ποταμοί καί δεινά sέε&amp;ρα,
+*Ωκεανός μεν πρώτα, τον οΰπως έατι περήααι
+πεζόν Ιόντα, ην μή τις Ιχ-Q ενεργέα νήα</foreign>.</seg>
+						</ab>
+						<pb n="VI"/>
+						<p>È verissimo che la difficoltà di vedere il regno dei morti
+intesa da Anticlea, consiste in tutt’altro che nella lunghezza
+o nei pericoli dei viaggi (W<hi rend="smallcap">ILAMOWITZ</hi> o. c. p. 158 n. 20):
+ma l’ampliamento può essere stato fatto anche nell’ epoca
+omerica.</p>
+						<p>173. <foreign xml:lang="grc">οΐς άγανοΐς βελέεασιν.</foreign> Cosi danno la maggior parte dei
+codici, e tra questi il Veneto, La scelta della lezione <foreign xml:lang="grc">οΐς άγα-
+νοΐσι βέλεααιν</foreign> non mi pare abbia per sè molto vantaggio.</p>
+						<p>185. <foreign xml:lang="grc">τεμένεα νέμεται καί δαϊτας έίαας δαίννται.</foreign> Il <foreign xml:lang="grc">τέμενος</foreign> era
+un terreno costituente una specie di demanio regio: si chiama
+cosi anche il terreno che circonda il tempio, ed è sacro alla
+divinità. Il principe è invitato ai banchetti dagli <foreign xml:lang="grc">έταίροι,</foreign>
+(<foreign xml:lang="grc">A</foreign> 259).</p>
+						<p>218. <foreign xml:lang="grc">ore τις κε ΰάνηαιν.</foreign> Nei manoscritti prevale la lezione <foreign xml:lang="grc">ore
+κέν τε ΰάνωαιν</foreign>: ma è più conforme all’uso greco quella del
+nostro testo.</p>
+						<p>221. <foreign xml:lang="grc">δάμνατ’, έπεί κτλ.</foreign> È preferibile alla variante <foreign xml:lang="grc">δαμνμ.</foreign>
+Omero spesso dà la preferenza alle forme medie, come nei
+verbi <foreign xml:lang="grc">φημί, δράω, κτέ.</foreign> La lezione di Cratete <foreign xml:lang="grc">δαμνα ώς κτεί</foreign> è
+violenta ed inutile.</p>
+						<p>245. <foreign xml:lang="grc">λίσε δε παρ&amp;ενίην ζώνην, κατά δ’ νπνον έχευεν.</foreign> Verso
+giustamente condannato da Aristarco, perchè Tiro non era
+una vergine, bensì una donna maritata.</p>
+						<p>254-259. La leggenda di Tiro che partorisce Pelia e Neleo,
+è stata oggetto d’ una tragedia di Sofocle. Per ordine di Sal-
+moneo sarebbero stati esposti; ma vennero allattati da una
+vacca e da una capra. Pelia cresciuta avrebbe ucciso la ma-
+trigna Sidero (<foreign xml:lang="grc">Σιδηρώ</foreign>), che era stata causa delle persecuzioni
+contro la madre.</p>
+						<p>260. <foreign xml:lang="grc">Άντιόπην</foreign> Vi erano anche altre eroine omonime: tra cui
+Antiope figlia di Ares (H<hi rend="smallcap">YGIN</hi>. <hi rend="smallcap">FAB</hi>., 30, 241). Si tratta
+d’una differenziazione dello stesso personaggio.</p>
+						<p>271. <foreign xml:lang="grc">μητέρα δ</foreign> Preferisco questa lezione che troviamo nello
+scolio d’Euripide <hi rend="italic">Phoen</hi>. 12, 1456 alla Volgata <foreign xml:lang="grc">μητέρα τ’.</foreign></p>
+						<p>275. Sembra che Omero ignori l’accecamento di Edipo, che
+difficilmente può essere adombrato nell’ espressione generica
+<foreign xml:lang="grc">&amp;λγ»α πάαχων.</foreign></p>
+						<pb n="VII"/>
+						<p>278. <foreign xml:lang="grc">μελά&amp;ρον.</foreign> L’etimologia antica che riconnetteva la pa-
+rola con <foreign xml:lang="grc">μέλας&lt;/gr&gt;</foreign> (risultando la circostanza dell’annerimento per
+effetto del fumo) non gode ormai più credito; poiché l’ana-
+logia di <hi rend="italic">atrium</hi> latino non calza, essendo questa parola molto
+probabilmente di provenienza etrusca. (B<hi rend="smallcap">OISACQ</hi> o. c. p. 222)
+L’ <hi rend="italic">Etymologicum Magnum</hi> da <foreign xml:lang="grc">κμέλεδρον</foreign> nel senso di <hi rend="italic">pavi-
+mento, tetto, casa,</hi> con cui si riconnettono le altre parole
+<foreign xml:lang="grc">καμάρα, κάμινος</foreign> (B<hi rend="smallcap">OISACQ</hi> o. c. p, 401-2). Ideologicamente
+niente di più seducente che assegnare anche a <foreign xml:lang="grc">μέλαθρον</foreign> que-
+st’etimologia, ma non si spiega facilmente la caduta del <foreign xml:lang="grc">x.</foreign></p>
+						<p>282. <foreign xml:lang="grc">idra.</foreign> Preferisco la forma con la psilosi, la tendenza
+alla quale constatiamo anche per altre parole come <foreign xml:lang="grc">άμαξα.</foreign>
+Pel senso vedi v. 177.</p>
+						<p>300. <foreign xml:lang="grc">τούς.</foreign> Alcuni mscr. hanno <foreign xml:lang="grc">τούς δ’</foreign> lezione anch’ essa
+buona. In Omero si trova spesso l’articolo col valore di pro-
+nome relativo. Il Becker ha espunto tutto il verso, ma la ra-
+gione che gli può aver consigliata l’atetesi, consiste solo nella
+contraddizione con <foreign xml:lang="grc">Γ</foreign> 237.</p>
+						<p>309. <foreign xml:lang="grc">τους δη.</foreign> Restituisco il <foreign xml:lang="grc">τούς</foreign> contro <foreign xml:lang="grc">ονς</foreign> di alcuni mscr.
+sull’autorità dello scoliaste di Pindaro <hi rend="italic">Isthm</hi>. IV 83. D<hi rend="smallcap">IOD</hi>.
+S<hi rend="smallcap">ICUL</hi>. IV 85, M<hi rend="smallcap">ACROB</hi>. <hi rend="italic">Saturn</hi>. V 13, 18. Tra le due lezioni
+dò la preferenza alla forma non attica.</p>
+						<p>310. <foreign xml:lang="grc">άγακλυτόν.</foreign> Lezione più omerica di <foreign xml:lang="grc">γε κλυτόν</foreign> e data da al-
+cuni mscr. secondo il Clarke. La mancanza del <foreign xml:lang="grc">γε</foreign> avrebbe un
+riscontro nel V. 551 <foreign xml:lang="grc">μετ' άμύμονα Πηλείωνα.</foreign></p>
+						<ab>
+							<seg>343-344. <foreign xml:lang="grc"> δη Φαιήκων άνδρών προγενέστερος ήεν
+και μν&amp;ονς εκέκαστο παλαιά τε πολλά τ' είδώς</foreign>.</seg>
+						</ab>
+						<p>Il codice augustano soltanto dà anche il secondo verso.
+Ambedue si trovano a <foreign xml:lang="grc">η</foreign> 156-157 tali e quali. Non è tuttavia
+questa una ragione sufficiente per espungerli, poiché tutto
+il passo v. 333-384 è un’ <foreign xml:lang="grc">έμβόλιμον</foreign> non anteriore alla traspo-
+sizione meccanica dalla terza alla prima persona.</p>
+						<p>385. <foreign xml:lang="grc">αλλνδις άλλη.</foreign> Lezione di Aristarco, di gran lunga pre-
+feribile a quella di Aristofane di Bisanzio <foreign xml:lang="grc">αλλνδις άλλην.</foreign></p>
+						<p>388. <foreign xml:lang="grc">δσσοι.</foreign> I manoscritti hanno <foreign xml:lang="grc">δαααι.</foreign> Ma la forma maschile
+<pb n="VIII"/>
+è preferibile, benché non sia che una restituzione del Becker.</p>
+						<p>390. <foreign xml:lang="grc">ènei ΐδεν όφ&amp;αλμοϊσιν.</foreign> La lezione <foreign xml:lang="grc">ènei nitv αίμα κελαινόν</foreign>
+è una correzione aprioristica degli <foreign xml:lang="grc">δμαλίζοντες.</foreign> In uno scolio
+del codice arleiano troviamo fatta questa difficoltà. Come
+Agamennone poteva riconoscere Ulisse senza aver bevuto il
+sangue? Nemmeno Aiace (v. 543-4) ha bisogno di bere il
+sangue; e non è supponibile che si trovi quivi un’ellissi.</p>
+						<p>422. <foreign xml:lang="grc">Κλυταιμήοτρη.</foreign> Questa è la grafia che si trova nel codice
+laurenziano di Eschilo. In Properzio IV 18 (19) v. 19 leggiamo
+<hi rend="italic">Quidve Clytaemestrae</hi> etc. etc. Similmente a V 7, v. 57. Tro-
+viamo anche la forma Hypermestra. Che la vera grafìa debba
+essere <foreign xml:lang="grc">Κλνταιμήστρα,</foreign> l’ ha dimostrato Pappageorgios. Cfr. si-
+liadis lib. I-III ed. P. Gavazza p. IX. Inoltre presso Filodemo
+(edid. Sudhaus, Lipsiae MDCCCXLII) p. 217 1. 1-2 si legge
+proprio <foreign xml:lang="grc">Κλνταιμήστρα,</foreign> malamente corretto dall’ editore in
+<foreign xml:lang="grc">Κλυταιμνήστρα,</foreign> lezione a torto mantenuta anche dal Ber-
+nardakis nei <hi rend="italic">Moralia</hi> di Plutarco.</p>
+						<p>428. <foreign xml:lang="grc">ήτις δή τοιαντα μετά φρεσί έργα βάληται.</foreign> Verso arbitra-
+riamente espunto da filologi antichi e moderni. Il poeta non
+può aver l’ intenzione di fare una tirata contro le donne (fosse
+pure stato Euripide!), come si rileva dal verso 434 e 445.</p>
+						<p>474. <foreign xml:lang="grc">μήαεαι.</foreign> Vi è la variante <foreign xml:lang="grc">μήδεαι,</foreign> correzione forse di chi
+non bene comprese il senso del passo, Achille vuol dire: Vivo
+sei sceso all’inferno! Quale impresa più grande vorrai tu mac-
+chinare?</p>
+						<p>489. <foreign xml:lang="grc">εηάρονρος.</foreign> La correzione in <foreign xml:lang="grc">ηάρονρος</foreign> dello scolio arle-
+iano e dell’ <hi rend="italic">Etymologicum Magnum</hi> non è persuasiva.</p>
+						<p>525. <foreign xml:lang="grc">ήμεν άνακλΐναι πυκνόν λόχον ήδ' έηι&amp;εΐναι.</foreign> Anche questo
+verso e stato espunto. Cfr. il commentario. Sembra che Ari-
+starco non lo conoscesse.</p>
+						<p>547. <foreign xml:lang="grc">παϊδες δε Τρώων δίκασαν και Παλλας*Α&amp;ήνη.</foreign> Il verso
+fu condannato da Aristarco, come riferentesi a tradizioni po-
+steriori ad Omero (<foreign xml:lang="grc">α&amp;ετεΐ d’ Άρίσταρχος. ή Ιστορία εκ Κυκλικών</foreign>).
+Ma nell’Odissea troviamo tradizioni recentissime di fronte
+all’ Iliade e non è provato che tutti i poemi ciclici presup-
+<pb n="IX"/>
+ponessero l’ Iliade e l’Odissea nella forma in cui l’abbiamo.
+Il verso dunque non si deve espungere. (Cfr. W<hi rend="smallcap">ILAMOWITZ</hi>
+o. c. p. 153).</p>
+						<p>565. <foreign xml:lang="grc">όμως.</foreign> Oltreché l’avversativa <foreign xml:lang="grc">δμως</foreign> si trova solo in <hi rend="italic">M</hi> 393
+(e la lezione è incerta) il senso richiede la particella compara-
+tiva. La correzione del secondo <foreign xml:lang="grc">κεν</foreign> tradizionale in <foreign xml:lang="grc">καί</foreign> pro-
+posta dal Nauck, benché in forma dubitativa, mi sembra
+indispensabile. Il <foreign xml:lang="grc">κεν</foreign> non potrebbe spiegarsi che come un’at-
+trazione al <foreign xml:lang="grc">κεν</foreign> della proposizione antecedente.</p>
+						<p>568-635. È una lunghissima interpolazione del tempo di
+Pisistrato.</p>
+						<p>588. <foreign xml:lang="grc">κατά κρήΰεν.</foreign> Sia che si scriva unito, sia che si scriva
+separato, la lezione <foreign xml:lang="grc">κατ’ άκρή&amp;εν</foreign> la ritengo erronea. Infatti
+nel secondo elemento vi è la radice di <foreign xml:lang="grc">κάοηl κρατός</foreign> non del-
+l’aggettivo <foreign xml:lang="grc">άκρος.</foreign> Bene spiega lo scoliasta <foreign xml:lang="grc">κατά κεφαλής.</foreign></p>
+						<p>597. <foreign xml:lang="grc">Κραταιΐς.</foreign> Alcuni manoscritti hanno <foreign xml:lang="grc">κραταί' ΐς</foreign> e <foreign xml:lang="grc">κραταΓ’
+ίς.</foreign> Il riscontro di <foreign xml:lang="grc">μ</foreign> 124 milita in favore della lezione da noi
+seguita.</p>
+						<p>631. <foreign xml:lang="grc">Θηαέα Πειρίϋοόν τε κτi.</foreign> L’autenticità di questo verso
+è difesa da U<hi rend="smallcap">SENER</hi> <hi rend="italic">Rh. Mus</hi>. XXIII, N. F., p. 355 n. 12
+e da E. M<hi rend="smallcap">EYER</hi> <hi rend="italic">Hermes</hi> XXVII 376.</p>
+					</div>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

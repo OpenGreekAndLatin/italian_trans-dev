@@ -1,0 +1,3745 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title><hi rend="italic">L’EDIPO PRINCIPE</hi> TRAGEDIA DI SOFOCLE</title>
+				<editor>GIULIA RICCARDI.</editor>
+				<sponsor>University of Leipzig</sponsor>
+				<funder>European Social Fund Saxony</funder>
+				<principal>Gregory Crane</principal>
+				<meeting/>
+				<respStmt>
+					<persName xml:id="DDD">Digital Divide Data</persName>
+					<resp>Corrected and encoded the text</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Greta Franzini</persName>
+					<resp>Project Manager (University of Leipzig)</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Frederik Baumgardt</persName>
+					<resp>Technical Manager (University of Leipzig)</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Simona Stoyanova</persName>
+					<resp>Project Assistant (University of Leipzig)</resp>
+				</respStmt>
+				<respStmt>
+					<persName>Bruce Robertson</persName>
+					<resp>Technical Advisor</resp>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>University of Leipzig</authority>
+				<idno type="filename">TO BE ADDED BY LEIPZIG</idno>
+				<availability>
+					<p>Available under a Creative Commons Attribution-ShareAlike 4.0 International License</p>
+				</availability>
+				<date>2014</date>
+				<publisher>University of Leipzig</publisher>
+				<pubPlace>Germany</pubPlace>
+			</publicationStmt>
+			<sourceDesc>
+				<listBibl xml:lang="it">
+					<biblStruct>
+						<monogr>
+							<title><hi rend="italic">L’EDIPO PRINCIPE</hi> TRAGEDIA DI SOFOCLE</title>
+							<editor>
+								<persName>
+									<name xml:lang="it">GIULIA RICCARDI.</name>
+								</persName>
+							</editor>
+							<author ref="urn:tmp">GIULIA RICCARDI.</author>
+							<imprint>
+								<pubPlace>FIRENZE</pubPlace>
+								<publisher>APPRESSO NICCOLÒ CARLI</publisher>
+								<date>Μ. DCCC, XI.</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+				</listBibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<p>Text encoded in accordance with the latest EpiDoc standards (January 2014)</p>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="it">Italian</language>
+				<language ident="grc">Greek</language>
+			</langUsage>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2014-12-12" who="dwp"/>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="bibliography">
+				<listBibl>
+					<bibl/>
+				</listBibl>
+			</div>
+			<div type="commentary" subtype="other">
+				<pb n="III"/>
+				<head>
+					<title><hi rend="italic">O<hi rend="smallcap">rnatissimo</hi> S<hi rend="smallcap">ig</hi>. G<hi rend="smallcap">ino</hi></hi></title>
+				</head>
+				<p>Mentre Firenze tutta di un vero e
+cordial giubbilo esulta per le vostre
+ben avventurose nozze, sì in riguardo
+alle virtù di Voi, come a quelle dell’e-
+gregia Donzella, che con augurio di pe-
+renne scambievole felicità vi si unisce
+<pb n="IV"/>
+ora in consorte, incontrerei certo l’al-
+trui riprensione, se io, cui Voirisguar-
+dar piace da non poco tempo con par-
+ticolare affetto, non vi manifestassi
+in questa faustissima occasione la mia
+riconoscenza con farvene pubblicamen-
+te gli applausi. E come il moderno lau-
+devolissimo costume ha bandite le in-
+sipide raccolte per farne occupar più
+degnamente il luogo ad opere inedite
+di uomini per merito distintissimi; av-
+visato mi sono di far cosa a Voi grade-
+vole pubblicando il volgarizzamento di
+questa antica tragedia. Essa è parto
+del primo fra’tragici della Grecia; ed
+è anche per generale consentimento
+dei dotti la prima fra le produzioni di
+quel grandissimo ingegno. Ben io ram-
+<pb n="V"/>
+mento, che allorquando, prescelto dai
+Vostri ottimi genitori ad esservi guida
+nello studio comparativo degli scrittori
+greci e latini (esercizio, in cui per
+l’acutezza di vostra mente e per la sal-
+dezza di vostra memoria vi ho riputa-
+to sempre, Voi testimone, compagno
+più che discepolo) ve ne feci intra-
+prendere la lettura. Voi con savissime
+riflessioni ne ammiraste le bellezze
+tutte, e per Voi stesso perspicacemente
+vedeste con quanto grande intervallo
+Seneca nell’ Edipo suo, che non è cer-
+tamente di meriti sfornito, gli vada
+secondo. Ma quel, che dee rendervi
+anche accetta la lettura del libretto
+ch’io vi presento, è l’eleganza e la pu-
+rezza di stile, in che fu da Bernardo Se-
+<pb n="VI"/>
+gni disteso : pregi, per cui delle opere di
+questo dottissimo uomo si allegaro-
+no gli esempj nel vocabolario della Cru-
+sca : e pregi, che Voi tanto reputate da
+aver dato luogo nella vostra sceltissi-
+ma biblioteca, da Voi formata, ad una
+collezione, ch’ è omai quasi presso al
+suo termine, dei purgatissimi scritto-
+ri, di cui si fe tesoro in quella grand’ ope-
+ra. Si arroge a tutto questo, che in
+dedicandovi un lavoro del Segni ho
+creduto far cosa, ch’ egli stesso vorreb-
+be fosse fatta, se ora vivesse. Egli nato
+da Ginevera Capponi tale affetto con-
+cepì per quel Niccolò Capponi suo zio
+materno, e glorioso antenato vostro, che
+per renderne conte le geste, e per
+purgarlo dalle calunniose imputazioni
+<pb n="VII"/>
+dei malevoli ne tessè la vita; e per dar
+maggior estensione alla sua difesa prese
+a scriver la Storia : quell’ opera ch’ è
+tenuta a ragione in tanto pregio dai
+dotti. Se egli pertanto Voi vedesse in
+così verdi anni mostrarvi per maturità
+d’ intelletto e dovizia di dottrina degno
+dei grandi avi di vostra nobilissima
+famiglia, tutto a Voi certamente dedi-
+car si vorrebbe;e a lui, che tanto versato
+fu negli scritti degli antichi maestri
+di ogni sapere, piacerebbe che le dotte
+sue fatiche su di essi fossero a Voi pre-
+sentate, che siete da somigliante lode-
+vol passione dominato.</p>
+				<p>L’Onnipotente dator dei beni sia a
+Voi prodigo d’ anni ad esempj chiaris-
+simi di virtù, e a decoro e presidio delle
+<pb n="VIII"/>
+buone lettere; benedica ora l’ union
+vostra, e vi renda altrui invidiabile nei
+figli, come in Voi tali ha resi gl’ incom-
+parabili genitori vostri.</p>
+				<p>Gradite questi miei sentimenti det-
+tati da animo sincero, mentre con
+ogni divozione mi protesto</p>
+				<p>Dall’ Imperial Galleria di Firenze li l4. Settembre 1811.</p>
+				<p><hi rend="italic">Vostro Umiliss. ed Obbligatisi Servitore</hi></p>
+				<p>G<hi rend="smallcap">io</hi>. B<hi rend="smallcap">atista</hi> Z<hi rend="smallcap">annoni</hi>.</p>
+			</div>
+			<div type="commentary" subtype="other">
+				<pb n="IX"/>
+				<head>
+					<title>PREFAZIONE</title>
+				</head>
+				<p>È uso degli antichi chiamare inventori di alcuna
+cosa coloro, che osi esercitarono in essa con mag-
+gior lode dei contemporanei, od avendola ricevuta
+informe seppero col proprio ingegno migliorarla e
+darle aspetto nuovo, quasi un’altra apparisse allo
+sguardo altrui. Accadde pur talora, a mio crede-
+re, che essendosi le cose stesse ritrovate, od aven-
+do anche avuto certo incremento, in varj paesi,
+senza vicendevole comunicazione, i varj scopritori
+o perfezionatori in essi fioriti passassero ai posteri
+come i generali autori del discoprimento· Egli è per
+tutto ciò, che non troviam d’accordo gli antichi
+sul ritrovatore della tragedia, e che Orazio, quan-
+tunque sia ornai certo che l’origin di lei ripeter si deb-
+<pb n="X"/>
+ba dagl’inni usati cantarsi nel tempo di vendemmia
+ad onore di Bacco (1), pronunziò :</p>
+				<ab>
+					<seg><hi rend="italic">Ignotum tragicae genus invenisse Camoenae
+Dicitur, et plaustris vexisse poemata Thespis (2).</hi></seg>
+				</ab>
+				<p>A Tespi fu certamente avverso l’epigrammista
+Dioscoride (3) allorchè scrisse, che Sofocle trasse la
+tragedia dalla rozzezza in cui era in Fliunte; e più che
+a Tespi fece onta ad Eschilo, che pure a sentimento
+del criticissimo Quintiliano (4) <hi rend="italic">rudem ac impolitam
+tragoediani aliquantuluniillustravit</hi>. Si rimproveri pu-
+re ad esso la turgidezza e la trascuranza dell’ unità di
+luogo e di tempo, degli episodj e della catastrofe;
+ma non potrà giammai negarsi, ch’ei diè cert’ordi-
+ne alla tragedia, e che il dialogo di lui sorprende
+per la-forza, l’ardire, e l’ ingegnosa composizione
+delle parole.</p>
+				<p>A Sofocle fu dato toccare tant’ alto segno, a
+quanto non giunse mai alcun antico, non è arrivato
+alcun moderno, nè è da confidare, che alcuno per-
+venir possa nel futuro volger dei secoli, finche sia
+in onore la scena.</p>
+				<p>Egli poi parve superar se stesso nell’ Edipo
+principe; e sebbene non pochi moderni, usi con le
+<note type="footnote">(1) V. Buleng. de Theatro lib. I. c. 2. et cl. Ilgenium in
+opuscolo, cui titulus : <hi rend="italic">Chorus Graecorum tragicus qualis fue-
+rit et qnare usus eius hodie revocari nequeat</hi>. Lipsiae 1788.</note>
+<note type="footnote">(2) Ar. P. v. 275.</note>
+<note type="footnote">(3) Anthol. Brunck. t. I. P. 501. V. ibid. doctiss, Iacobs.</note>
+<note type="footnote">(4) I. O. lib. 10. c. I. ap. Buleng. l. c.</note>
+<pb n="XI"/>
+losche pupille ad abbagliare nella gran luce, di che
+sfolgoreggian gli antichi, si siano dati vanto di sco-
+prirvi gli errori i più grossolani, egli non pertanto
+ha sol quell’uno, che vi vide il sagacissimo Aristo-
+tile, cui parve inverisimile, che dopo tant’anni di
+matrimonio con GioCasta, e di regno in Tebe igno-
+rasse Edipo le circostanze tutte della morte di
+Laio (1). Ma, ben riflette il P. Brumoy (2), que-
+sto errore è degno di scusa, poichè è la sorgente
+del maraviglioso della tragedia, derivando tutto da
+questa felice ignoranza d’Edipo, il quale cercando
+ciò che non sa, più trova di quello ohe egli avreb-
+be voluto sapere. Così se a taluno paresse errare
+Omero (3) mentre presenta Ettore, che nel punto in
+cui sono validamente i Troiani incalzati dai Greci,
+rianimati quelli a combattere, torna a suggerimento
+d’Eleno in Troia ad intimar preghiere agli Dei, ufi-
+zio, cui pare bastar potesse un araldo, od altro men
+prode di lui, gli dorrà che resti priva del suo mag-
+gior duce l’ armata quando più ne abbisogna; ma
+<note type="footnote">(1) V. Fabr. Biblioth. gr. v. 2. p. 198. seqq. ed. cl. Harlesii.
+Ivi si fa menzione di quelli che accusarono o difesero questa
+tragedia. V. anche il dotto P. Brurtioy <hi rend="italic">Theatre des Grecs</hi> t. 3.
+p. 231. seg. ed. di Parigi 1786. Si scagliò pur contro l’ Edipo un
+anonimo editore della veneta ristampa del volgarizzamento
+di essa tragedia fatto da Orsato Giustiniani; ma fu però ben
+confutato dal dotto Sig. Ciampi professor pubblico di lingua
+greca nell’ Imp. Accademia di Pisa nel bel libro : <hi rend="italic">Rifles-
+sioni sulla necessità di studiare li antichi scrittori</hi>, p, 81. segg.</note>
+<note type="footnote">(2) L. c.</note>
+<note type="footnote">(3) Iliad. lib. 6. Il ch. Heyne però ha purgato con plau-
+sibili ragioni il greco poeta da questo errore.</note>
+<pb n="XII"/>
+quando udrà Andromaca, che per discorlo dal ritor-
+nare alla pugna si sforza di destargli in cuore il ti-
+mor d’Achille col novero degl’ infiniti mali da esso
+alci cagionati; quando ascolterà protestar Ettore,
+che principalmente vuol combattere per non fare
+incorrer lei nel servaggio dei Greci; quando mirerà
+Astianatte impaurito dall’elmo del padre, che stende
+amoroso le mani verso di esso, ascondersi nel seno
+della nutrice; quando vedrà Ettore supplicar Giove
+che più di lui renda valoroso il figlio; dovrà sen-
+tirsi suscitare internamente tal tumulto di affetti,
+che dirà avere in buon punto sbagliato quel gran
+poeta, egli si ecciterà vivo il desiderio di incontrar-
+si sempre in simili errori, che diano mossa a simili
+slanci di divinissimo ingegno.</p>
+				<p>Come su questa tragedia di Sofocle più che so-
+pra ogni altra si scrisse, così fu anche più che le al-
+tre di lui tradotta (1). Fra quelle versioni pertanto
+che inedite giacciono nelle librerie, bene, a mio cre-
+<note type="footnote">(1) Fabr. biblioth. gr. t. 2. pag. 226. ed. Harl. Si conservano
+pure inedite nelle librerie altre traduzioni di essa tragedia.
+La Magliabechiana (Pal. 4. c. 8. della nuova recensione) pos-
+siede un bellissimo codice in carta pecora contenente la me-
+trica versione latina dell’ Elettra, e dell’ Edipo principe d’ Ales-
+sandro Pazzi. Sono ambedue nominate nelle lettere del Bembo
+(Op. t. 3. p. 232.) alla cui censura furon sottoposte dal Pazzi.
+Il Bembo mentre lodò molto alcuni tratti della traduzione
+dell’ Elettra trovò in essa assai cose da riprendere. Il Sig. Cav. Ia-
+copo Morelli, tanto dotto quanto cortese, mi da notizia con sua
+lettera di possedere l’ <hi rend="italic">Antigone e i due Edipi tradotti da Gui-
+do Guidi medico, di scrittura originale di Carlo.di Tommaso
+Strozzi.</hi></note>
+<pb n="XIII"/>
+dere, meritava di uscire in luce questa eseguita da
+Segni; ed io credo aver prestato buon ufficio ai dottl
+pubblicandola in sì lieta occasione. Non si aspetti
+però il mio lettore, ch’ io far voglia l’ apologia dei
+metodo tenuto dal Segni in questo volgarizzamento l
+perocchè troppo alieno son io dall’ adoperare dei-
+più, che scrivendo sopra chiarissimi uomini, tutto
+esaltano, valendosi pel loro assunto di ragioni ugual-
+mente che di sottigliezze, nè mai si piegano a voler
+pur confessare quei difettuzzi, di cui per la fralez-
+za della umana natura neppure i sovrani ingegni van
+privi. <hi rend="italic">Il modo tenuto in questa traduzione</hi>, dice il
+Segni, nella dedica di essa a Cosimo primo, <hi rend="italic">non è
+stato col render parola per parola, ma il senso ed il
+concetto; allargandomi, o ristringendomi dove mi è
+parato bisogno : avendo massimamente osservato que-
+sto ne’ cori.</hi> Se con questo metodo a luogo a luogo
+ha fatti dei bei versi, più spesso però è duretto, talor
+cascante e basso nei modi del dire. Onde render
+non potrebbe accetta alcuna scusa per non essersi
+attenuto a quella via che unicamente dee battere il
+traduttóre; e questa è l’ aderenza come ai se ntimenti
+dell’ originale, così alle parole di esso, in quanto
+però il permette la lingua in cui si volta (1) : le
+<note type="footnote">(1) V. Huet. de interpret. p. 15. seqq. <hi rend="italic">Ella dirà</hi>, scrive
+al Sig. Conte Bernardino Pasole il dotto Ab. Lastesio (let. p. 128.)
+nec verbum verbo curabis reddere fidus interpres. <hi rend="italic">Sì quando
+le parole non donano certo ammanieramento; o quando le ma-
+niere d’ una lingua non si confanno all’ indole d’ un’ altra.</hi>
+Le interessanti lettere di questo valente letterato furono pub-
+blicate nel 1805. dall’eruditissimo Sig. Cav. Iacopo Morelli che vi premise una sugosa e dotta narrazione intorno all’ au-
+tore di esse. Sono debitore del diletto provato in scorrer que-
+sto libro alla cortesia di esso Sig. Morelli, che me ne ha fatto
+dono insieme coll’ opuscoletto dell’ Ilgenio da me sopra citato.</note>
+<pb n="XIV"/>
+quali cose sono di piu difficile esecuzione a chi
+traduce in versi, di cui più che d’altri è perpetuo
+debito essere armonioso.</p>
+				<p>Di ciò non fu troppo sollecito in vero il no-
+stro celebre Ab. Antommaria Salvini; ma non me-
+ritava per questo i piccanti sarcasmi di alcuni mo-
+derni scrittori. Sapea ben egli quali eran le parti
+di buon traduttore; ne ha fatta solenne protesta
+nella prefazione al volgarizzamento d’Omero (1),
+e lo ha mostrato nella leggiadrissima traduzione
+degli amori d’Abrocome ed Anzia. Negli altri in-
+finiti autori che tradusse volle esser fedelissimo in-
+terprete conservando perpetua e perfetta ineren-
+za ai testi. Non ignorava, che tal partito l’ avria
+condotto ad esser talvolta duro e tal altra scu-
+retto (2). Non credè però dover per tal motivo
+abbandonare il suo sistema, perchè con esso fu d’av-
+viso di ravvicinar più la copia all’originale in van-
+taggio di chi ignorasse la lingua di questo, e di
+chi foss’anche di essa studioso (3) : i quali due fini
+ha egli maravigliosamente conseguiti. Che se ac-
+<note type="footnote">(1) <hi rend="italic">Bella, anzi necessaria cosa è, e principalissima, e per
+cosi dire, unica nel tradurre, l’ esprimere il sentimento; non
+guardando in certo modo alle parole.</hi> Pag. II.</note>
+<note type="footnote">(2) Leggasi la prefazione al volgarizzamento d’ Omero, e
+l’altra a quel d’ Oppiano.</note>
+<note type="footnote">(3) V. Pref. ad Omero.</note>
+<pb n="XV"/>
+cade talora, che coloro, i quali non intendendo il
+bel linguaggio della Grecia si dan per solo diletto
+alla lettura dei poemi d’Omero, sbadiglino sul vol-
+garizzamento del Salvini, e restino poi incantati -dalle
+bellezze di altri, che sono infinitamente più poe-
+tici; avvien anche però ben sovente che vi rico.-
+rano quelli (e sono più frequentemente gli artisti)
+che veder vogliono quel poeta divino fedelmente
+ritrattato in italiano, e quelli che il possono raf-
+frontar col greco, perchè serva loro di guida. Ed
+in vero quest’ ultimi più d’ ogn’ altro ammirano
+quel grand’uomo, che tanto conobbe la forza del-
+le due lingue, da trovar sempre, qualunque volta
+vi sia, nell’italiano il vocabolo al greco corrispon-
+dente. Mi condonerà questa breve digressione chi-
+unque non si accordi con un moderno, d’altronde
+scrittor dottissimo e celebrato poeta, che chiamò il
+Salvini l’ <hi rend="italic">Archimandrita dei pedanti</hi>; ma anzi reputi
+somma gloria di Firenze in aver dati i natali a
+cotant’uomo, da aggiugnersi per terzo in fatto
+di lingua greca al Poliziano, e a Pier Vettori : tri-
+umvirato, cui non so se somigliante oppor possa
+alla Toscana qualunque altra nazione.</p>
+				<p>Dico ritornando al Segni che io con questo
+volgarizzamento libero sì, ma che fa nondimeno
+comprendere ch’egli era assai nella greca lingua
+versato, non intendo darlo in esso per modello di
+traduzione, ma per esemplare nella nostra lingua,
+com’ è in tutte le opere sue già edite e citate
+nel gran vocabolario della Crusca. Il codice, da
+cui l’ ho tratto, si conserva nella Magliabechia-
+<pb n="XVI"/>
+na (1), ove pure altro ne esiste (2) che ha mol-
+tissimè correzioni di mano del Segni; le quali però
+sono tutte riportate nella copia che ho io seguitata,
+e in cui alcune altre se ne osservano qua e là
+sparse pur di carattere del Segni, che ne ha an-
+che di proprio pugno sottoscritta la dedica. Lo cre-
+do il codice stesso ch’ ei da Volterra trasmise al
+Duca Cosimo, cui il volgarizzamento è consacrato.</p>
+				<p>Non mi saria mestieri proceder più oltre se
+corregger qui non dovessi uno sbaglio introdotto
+nella storia letteraria per una svista del dotto
+scrittore Salvino Salvini. Parlando egli di Ber-
+nardo Segni nei suoi Fasti dell’ Accademia fio-
+rentina (3), ne chiude l’articolo con due sonetti
+del Varchi, l’un de’ quali è in lode, l’altro in
+morte di Bardo Segni. Ei crede pertanto che Bar-
+do Segni lo stesso sia che il nostro Bernardo; e
+lo han seguito il Crescimbeni (4), il Quadrio (5)
+ed altri : nè loro do carico di questo errore, che cer-
+to è lievissimo per chi sia com’essi occupato in tan-
+to numero di scrittori. Il solo Negri (6) gli ha di-
+stinti. Ma come egli pare aver sortito un fato che
+imperiosamente lo necessiti a sbagliare, ha fatto
+autore di tal distinzione il Crescimbeni, che gli
+<note type="footnote">(1) Cl. VII. pal. 8. n. 317.</note>
+<note type="footnote">(2) Pal. I.n. 98. della nuova recensione. Manca però della
+lettera dedicatoria.</note>
+<note type="footnote">(3) Pag. 15.</note>
+<note type="footnote">(4) Stor. della volg. poes. V. 4. P. 139.</note>
+<note type="footnote">(5) Stor. e rag. d’ ogni poesia V. 3. P. 103.</note>
+<note type="footnote">(6) Scritt. fior. P. 77. e 106.</note>
+<pb n="XVII"/>
+ha pur, come è detto, considerati per un solo.
+Ma sono due veramente. Può desumersene la prima
+prova dalle due tavole, posca l’ una in principio,
+l’ altra in fine della prima parte dei sonetti del
+Varchi stampati dal Torrentino, nelle quali oltre
+all’ indicarsi i due sonetti riportati dal Salvini e ri-
+guardanti Bardo Segni, n’ è accennato pur uno di-
+retto a Bernardo Segni; ed è quel della pag. 11. che
+incominciai <hi rend="italic">Quella casta onorata e sacra pianta</hi> (1) :
+indizio evidente che pel Varchi altri fu Bardo, al-
+tri Bernardo.</p>
+				<p>La seconda, ed anche più decisiva prova si ha
+dall’ epoca della morte di Bernardo Segni paragona-
+ta con quella della scampa di essi sonetti del Var-
+chi. Questi han la data del 1555. anno in cui cer-
+tamente vivea Bernardo. La morte di lui è fissata
+dall’ editore della storia il 13. Aprile del 1558. Ma
+varia un ricordo di Girolamo da Sommaia esisten-
+te tra’ mss. della Magliabechiana (2), ch’ è del se-
+guente tenore : <hi rend="italic">Memoria come Bernardo di Lorenzo
+Segni autore della presente istoria morì a’</hi> 3. <hi rend="italic">Apri-
+	le</hi>1557. <hi rend="italic">sepolto in S. Spirito.</hi> Nè questa discrepanza
+d’epoche autorizza a supporre avvenuta anticipata-
+mente ad esse la morte del Segni. Oltre che infatti
+le sue scorie finiscono coi preparativi del Duca Co-
+simo per l’assalto di Portercole, cioè nel Maggio
+<note type="footnote">(1) Si avverta, che nella enunziata tavola posta in fine,
+ove si notano i primi versi di ciascun sonetto, questo è stato
+posto per isbaglio alla lettera P.</note>
+<note type="footnote">(2) E’ inserito nel t. 14· P· 105. delle giunte del Biscioni
+alla Toscana letter. del Cinelli.</note>
+<pb n="XVIII"/>
+del 1555. (1) nè è perciò credibile ch’ ei descrivesse le
+cose dei giorno, come i diaristi; ci pone fuor d’ ogni
+pericolo d’ errare Giambatista Segni figlio di esso
+Bernardo, che dando a luce <hi rend="italic">il trattato sopra i li-
+bri dell’ anima d’ Aristotile</hi> composto dal di lui pa-
+dre, dice nella dedica al Cardinal Ferdinando, che
+si è risoluto di pubblicarlo <hi rend="italic">per non lo tenere più lun-
+gamente sepolto, coni è stato già ventiquattr’ anni
+dopo la morte sua</hi>. Essa dedica è dei 24. Gennaio 1582.
+stil fiorentino : dal qual punto tornando indietro
+24. anni si perviene all’ Aprile del 1558. non compu-
+tato, come si suole nell’ enumerazione degli anni,
+il rotto dei mesi : lo che fa conoscere con evidenza
+che l’ epoca della morte del Segni fissata dall’ edi-
+tore delle storie è l’unica vera; e falsa quella che ne
+assegna il Da Sommala nella sua memoria. Se adun-
+que nel 1555. era ancora in vita Bernardo Segni,
+e i sonetti del Varchi editi in quell’anno, che al-
+ludono a Bardo Segni, uno indicar debbono di quel-
+la stessa famiglia che sia ben da quello diverso. Di
+Bardo si conservano nella Magliabechiana (2) una
+canzone in morte di Federigo da Bozzolo, e due
+egloghe, intitolata l’ una il Pardo, e l’altra Uranio;
+esi trovano pure in morte di lui due sonetti ano-
+nimi in un codice della sceltissima libreria dell’egre-
+gio Sig. Giuseppe Pucci. Nell’albero della famiglia
+Segni, che manoscritto si serba nella Magliabechia-
+na (3), niun Bardo apparisce fra’ contemporanei di
+<note type="footnote">(1) V. Pecei storia di Siena t. 4. p. 246.</note>
+<note type="footnote">(2) Cl. VII. Varior. cod. 1184. pal. 6.</note>
+<note type="footnote">(3) V. Rena Zodiaco let. S.</note>
+<pb n="XIX"/>
+Bernardo. V’ha però un Bernardo di Mariotto di
+Piero, che fa dei Signori nei mesi di Gennaio e
+Febbraio del 1529. stil fiorentino (1). Forse questi fu
+chiamato Bardo a distinzione dell’ altro. Nulla a ciò
+creder repugna. Sebbene Bardo sia di per sè nome
+proprio ricorrendo nella nobil famiglia Mancini (2);
+pure non ostante d’ esser non cessa accorciatura di
+Bernardo (3), onde potè e potrà sempre invece di
+questo usurparsi. Ma sia pur ciò congettura. Non è
+congettura però, ma evidenza che altri si fu Bardo,
+altri Bernardo Segni, come sembrami di aver fatto
+bastantemente manifesto.</p>
+				<note type="footnote">(1) V. Priorista a tratte.</note>
+				<note type="footnote">(2) Deggio questa notizia al Sig, Vincenzio Pollini dottis-
+simo bibliotecario della Magliabechiana, che nella cognizio-
+ne delia bibliografia, storia letteraria, e patria ha pochissimi
+che gli sian pari.</note>
+				<note type="footnote">(3) Così Pino fu nome proprio; ed è celebre, oltre altri
+quel messer Pino de’ Rossi; cui scrisse la nota lettera conso-
+latoria il Boccaccio. Non ostante però, com’ è voce accorciata
+dal diminutivo di Iacopo; così chi ha questo nome si ode ta-
+lora appellare con tale accorciamento da chi abbia con esso
+familiarità.</note>
+			</div>
+			<div type="edition" subtype="volume" n="XX" xml:space="preserve">
+				<div type="textpart" subtype="book" n="1">
+					<div type="textpart" subtype="chapter" n="1">
+						<pb n="1"/>
+						<head>
+							<title>SPIEGAZIONE DELL’URNA ETRUSCA
+RAPPRESENTANTE
+EDIPO E LA SFINGE
+POSTA IN PRONTE ALLA PREFAZIONE.</title>
+						</head>
+						<p>La rappresentanza di quest’ urna (1) è di per se
+tanto manifesta, che ci dispenserebbe da ogni illu-
+strazione, se non credessimo necessario schiarirne i
+particolari col correggere in ispecie errori di cele-
+bri antiquarj, o col supplire a quel che essi non
+hanno avvertito. Incomincio dalla Sfinge. Non
+ostante che molti dotti, fra’ quali il grande Spanhe-
+mio (2), abbiano creduto dietro l’autorità di antichi,
+massime di Filostorgio (3), che le Sfingi non altro
+fossero che un genere di scimmie, solite traspor-
+tarsi dall’Etiopia nell’ Egitto; pure il dottissimo Zoe-
+ga (4) gli ha convinti d’errore, ed ha ottimamente
+stabilito, che un tal mostro prodotto fu dalla mi-
+<note type="footnote">(1) Appartiene al Museo di Volterra.</note>
+<note type="footnote">(2) De praest. et usu numism. p. 240.</note>
+<note type="footnote">(3) Hist. Eccl. III. 11</note>
+<note type="footnote">(4) Num. Aegypt. p. 140. scq. in notz.</note>
+<pb n="2"/>
+steriosa Superstizione dell’Egitto, e che di là passò
+nella greca micologia. La Sfinge egizia è un leone
+colcato con faccia or di donna, or d’uomo. Non
+ignoro che questa asserzione è contraria al detto
+fin qui da dotti antiquari; ma gli egizj monumenti
+in cui così si vede effigiata, e gli antichi scrittori,
+che di essa parlano, sono sicura guida per ismentir-
+gli. Alcuni sempre la crederono leone colla faccia
+di femmina, e ne arguirono significar essa l’inon-
+dazione del Nilo; nel che sono stati confutati vit-
+toriosamente dal lodato Zoega (1). Egli però ha er-
+rato stimando esser sempre la Sfinge leone con fac-
+cia d’uomo; e lo ingannarono specialmente due au-
+torità di Clemente alessandrino, che or ora ripor-
+teremo, e che egli, sebben d’altronde dottissimo
+nella greca lingua, non intese. Ha pure errato il
+Sig. Ab. Fea, allorchè nelle note alla Scoria di Win-
+ckelmann (2) ha asserito, che <hi rend="italic">gli artisti, forse dei
+tempi poster ioti, si presero la libertà di formare le
+Sfingi maschie colla barba;</hi> aggiugnendo di non
+aver <hi rend="italic">potuto trovare, che ad esse i poeti o altri au-
+tori greci alludano mai.</hi> Se vi alludano il vedremo
+fra poco. Frattanto osservo, che nell’ obelisco fla-
+<note type="footnote">(1) Loc. cit.</note>
+<note type="footnote">(2) Tom. I. pag. 94</note>
+<pb n="3"/>
+minio eretto da Ramesse successor di Sesostri (1),
+comparisce una Sfinge con barba (2). Vero è però
+che più frequenti sono le Sfingi con volto di don-
+na; edi queste dee incendersi Ebano, allorchè con-
+sidera come una cosa stessa la Sfinge egiziana con
+quella di Tebe (3). Clemente alessandrino, peritissi-
+mo delle antichità degli Egizj, definì in ben due luo-
+ghi de’ suoi Stremi la loro Sfinge. Nel primo (4) dice,
+che <foreign xml:lang="grc">θαρΙον όμον καί άνθρωπον ti &lt;r&lt;p/y% ctlvlάτετΛΐ ττίν
+eiìcóvct,</foreign> e nel secondo (5) la chiama <foreign xml:lang="grc">το μεν &lt;rà.uot πάν
+λεοντο; το προ’ιτωπον θε άνθρωπον </foreign>. Ecco i passi, che
+fecer gabbo al dottissimo Zoega, come già avver-
+tii, e lo determinarono contro la fede di quei mo-
+numenti, ch’egli come conoscitor di essi il più
+grande di ogni altro del suo tempo avea più volte
+esaminati, a prender per maschie tutte le Sfingi,
+che in essi si osservano. Ma in verità Clemente a-
+lessandrino non ebbe riguardo al sesso, e per que-
+<note type="footnote">(1) Zoega <hi rend="italic">de origine et usti obeliscorum.</hi> p. 603.</note>
+<note type="footnote">(2) Id. op. cit. p. 590.</note>
+<note type="footnote">(3) <foreign xml:lang="grc">Kai rtjv ο-φίγγα uiv rei rtlv J/tpuH ’A/jutr»/ ti y\ù-
+φ»ψτΐζ t K) Qn/Sa/et μυsοι κομητάζοντις, άίμοξφον τίμΐν τί/ρώντα/ όα·
+χννναι σsμνον&gt;'Πς Τ» τt roj iretf.S’ii'iu'tt'ot/', jc, r« rej Xeoi'TSf/JWj 
+*θς Kfttail ccVTitv</foreign>, Hist. An. lib. XII. C. Z·</note>
+<note type="footnote">(4) Pag· 240·</note>
+<note type="footnote">(5) Pag. 242.</note>
+<pb n="4"/>
+sto uso la parola <foreign xml:lang="grc">άνθρωπος</foreign>, che denota propriamen-
+te l’uman genere, e si estende perciò al maschio,
+e alla femmina. Erodoto che volle dichiarare il sesso
+delle grandi Sfingi maschie erette da Amasi nel Sai,
+le disse <foreign xml:lang="grc">ùvspότφιγγΛ;</foreign> (1). Nè mi muove l’autorità
+di Winckelmann (2), il qual credette, che Erodoto
+con tal parola indicar volesse le parti sessuali ma-
+schili, ch’egli avea in alcune Sfingi egiziane osser-
+vate, e che si veggono pure nella nostra. Ma que-
+ste parti appartengono alla Sfinge, non in quanto
+ella è composta di faccia umana, ma sibbene in
+quanto ella consta del corpo di leone; ed in ciò è
+somigliante alla chimera, il cui corpo è pur di
+leone maschio. Per lo che, quando avesse a ciò
+voluto fare allusione Erodoto non avrebbe mai ado-
+prata la voce <foreign xml:lang="grc">ti mip</foreign>, che sol distingue il maschio
+della specie umana, ma la parola <foreign xml:lang="grc">appw</foreign>, così gene-
+rica da denotare il maschio d’ogni specie d’essere
+animato, e fin quello delle piante. Nelle antiche
+Sfingi egiziane, perchè sono giacenti non può ve-
+dersi il sessó, e nelle egiziane, e greche anche di
+quei tempi, in cui la mitologia degli Egizi si era
+colla greca confusa, che o stanno su quattro piedi,
+<note type="footnote">(1) Lib. II. §. 175.</note>
+<note type="footnote">(2) Stor. Tom. I. pag. 93.</note>
+<pb n="5"/>
+o si riposano su quei di dietro, si sono ora espresse
+le parti maschili, ed ora no: e questo credo talvol-
+ta per cert’uso degli antichi di trascurare i partico-
+lari, e tal altra per una tradizione, che vuol fem-
+mina il leone fidente parte della Sfinge. Ciò av-
+verto il primo da un’autorità di Mesommede nell’e-
+nimma o indovinello sulla Sfinge (1), ov’essa è detta
+<foreign xml:lang="grc">βsΐμουσ&amp; λέαινα</foreign> : ed ecco perchè il leone della gre-
+ca Sfinge è spesso nel petto e nel corpo sparso di
+mammelle.</p>
+						<p>Vuol qui farsi menzione d’una rara Sfinge inta-
+gliata in Scarabeo trovato in Bari, e posseduto
+già dal Sig. Tommaso Puccini (2) Direttore di
+questa Imperiale Galleria di Firenze, di cui ancor
+si piange dai dotti e dagli amici la perdita. Es-
+sa è composta d’ un’ intera figura virile, che alla
+barba, alla calvizie e al naso simo ben si ravvisa per
+un vecchio Satiro, o Sileno, che dir si voglia; le
+<note type="footnote">(1) Anthol, BruncK t. 2. p. 293</note>
+<note type="footnote">(2) Quest’uomo distinto in lettere e in cuore, per ultimo
+contrassegno dell’ amicizia che da gran tempo avea meco stret-
+ta, mi fece legato di questo Scarabeo, di cui riporto la stampa
+nel fine della prefazione, e di una antica testa incognita di
+buono stile incisa in corniola com’ esso Scarabeo. Furono da
+me amendue queste pietre appese malaguratamente alla cate-
+na dell’ orivolo, da cui mi furono strappate da mano rapace
+in una folla di popolo.</note>
+<pb n="6"/>
+spalle sorto alate, nel resto è leone. Un capro
+ch’ella ha preso per le corna, invano tenta di fug-
+girle dalle mani. Chi senza far uso della critica
+osservasse questo Scarabeo il crederebbe in gran par-
+te derivato dagli Androsfingi rammentati da Erodo-
+to; ma non trovandosi mai nei molti egiziani mo-
+numenti di diverse età sino a noi giunti alcuna
+Sfinge che sla tutta figura umana nella parte ante-
+riore, ma solo col volto di maschio o di femmina,
+o al più colle mani umane in vece delle zampe da-
+vanti di leone, e ciò in quelle che in atto sono di
+far presenti; dobbiam credere che’ il passo di Ero-
+doto indichi quelle Sfingi che han solo volto di ma-
+schio; e che la Sfinge dello Scarabeo debba noverarsi
+fra le tante bizzarrie degli artisti, che s’incontrano
+nelle antichità, in ispecie nelle gemme : bizzarria
+però che se allontana la Sfinge assai dall’antica sua
+forma, salva nondimeno il criterio dell’incisore.
+Dedusse già il Buonarroti (1) dai piedi di una men-
+sa, in cui era scolpito un soggetto bacchico, termi-
+nanti in Sfingi, che questi favolosi animali han re-
+lazione con Bacco. Il riprese Zoega (2), volendo esso
+che quelle Sfingi vi fossero effigiate per solo orna-
+<note type="footnote">(1) Medagl. p. 429.</note>
+<note type="footnote">(2) Num. Aeg. 1. c.</note>
+<pb n="7"/>
+mento. E’ vero che esse ornano semplicemente sen-
+za allusione all’argomento espressovi, non poche
+anticaglie; ma anche è ve ro, che gli antichi artisti
+ben sovente decoravano le loro opere di ornati ana-
+loghi al tema. Onde se il Buonarroti non appoggiò
+a solide e certe ragioni la sua sentenza, non dovea
+per questo Zoega assolutamente condannarla. Anzi
+l’avria dovuta avvalorare se si fosse rammentato,
+che una Sfinge riportata nella Storia di Winckel-
+mann (1) ha orecchi faunini. Ai quali due monu-
+menti se si aggiungano e questa Sfinge composta del
+leone e di un Sileno, e l’autorità di Lieo (2), che
+scrisse, aver Bacco mandata in Tebe la Sfinge; sarà
+manifesto che tal mostro si attribuì a quel Nume,
+come gli si diedero i Centauri ed i Grifi (3), anima-
+li ugualmente fieri, ed ugualmente immaginar). Lo
+stesso Scarabeo ci fornisce d’ulterior prova nel cap-
+pio ch’ è sacro a Bacco, com’ è noto, per trala-
+sciare altre autorità, dalle paroledi Virgilio : <hi rend="italic">Bac-
+chio caper omnibus arts caeditur</hi> (4). Per lo stesso
+motivo nel tomo secondo delle pitture dell’Ercola-
+<note type="footnote">(1) Tom. I. p. 107.</note>
+<note type="footnote">(2) Schol. Hesiodi pag. 261. cf. Heynius ad Apollod. p. 242.</note>
+<note type="footnote">(3) Buonarroti loc. cit.</note>
+<note type="footnote">(4) Georg. II. v. 380.</note>
+<pb n="8"/>
+no Τav. 24. si veggono due capri in atto di cozza-
+re due Pani.</p>
+						<p>Se la Sfinge venne in Grecia dall’ Egitto, come
+sopra ho avvertito, vi fu però alquanto variata.
+Quando ciò avanzo, intendo della Sfinge greca, o
+tebana propriamente detta, e non di quelle che o
+i greci, o i romani artisti fecero a totale o parzia-
+le imitazione della egiziana. La greca Sfinge per-
+tanto è sempre leonecon volto di femmina (1); ed
+osservò prima d’ogni.altro il Begero (2) che le ali,
+che ha la Sfinge greca, mancano alla egiziana, e ne
+costituì in ciò la differenza; avvertendo però, che
+si doveano eccettuare quelle eseguite all’età, in cui
+gli Egiziani accozzaron le loro colle greche tradi-
+zioni (3). Zoega credè più certo indizio le mammel-
+le, che mancano nella Sfinge egiziana, e turgide
+sono, dice egli, nella greca (4). Ma con pace di
+esso, e dell’Eckhel (5) che gli ha prestato.fede.
+<note type="footnote">(1) Tal si vede su monumenti, così si raccoglie dagli anti-
+chi, dai Tragici in ispecie, che l’ ban nominata. V. Arrigo
+Stefane nel Tesoro alla voce <foreign xml:lang="grc">Σφ/'γξ</foreign>.</note>
+<note type="footnote">(2) Thesaur. Brand. 1. 3. p. 370.</note>
+<note type="footnote">(3) Sono Sfingi alate nella mensa Isiaca e nelle medaglie
+egizie d’ Adriano. V. Zoega Num. Aegypt. tab. 8.</note>
+<note type="footnote">(4) Ibid, pag. 140. n. 365.</note>
+<note type="footnote">(5) Doct. num. tom. 4. p. 40</note>
+<pb n="9"/>
+questo non è canone da sicuramente stabilirsi;
+giacchè se mancano sempre nelle Sfingi egiziane,
+ne van talora prive anche le greche. Una così fat-
+ta è in Caylus (1); ed un’altra ne vidi presso il
+nominato Sig. Tommaso Puccini, che fu da lui acqui-
+stata a Girgenti. Gli Etruschi han seguito i Greci
+nel rappresentarla femmina, e nel darle le ali; e ta-
+lora si sono da essi alcun poco dipartiti con aggiu-
+gnere corpo umano al petto femminile, come nell’
+urna che illustriamo, e in altra inedita di Volter-
+ra. Dissi <hi rend="italic">talora</hi>; perchè un’ etrusca Sfinge in bron-
+zo della Imperiai Galleria di Firenze (2), e un’al-
+tra in un laterale d’ un’urna volterrana sono somi-
+glianti alle greche.</p>
+						<p>La coda finita in capo di serpe, ch’ha la Sfinge
+nell’urna di Voltérra or or citata, non è cosa di
+etrusca mitologia; ma si vede anche in una me-
+daglia egizia d’Adriano (3). Nessun però creda
+che derivata sia dall’Egitto; ma piuttosto là passò
+dalla Grecia, quantunque, per quanto io sappia,
+osservata ancora non si sia in nessuna delle tante
+greche Sfingi, che conosciamo. Ma all’antichità fi-
+<note type="footnote">(1) Tom. 3. tav. 60.</note>
+<note type="footnote">(2) Armadio 7. n. 2.</note>
+<note type="footnote">(3) V. Zoega Num. Aegypt. pag. l39 tab. 8.</note>
+<pb n="10"/>
+gurata supplisce la scritta, testificandolo Mesomede
+nel citato enimma, allorchè descritto il davanti e la
+parte di mezzo della Sfinge dice : <foreign xml:lang="grc">rà δ’ δπ/τθεν ελ/&lt;τ-
+σόμένος δράκαν</foreign>. Nè è da dubitare che egli non abbia
+voluto intender la coda così terminata; giacche
+Omero, ed Esiodo usano le stesse espressioni per
+dichiarare il serpe, in cui finisce la coda della
+Chimera (1); e comune a mio credere è nella Chi-
+mera e nella Sfinge di ciò la cagione; per essersi
+cioè amendue fatte da Esiodo, e da altri figlie
+d’Echidna (2). Se ciò avesse osservato Zoega non
+avrebb’egli nell’ illustrazione della nominata meda-
+glia d’Adriano mai asserito, che la serpe, in cui fi-
+nisce la coda della Sfinge in essa scolpita, è simbolo
+della prolifica natura.</p>
+						<p>Forza ed intelligenza, <foreign xml:lang="grc">αλκ»' W &lt;n/vs&lt;r/£ (3)</foreign>, è cer-
+tamente il mistico senso, che diedero gli Egiziani
+alla Sfinge : le altre interpretazioni di antichi o sem-
+brano ideali, o tolte dalla Sfinge greca, e attribuite
+<note type="footnote">(1) <foreign xml:lang="grc">Ώξόα’&amp;ί λί4»ι&gt;, iiribtv iì «Tfaxa»', μίτο·* χίμαιρα</foreign>. Hom, Iliad.
+lib. 6. v. 18. Hesiod. Theog. v. 323. Postrema dracon. Hyg.
+fab. 57. Cf. Schol. ad Eurip. Phoenis. v. 1748.</note>
+<note type="footnote">(2) Hesiodi Theog. v. 319. et 326. Dell’ errore di alcuni gram-
+matici in aver creduta la Sfinge figlia della Chimera V. Hey-
+ne ad Apollod p. 242.</note>
+<note type="footnote">(3) Clem. Alexand. Strom. p. 242. et Zoega loc. c.</note>
+<pb n="11"/>
+per inversione d’ idee alla egiziana. Sotto amendue
+queste relazioni riguardarono i Greci la loro Sfinge;
+ma prima le attribuirono la forza, e poscia l’intel-
+ligenza. Avverto questo prima di ogni altro, perchè
+sembrami debito dell’Antiquario di analizzar le fa-
+vole esaminando cronologicamente gli antichi, che
+le narrano, per additare al lettore i loro principj, or-
+dinariamente assai semplici, e gli abbellimenti che
+poi vi fecero gli scrittori di età men rimota, in ispe-
+cie i Tragici. Pisandro presso lo scoliaste d’Euripide
+nelle Fenisse (1) racconta che la Sfinge fu mandata
+in Tebe dall’ira di Giunone, e che essa ghermendo
+i piccoli ed i grandi indistintamente se gli divora-
+va (2). Quì, com’ ognun vede, non si parla punto
+d’enimmi,e creder non si posson taciuti,perchè non
+è proprio dei piccoli l’interpretargli Questa è al cer-
+to la più antica tradizione, la quale è confermata
+da Esiodo, che tacendo pur esso degli enimmi chia-
+ma la Sfinge <foreign xml:lang="grc">ολίθρον</foreign> (3). Era troppo natu-
+rale, che come si diè, per addurre esempio, ad Er-
+cole l’impresa di soffogare il leone nemeo, il quale
+<note type="footnote">(1) V. 1748.</note>
+<note type="footnote">(2) <foreign xml:lang="grc">A’ναξτταζου'τα J,1 fuxfβος xaì μι&gt;αλβνs χ»τήσ·sΊίν</foreign>.</note>
+<note type="footnote">(3) Theog. v. 326.</note>
+<pb n="12"/>
+							<seg><hi rend="italic">Danneggiava le genti, dominando
+La Penea cavernosa èd Apesante</hi> (1);</seg>
+						
+così si trovasse dai poeti un eroe domator della Sfin-
+ge, che spargea di stragi il territorio di Tebe. Fu
+questi Edipo; e tal antica tradizione ci fu conser-
+vata da Suida (2), per cui egli solo uccide la Sfin-
+ge, e in cui è silenzio degli enimmi - Con tal tra-
+dizione si spiega una gemma riportata dal Cori (3),
+che esprime un uomo il quale snudata la spada si
+difende da una Sfinge : la qual gemma interpretò
+stranamente quell’ antiquario, veggendovi un em-
+blema della morte e del fato, al cui impero tutte
+le umane cose sono soggette. Questa tradizione
+però è posteriore ad Omero. Esso infatti (4) rac-
+contando la favola d’Edipo dice, che egli incon-
+sapevole uccise il padre, e che inconsapevole pu-
+re gli si unì in consorte la madre; e tace non
+che degli enimmi, ancor della pugna che egli
+fece colla Sfinge. Eschilo pure non pensò agli
+enimmi, quando nei Sette a Tebe (5) scrisse, che
+						<note type="footnote">(1) Hesiod. Theog. v. 331.</note>
+						<note type="footnote">(2) V. <foreign xml:lang="grc">’Otàinrtui</foreign>.</note>
+						<note type="footnote">(3) Mus. etrus. tom, I. tab. 198. n. 6.</note>
+						<note type="footnote">(4) Odys. lib. XI, v. 270. seqq.</note>
+						<note type="footnote">(5) <foreign xml:lang="grc">Oτον rór'Otà/feuv τϊον'\vaqira%àviqoiv
+Κίρ’ &lt;χς&gt;ι\όντ» χώ(*ς-,</foreign> v. 777. edit, Cl. Schürz.</note>
+<pb n="13"/>
+Edipo tolse dal paese tebano la Sfinge <hi rend="italic">rapitrice
+d’ uomini.</hi> I Tragici posteriori, o forse anche fi-
+sehilo scesso nella tragedia perita, che intitolò la Sfin-
+ge, o nell’Edipo che pure a noi non giunse, alluder
+volendo all’altra qualità attribuita dagli Egiziani
+alla Sfinge, cioè all’intelligenza, <foreign xml:lang="grc">σ·υνε&lt;τε/</foreign>, finsero dot-
+tamente ch’ ella proponesse il noto enim ma appre-
+solo dalle Muse, uccidendo quelli che non sapevano
+indovinarlo (1). In un vaso della raccolta hamilto-
+niana (2) è dipinta questa. misera scena. La Sfinge è
+volata dal suo seggio per. ghermire, quel
+che non valse a scioglierlo, mentre altri stanno pen-
+sosi, ed altri tentano in vano di decifrarlo. Tanti
+Tebani rimasero vittima di lei, che Sofocle (3) gli
+chiamò ani tributo, che inevitabilmente pa-
+ga doveva Tebe a questo mostro crudele Eschilo (4)
+presenta Partenopeo destinato ad espugnare la por-
+ta boreale di Tebe con lo scudo,in cui campeggiava
+la Sfinge, che tenea sotto gli artigli un Tebano (5).
+Il nostro scultore vi ha sostituito il teschio, mostrar
+<note type="footnote">(1) Non mi si vorrà rimproveráre se non consento con Pa-
+lefato (c.8.) chi sappia quanto egli si sia scrittore arbitrario</note>
+<note type="footnote">(2) Tom. 3. tav. 34.</note>
+<note type="footnote">(3) Oed. Tyr. v. 36.</note>
+<note type="footnote">(4) Sept. ad Theb. v. 528.</note>
+<note type="footnote">(5) <foreign xml:lang="grc">Φ«Ρ*&lt; f' νφ' αΰτ» φύτχ ΚαΑμίι’νν ΐνα.</foreign> v. 545</note>
+<pb n="14"/>
+volendo, che il resto era stato da lei divorato (1).
+Nelle gemme astrifere (2) havvi parimente· una Sfin-
+ge col teschio nella stessa mossa della nostra; la
+quale citando il Ch. Zoega (3) ha creduto che nell’
+originale avesse una ruota. Ma che ei siasi inganna-
+to è evidente e per L’ urna che illustriamo, e per una
+gemma della Imp. Galleria di Firenze riportata dal
+Goti (4) e dal Cocchi (5), in cui però il teschio è
+presso alle gambe davanti di essa Sfinge. Fra quei
+Tebani uccisi da lei Pisandro concava Emone figlio
+di Creonte (6), e Nicostrato (7) noverava Meneceo
+altro figlio di lui. Credo che ciò s’inventasse per.
+render più credibile l’editto di Creonte, in cui pro-
+mettea di cedere il trono e dar Giocasta in consorte
+a chi avesse spiegato l’enimma. Spiegollo Edipo,
+come ognun sa, ed è in tal atto rappresentato in
+quest’urna. N’è certo indizio la destra mano levata
+in alto. La sinistra ha un bastone, qual solevano
+<note type="footnote">(1) Cf. Stat. Theb, lib, 2. ver. 565. Eschilo per questo la
+chiama <foreign xml:lang="grc">aìpétrtrov</foreign>.</note>
+<note type="footnote">(2) Passeri Thes. Gem. Astr. tab. 138.</note>
+<note type="footnote">(3) Num. Aegypt. p. 143.</note>
+<note type="footnote">(4) M. F. t. I. tab. 94. n. 2.</note>
+<note type="footnote">(5) Sul frontespizio del discorso dell’ Anatomia. Fir. 1745.</note>
+<note type="footnote">(6) V. Apollod. lib. 3. p. 275. Cf. Schol. Phoenis. v. 45</note>
+<note type="footnote">(7) Schol. Phoenis. v. 1017.</note>
+<pb n="15"/>
+portare quei che si mettevano in cammino. Ne ab-
+biamo esempio in Ulisse, che per andare dalla cam-
+pagna in Itaca a far vendetta dei proci, chiede ap-
+punto al suo porcaio Eumeo un bastone, affin di so-
+stenersi sulla lubricità di quel suolo (1); anzi lo ab-
+biamo in Edipo stesso, che col bastone, con cui
+viaggiava, uccise Laio al trivio della Focide (2). Co-
+sì il bastone, che tengon quattro dei cinque giovani
+tebani espressi nel menzionato vaso hamiltonia-
+no, dimostra ch’essi venuti sono da Tebe al mon-
+te ficeo, ove si era fermata la Sfinge. Havvi pu-
+re in quella stessa raccolta (3) Edipo nei punto di
+discifrar femmina vestito di clamide col cappello
+viatorio legato al collo e rigettato dietro le spalle,
+e con asta, la quale è pur segno di viandante. Di-
+co ciò con esempio d’altri monumenti, e con l’au-
+torità d’Omero, il quale descrive Telemaco, che con
+lancia va dalia casa del porcaio alla città (4).</p>
+						<p>Null’ alero or ci resta a considerare, se non la Fu-
+<note type="footnote">(1) <foreign xml:lang="grc">Δόί &amp;ϊ μα,it irosi tot (όταλβν rtTpuptvev i&lt;rriv y
+Σχ^ρ/ττίσ·^’, inruH φάτ’ ififttfai tùii</foreign>.
+Odys. lib. 17. v. 195.</note>
+<note type="footnote">(2) Oed. tyr. v. 8l1.</note>
+<note type="footnote">(3) Tom. a. tav. 24.</note>
+<note type="footnote">(4) <foreign xml:lang="grc">Είλιτβ eT’ àXntuov ίγχος t ο οί ητα\άμ*.φιν αςήςίΐ
+fitrrufs ίίμίνβς</foreign>. Odys. lib. 17. V. 4.</note>
+<pb n="16"/>
+ria, che con foce in mano è posta dietro alla Sfinge.
+Manca essa nella pittura del citdto vaso; nè ciò re-
+car dee maraviglia a chi sappia, che più spesso dei
+Greci introdusser gli Etruschi le Furie nei lor mo-
+numenti, allorquando vi espressero feroci fatti. Il
+più solenne ministero delle Furie è quel di vendicare
+le ree azioni (1); ma le fecero anche i poeti eccitatri-
+ci di crudeltà. L’una e falera opinione bene si adat-
+ta alla Furia della nostra urna, potendo ben essa
+incitar di per sè la Sfinge al fiero pasco dei Teba-
+ni, o mostrare ch’essa Sfinge colla loro strage vendica
+Giunone, da cur secondo Pisandro (2) fu là mandata
+dai confini d‘ Etiopia, in pena di aver Laio rapito
+Crisippo, ardendo d’infame amore per esso.</p>
+						<p>Finisco con riflettere, che se la favola dell’enim-r
+ma interpretato da Edipo non è delle piu antiche, e
+le due urne Etrusche, che il rappresentano in questa
+azione, non sono delle più moderne, di che n’è pro-
+va lo stile e la mancanza di quelli ornati di cui d’or-
+dinario son cariche; dovrem confessare, che que-
+sto genere d’ antichità, non rimonti ai più vetusti
+tempi, come molti antiquari hanno per certa mal
+intesa carità di patria immaginato.</p>
+						<note type="footnote">(1) Hesiodi Op. et D. v. 801. Omero in più luoghi dell’ Iliade.
+Cf. Aeschyli Eumenid.</note>
+						<note type="footnote">(2) Schol. Phoenis. v. 1748.</note>
+					</div>
+					<div type="textpart" subtype="chapter" n="2">
+						<pb n="17"/>
+						<head>
+							<title><hi rend="italic">LA TRAGEDIA</hi> DELLO EDIPPO IL PRINCIPE TRADOTTA DAL GRECO DI SOFOCLE IN LINGUA FIORENTINA DA BERNARDO SEGNI GENTILUOMO ED ACCADEMICO FIORENTINO</title></head>
+						<pb n="19"/>
+						<head>
+							<title><hi rend="italic">ALL’ ILLUSTRISS. ED ECCELLENTI SS. S.
+IL SIGNOR COSIMO DE’ MEDICI
+DUCA DI FIRENZE
+SIGNORE E PADRONE SUO</hi></title>
+						</head>
+						<p><hi rend="italic">In questo anno che per grazia di V. E. Principe
+Illustrissimo sono staro in Volterra, avi ndovi ancora
+avuto qualche ozio ho rassettato una mia traduzione
+della Tragedia di Sofocle intitolata da lui Edippo il
+Principe, acciocchè e’ la facesse conoscere.per differente
+da un’ altra sua intitolata nel medesimo nome d’Edip-
+po. Questa mando ora a presentare a V. E. per dedi-
+carle, come in altri miei stndj ho fatto, tutti quei
+frutti, che ’l mio debole ingegno ha facoltà di pro-
+durre. Nè già la giudico degna dell’ onoratissimo
+albergo Vostro per alcuna virtù o gentilezza che in lei
+si ritrovi, onde a me ne potesse pervenir lode; ma
+bene perchè la principessa e regina delle tragedie
+per giudizio d’ Aristotile stesso ragionevolmente debba</hi>
+<pb n="20"/>
+<hi rend="italic">esser dedicata a quel Principe, che sebbene per gran-
+dezza di stato cede a pochi, avanza pur molti per
+virtù, bontà, e prudenza nel regger bene il suo im-
+perio. Il modo tenuto in questa traduzione non è
+stato col rendere parola per parola, ma il senso ed
+il concetto; allargandomi, o ristrignendomi dove mi
+è parato bisogno : avendo massimamente osservato
+questo ne’ Cori. È in questa Tragedia tutta l’arte,
+che ha espressa Aristotile nella sua poetica; dalla
+quale come da perfetta regola ha ei cavato tutti i
+documenti, che s’ appartengono alla poesia tragica,
+Un solo errore si ritrova in lei; e questo è fuor
+della favola; perchè il non si ricordar mai Edippo
+d’ aver molti anni innanzi ammazzato Lato par cosa
+che abbia alquanto dell’ incredibile. E questo erro-
+re, come dice Aristotile, non è di nerbo, nè d’es-
+senza della Tragedia; ma bene son tali quegli che
+in tutte le favole degli antichi Poeti egli ha no-
+tali. Il fine che debbe aver la Tragedia; le per-
+sone da essevi introdotte, che (come molti vana-
+mente si stimano) non debbon esser cattivi Princi-
+pi; la durazione del tempo; la ricognizione con
+la peripezia appariscono in questa eccellentemente :
+ed in somma ci si esprime dentro, come in uno</hi>
+<pb n="21"/>
+<hi rend="italic">specchio, l’ esempio bellissimo, ed ottimo della per-
+fetta Tragedia, Questa adunque ritratta nella nostra
+lingua, Magnanimo Principe, mando a V. E. come
+un pegno del mio animo divoto e servo del suo
+pregiatissimo nome; e per conseguenza desiderosis-
+simo, dappoi che in altra maniera non gli è concesso,
+di mostrarsi in qualche parte grato degli infiniti ob-
+blighi tengo con quella. Alla quale umilmente ba-
+cio le mani; pregando Dio, che la conservi felice.
+Di Volterra alli XXII, d’ Agosto MDLI.</hi></p>
+						<p><hi rend="italic">Di V. E. Illustrissima Servitore umilissimo.</hi></p>
+						<p><hi rend="italic">Bernardo Segni.</hi></p>
+					</div>
+					<div type="textpart" subtype="chapter" n="3">
+						<pb n="22"/>
+						<head>
+							<title>TRAGEDIA
+DELLO EDIPPO IL PRINCIPE.</title>
+						</head>
+						<ab>
+							<seg type="fragment">
+	<lg>
+		<l>NOMI DELLA TRAGEDIA.</l>
+		<l>E<hi rend="smallcap">dipeo</hi> P<hi rend="smallcap">rincipe</hi></l>
+		<l>S<hi rend="smallcap">acerdote vecchio DI</hi> G<hi rend="smallcap">iove</hi></l>
+		<l>C<hi rend="smallcap">reonte</hi></l>
+		<l>C<hi rend="smallcap">oro</hi> DI VECCHI TECCHI</l>
+		<l>T<hi rend="smallcap">iresia</hi></l>
+		<l>I<hi rend="smallcap">oCASTA</hi></l>
+		<l>N<hi rend="smallcap">unzio</hi></l>
+		<l>S<hi rend="smallcap">ervo</hi> DI P<hi rend="smallcap">olibo</hi></l>
+		<l>U<hi rend="smallcap">n altro</hi> N<hi rend="smallcap">unzio</hi></l>
+	</lg>
+							</seg>
+						</ab>
+					</div>
+					<div type="textpart" subtype="chapter" n="4">
+						<pb n="23"/>
+						<head>
+							<title><hi rend="italic">ARGVMENTO</hi></title>
+						</head>
+						<ab>
+							<seg type="fragment">
+	<lg>
+		<l>Lasciò Corinto, onde partissi, Edippo,</l>
+		<l>Perchè sprezzato da ciascun vivea</l>
+		<l>Come del padre suo non giusto figlio;</l>
+		<l>E giunto al tempio del sacrato Apollo</l>
+		<l>Lo domandò chi di lui fusse ’l padre :</l>
+		<l>Lo qual trovò miseramente poi</l>
+		<l>Per stretto calle, u’ con sue man l’ancise.</l>
+		<l>E dichiarato avendo poi col tempo</l>
+		<l>Gli oscuri detti della Sfinge, al letto</l>
+		<l>Materno giunse sè del tutto ignaro.</l>
+		<l>Ma in questo Tebe fu dal ciel percossa</l>
+		<l>Di grave infermità; donde Creonte</l>
+		<l>Mandato in Delfi all’ indovine sorti</l>
+		<l>Per domandar soccorso a tanti danni,</l>
+		<l>Udì la voce del divino Oraclo,</l>
+		<l>Ch’ uop’ era lordi vendicar la morte</l>
+		<l>Fiera ed ingiusta del passato Laio : </l>
+		<l>Di cui scoprendo micidial sè stesso</l>
+		<l>Edippo, a sè con ambe man le luci</l>
+		<l>Trasse; e la madre dolorosamente</l>
+		<l>S’ ancise, al collo suo stringendo un nodo.</l>
+		<pb n="24"/>
+		<l>Tu chiedi un figlio, o di Labdaco figlio,</l>
+		<l>Io te ’l darò, ma con tal fato acerbo,</l>
+		<l>Che per le mandi lui deggi aver morte.</l>
+		<l>E questo è certo, perchè Giove antico</l>
+		<l>Di Pelope esaudita ha l’ empia voglia;</l>
+		<l>Di cui per forza già rapisti il figlio : </l>
+		<l>Ond’ei tai cose a te pregato ha incontro.</l>
+		<l>ENIMMA DELLA SFINGE.</l>
+		<l>Nasce in la terra di due gambe un mostro,</l>
+		<l>E di quattro, e di tre, non con sol voce;</l>
+		<l>Ma quella cangia sol fra quanti in mare,</l>
+		<l>E in aria, e in terra son nutriti in vita :</l>
+		<l>E quanto ei con più gambe i passi estende,</l>
+		<l>Tanto di lui il cammin più tardi arriva.</l>
+	</lg>
+							</seg>
+						</ab>
+					</div>
+					<div type="textpart" subtype="chapter" n="5">
+						<pb n="25"/>
+						<head>
+							<title>ATTO PRIMO</title>
+						</head>
+						<ab>
+							<seg type="fragment">
+	<lg>
+		<l>EDIPPO COMINCIA</l>
+		<l>O cari figli, o dell’ antico Cadmo</l>
+		<l>Stirpe novella, e che timor vi spigne</l>
+		<l>A radunarvi dentro a questi tempj?</l>
+		<l>Perchè son cinte di sagrata fronde</l>
+		<l>Le vostre tempie? e perchè intorno intorno</l>
+		<l>Questa città di sacrifizj, e pianti</l>
+		<l>Tutta s’ingombra? ohimè che ’l vostro duolo</l>
+		<l>Sì dolorosi vi dipigne in vista,</l>
+		<l>Che e’ non m’è parso degno, o figli miei,</l>
+		<l>De’ vostri pianti la cagion sapere</l>
+		<l>Da’ miei mandati, o dall’ altrui parole;</l>
+		<l>Ma io qui son venuto a ’ntender quella.</l>
+		<l>Io, che son detto il glorioso Edippo.</l>
+		<l>Ma tu per tutti, che v’ aduna e strigne?</l>
+		<l>Dinne buon vecchio; e se paura o danno</l>
+		<l>Vi preme il cor; perchè parato sono</l>
+		<l>Porger aita a’ vostri casi avversi : </l>
+		<l>Che ben sarei crudel, s’ alta pietade</l>
+		<l>Non mi stringesse di sì ria fortuna.</l>
+		<pb n="26"/>
+		<l>Signor die reggi il bel paese nostro,</l>
+		<l>Mira qui intorno a’ tuoi sagrati altari</l>
+		<l>Questa età verde, che dal patrio nido</l>
+		<l>Lunge non puote ancor per gli anni. sciorr</l>
+		<l>I brevi passi; e guarda me che stanco</l>
+		<l>Son da moli’ anni, Sacerdote detto</l>
+		<l>Del sommo Giove; che con questi figli.</l>
+		<l>Che son per sangue sovra gli altri chiari,</l>
+		<l>Qui son venuto a domandarti pace.</l>
+		<l>Quest’altra tutta incoronata turba</l>
+		<l>Chi di Minerva a’ celebrati altari</l>
+		<l>Umil s’inchina; e chi dal cener santo</l>
+		<l>Di Febo al fiume Ismen chiede mercede.</l>
+		<l>La città tutta travagliata e stanca,</l>
+		<l>Da’ fieri venti, onde sbattuta ghiace,</l>
+		<l>Nel tempestoso mar non trova porto;</l>
+		<l>Perchè la terra i graziosi frutti</l>
+		<l>Rende corrotti, ed i feroci armenti</l>
+		<l>Morte ne toglie, e le feconde madri</l>
+		<l>I cari parti alla bramata luce</l>
+		<l>Condur non ponno : e quel che più n’addogli</l>
+		<l>È l’ empia peste, che morir ne sforza</l>
+		<l>Troppo, ohimè troppo dolorosamente.</l>
+		<pb n="27"/>
+		<l>Onde la patria nostra alma cittade</l>
+		<l>Povera ognora si dimostra e vota;</l>
+		<l>E il regno incontro di Platone oscuro</l>
+		<l>Divien più ricco di sospiri e pianti.</l>
+		<l>E perciò dentro alle tue sante case</l>
+		<l>Venuti semo a domandarne aita.</l>
+		<l>Noi ben sappiam ch’ agli alti re del cielo</l>
+		<l>Non sei per forza o per virtute uguale;</l>
+		<l>Ma che sei tal ch’ agli infelici casi</l>
+		<l>Puoi ben sovente rimediarne, e puoi</l>
+		<l>Tosto tornarne in la perduta grazia</l>
+		<l>Degli adirati Dei; perchè tu solo</l>
+		<l>Venendo a Tebe il tributario incarco</l>
+		<l>Via ne togliesti, il nostro ultimo danno :</l>
+		<l>E senza nostra aita, da Dio solo</l>
+		<l>Scorto, da morte ci tornasti in vita.</l>
+		<l>Sì che di nuovo, o glorioso rege,</l>
+		<l>Con le ginocchia e con la mente inchina</l>
+		<l>Chiediam mercè de’ nostri gravi danni.</l>
+		<l>Tu sol puoi sciorne l’ intrigato nodo</l>
+		<l>Per quella via, che ti dimostra oil cielo,</l>
+		<l>O ver la stessa tua prudenza umana;</l>
+		<l>«Che come noi veggiam pur tutto il giorno</l>
+		<l>«I saggi ponno alla fortuna ria</l>
+		<pb n="28"/>
+		<l>Prospero dar co’lor consigli il fine.</l>
+		<l>A ohe più tardi, o de’ mortali esempio,</l>
+		<l>Render salute alla cittade afflitta,</l>
+		<l>Che in te solo have sue speranze accolte?</l>
+		<l>E chiama pur quella virtute antica,</l>
+		<l>Per cui fu salva poco innanzi, e lieta;</l>
+		<l>Ch’ ogni passato tuo soccorso amico</l>
+		<l>Porrà in oblio, se col tuo grave ingegno</l>
+		<l>A’nuovi affanni non procacci aita.</l>
+		<l>Allora il ciel ti fu benigno, e pio,</l>
+		<l>Nè forse ancor ti negherà sue grazie :</l>
+		<l>E ciò non siati o faticoso, o grave,</l>
+		<l>Che avendo in man d’està cittade il freno,</l>
+		<l>Quanto fia certo a dominarla il meglio</l>
+		<l>Lieta e ripiena, che dogliosa e vota?</l>
+		<l>«Che nave, nè città si può dir quella</l>
+		<l>«Che non alberga in se persona viva.</l>
+		<l>EDIPPO</l>
+		<l>Miseri figli, il vostro acerbo male</l>
+		<l>Non m’è già nuovo, ma dinanzi agli occhi</l>
+		<l>Mi sta pur sempre, e di pietà m’ingombra;</l>
+		<l>E tanta e tanta, che pe’vostri danni</l>
+		<l>Nessun porta dì me più grave incarco :</l>
+		<l>Perchè voi solo il propio male addoglia :</l>
+		<pb n="29"/>
+		<l>Ma io della città L’ alte rovine,</l>
+		<l>E di voi insieme, e di me stesso piango.</l>
+		<l>Onde non già coni noni dal sonno oppresso</l>
+		<l>Son risvegliato; ma tenete certo,</l>
+		<l>Che doppo molte mie lagrime sparse,</l>
+		<l>E molti error della mia vaga mente,</l>
+		<l>Quel sol rimedio, che trovare il cielo</l>
+		<l>Concesso m’have a tanti acerbi danni,</l>
+		<l>Ho preso a far, che di Menìceo il figlio</l>
+		<l>Creonte a me per parentado giunto</l>
+		<l>Mandato ho in Delfo all’ indovine case</l>
+		<l>Del sacro Apollo a domandar· qual modo</l>
+		<l>Tener qui deggia a procacciar salute.</l>
+		<l>E già passato è il misurato tempo,</l>
+		<l>Ch’ io gli concessi; e già più del dovere</l>
+		<l>Tarda il ritorno desiato tanto :</l>
+		<l>Che quando io saprò ben la santa voce</l>
+		<l>Di Febo, allor sarei malvagio e rio</l>
+		<l>Se i detti suoi non conducessi a fine.</l>
+		<l>SACERDOTE</l>
+		<l>Saggio sono, alto re, le tue parole;</l>
+		<l>Ma costor qui d’intorno mi fan cenno</l>
+		<l>Che Creonte è vicino al tuo conspetto.</l>
+		<pb n="30"/>
+		<l>EDIPPO</l>
+		<l>Conceda Apollo, che felice sia</l>
+		<l>Questo ritorno, come agli occhi appare.</l>
+		<l>SACERDOTE</l>
+		<l>E’ mostra pur letizia ne’ sembianti,</l>
+		<l>E le sue tempie di sagrato alloro</l>
+		<l>Ornate son, che di vittoria è segno.</l>
+		<l>EDIPPO</l>
+		<l>Tosto la mente avrem di dubbio scarca,</l>
+		<l>Ch’ egli è sì presso omai, ch’ udir ne puote</l>
+		<l>La nostra voce. O caro mio Creonte</l>
+		<l>E quai dal santo Dio novelle apporti?</l>
+		<l>CREONTE</l>
+		<l>Noi sarem, dico, alto signor felici.</l>
+		<l>Se il cammin torto a’ nostri passi ed erto</l>
+		<l>Drizzar potrem con più sicura strada.</l>
+		<l>EDIPPO</l>
+		<l>Non mi dan spene ancor certa, nè tema</l>
+		<l>Le tue parole onde più chiaro parla.</l>
+		<l>CREONTE</l>
+		<l>Vuoi tu ch’io faccia qui palese a tutti</l>
+		<l>La sua risposta, o teco sol la scuopra?</l>
+		<l>EDIPPO</l>
+		<l>Parla pur tal che sia tua voce intesa</l>
+		<pb n="31"/>
+		<l>Dal popol tutto, di cui il fero scempio</l>
+		<l>Più mi ferisce il cor, che i propj danni.</l>
+		<l>CREONTE</l>
+		<l>Ecco ch’io parlo a voi quanto ei m’impose</l>
+		<l>E’ comandò, che ben purgata fusse</l>
+		<l>La terra nostra d’ una brutta macchia;</l>
+		<l>Ond’era lorda; e si curasse il male</l>
+		<l>Mentr alla piaga era ’l soccorso in tempo.</l>
+		<l>EDIPPO</l>
+		<l>Che modo ha di menar questo a fine?</l>
+		<l>CREONTE</l>
+		<l>Cacciando un uom, o ver dandogli morte</l>
+		<l>Per morte ingiusta; di cui ’l sangue solo</l>
+		<l>Ne cangia in fosco il luminoso tempo.</l>
+		<l>EDIPPO</l>
+		<l>A cui minaccia Dio si rea fortuna?</l>
+		<l>CREONTE</l>
+		<l>Laio fu re della città di Tebe</l>
+		<l>Anzi che tu venissi a questo impero.</l>
+		<l>EDIPPO</l>
+		<l>Per fama questo so, ch’ unqua noi vidi.</l>
+		<l>CREONTE</l>
+		<l>Febo or comanda espressamente a noi,</l>
+		<l>Ch’ e’si faccia vendetta di sua morte,</l>
+		<pb n="32"/>
+		<l>EDIPPO</l>
+		<l>Come potrem mai ’nvestigar chi fusse</l>
+		<l>L’ occulto micidial del santo rege?</l>
+		<l>CREONTE</l>
+		<l>Febo affermò, ch’egli era in questa terra.</l>
+		<l>«Ma nulla al mondo puote esser nascoso</l>
+		<l>«A chi ben cerca; ma quel, ch’ è negletto,</l>
+		<l>«Lunge si fa dagli occhi nostri sempre.</l>
+		<l>EDIPPO</l>
+		<l>Dimmi se dentro a queste mura Laio,</l>
+		<l>O fuor d’ esse fini i suoi tristi giorni?</l>
+		<l>CREONTE</l>
+		<l>Per via fu morto, mentre andava in Delfo</l>
+		<l>(Siccome e’ disse); ond’ ei non feo ritorno.</l>
+		<l>EDIPPO</l>
+		<l>Non v’ accertò nessuno indizio mai</l>
+		<l>Di sì rio caso, o suo compagno fido?</l>
+		<l>CREONTE</l>
+		<l>Da morte un sol campò, che dal timore</l>
+		<l>Sospinto indietro riferì sol quello,</l>
+		<l>Ch’ avea con gli occhi suoi fuggendo visto.</l>
+		<l>EDIPPO</l>
+		<l>«Che cosa? dì; che un picciol segno importa</l>
+		<l>«A scopir molto, se speranza amica</l>
+		<pb n="33"/>
+		<l>«Si mostra punto alle dubbiose imprese.</l>
+		<l>CREONTE</l>
+		<l>E’ riferì che di ladri una schiera,</l>
+		<l>Non pure un sol, di vita il feron casso.</l>
+		<l>EDIPPO</l>
+		<l>Se e’non furon di qua per prezzo indotti.</l>
+		<l>Che ardissin ciò, gran maraviglia prendo.</l>
+		<l>CREONTE</l>
+		<l>Il simil qui fu ben creduto allora;</l>
+		<l>Pur nella morte sua nessuno amico</l>
+		<l>Fu, che porgesse a sì gran danno aita.</l>
+		<l>EDIPPO</l>
+		<l>Chi v’impedì d’un signor tanto degno</l>
+		<l>Il ricercar la dispietata morte?</l>
+		<l>CREONTE</l>
+		<l>La sfinge allor ci feo lasciar da parte</l>
+		<l>Le cose incerte, e investigar sol quelle</l>
+		<l>Ch’ eran davanti, e non potean disciorsi.</l>
+		<l>EDIPPO</l>
+		<l>Sgombrate omai dal core ogni aspra doglia,</l>
+		<l>Che s’a’miei voti il ciel non ila contrario,</l>
+		<l>Io farò ancor palese a tutti un giorno</l>
+		<l>Questo rio mostro; e le sue gravi pene</l>
+		<l>Saran vendetta de’ portati danni,</l>
+		<pb n="34"/>
+		<l>E resterà placato in cielo Apollo.</l>
+		<l>Perch’ oltre alla pietà del vecchio amico,</l>
+		<l>Di cui lo scettro tengo e la corona,</l>
+		<l>A ciò mi sforza la propia salute;</l>
+		<l>Che e’ potria ancor quella medesma mano,</l>
+		<l>Che di lui fu nel giusto sangue tinta,</l>
+		<l>Di questa spoglia riportar vittoria.</l>
+		<l>Onde mentre ver lui sarò pietoso,</l>
+		<l>Alla mia vita ancor sarò benigno.</l>
+		<l>Lasciate adunche, o cari figli miei,</l>
+		<l>L’antiche sedie, ove sedete mesti;</l>
+		<l>E della sacra fronde i capi vostri</l>
+		<l>Spogliate, e ’nsieme d’ogni tema il core.</l>
+		<l>Chiamino altri di voi tutta la plebe,</l>
+		<l>Ch’io vo’pigliar sovra le spalle il peso</l>
+		<l>Di questa cura; e in questo giorno certo</l>
+		<l>(Piacendo a Febo) o noi sarem felici,</l>
+		<l>O vie più colmi di miserie e pianti.</l>
+		<l>SACERDOTE</l>
+		<l>Partiamci, o figli, poscia ch’ esaudito</l>
+		<l>N’ha il re le caste preci, e i voti umili;</l>
+		<l>Per che noi fummo a questi luoghi scorti.</l>
+		<l>Febo consenta al dolorosa gregge</l>
+		<l>Salute, e pace a’ tormentosi guai.</l>
+		<pb n="35"/>
+		<l>CORO</l>
+		<l>O voce santa, che dall’ alto cielo</l>
+		<l>Sei scesa al caro nido</l>
+		<l>Di Tebe nostra, alta cittade e chiara;</l>
+		<l>lo temo (ahi lasso) ch’adombrato velo</l>
+		<l>Non copra il tuo bel grido</l>
+		<l>Agli occhi nostri; tal ch’in pena amara</l>
+		<l>Nodrisco l’alma ignara,</l>
+		<l>O santo Apollo, pe’ tuoi detti oscuri.</l>
+		<l>Deh mostra omai quei putì,</l>
+		<l>E palesa il rimedio a tanti mali,</l>
+		<l>Se mai ti calse, o caldi noi mortali.</l>
+		<l>Apri Fama immortal, che co’ tuoi vanni</l>
+		<l>In questa parte, e ’n quella</l>
+		<l>Giri sovente, o di Speranza figlia,</l>
+		<l>Lo stretto nodo a’ nostri larghi affanni.</l>
+		<l>Tu più saggia che bella</l>
+		<l>Nata di lui, che ’l del regge, e consiglia,</l>
+		<l>Spiega al mio dir le ciglia,</l>
+		<l>Umil ti prego : e tu casta Diana,</l>
+		<l>Che di selva, o fontana</l>
+		<l>Lieta gioisci col tuo buon fratello.</l>
+		<l>Rendete a noi l’antico viver bello.</l>
+		<l>Che voi tre pur, se ne rimembra ’l vero</l>
+		<pb n="36"/>
+		<l>Alti superni Dei</l>
+		<l>Porgeste aita a quei passati danni,</l>
+		<l>Ch’ avean la patria afflitta; onde ’l sentiero</l>
+		<l>Mostrate, e i nuovi omei</l>
+		<l>Lunge scacciate. Ohimè tra quanti inganni</l>
+		<l>Viviam! tra quanti affanni!</l>
+		<l>Contar già noi potria mai lingua umana.</l>
+		<l>Con disusata e strana</l>
+		<l>Morte perisce la misera gente,</l>
+		<l>E doglia e pianto ognor viepiù si sente.</l>
+		<l>Scendon come veloci augei volanti</l>
+		<l>Nel basso mondo ognora</l>
+		<l>L’anime triste, che per fiera morte</l>
+		<l>Distrutte in doglia tormentosa, e ’n pianti</l>
+		<l>Lascian mal vivi ancora</l>
+		<l>Chi padre, o madre, e chi figli, o consorte;</l>
+		<l>E tanto ardito, e forte</l>
+		<l>È il rio nimico nostro, e tanto avanza,</l>
+		<l>Che l’ altera possanza</l>
+		<l>Vince del fuoco, che non può far vote</l>
+		<l>Le rovine, ch’ ognor raddoppia, e scote.</l>
+		<l>Chi fora mai di sì spietato core,</l>
+		<l>Di sì indurata mente,</l>
+		<l>Cui non movesse di sospiri, il suono,</l>
+		<pb n="37"/>
+		<l>Che fa per tutto il gelido timore</l>
+		<l>Della morte dolente</l>
+		<l>Ver noi più presta che ’l baleno al tuono?</l>
+		<l>Noi ti chieggiam perdono,</l>
+		<l>Figlia di Giove, omai mostra il tuo scudo</l>
+		<l>Orrendo, e tutto nudo</l>
+		<l>A quel Marte crudele, empio e feroce,</l>
+		<l>Che senza ferro ci consuma e nuoce.</l>
+		<l>Tu padre eterno, a cui l’ignito strale</l>
+		<l>Par sol che si convegna.</l>
+		<l>Drizza ver lui tutti gli sdegni e l’ire;</l>
+		<l>Porgi soccorso al popolo tuo frale.</l>
+		<l>Se la preghiera è degna,</l>
+		<l>Sana la piaga; e con dritto occhio mira</l>
+		<l>Il turbin, che s’aggira</l>
+		<l>A noi intorno di morti, angoscie, e doglia.</l>
+		<l>La tua sdegnosa voglia</l>
+		<l>Omai s’aqqueti, e in questa ardente face</l>
+		<l>Facci sentir della tua santa pace.</l>
+		<l>Ma ecco qua il signore,</l>
+		<l>Edippo nostro glorioso, e saggio.</l>
+		<l>Che avrà forse il viaggio</l>
+		<l>Scorto da trarne di ’sì stran perigli</l>
+		<l>Co’ suoi divini e felici consigli.</l>
+	</lg>
+							</seg>
+						</ab>
+					</div>
+					<div type="textpart" subtype="chapter" n="6">
+						<pb n="38"/>
+						<head>
+							<title>ATTO SECONDO.</title>
+						</head>
+						<ab>
+							<seg type="fragment">
+	<lg>
+		<l>EDIPPO</l>
+		<l>Se e’ non vi fien le mie parole a vite,</l>
+		<l>E meco insieme desiosamente</l>
+		<l>Se tor vorrete dalla patria il danno,</l>
+		<l>Sarà benigno a’vostri preghi il cielo;</l>
+		<l>Nè temete per ciò, che senza speme</l>
+		<l>Io venga a ricercar questo delitto,</l>
+		<l>Benché nuova mi sia di Dio la voglia,</l>
+		<l>Che riferita m’ ha qui il buon Creonte,</l>
+		<l>E siami nuovo ancor l’ orribil falla;</l>
+		<l>Ma perchè io son novellamente aggiunto</l>
+		<l>A questa patria cittadino, io muovo</l>
+		<l>Verso di tutti omai queste· parole :</l>
+		<l>Se egli è nessun tra voi; che sappia certo</l>
+		<l>Colui, ch’ ancise di Labdaco il figlio,</l>
+		<l>Non sia di rivelar tal cosa avaro;</l>
+		<l>Ma scacciato da sè ciascun timore,</l>
+		<l>Chi li diè morte accusi il propio fallo,</l>
+		<l>E tenga fermo, ch’ altro crudo scempio</l>
+		<l>Non porterà del suo commesso errore,</l>
+		<l>Fuor che lassar la patria, e il caro nido,</l>							
+		<pb n="39"/>
+		<l>Ove nod rito fu : ch’ io gli prometto</l>
+		<l>A questo tal sicuro esiglio e quelo.</l>
+		<l>Ma se per sorte d’altra terra o luogo</l>
+		<l>Il fiero mioidial disceso fusse,</l>
+		<l>Piaccia a colni, che ciò conosce aperto,</l>
+		<l>Non l’ occultar, perchè di graifcde onore,</l>
+		<l>E di guadagno glorioso, e chiaro</l>
+		<l>Porterà guiderdoni sì. degno merto.</l>
+		<l>E s’ a’ miei preghi l’ ostinata mente</l>
+		<l>Non fia chi inchini, e stimi.il propio danno,</l>
+		<l>O de’ suoi amici più che la arovina</l>
+		<l>Della sua patria sovra ogni altra degna,</l>
+		<l>Oda contra di sè questa empia voce :</l>
+		<l>Nessun, che sotto questo scettro viva,</l>
+		<l>Sia tanto ardito, ch’ e’ presuma unquanco</l>
+		<l>Di dar ricetto nelle propie case</l>
+		<l>A si rio mostro, odi parlar con seco.</l>
+		<l>Nè pur sol questo; ancor gli vieto espresso</l>
+		<l>Il fargli parte ne’ sagrati tempj</l>
+		<l>Di voti, o preghi, o sacrifizj santi :</l>
+		<l>Ciascun lo fugga come orribil peste;</l>
+		<l>Ciascun lo scacci, ch’ egli è la radice</l>
+		<l>De’nostri danni; come Febo santo</l>
+		<l>Con chiara voce ha mostro : ond’ io son certo</l>
+		<pb n="40"/>
+		<l>Al morto corpo sodisfar cercando</l>
+		<l>Di chi l’ancise, e di placare Apollo,</l>
+		<l>Non lassando impunito un tanto scelo.</l>
+		<l>Ma prego ben che dispietati giorni,</l>
+		<l>E trista vita meni sempre quegli,</l>
+		<l>Che tinse il ferro in sì pregiato sangue.</l>
+		<l>E se pur dentro a’ miei regali alberghi,</l>
+		<l>Ch’io ’l sappia, vive, per cui tanta doglia</l>
+		<l>Oggi sen sente; io prego il sommo Giove,</l>
+		<l>Che mandi sovra me gli orribil preghi,</l>
+		<l>Ond’ io per tutto il sono ito seguendo.</l>
+		<l>Oprate adunche quanto io vi comando,</l>
+		<l>S’e’vi strigne di me piotate il core;</l>
+		<l>0 se gradite del sagrato Dio</l>
+		<l>I detti santi; ose e’ vi cal di Tebe,</l>
+		<l>Vostra alma madre a tai miserie indotta.</l>
+		<l>Ma quando ancor non ci sforzasse Apollo,</l>
+		<l>Che pur ci sforza a tanto onesta impresa;</l>
+		<l>Senza pena perciò non dee lasciarsi</l>
+		<l>Tanto ria colpa, disusata e grave</l>
+		<l>Contro all’antico vostro alto signore.</l>
+		<l>E s’a nessun tal peso omai conviensi,</l>
+		<l>A me più d’ altri si convien, che tengo</l>
+		<l>La sua corona, e del medesmo impero</l>
+		<pb n="41"/>
+		<l>Son fatto erede; e la consorte cara</l>
+		<l>Nel letto, che di lui fu, meco ghiace :</l>
+		<l>La qual prodotto ancor n’ aria figliuoli,</l>
+		<l>Frategli, amici, se nella sua prole</l>
+		<l>Stato ei non fusse, ohimè, troppo infelice,</l>
+		<l>Poscia or che tristo fato, acerbo e rio</l>
+		<l>Con sì misera morte il tolse al mondo,</l>
+		<l>Come per vero padre son disposto</l>
+		<l>Tentar qualunche modo, ond’ei si scuopra</l>
+		<l>Chi fu colui, che ’l feo di vita privo.</l>
+		<l>Ond’ io ti prego, o sommo re del cielo,</l>
+		<l>Che vieti al tutto nell’ arata terra</l>
+		<l>I santi frutti a chi tal fallo occulto</l>
+		<l>Serba nel petto; nè l’ allegri unquanco</l>
+		<l>In poter rimirar suoi cari figli :</l>
+		<l>Anzi distrutto sia da quel flagello,</l>
+		<l>Ch’ oggi ci annulla; o se trovar mai puossi</l>
+		<l>Da chi di tal sia più doglioso e grave;</l>
+		<l>E di cui piace il mio decreto santo</l>
+		<l>Il ciel benigno si dimostri sempre</l>
+		<l>Agli umil voti : e con giustizia eterna</l>
+		<l>Liete n’ accolga voi care alme in seno.</l>
+		<l>CORO</l>
+		<l>Come suggello a questi preghi orrendi,</l>
+		<pb n="42"/>
+		<l>Ch’ hai fatti, o santo re, cosi ti parlo :</l>
+		<l>Io non l’ho morto, nè chi l’ abbia anciso</l>
+		<l>Insegnar posso; ma il sagrato Dio</l>
+		<l>Febo, al veder di cui nulla si cela,</l>
+		<l>Palesar ne dovea l’ occulto inganno.</l>
+		<l>EDIPPO</l>
+		<l>Tu di il ver; ma chi fia mai tanto ardito,</l>
+		<l>Che forzar possa i sempiterni Dei?</l>
+		<l>CORO</l>
+		<l>Io direi ancor la seconda fiata</l>
+		<l>Il mio parer, se lecito mi fosse.</l>
+		<l>EDIPPO</l>
+		<l>Dì pur la terza quanto hai dentro al core.</l>
+		<l>CORO</l>
+		<l>Tiresia sacerdote antico e degno</l>
+		<l>Del sacro Apollo al par di lui ne puote</l>
+		<l>Porger aita in dimostrarne il vero.</l>
+		<l>EDIPPO</l>
+		<l>Non sono stato a tale impresa lento.</l>
+		<l>Perchè non sol mandato ho a lui Creonte,</l>
+		<l>Ma poi due servi; il cui tardar sì lungo</l>
+		<l>Prendere oMai ne fa gran maraviglia.</l>
+		<l>CORO</l>
+		<l>Negletta in tutto è quella antica fama.</l>
+		<pb n="43"/>
+		<l>EDIPPO</l>
+		<l>E qual? dì pur, ch’ ogni parola noto.</l>
+		<l>CORO</l>
+		<l>Ch’ ei fu per via da più ladroni anciso.</l>
+		<l>EDIPPO</l>
+		<l>Negletta è no; ma nessun riconosce</l>
+		<l>Colui, che vide il suo misero ime.</l>
+		<l>cono</l>
+		<l>Poscia ch’ e’ fia qui d’ ogn’ intotrno sparso</l>
+		<l>Il crudo suon delle parole tue</l>
+		<l>E’ doverrà manifestare il tutto,</l>
+		<l>Se nel suo petto alcun timore albergal.</l>
+		<l>EDIPPO</l>
+		<l>«Sprezza i minacci, e sprezza le parole</l>
+		<l>«Chi si dimostra nell’oprare ardito.</l>
+		<l>CORO</l>
+		<l>Ecco menato quei, che sol ne puote</l>
+		<l>Dagli occhi nostri tor l’ oscuro velo;</l>
+		<l>Cui sol concesso ha il del fra noi mortali</l>
+		<l>Scerner il vero tra’dubbiosi casi.</l>
+		<l>EDIPPO</l>
+		<l>O vate santo, o buon Tiresia antico.</l>
+		<l>Che non tien sol delle terrestri cose</l>
+		<l>Vera scienza, ma col tuo savere</l>
+		<pb n="44"/>
+		<l>Libero e sciolto ancor trapassi il cielo;</l>
+		<l>Tu ben conosci (ancor ch’agli occhi tolto</l>
+		<l>Ti sia ’l mirar) ohimè, da qual flagello</l>
+		<l>Battuta sia questa città meschina,</l>
+		<l>Che ne’ suoi danni alfin te solo appella :</l>
+		<l>E spera sol da te l’ alma salute.</l>
+		<l>Febo inchinato agli umil preghi nostri</l>
+		<l>(Se ciò non sai da’ miei mandati imprima)</l>
+		<l>Colal risposta ha rimandato indietro,</l>
+		<l>Ch’ una via sola è, che di tanta doglia</l>
+		<l>Ci possa trarre; e questa è che cercando</l>
+		<l>Di quei ch’ ammazzar già l’ antico Laio,</l>
+		<l>Trovati li puniam d’acerba morte,</l>
+		<l>O di questa città facciam ribegli.</l>
+		<l>Onde non ci negar quel che la voce</l>
+		<l>De’ santi augegli a te ne mostra chiaro;</l>
+		<l>O se per altri segni il ver palese</l>
+		<l>Ti si fa, ch’ a noi qui rimane occulto :</l>
+		<l>Che trarrai prima te di doglia amara,</l>
+		<l>Poi questa terra, e me; purgando insieme</l>
+		<l>Del santo e morto re l’acerba pecca.</l>
+		<l>Santo profeta in te ghiace ogni speme;</l>
+		<l>«E nota ben, che sol quella fatica</l>
+		<l>«Fra tutte l’ altre è gloriosa e chiara,</l>
+		<pb n="45"/>
+		<l>«Che nel giovare altrui lieta si spende.</l>
+		<l>TIRESJA</l>
+		<l>«Lasso, ohimè lasso, come è grave doglia</l>
+		<l>«L’aver prudenza senza frutto alcuno</l>
+		<l>«Del possessore? Io che sapeva il tutto</l>
+		<l>Di ciò ch’ avea a ’ncontrar, qua son venuto.</l>
+		<l>EDIPPO</l>
+		<l>Perchè si sbigottito a noi ti mostri?</l>
+		<l>TIRESIA</l>
+		<l>Dammi licenza, e porta in pace omai</l>
+		<l>Il peso, onde t’affliggi; che tacendo</l>
+		<l>Ancor io porterò mio grave incarco.</l>
+		<l>EDIPPO</l>
+		<l>Ragion non è, che ’l tuo consiglio Saggio,</l>
+		<l>Nieghi a quella città, che t’ha nodrito.</l>
+		<l>TIRESIA</l>
+		<l>Io non vo’ qui parlar, ch’ e’ non è tempo,</l>
+		<l>Per non far come te nella domanda.</l>
+		<l>coro</l>
+		<l>Non ti partir senza scovrirne il vero</l>
+		<l>Di quanto sai, che tutti umilemente</l>
+		<l>Ti ripreghiam, che la tua mente inchini.</l>
+		<l>TIRESIA</l>
+		<l>Tutti pregate, e tutti sete stolti.</l>
+		<pb n="46"/>
+		<l>Io taccio sol, perchè lo mio parlare</l>
+		<l>Non sia cagione altrui di doglia e pianto.</l>
+		<l>EDIPPO</l>
+		<l>Sei tu del senno fuori? o pur conosci</l>
+		<l>Di tradir Ita tua patria insieme e noi?</l>
+		<l>TIRESIA</l>
+		<l>Io te non tradirei, ma la mia vita,</l>
+		<l>Dicendo cose, che recare a fine</l>
+		<l>Poi non vorresti, O credere a’ miei detti.</l>
+		<l>EDIPPO</l>
+		<l>O vate più d’ ogni altro empio, e maligno,</l>
+		<l>Qual saria pietra, ch’ alle tue parole</l>
+		<l>Non s’ accendesse? E sei disposto in tutto</l>
+		<l>Tacendo a non salvar la patria, e noi?</l>
+		<l>TIRESIA</l>
+		<l>Tu biasmi l’ ira in me, nè ben t’ accorgi</l>
+		<l>Del soverchio furor, ch’ in te sfavilla.</l>
+		<l>EDIPPO</l>
+		<l>Chi tenia mai ’l furor, mai sempre udendo</l>
+		<l>Sì sconci detti, onde tu rechi a morte</l>
+		<l>Questa città, che fu già sì felice?</l>
+		<l>TIRESIA</l>
+		<l>Quant’ io ti celo, tosto aprirà ’l tempo.</l>
+		<pb n="47"/>
+		<l>Quanto debbe venir, giusto è ch io ’ntenda.</l>
+		<l>TIRESIA</l>
+		<l>Certo son pur di tener questo dscoso,</l>
+		<l>Si ch’ a tua posta Omai crucciato resta.</l>
+		<l>EDIPPO</l>
+		<l>Io dirò pur ciò, ch’entro al petto è chiuso,</l>
+		<l>Poscia che spinto son da giusto sdegno :</l>
+		<l>Io tengo certo che tu sii quel solo,</l>
+		<l>Ch’ hai interamente questa tela ordita,</l>
+		<l>Salvo ch’ averlo con tua mano anciso;</l>
+		<l>E se non che tu sei del veder privo,</l>
+		<l>Di te stesso, e non d’ altri saria ’l fallo.</l>
+		<l>TIRESIA</l>
+		<l>Or sappi omai, che tu solo, Edippo,</l>
+		<l>Vien sottoposto a quelle preci orrende,</l>
+		<l>Ch’ hai fatte innanzi, e ch’ egli è giunta l’ ora</l>
+		<l>Ch’e’non ti lece ragionare insieme</l>
+		<l>Più con altrui; perchè tu sei quel desso,</l>
+		<l>Da cui vien la cagion de’ nostri danni.</l>
+		<l>EDIPPO</l>
+		<l>È si perduta in te vergogna, e tema,</l>
+		<l>Che tai ver me parole muovi? or dimmi</l>
+		<l>Ove di ciò fuggir la pena estimi?</l>
+		<pb n="48"/>
+		<l>TIRESIA</l>
+		<l>Salvo rifuggo ognor che ’l ver mantengo.</l>
+		<l>EDIPPO</l>
+		<l>Altri che l’ arte tua questo t’ insegna.</l>
+		<l>TIRESIA</l>
+		<l>Anzi tu sol, che m’ hai forzato a dirlo.</l>
+		<l>EDIPPO</l>
+		<l>Dimmel di nuovo, acciò che io intenda meglio</l>
+		<l>TIRESIA</l>
+		<l>Fingi tu questo? o vuoi pur ch’io ’l ridica?</l>
+		<l>EDIPPO</l>
+		<l>Compreso non ho ben tuoi detti ancora.</l>
+		<l>TIRESIA</l>
+		<l>Dico, che sei colui, ch’ ancise Laio.</l>
+		<l>EDIPPO</l>
+		<l>Due volte non dirai lieto i miei danni.</l>
+		<l>TIRESIA</l>
+		<l>Perchè t’ accendi più, dirò ancor peggio.</l>
+		<l>EDIPPO</l>
+		<l>Sia tuo ’l pensier, che quanto parli è vano.</l>
+		<l>TIRESIA</l>
+		<l>Tu ghiaci con chi t’è più stretto amico</l>
+		<l>Ch esserne possa; oh vituperio immenso :</l>
+		<l>Nè vedi quanto error, meschin, t’accolga.</l>
+		<pb n="49"/>
+		<l>EDIPPO</l>
+		<l>Pensi tu lieto aver tai cose a dirmi?</l>
+		<l>TIRESIA</l>
+		<l>Sì, s’ egli ha forza il ver, com’ egli ha certo -</l>
+		<l>EDIPPO</l>
+		<l>In tutti è’l suo poter, fuor ch’ in te solo,</l>
+		<l>Che la mente, gli orecchi, e gli occhi hai ciechi.</l>
+		<l>TIRESIA</l>
+		<l>Ben sei infelice, che con ogni oltraggio</l>
+		<l>Quello in me biasmi; ove tu stesso a scherno</l>
+		<l>Sarai alla gente; e ila ben certo il punto.</l>
+		<l>EDIPPO</l>
+		<l>L’ esser cieco fa sol, ch’ io non t’ offenda,</l>
+		<l>E tien sicuro da qualunche vede.</l>
+		<l>TIRESIA</l>
+		<l>Non vuol mio fato, che tu mi dii morte;</l>
+		<l>E’ basta Apollo a punire i miei falli.</l>
+		<l>EDIPPO</l>
+		<l>Sondi Creonte, o tuoi questi trovati?</l>
+		<l>TIRESIA</l>
+		<l>Di te sol la colp’ è, non di Creonte.</l>
+		<l>EDIPPO</l>
+		<l>«Quanti hai nimici (ohimè) regai potenza!</l>
+		<l>«E voi ricchezze quanta invidia al mondo</l>
+		<pb n="50"/>
+		<l>«Oggi ingombrate alla beata vita!</l>
+		<l>«E parimente tu virtute ed arte,</l>
+		<l>«Che lunge altrui pur superando varchi!</l>
+		<l>Poscia ch’ a noi quel vecchio amico e Fido,</l>
+		<l>Creonte dico, di quest’ alto regno</l>
+		<l>Cerca di trarmi; di che la cittade</l>
+		<l>Già mi fe dono : e non fu con mill’arti,</l>
+		<l>Nè mille insidie guadagnato, o vinto</l>
+		<l>Per via di questo scelerato mago,</l>
+		<l>Che con sua lingua di malizia armata</l>
+		<l>Cerca aggirar la congregata turba;</l>
+		<l>Che solamente ne’ guadagni inteso</l>
+		<l>Scorge la luce, e di tutt’ altro è cieco.</l>
+		<l>Ma dimmi un poco, o buon profeta e saggio,</l>
+		<l>Dov’è lo tuo saver? dov’ è ’l tuo senno?</l>
+		<l>Come non porgestu qualche soccorso</l>
+		<l>Αll’ afflitta città, quando la sfinge,</l>
+		<l>Cagna rabbiosa, la spingeva a morte?</l>
+		<l>Non era ufizio già d’ un che venisse</l>
+		<l>Qua nuovo in Tebe a Far quel dubbio chiaro;</l>
+		<l>Anzi gli era uopo d’un celeste segno,</l>
+		<l>Che avesser dato, o gl’indovini augelli,</l>
+		<l>O l’alta voce del sagrato Apollo.</l>
+		<l>Ma io disciolsi l’ intrigato nodo,</l>
+		<pb n="51"/>
+		<l>Ch’in queste parti la fortuna amica</l>
+		<l>Sospinto avea con la viriate stessa</l>
+		<l>Della mia mente, e non de’ sacri augelli :</l>
+		<l>Lo qual tu cerchi or di quest’ alta impero</l>
+		<l>Far rovinar, perchè tu pensi e stimi</l>
+		<l>D’avere a star più presso al, nuovo regno,</l>
+		<l>Ch’ avrà Creonte per te guadagnato.</l>
+		<l>Ma nota ben, che d’ esto regno in vece</l>
+		<l>Tu con lui insieme acquisterai gran doglia,</l>
+		<l>E pianto amaro; e se non ch’ io riguardo</l>
+		<l>A tua canuta età di senno priva,</l>
+		<l>Ti fora il guiderdon condegno a’ merti.</l>
+		<l>CORO</l>
+		<l>S’ e’ mi sovvien del ver, da grave sdegno</l>
+		<l>Son conceputi di ciascuno i detti,</l>
+		<l>Ma non già questi or ne concede il tempo;</l>
+		<l>Ma piuttosto ’l tentar, se modo alcuno</l>
+		<l>Ci è da scoprir quel, ch’ ha risposto Apollo.</l>
+		<l>TIRESIA</l>
+		<l>Perchè tu sii di questa terra rege,</l>
+		<l>Della mia mente anch’ io l’ impero tengo,</l>
+		<l>E parlar posso quel che più m aggrada;</l>
+		<l>Nè servo sonti, e sol ministro a Febo :</l>
+		<l>Nè di Creonte ancor sarò suggello.</l>
+		<pb n="52"/>
+		<l>Ma tu, ch’hai sì vituperosamente</l>
+		<l>Biasmato me, perch’ io non veggio ’l sole,</l>
+		<l>Tu che scorgi lontan l’amata luce,</l>
+		<l>Folle non miri quanto acerbo male</l>
+		<l>L’alma t’ingombri, nè conosci il loco</l>
+		<l>Dove tu sei; nè con chi sempre in casa</l>
+		<l>Conversi : ahi ben meschin, che insieme ghiaci</l>
+		<l>Con lei, che t’ha prodotto, e dato in luce.</l>
+		<l>Nimico essendo al padre tuo, ch’ è morto,</l>
+		<l>E parimente a chi rimaso è in vita.</l>
+		<l>Sì che da doppi e spaventosi preghi</l>
+		<l>Di padre e madre sarai discacciato</l>
+		<l>Di questa terra, e con tuo grave danno;</l>
+		<l>Perchè sarai di quanto vedi or cieco.</l>
+		<l>E qual porto fia mai, qual antro oscuro,</l>
+		<l>Qual Citeron, ch’ a tua misera voce</l>
+		<l>Non renda ’l suono? poiche sarai certo</l>
+		<l>Dell’ empie nozze, ch’ entro a’ tuoi palazzi</l>
+		<l>Felicemente hai insino a’qui condotte?</l>
+		<l>Nè ascosi ti saran gli orribil danni,</l>
+		<l>Che par Taranti a te stesso, e i tuoi figli.</l>
+		<l>Onde Creonte, e la mia lingua omai</l>
+		<l>Biasma quanto t’aggrada; e sappi e nota,</l>
+		<l>Ch’alti’uomo oggi non è, nè nascer deve</l>
+		<pb n="53"/>
+		<l>Con tanto fiero esempio e ’n morte e ’n vita.</l>
+		<l>EDIPPO</l>
+		<l>Com’ esser puote mai senza vendetta</l>
+		<l>Soffrir tant’ ira? A che più indugio prendi?</l>
+		<l>Perchè non parti omai da’ miei palazzi?</l>
+		<l>TIRESIA.</l>
+		<l>Da te chiamato al tuo conspetto venni.</l>
+		<l>EDIPPO</l>
+		<l>Perchè e’ non m’ era la tua stolta mente</l>
+		<l>Nota, mandai per te, di ch’or mi pento.</l>
+		<l>TIRESIA</l>
+		<l>A tal son giunto, si come tu stimi,</l>
+		<l>Che stolto sia, quanto ’l contrario intendi.</l>
+		<l>Folle, del padre tuo pregiato e degno.</l>
+		<l>EDIPPO</l>
+		<l>Sta saldo, dimmi, e chi mi diè la vita?</l>
+		<l>TIRESIA</l>
+		<l>Questo dì ti darà sol vita e morte.</l>
+		<l>EDIPPO</l>
+		<l>Quanto scura è tua lingua, e quanto è vana.</l>
+		<l>TIRESIA</l>
+		<l>Tu sei pur buon maestro a chiarir dubbj.</l>
+		<l>EDIPPO</l>
+		<l>Biasma pur la virtù, che mi fa degno.</l>
+		<pb n="54"/>
+		<l>TIRESIA.</l>
+		<l>Quésta virtù fia sol la tua rovina.</l>
+		<l>EDIPPO</l>
+		<l>Altro non curo, se la terra ho salva.</l>
+		<l>TIRESIA</l>
+		<l>Menami via fanciul, che partir voglio.</l>
+		<l>EDIPPO</l>
+		<l>Partiti, perch’ omai la tua presenza</l>
+		<l>Via maggior danno, che salute apporta.</l>
+		<l>TIRESIA</l>
+		<l>Poscia che detto arò quanto dir deggio</l>
+		<l>Farò partita senza nulla tema</l>
+		<l>Dell’ orgoglio ver me, ch’ irato or mostri;</l>
+		<l>Perchè non hai poder di farmi oltraggio :</l>
+		<l>Nè di te servo son, ma sol di Febo.</l>
+		<l>E dico che colui, che tanto brami</l>
+		<l>Trovar, mettendo per tutta la terra</l>
+		<l>Feroci bandi sovra l’ empia morte</l>
+		<l>Del vecchio Laio, qui vive, e si crede</l>
+		<l>Esser uom nuovo dentro a queste mura;</l>
+		<l>Ma tosto scoprirà, ch’ egli è natio</l>
+		<l>Di questa patria, e nobil cittadino :</l>
+		<l>Nè in ciò fia lieto per aver trovato</l>
+		<l>La sua progenie; anzi la notte oscura</l>
+		<pb n="55"/>
+		<l>Poscia del chiaro sol gli sarà invece,</l>
+		<l>E le ricchezze in povertà cangiate</l>
+		<l>Tosto gli fieno : e così fuggitivo</l>
+		<l>Darà contezza di sua nobil prole,</l>
+		<l>E del gran regno col dorato scettro</l>
+		<l>Per tutti i luoghi, ove guidato fia</l>
+		<l>Da’ cari figli, a cui fratello e padre</l>
+		<l>In un sarà, dipoi della sua madre</l>
+		<l>Insieme apparirà figliuolo e sposo :</l>
+		<l>E sarà certo ancor d’ avere sparso</l>
+		<l>Il seme dove il padre, e con sua mano</l>
+		<l>Avergli dato, ohimè, morte empia e fera.</l>
+		<l>Or torna in casa, e pensa a quanto io dico;</l>
+		<l>E se tu trovi in fallo il mio parlare,</l>
+		<l>Dì, che ’l futuro a me stia certo ascoso.</l>
+		<l>CORO</l>
+		<l>Quanto infelice vita</l>
+		<l>Menar deve colui, quanto timore</l>
+		<l>Deve dentro albergare al tristo petto;</l>
+		<l>Che spinto dal furore</l>
+		<l>N’ha tolto al mondo quell’alma gradita</l>
+		<l>Del nostro antico re saggio, e perfetto.</l>
+		<l>Non sicuro ricetto</l>
+		<l>Gli fien le propie case, ola cittade,</l>
+		<pb n="56"/>
+		<l>Ma fiangli albergo omai le valli, e i boschi,</l>
+		<l>E i sentieri aspri e foschi,</l>
+		<l>Ove non sien d’ uman vestigio strade.</l>
+		<l>Già in tutte le contrade</l>
+		<l>S’ ode ’l grido, e già armato</l>
+		<l>Di Giove il figlio è con arco e saetta</l>
+		<l>Per fare in ogni lato</l>
+		<l>Centra questo crudele empia vendetta.</l>
+		<l>Ma più leggier che vento,</l>
+		<l>E più veloce assai che tigre, o pardo</l>
+		<l>Fuggito ha lunge il gelido Parnaso,</l>
+		<l>E ’l terribile sguardo</l>
+		<l>Di Febo questi; e per grande spavento</l>
+		<l>(Qual un toro smarrito, ch’ è rimaso</l>
+		<l>Per qualche stranio caso</l>
+		<l>Dalla cara compagna sua diviso)</l>
+		<l>Lassati i dolci figli, e la consorte,</l>
+		<l>Tolto ha se stesso a morte,</l>
+		<l>In ogni parte a lei celando ’l viso.</l>
+		<l>Ma s’ egli è ver, che anciso</l>
+		<l>Sia stato, il vecchio re dal mio signore,</l>
+		<l>Lasso, che speme omai più ne mantiene,</l>
+		<l>S’un sì leggiadro fiore</l>
+		<l>Spegner si deve, e nostro unico bene?</l>
+		<pb n="57"/>
+		<l>Com’ esser puote mai,</l>
+		<l>Che ’l nostro padre, da cui la salute</l>
+		<l>Riconosciam d’ogni passata doglia,</l>
+		<l>A cui tanta virtute</l>
+		<l>Già diede il cielo, abbia scurato i rai</l>
+		<l>Della pietà? perchè si fera voglia</l>
+		<l>Trasse la cara spoglia</l>
+		<l>Di questa vita di Labdaco al figlio?</l>
+		<l>Che sdegno nacque al figliuol di Corinto?</l>
+		<l>Onde di sangue tinto</l>
+		<l>Facesse il ferro, e poi il loco vermiglio?</l>
+		<l>Perchè sì stran consiglio</l>
+		<l>L’ indusse a tanto scempio?</l>
+		<l>«Stolto certo è chi senza gran cagione</l>
+		<l>«Un error grave ed empio</l>
+		<l>«Crede, e quel ch’ ei non sa, per vero appone</l>
+		<l>Io son certo, che Giove</l>
+		<l>Sappia ’l futuro, e’l bel signor di Deio;</l>
+		<l>Ma che di me più intenda un uom mortale</l>
+		<l>I segreti del cielo,</l>
+		<l>O quando l’ anno di grandini, o piove</l>
+		<l>Deve andar carco, o quando ogni animale</l>
+		<l>Sarà caduco e frale,</l>
+		<l>Non puote in me capir sì strania fede.</l>
+		<pb n="58"/>
+		<l>E credo ben, che di intelletto avanzi</l>
+		<l>L’ un l’ altro, e vada innanzi</l>
+		<l>Più con l’ingegno; e questo ognor si vede.</l>
+		<l>Ma dentro all’ alma siede</l>
+		<l>Un pensier, che sovente</l>
+		<l>Questo rio scaccia, e doloroso scelo</l>
+		<l>Dal re nostro prudente,</l>
+		<l>Di cui la fama vola insin nel cielo.</l>
+		<l>Dunche s’io non discerno</l>
+		<l>Prima con gli occhi miei tanto peccato,</l>
+		<l>Non darò fede a semplici parole</l>
+		<l>D’ un vate, che con fole</l>
+		<l>Forse dimostra quel, che gli è celato.</l>
+		<l>Ma ecco infuriato</l>
+		<l>Venir ver noi Creonte;</l>
+		<l>D’ Edippo certo sentito ha ’l furore;</l>
+		<l>Che con parole pronte</l>
+		<l>Vorrà trar d’ ogni biasmo il suo buon core,</l>
+	</lg>
+							</seg>
+						</ab>
+					</div>
+					<div type="textpart" subtype="chapter" n="7">
+						<pb n="59"/>
+						<head>
+							<title>ATTO TERZO</title>
+						</head>
+						<ab>
+							<seg type="fragment">
+	<lg>
+		<l>CREONTE</l>
+		<l>Quanta, ohimè lasso, il cor doglia aspra ingombra,</l>
+		<l>Poscia ch’inteso ho, cari cittadini,</l>
+		<l>Gli acerbi detti del signore Edippo</l>
+		<l>Contra di me, che s’ ei per fermo estima,</l>
+		<l>Che i tristi annunzj, onde la ria fortuna</l>
+		<l>Forte il minaccia, sien da me trovati</l>
+		<l>Con arte, e inganni per la sua rovina;</l>
+		<l>Ogni diletto omai del viver lungo</l>
+		<l>Da me si parta, se d’una tal fama</l>
+		<l>Deggio vivendo sopportare il peso.</l>
+		<l>Che non ila lieve, anzi gravoso e forte;</l>
+		<l>Poi ch’io n’ acquisto di maligno il nome</l>
+		<l>In questa patria; e non pur da voi soli.</l>
+		<l>Ma, quel ch’ è più, da’cari amici ancora.</l>
+		<l>CORO</l>
+		<l>Da sdegno più che da ragion commosso</l>
+		<l>Forse ha centra di te parlato Edippo.</l>
+		<l>CREONTE</l>
+		<l>Perchè pens’ ei, che di menzogne armato</l>
+		<l>Fusse Tiresia sol pe’ miei consigli?</l>
+		<pb n="60"/>
+		<l>CORO</l>
+		<l>Che sia non so di tal credenza madre.</l>
+		<l>CREONTE</l>
+		<l>Eran dritte sue luci, e la sua mente</l>
+		<l>Forma appariva allor che furiando</l>
+		<l>Accusava di me l’empio peccato?</l>
+		<l>CORO</l>
+		<l>Più oltre dir non so, ch’ e’ non mi lece</l>
+		<l>Notare appunto quel, che i signor fanno;</l>
+		<l>Ma ecco che ver noi si gira a tempo.</l>
+		<l>EDITTO</l>
+		<l>Qual gran fiducia, o qual ardir ti mena</l>
+		<l>Dentro a’ palazzi miei così sicuro,</l>
+		<l>O certo micidial del morto Laio,</l>
+		<l>E del mio regno manifesto ladro?</l>
+		<l>Dimmi, hai tu in me per Dio tanta viltade</l>
+		<l>Scorto, o pazzia, che i tuoi consigli a fine</l>
+		<l>Recar ti pensi, perdi io non m’ accorga</l>
+		<l>De’ tristi inganni? o benchè e’sian palesi</l>
+		<l>Perch’io non sia bastante a schifar quegli?</l>
+		<l>«Ahi come è stolto chi d’ amici privo,</l>
+		<l>«E senza aiuto di molt’ altri stima</l>
+		<l>«Di potersi acquistar gran regno e impero;</l>
+		<l>«U’ sol con gente, e con danar s’ aggiugne!</l>
+		<pb n="61"/>
+		<l>CREONTE</l>
+		<l>Se tu vuoi giudicar con dritta lance</l>
+		<l>La verità, convien ch’ attesi porga</l>
+		<l>Gli orecchi a me, siccome a te gli ho porti.</l>
+		<l>EDIPEO</l>
+		<l>Come ascoltar giammai poss’io colui,</l>
+		<l>Ch’è sì fiero nimico alla mia vita?</l>
+		<l>CREONTE</l>
+		<l>Fammi sol grazia, che parlarti possa.</l>
+		<l>EDIPPO</l>
+		<l>Non negar solo a me d’esser maligno.</l>
+		<l>CREONTE</l>
+		<l>Se tu stimi virtù tener la mente</l>
+		<l>Dura, e senza ragion, che a ciò t’ induca,</l>
+		<l>Tu sei ben fuor di quel che stimar deggi.</l>
+		<l>EDIPPO</l>
+		<l>Se tu stimi, ch’ un uom, che sia parente,</l>
+		<l>Possa male operar senz’ aver pena,</l>
+		<l>Quanto è dal ver la tua credenza lunge!</l>
+		<l>CREONTE</l>
+		<l>Io tel concedo, ma saper vorrei</l>
+		<l>Qual mai fallo mi scorge a tanta pena.</l>
+		<l>EDIPPO</l>
+		<l>Non fur (dimmi) cagion li tuoi consigli</l>
+		<pb n="62"/>
+		<l>Di far venir Tiresia al mio conspetto?</l>
+		<l>CREONTE</l>
+		<l>Fur sì, nè son da tal parer cangiato.</l>
+		<l>EDIPEO</l>
+		<l>Quanto tempo è, che’l vostro antico rege ...</l>
+		<l>CREONTE</l>
+		<l>Che cosa fe? non so che dir tu vogli.</l>
+		<l>EDIPEO</l>
+		<l>Fu dalla morte oscuramente avvinto?</l>
+		<l>CREONTE</l>
+		<l>Misurar ciò potrian ben molti lustri.</l>
+		<l>EDIPPO</l>
+		<l>Era Tiresia allor di pregio e fama?</l>
+		<l>CREONTE</l>
+		<l>Tenuto saggio, e’n pari onore, e stima.</l>
+		<l>EDIPPO</l>
+		<l>Fu il nome nostro allor mai ricordato?</l>
+		<l>CREONTE</l>
+		<l>No, ch’io ’l sentissi a mia presenza unquanco.</l>
+		<l>EDIPPO</l>
+		<l>Non ricercaste voi chi ’l morto ancise?</l>
+		<l>CREONTE</l>
+		<l>Cercammo sì, nè però venne a luce.</l>
+		<pb n="63"/>
+		<l>EDIPPO</l>
+		<l>me allor non scoprì tal cosa il vate?</l>
+		<l>CREONTE</l>
+		<l>(??)el che certo non so, volentier taccio.</l>
+		<l>EDIPPO</l>
+		<l>Quanto tu sai, saggio saresti a dirne.</l>
+		<l>CREONTE</l>
+		<l>Nulla ch’ io sappia, mai terrotti ascoso.</l>
+		<l>EDIPPO</l>
+		<l>Che se Tiresia non avessi indotto,</l>
+		<l>Non aria detto, ch’io l’avessi anciso.</l>
+		<l>CREONTE</l>
+		<l>Palesi a te son cotai detti solo,</l>
+		<l>Ch’ io ne son nuovo; e vorrei ben sapere</l>
+		<l>Da te, quel ch’ or da me ne ricercavi.</l>
+		<l>EDIPPO</l>
+		<l>Cerca ’l tu stesso; io so ch’ io non l’ho morto</l>
+		<l>CREONTE</l>
+		<l>Non è la tua consorte a me sorella?</l>
+		<l>EDIPPO</l>
+		<l>Negar non posso quanto or mi domandi.</l>
+		<l>CREONTE</l>
+		<l>Al par di te non regna quella ancora?</l>
+		<pb n="64"/>
+		<l>EDIPPO</l>
+		<l>Tant’ è di lei ’l poter, quant’ è la voglia.</l>
+		<l>CREONTE</l>
+		<l>Non son io il terzo di cotanto regno?</l>
+		<l>EDIPPO</l>
+		<l>Questo ti scopre or più malvagio amico.</l>
+		<l>CREONTE</l>
+		<l>Se tu vorrai compitamente udire</l>
+		<l>Le mie ragioni, non terrai Creonte</l>
+		<l>Malvagio amico; e se risguardi al vero,</l>
+		<l>Tu non troverai mai chi brami impero,</l>
+		<l>Accompagnato di sospetto e tema,</l>
+		<l>Piuttosto che ’l menar le notti intere</l>
+		<l>Sicure sempre in dilettose tempre,</l>
+		<l>Ugualmente potendo a quel, che regna :</l>
+		<l>Ond’ io già il regno più non cerco avere,</l>
+		<l>Chè la potenza d’un, che sia signore,</l>
+		<l>Nè altri, ch’ abbia ancor di saggio il nome.</l>
+		<l>Nulla cosa è, che chiesta unqua non abbia</l>
+		<l>Sciolto d’ ogni timor, ch’ arreca il regno;</l>
+		<l>Ove convien, che molte volte un rege</l>
+		<l>Opri contra sua voglia : or come puote</l>
+		<l>Esser questo regnar più dolce, o caro</l>
+		<l>D’ un principato, che non rechi doglia?</l>
+		<pb n="65"/>
+		<l>Non son d’ ogni saper sì nudo, e scosso,</l>
+		<l>Ch’ io stimi ben quel che n’ apporti danno.</l>
+		<l>Al mio bel stato ciascheduno è amico;</l>
+		<l>Ciascun m’ applaude; in me s’ aduna e posa</l>
+		<l>Quanto è di speme, se nel tuo conspetto</l>
+		<l>Cerca nessun trovar grazia o mercede.</l>
+		<l>Come potria cangiar con questo or quello?</l>
+		<l>«Non puote male oprar chi saggio ha il corc.</l>
+		<l>Io dentro al petto mai sì grave fallo</l>
+		<l>Non ho commesso, nè con altri ancora</l>
+		<l>Son convenuto per la tua rovina;</l>
+		<l>E se di ciò più certa prova brami,</l>
+		<l>Manda un, ch’intenda dal sagrato Apollo,</l>
+		<l>Se riferito t’ ho quant’ ei m’ impose :</l>
+		<l>E se tu trovi manifestamente,</l>
+		<l>Che con Tiresia abbia trattato mai</l>
+		<l>Centra ’l tuo capo; non pur la tua voglia,</l>
+		<l>Ma la mia ancor s’aggiunga a darmi morte.</l>
+		<l>Ma non volere anzi ch’intendi il vero</l>
+		<l>Condennar chi non è di morir degno;</l>
+		<l>«Ch’ all’ uom, ch’ è giusto, non.conviensi, o rege,</l>
+		<l>«Stimare ottimi i rei, nè incontro ancora</l>
+		<l>«Cattivi i buoni; e’l vecchio amico e fido</l>
+		<l>«Cacciar da sè non è più lieve danno</l>
+		<pb n="66"/>
+		<l>«Che ’l torsi vita, che ciascuno aggrada,</l>
+		<l>Ma il tempo ne farà palese il vero;</l>
+		<l>«Che ’l tempo sol discopre l’ uom, ch’ è giusto,</l>
+		<l>«E in un sol giorno l’ uom ch’ è falso appare.</l>
+		<l>CORO</l>
+		<l>Quanto sondi Creonte accorti i detti,</l>
+		<l>Cui il sentier dritto di smarrir paventa;</l>
+		<l>«Che sicuro non è presto consiglio.</l>
+		<l>EDIPPO</l>
+		<l>Presto soccorso alle veloci insidie</l>
+		<l>Dar mi convien, perchè lo stare in posa</l>
+		<l>Ne recherebbe a fin l’ inique voglie,</l>
+		<l>Tal ch’ in bando sarei di mia salute.</l>
+		<l>CREONTE</l>
+		<l>Cacciar dunche vuoi me di questa terra?</l>
+		<l>EDIPPO</l>
+		<l>Non cerco il tuo fuggir, ma la tua morte.</l>
+		<l>CREONTE</l>
+		<l>Quand’ io saprò per quel ch’ in odio t’ haggia.</l>
+		<l>EDIPPO</l>
+		<l>Dì tu, che al mio voler sarai ribelle?</l>
+		<l>CREONTE</l>
+		<l>Perch’ io ti veggio stolto,</l>
+		<pb n="67"/>
+		<l>EDIPPO</l>
+		<l>Sì ch’ al mio ben consiglio.</l>
+		<l>CREONTE</l>
+		<l>Parimente l’ altrui curar si deve.</l>
+		<l>EDIPEO</l>
+		<l>Se per reo t’ho scoperto?</l>
+		<l>CREONTE</l>
+		<l>Se di ciò non hai prova?</l>
+		<l>EDIPPO</l>
+		<l>Pur questo regno tengo.</l>
+		<l>CREONTE</l>
+		<l>Non si conviene a mal signore impero.</l>
+		<l>EDIPPO</l>
+		<l>Ohimè città infelice!</l>
+		<l>CREONTE</l>
+		<l>E in questa città parte</l>
+		<l>Maggio ancor io, non per te solo è Tebe.</l>
+		<l>CORO</l>
+		<l>Signor, posate omai l’altero sdegno;</l>
+		<l>Ecco locasta a voi ch’a tempo arriva,</l>
+		<l>Che fine esser potrà di tanta lite.</l>
+		<l>IOCASTA</l>
+		<l>Perchè infra voi sì disusata e nuova</l>
+		<l>Lite movete con parole acerbe?</l>
+		<pb n="68"/>
+		<l>Ohimè infelici! nè vergogna alcuna</l>
+		<l>Vi tien veggendo il doloroso scempio</l>
+		<l>Di questa patria a raddoppiar tai danni.</l>
+		<l>Che indugi, Edippo, entrar qua dentro mai?</l>
+		<l>E tu, Creonte, a ritornare in casa,</l>
+		<l>E non far di niente immensa doglia?</l>
+		<l>CREONTE</l>
+		<l>Cara sorella, il tuo marito Edippo</l>
+		<l>Stima, che l’un de’ due crudi supplicj</l>
+		<l>Del mio grave fallir sia giusta pena :</l>
+		<l>Far me di vita, o d’ esta terra casso.</l>
+		<l>EDIPPO</l>
+		<l>Perchè trovato ho certamente, donna,</l>
+		<l>Che tristi inganni alla mia vita ha teso.</l>
+		<l>CREONTE</l>
+		<l>Sia ’l cielo a’miei desini</l>
+		<l>Sempre contrario, e fera</l>
+		<l>Morte il mio spirto tristo</l>
+		<l>Assaglia, se mai vero</l>
+		<l>Esser potrà quel fallo,</l>
+		<l>Di che m’ incolpa Edippo.</l>
+		<l>lOC ASTA</l>
+		<l>Credi, signor, per Dio quant’ ei n’ afferma</l>
+		<l>Pel giuramento altiero, e cedi ancora</l>
+		<pb n="69"/>
+		<l>A me che prego, ed a quei ch’hai d’intorno.</l>
+		<l>CORO</l>
+		<l>Ubbidisci, ti prego alto signore,</l>
+		<l>E con la mente lieta</l>
+		<l>Da’ luogo alla ragione.</l>
+		<l>EDIPPO</l>
+		<l>Chiedi che vuoi, che tutto omai consento.</l>
+		<l>CORO</l>
+		<l>Lui, che mai non fu stolto,</l>
+		<l>Or vie più riveriscili,</l>
+		<l>Che dal gran giuro è stretto.</l>
+		<l>EDIPPO</l>
+		<l>Sai tu ben quel, ch’ or chiedi?</l>
+		<l>CORO</l>
+		<l>Ben so quel, ch’ io domando.</l>
+		<l>EDIPPO</l>
+		<l>Che tanto preghi? or parla.</l>
+		<l>CORO</l>
+		<l>Con vituperio immenso</l>
+		<l>Non voler condennar senza favella</l>
+		<l>Un amico fedel, saggio, e cortese.</l>
+		<l>EDIPPO</l>
+		<l>Lasso, a me brami morte,</l>
+		<l>O tristo esilio, a domandar tal grazia.</l>
+		<pb n="70"/>
+		<l>COBO</l>
+		<l>Io giuro a te pel sole,</l>
+		<l>Che tutto scorge intorno, e gira il mondo,</l>
+		<l>Ch’ io non ho questa mente.</l>
+		<l>L’ ultimo giorno i miei tristi occhi chiuda,</l>
+		<l>Se vero è quel, che stimi.</l>
+		<l>Ma, lasso me infelice,</l>
+		<l>Il cor doglioso geme</l>
+		<l>Per la mia patria afflitta;</l>
+		<l>E teme a vecchi danni</l>
+		<l>Non giunga il nuovo mal piÙ lunghi affanni.</l>
+		<l>EDIPPO</l>
+		<l>Ecco io vo’ sazie far tue voglie omai,</l>
+		<l>Ancor che morte, o indegna fuga aspetti</l>
+		<l>Per tal licenza; che i tuoi preghi soli</l>
+		<l>Mi fan piegar, no ’l suo misero volto</l>
+		<l>Pietà m’ adduce; perchè sempre odiato</l>
+		<l>Da me il suo spirto eternamente fia.</l>
+		<l>CREONTE</l>
+		<l>Forzato cedi, e con soverchio sdegno,</l>
+		<l>Ma, cheta l’ ira, arai più doglia al core;</l>
+		<l>«Perch’ a sè stesso è poi noioso e grave</l>
+		<l>«Chi vinto è dal dolor, che ingiusto sia.</l>
+		<pb n="71"/>
+		<l>EDIPPO</l>
+		<l>A che più parli? a che non parti omai?</l>
+		<l>CREONTE</l>
+		<l>Ecco ch’ io fo partita.</l>
+		<l>Oh fato acerbo e rio,</l>
+		<l>Che cela a te il mio cuore.</l>
+		<l>Scoprendo agli altri il vero.</l>
+		<l>CORO</l>
+		<l>Regina, a che più tardi</l>
+		<l>Di menar dentro Edippo?</l>
+		<l>IOCASTA</l>
+		<l>Per saper qual cagione...</l>
+		<l>CORO</l>
+		<l>Di cosa oscura è nata</l>
+		<l>Fra lor contesa, ond’ a ragion si duole</l>
+		<l>Chi si sente biasmar, non sendo in colpa,</l>
+		<l>IOCASTA</l>
+		<l>Hanno ugualmente porto</l>
+		<l>A tal contesa il fuoco</l>
+		<l>Ambi i cognati insieme?</l>
+		<l>CORO</l>
+		<l>L’uno e l’altro have (ohimè) pur troppo errato.</l>
+		<l>JOCASTA</l>
+		<l>Qual fu il principio di cotanto sdegno?</l>
+		<pb n="72"/>
+		<l>CORO</l>
+		<l>Finiam tal cose omai,</l>
+		<l>Che l’ affannata terra</l>
+		<l>Grida mercede a’ suoi gravosi danni.</l>
+		<l>EDIPPO</l>
+		<l>Lassa pur sempre ogni ragione indietro,</l>
+		<l>Che per me vaglia a quietarmi il core,</l>
+		<l>Ch’è giustamente, e tu il conosci, offeso.</l>
+		<l>cono</l>
+		<l>Non solo una fiata,</l>
+		<l>Signor, t’ho detto, e nuovamente or dico.</l>
+		<l>Che ben sarei crudele,</l>
+		<l>Malvagio, ed empio, e d’ogni lume casso,</l>
+		<l>Se tua rovina amassi;</l>
+		<l>Che la mia patria travagliata e stanca</l>
+		<l>Già rendesti felice :</l>
+		<l>Qual or ti prego rilevar da terra</l>
+		<l>Yogli, se ciò ti lice.</l>
+		<l>IOCASTA</l>
+		<l>Non mi tener, signor, (ti prego) ascoso,</l>
+		<l>Perchè tanto furor t’ingombri il petto.</l>
+		<l>EDIPPO</l>
+		<l>Perch’ io t’onoro sovra ogn’ altri, ο donna,</l>
+		<l>Io ti dirò del tuo fratel Creonte</l>
+		<pb n="73"/>
+		<l>I tristi inganni alla mia vita orditi.</l>
+		<l>IOCASTA</l>
+		<l>Mostra, se con ragion tant’ ira accogli.</l>
+		<l>EDIPPO</l>
+		<l>E’ dice, ch’io son quel, ch’ancise Laio.</l>
+		<l>IOCASTA</l>
+		<l>Ed ei ciò vide, o pur d’ altrui l’ intese?</l>
+		<l>EDIPPO</l>
+		<l>Tiresia è quei, che condotto have il tutto,</l>
+		<l>Da lui mandato a compir l’alto inganno;</l>
+		<l>Perchè tal gente d’ ogni tema sciolta</l>
+		<l>Contra altrui, quanto vuol, parlando ardisce.</l>
+		<l>IOCASTA</l>
+		<l>Cheta, signor, tua grieve pena alquanto,</l>
+		<l>E nota quel, ch’ io dico, e vedrai certo,</l>
+		<l>Ch’ a mortai uomo ogni savere è tolto</l>
+		<l>Di quel, che il fato ne destina, e’l cielo.</l>
+		<l>Ha il sol finito già molti anni e molti;</l>
+		<l>Quand’ una voce, io non so se da Febo,</l>
+		<l>Ovver da un de’suoi ministri santi,</l>
+		<l>Trista pervenne all’infelice Laro,</l>
+		<l>Com’ in sorte era, ch’ ei perir dovesse</l>
+		<l>Per l’empia man d’un de’suoi cari figli,</l>
+		<l>Che d’ambo noi fusse creato al mondo.</l>
+		<pb n="74"/>
+		<l>Or per fama sappiam, che l’alma luce</l>
+		<l>Lungi da qui crudei ladron gli han spenta,</l>
+		<l>Ove in tre rami una via si distende,</l>
+		<l>Che non tre giorni sol portato in vita</l>
+		<l>Il piccol figlio; perch’ ei, che temea</l>
+		<l>Il fiero annunzio, pria col ferro acuto</l>
+		<l>Di lui giugnendo in dispietato modo</l>
+		<l>I piè, lo diede ad un fidato servo,</l>
+		<l>Perchè ’l ponesse in un selvaggio monte;</l>
+		<l>Ov’ei miseramente a morte venne.</l>
+		<l>Onde nè Febo già condusse il figlio</l>
+		<l>A dare al padre dispieiata morte;</l>
+		<l>Nè poteo far, che ’l padre dal figliuolo</l>
+		<l>Sortisse il fin, ch’ei paventava ognora.</l>
+		<l>In colal guisa i vaticinj orrendi</l>
+		<l>Restaron vani, e però nulla cura</l>
+		<l>Prender di quelli; e tien per fermo questo.</l>
+		<l>Che ’l male, ο ’l ben, ch’altrui Giove destina,</l>
+		<l>Da sè lo mostra manifestamente.</l>
+		<l>EDIPPO</l>
+		<l>Qual paura n’ avvince i sensi? e dove</l>
+		<l>Scorre la mente in mille parti e mille,</l>
+		<l>Donna, per quel ch’ hai nuovamente conio</l>
+		<pb n="75"/>
+		<l>IOCASTA</l>
+		<l>Ond’hai tal cura? a che sì tristo parli?</l>
+		<l>EDIPEO</l>
+		<l>Non dì tu, donna, che in un trivio anciso</l>
+		<l>Fu il vecchio re già son molt’ anni e molti?</l>
+		<l>IOCASTA</l>
+		<l>Tal fu la fama, che mantiensi ancora.</l>
+		<l>EDIPPO</l>
+		<l>Che nome ha il loco, u’ fu commesso il fallo?</l>
+		<l>IOCASTA</l>
+		<l>Focide è detta la città vicina;</l>
+		<l>La rotta strada parte in Delfi mena,</l>
+		<l>E parte in Daulia il sentier ne dimostra.</l>
+		<l>edipeo</l>
+		<l>E in che tempo segui tanto empio scelo?</l>
+		<l>IOCASTA</l>
+		<l>Non molto avanti che tu fossi eletto</l>
+		<l>Signor di Tebe, alla città fu chiaro.</l>
+		<l>EDIPEO</l>
+		<l>Oh Dio! che pensi far di me infelice?</l>
+		<l>IOCASTA</l>
+		<l>Ond’ è sì doloroso alto sospiro?</l>
+		<l>EDIPPO</l>
+		<l>Non domandar più oltre la cagione :</l>
+		<pb n="76"/>
+		<l>Ma di che statura era, e di che tempo?</l>
+		<l>IOCASTA</l>
+		<l>Di persona alto; e il capo intorno intorno</l>
+		<l>Cominciava a fiorir di bianchi crini;</l>
+		<l>E simiglianza ti rendea nel volto.</l>
+		<l>EDIPPO</l>
+		<l>Ohimè infelice, ohimè, che da me stesso</l>
+		<l>Veggo, ch’io son nelle maladizioni</l>
+		<l>Cascato, ohirnè, disavvedutamente.</l>
+		<l>IOCASTA</l>
+		<l>Lassa, ch’ io temo di saper più addentro.</l>
+		<l>EDIPPO</l>
+		<l>Lasso, anch’ io temo, che d’ acuta vista</l>
+		<l>Non sia qui il vate; e fuor di questo dubbio</l>
+		<l>Sarò, s’ un punto ancor mi farai chiaro.</l>
+		<l>IOCASTA</l>
+		<l>Dubito; nè ti ila pur nulla ascoso.</l>
+		<l>EDIPPO</l>
+		<l>Era ei solo in cammino, o scorte fide</l>
+		<l>Menato avea, com’ a signor conviensi?</l>
+		<l>IOCASTA</l>
+		<l>Cinque avea seco, infra’ quali era un quegli,</l>
+		<l>Che qua ne riportò la trista nuova,</l>
+		<l>E sol n’ un carro era portato Laio.</l>
+		<pb n="77"/>
+		<l>EDIPPO</l>
+		<l>Lasso, ohimè lasso, che scoperto è il tutto.</l>
+		<l>Ma chi fu quel, ch’ apportò questo fatto?</l>
+		<l>IOCASTA</l>
+		<l>Un servo, che scampò fra tanti solo.</l>
+		<l>EDIPPO</l>
+		<l>È in casa quel, di cui ragioni or, servo?</l>
+		<l>IOCASTA</l>
+		<l>Non serve in casa più, che da quel tempo,</l>
+		<l>Ch’ ei tornò privo del suo buon signore,</l>
+		<l>E ch’ ei ti scorse pervenuto al regno,</l>
+		<l>Con alti preghi umilemente chiese,</l>
+		<l>Ch’io lo mandassi de’ solinghi boschi</l>
+		<l>Errando all’ombra a pasturar gli armenti;</l>
+		<l>Sì ch’ io ’l mandai, perchè e’ mi parve degno</l>
+		<l>Di riportar non solamente grazia</l>
+		<l>Di piccol pregio; ma di molto ancora.</l>
+		<l>EDIPPO</l>
+		<l>Come venir potria qua presto or quegli?</l>
+		<l>IOCASTA</l>
+		<l>Breve è il cammin, ma perchè ciò domandi?</l>
+		<l>EDIPPO</l>
+		<l>Donna, e’mi trema il cor, che troppo ho inteso,</l>
+		<l>E perciò di veder costui m’ invoglio.</l>
+		<pb n="78"/>
+		<l>IOCASTA</l>
+		<l>E’ verrà adunche, poichè sì ti piace;</l>
+		<l>Ma degna sarei ben, s’ io non m’ inganno,</l>
+		<l>Saper qual pena sì t’affligge il core.</l>
+		<l>EDIPPO</l>
+		<l>Non sarai indegna, o cara mia consorte,</l>
+		<l>Fatta giammai, mentre che vita alberghi</l>
+		<l>Nel tristo petto mio, d’ udir quei danni,</l>
+		<l>Ch’ ingombran l’alma, ed ogni altro segreto</l>
+		<l>Maggior di questo a te ila sempre aperto :</l>
+		<l>Ed a chi più di te degg’ io far questo?</l>
+		<l>Polibo di Corinto alto signore</l>
+		<l>Mi diè la vita, e ’nsieme una regina,</l>
+		<l>Che Merope fu detta, onesta e saggia;</l>
+		<l>E sovra gli altri nella città degna,</l>
+		<l>Com’ a figliuol di gran signor conviensi,</l>
+		<l>Era onorato; e i primi gradi avea :</l>
+		<l>Ma i chiari giorni miei subita notte</l>
+		<l>Ne rendè scuri; cosa certo avvenne</l>
+		<l>Di maraviglia degna, e bene indegna</l>
+		<l>Della virtù, ch’ entro al mio petto è chiusa :</l>
+		<l>Che sendo a caso ad un convito un giorno,</l>
+		<l>Un, che di Bacco la potenza spinse,</l>
+		<l>Mi disse, ch’ a colui, ch’io tenea padre,</l>
+		<pb n="79"/>
+		<l>Non era figlio; ond’io da mollo sdegno</l>
+		<l>Gravato insieme, e da soverchia doglia</l>
+		<l>Con gran fatica mi ritenni il giorno;</l>
+		<l>E come prima l’ altra luce a noi</l>
+		<l>Chiara mostrossi, avanti a’ miei parenti</l>
+		<l>Mi dolsi forte : ond’ e’ mostrar grand’ ira</l>
+		<l>Contra colui, ch’ avea tal cosa detto.</l>
+		<l>Perciò finsi io d’ aver racconsolato</l>
+		<l>La mente mia, ma’l velenoso morso</l>
+		<l>Trafitto avea là ’ve non era scampo;</l>
+		<l>Perchè la fama già spargendo intorno</l>
+		<l>D’or in ora viepiù l’ alta vergogna</l>
+		<l>Fe, ch’io partii senza saputa alcuna</l>
+		<l>De’ miei parenti per andare in Delfo.</l>
+		<l>E poscia ch’io pervenni a’santi altari</l>
+		<l>Non meritai risposta a quel, ch’io chiesi;</l>
+		<l>Ma cose orrende, dispietate e crude</l>
+		<l>Predisse Febo. Oh che vergogna striglie</l>
+		<l>La lingua! oh che timor sento entro al core!</l>
+		<l>Ch’io dovea, lasso, mescolarmi insieme</l>
+		<l>Con l’alma madre, e far nel mondo nota</l>
+		<l>La creata di noi nefanda prole;</l>
+		<l>E quel, ch’ è peggio, che con l’empia mano</l>
+		<l>Dovea la vita al caro padre torre.</l>
+		<pb n="80"/>
+		<l>Da indi in qua lungi al paterno nido</l>
+		<l>Sempre ho fuggito, tal che sol le stelle,</l>
+		<l>E ’l ciel possulo m’ han mostrar Corinto,</l>
+		<l>Per non vedere il fin de’ brutti oltraggi,</l>
+		<l>Che minacciava a me l’empio destino.</l>
+		<l>Così di tema, di pensieri e doglia</l>
+		<l>Cinto pervenni ove tu narri appunto,</l>
+		<l>Che anciso fu di questa terra il rege :</l>
+		<l>Nè celar voglio or qui quel, ch’ ei m’avvenne.</l>
+		<l>Quand’ io fui, donna, ove in tre si diparte</l>
+		<l>La strada, io mi scontrai primier n’ un servo.</l>
+		<l>Cui seguia dietro un carro da’ cavagli</l>
+		<l>Ratto guidato, e suvvi un vecchio solo</l>
+		<l>Nel mezzo assiso; e come io fui d’ appresso,</l>
+		<l>Il servo allora, e quei, ch’ era su ’l carro</l>
+		<l>M’ urtaron con gran forza : ond’io rivolto,</l>
+		<l>E insieme scorto da grand’ira il servo</l>
+		<l>Percossi forte, e in questa il buon signore</l>
+		<l>Vedendo me ravvicinato al carro</l>
+		<l>Per mezzo il capo mio con ambe mani</l>
+		<l>Raddoppiò ’l colpo della cruda sferza.</l>
+		<l>Ma non fu pari al suo peccato il danno,</l>
+		<l>Ch’io fieramente il misero percossi</l>
+		<l>Con un baston, che per difesa sempre</l>
+		<pb n="81"/>
+		<l>Portava allora; ond’ ei pel colpo acerbo</l>
+		<l>Presta morte, sentì rovescio al carro :</l>
+		<l>Poi di furore ardendo i suoi compagni</l>
+		<l>Feci di vita privi ad uno ad uno.</l>
+		<l>Or se il rio fato vuol, che quei, ch’ è morto.</l>
+		<l>Fusse l’antico rege, onde s’addoglia</l>
+		<l>Questa città, chi più di me infelice</l>
+		<l>Fu mai creato, o più nimico al cielo?</l>
+		<l>A cui ne vieta ogni favella, e albergo</l>
+		<l>Fuor de’ confin non pur la gente strana,</l>
+		<l>Ma cittadin di questa patria ancora :</l>
+		<l>E (quel ch’ è peggio) a cui le leggi orrende</l>
+		<l>Ei medesmo ha contrai suo capo affisse;</l>
+		<l>E con la man, che si bruttò nel sangue</l>
+		<l>Del giusto rege, il casto letto ancora</l>
+		<l>N’ ha fatto brutto. Or chi fia mai, che squadre</l>
+		<l>Sì cruda fiera, o sì terribil mostro?</l>
+		<l>A che son giunto? Oh dispietate stelle.</l>
+		<l>Che forza m’è il fuggir; nè, perch’io fugga,</l>
+		<l>Posso mai riveder la patria antica,</l>
+		<l>O i genitori miei; che se fortuna</l>
+		<l>Trista mi scorge in questi luoghi (ahi lasso)</l>
+		<l>Ch’ io fia congiunto orribilmente (oh cielo</l>
+		<l>Com’ il consenti?) con la casta madre :</l>
+		<pb n="82"/>
+		<l>E converrammi al mio padre e signore</l>
+		<l>Polibo dare acerba morte ed empia.</l>
+		<l>Or chi ila mai che drittamente estimi,</l>
+		<l>Che neghi il fato ogn’ aspra ira ed orgoglio</l>
+		<l>Versar sopra di me crucciosamente?</l>
+		<l>Ma voi sagrati alteri re del cielo,</l>
+		<l>Ch’io sempre adoro, fate da me lunge</l>
+		<l>Questo giorno infelice; anzi di vita</l>
+		<l>Spogliate pria questo misero corpo,</l>
+		<l>Ch’ io veggia tanto mal condotto a riva.</l>
+		<l>JOCASTA</l>
+		<l>Fredda paura il cor m’agghiaccia, e strigne</l>
+		<l>Per quel, ch’hai conto, o mio signore Edippo;</l>
+		<l>Ma non esser però di speme in bando,</l>
+		<l>Per fin ch’ arrivi al tuo conspetto il servo.</l>
+		<l>ΕDΙPΡΟ</l>
+		<l>Non mi nodrisce altra speranza, o donna,</l>
+		<l>Salvo che l’ aspettar costui da’ boschi.</l>
+		<l>IOCASTA</l>
+		<l>Che fidanza arai poi di tua salute?</l>
+		<l>EDIPPO</l>
+		<l>Questa fidanza arò, perchè se teco</l>
+		<l>Riscontreran di questo servo i detti,</l>
+		<l>Certo io sarò d’ogn’ aspra doglia fOre.</l>
+		<pb n="83"/>
+		<l>IOCASTA.</l>
+		<l>Non mi rimembra quel, che detto t’ haggia.</l>
+		<l>EDIPPO</l>
+		<l>Se del ver non è qui la mente sgombra,</l>
+		<l>Tu mi narrasti, che colui, che venne</l>
+		<l>A rapportar di lui l’orribil morte.</l>
+		<l>Non incolpò sol un di sì rio fallo;</l>
+		<l>Che se e’ non fìa dal primo dir cangiato,</l>
+		<l>Indarno spargo omai tanti sospiri,</l>
+		<l>Perch’ altro è dire un sol, che non è molti :</l>
+		<l>Ma s’ un pur fu, come gelata tema</l>
+		<l>M’ingombra ’l core, io son quel desso certo.</l>
+		<l>IOCASTA</l>
+		<l>Non dubitar, che quel, ch’hai inteso, è vero;</l>
+		<l>Ch’ ei già non puote ri mutare unquanco</l>
+		<l>Le sue parole, a cui la città tutta</l>
+		<l>Testimone esser può, non pure io sola :</l>
+		<l>Ma. quando ben dall’antico parlare</l>
+		<l>Cangiato fusse, non fia giustamente</l>
+		<l>Conta però del nostro re la morte,</l>
+		<l>Cui Febo santo gli predisse in sorte</l>
+		<l>Doversegli per man d’un de’miei figli,</l>
+		<l>Ch’ avanti al padre abbandonò la luce</l>
+		<l>Miseramente pur molt’ anni e molti.</l>
+		<pb n="84"/>
+		<l>Ond’io, poscia che falsi i primi detti</l>
+		<l>Son riusciti, non farei già stima</l>
+		<l>Nè di questi altri, che Tiresia ha conti.</l>
+		<l>EDIPPO</l>
+		<l>Saggio è il tuo dir, ma fa’ senza dimora,</l>
+		<l>Ch’ e’ si conduca a me davanti il servo.</l>
+		<l>IOCASTA</l>
+		<l>Io mando, ecco, per lui; ma torniam dentro,</l>
+		<l>Ch’ al tuo voler non sarò mai ribella.</l>
+		<l>CORO</l>
+		<l>Quanto certo. colui beato, e degno</l>
+		<l>Chiamar si può tra noi,</l>
+		<l>Che in tutti i detti suoi</l>
+		<l>Degli alti Dei la gloria innalza e crede,</l>
+		<l>Che quel ch’ è stato, e quel che vien dappoi</l>
+		<l>Da lor con certo segno,</l>
+		<l>Dove l’ umano ingegno</l>
+		<l>Salir non può pria che sia fatto erede</l>
+		<l>Di ciò ch’ occhio non vede,</l>
+		<l>Chiaro si scerna imprima,</l>
+		<l>E che immortale stima</l>
+		<l>La lor possanza ch ogni cosa regge,</l>
+		<l>Che misura, e corregge</l>
+		<l>Col sua voler da basso insino in cima :</l>
+		<pb n="85"/>
+		<l>Cosi credendo con pietosa mente</l>
+		<l>Biasmar cosa del ciel mai non consente.</l>
+		<l>Ma chi vive regnando in alto stato</l>
+		<l>Disdegnoso ed altero</l>
+		<l>Sprezza ’l divino impero,</l>
+		<l>E quaggiù in terra fa se stesso Dio;</l>
+		<l>Questi ’l furor del ciel giusto, e severo,</l>
+		<l>Quando minaccia irato,</l>
+		<l>Non teme; e rigonfiato</l>
+		<l>Di fallaci speranze, e van desio</l>
+		<l>Non clemente, e non pio,</l>
+		<l>Ma crudo, empio, e non forte,</l>
+		<l>(Oh miserabil sorte)</l>
+		<l>Si mostra a chi men puote, l’ altrui danno</l>
+		<l>Non curando, e l’ affanno</l>
+		<l>Che ’l vulgo a povertà conduce, e a morte.</l>
+		<l>Ben deesi, ahi, con ragion chiamare un mostro,</l>
+		<l>Cui non muove a pietà l’ incendio nostro.</l>
+		<l>Che se tu lassi, ohimè, sagrato Apollo,</l>
+		<l>I tuoi mandati santi</l>
+		<l>Sprezzar, de’ nostri pianti</l>
+		<l>Qual fia rimedio, o qual salute a’ danni?</l>
+		<l>E chi fia più, che le tue lodi canti</l>
+		<l>Non mai stanco, o satollo?</l>
+		<pb n="86"/>
+		<l>E inchino umile il collo</l>
+		<l>Colà, dov’ entro a’ bei velati panni</l>
+		<l>Sei de’ mortali affanni</l>
+		<l>Unico porlo e fido?</l>
+		<l>Non più pregiato nido</l>
+		<l>Avrai già in terra, e del gran re del cielo</l>
+		<l>Eia con oscuro velo</l>
+		<l>La gloria ascosa, e l’ onorato grido;</l>
+		<l>Nè ila chi più lassù creda esser forza,</l>
+		<l>Poichè mortai licenza indi la sforza.</l>
+		<l>Sì ch’ io ti prego, Giove</l>
+		<l>Del ciel monarca antico,</l>
+		<l>Ch’ alla tua gregge amico</l>
+		<l>Vie più che mai ti mostri or ch’ egli è tempo?</l>
+		<l>Or che tutto m’ attempo</l>
+		<l>In pianti, doglia, e morti : ond’ io ridico</l>
+		<l>Al ciel gridando, abbi di noi mercede.</l>
+		<l>Ma Iocasta ecco a noi venir si vede.</l>
+	</lg>
+							</seg>
+						</ab>
+					</div>
+					<div type="textpart" subtype="chapter" n="8">
+						<pb n="87"/>
+						<head>
+							<title>ATTO QUARTO</title>
+						</head>
+						<ab>
+							<seg type="fragment">
+	<lg>
+		<l>IOCASTA</l>
+		<l>O gloriosi cittadin tebani,</l>
+		<l>In questo punto e’ m’è nato entro all’ alma</l>
+		<l>Un pensier saggio di scorgere i passi</l>
+		<l>Ne’ sacri tempj degli eterni Dei,</l>
+		<l>E coronar di ciaschedun gli altari,</l>
+		<l>E con incensi, ed umil preghi quegli</l>
+		<l>Render placati al buon signore Edippo,</l>
+		<l>Ch’entro s’affligge, si divora, e scempia;</l>
+		<l>Nè cessa mai dal tormentoso duolo :</l>
+		<l>Nè come saggio la presente tema</l>
+		<l>Sgombra del petto come folle, e vana</l>
+		<l>Per quel, che visto ha ne’ passati tempi.</l>
+		<l>Ma solamente è inteso a chi gli porge</l>
+		<l>Viepiù timor nella dubbiosa mente.</l>
+		<l>Ond’ io poscia ch’ indarno ogni ricordo</l>
+		<l>Sovente spargo, a te, sagrato Apollo,</l>
+		<l>Lassa ricorro, ch’entro a queste mura</l>
+		<l>Mostri del tuo valor più vivo raggio;</l>
+		<l>Che prestar degni a tanto alti sospiri</l>
+		<l>Qualche soccorso, o qualche santa pace;</l>
+		<pb n="88"/>
+		<l>Perchè noi stiam d’ ogni salute in bando</l>
+		<l>Scorgendo al buon nocchier di nostra barca</l>
+		<l>Sì grave salma di sospiri, e doglia.</l>
+		<l>NUNZIO</l>
+		<l>Sapreste voi d’Edippo a’ gran palazzi</l>
+		<l>Drizzarne i passi, ο forestieri amici?</l>
+		<l>Prego, faten di ciò cortese dono,</l>
+		<l>Se tra voi nessun è, che sappia quegli.</l>
+		<l>CORO</l>
+		<l>Queste son l’ ampie case, e dentro è il rege,</l>
+		<l>Questa è sua donna, e de’suoi figli è madre.</l>
+		<l>NUNZIO</l>
+		<l>Felice sempre, e tra’ felici viva,</l>
+		<l>Poscia ch’ ell’ è di tal signore sposa.</l>
+		<l>IOCASTA</l>
+		<l>E sopra te spanda i suoi doni il cielo</l>
+		<l>Più largamente, poiché sì benigno.</l>
+		<l>Ver noi ti mostri. Ma di che mestiere</l>
+		<l>Ti face? arrechi tu nuove al signore?</l>
+		<l>NUNZIO</l>
+		<l>Novelle arreco al tuo marito amiche.</l>
+		<l>IOCASTA</l>
+		<l>Che dunche apporti? e da cui sei mandato?</l>
+		<pb n="89"/>
+		<l>NUNZIO</l>
+		<l>Da Corinto vengo ora, e le novelle,</l>
+		<l>Che apporto, fieri, se drittamente intendo,</l>
+		<l>Dolci, ed acerbe a te, regina, insieme.</l>
+		<l>IOCASTA</l>
+		<l>Che esser può mai, ch’ in un medesmo accoglia</l>
+		<l>Cosa, che doppia, e in sè diversa sia?</l>
+		<l>NUNZIO</l>
+		<l>La fama là d’ogni intorno risuona,</l>
+		<l>Ch’ eletto ila della città signore</l>
+		<l>Edippo col favor del popol tutto.</l>
+		<l>IOCASTA</l>
+		<l>Polito or non tien più lo scettro e ’l regno?</l>
+		<l>NUNZIO</l>
+		<l>Tener noi può, ch’in un sepolcro ghiace.</l>
+		<l>IOCASTA</l>
+		<l>Di’ tu che morto è il vostro antico rege?</l>
+		<l>NUNZIO</l>
+		<l>Se falso è il mio parlar, dammi la morte.</l>
+		<l>IOCASTA</l>
+		<l>Scorgi veloce, ancilla fida, il passo</l>
+		<l>Al signor nostro a richiamarlo fore.</l>
+		<l>O vaticinj, u’ son le forze vostre!</l>
+		<l>Questi è, cui temea sì forte Edippo</l>
+		<pb n="90"/>
+		<l>Non tor la vita; or l’ha condotto a morte</l>
+		<l>Lo suo propio destin, non il suo figlio.</l>
+		<l>EDIPPO</l>
+		<l>Che cosa è nata, ο mia consorte cara?</l>
+		<l>Perchè m’ hai fuor di queste case tratto?</l>
+		<l>IOCASTA</l>
+		<l>Tu l’udirai da lui, che t’è davanti,</l>
+		<l>E conoscer potrai, quanto veraci</l>
+		<l>Sien da stimar di Febo i detti santi.</l>
+		<l>EDIPPO</l>
+		<l>Chi dunche è questi? e che novelle apporta?</l>
+		<l>IOCASTA</l>
+		<l>Vien da Corinto, e sol per farti noto</l>
+		<l>Come cangiato ha in fredda terra il corpo</l>
+		<l>Polibo padre tuo pregiato e degno.</l>
+		<l>EDIPPO</l>
+		<l>Affermi tu, ch’ e’ sia tal cosa vera?</l>
+		<l>NUNZIO</l>
+		<l>Se da ciò prima ragionar convienmi.</l>
+		<l>Sappi, che morto è, di cui mi domandi.</l>
+		<l>EDIPPO</l>
+		<l>Per altrui inganni, o per suo propio male?</l>
+		<l>NUNZIO</l>
+		<l>Lieve percossa un uom, ch’ è vecchio, atterra.</l>
+		<pb n="91"/>
+		<l>EDIPPO</l>
+		<l>Dunche ’l meschin per suo destino è morto?</l>
+		<l>NUNZIO</l>
+		<l>È morto sì, ma da’ molti anni stanco.</l>
+		<l>EDIPPO</l>
+		<l>Lasso ohimè,in quanti error sì lungamente</l>
+		<l>Son vaneggiato; a che conviene omai</l>
+		<l>Con tanto studio all’ indovine case</l>
+		<l>Creder sovente? o de’ volanti augelli</l>
+		<l>Nell’ aere puro, se felice il corso</l>
+		<l>Drizzan con l’ ali, o tristo a’ nostri voti</l>
+		<l>Prendersi spene? ovver fallace tema?</l>
+		<l>Ciascuno augurio a me, ciascuna sorte</l>
+		<l>Predetto avian, ch’ io dovea tor la vita</l>
+		<l>Al padre mio, che ne’ tartarei regni</l>
+		<l>Disceso or ghiace; u’non gli ho scorto il passo</l>
+		<l>Anzi tempo io col dispietato ferro :</l>
+		<l>Se già sua lenta morte i voti miei</l>
+		<l>Non han condotto, e così l’abbia anciso :</l>
+		<l>Ond’ei portato n’ha seco all’inferno</l>
+		<l>L’error, che ’n dubbio mi teneva, e’n doglia.</l>
+		<l>IOCASTA</l>
+		<l>Gran tempo è, che di ciò ti fui presaga.</l>
+		<pb n="92"/>
+		<l>EDIPPO</l>
+		<l>Sì, ma adombrato avea di tema il core.</l>
+		<l>IOCASTA</l>
+		<l>Non albergar più dentro al petto or quella</l>
+		<l>EDIPPO</l>
+		<l>In dubbio son pur del materno letto.</l>
+		<l>IOCASTA</l>
+		<l>«Non deve esser colui dubbioso e tristo,</l>
+		<l>«Cui la fortuna si dimostra amica,</l>
+		<l>«E che sa ben, che del futuro unquanco</l>
+		<l>«Non si sa il ver tra la mondana turba.</l>
+		<l>Menar la vita, ahi, quanto fora il meglio</l>
+		<l>Scevra di cure, mentre il ciel cortese</l>
+		<l>Ν’ è de’ suoi doni; ond’ ogni tema lassa,</l>
+		<l>Ti prego, omai, sopra le brutte nozze.</l>
+		<l>Molti fur già, cui nel dolce riposo</l>
+		<l>N’apparve, ohirnè, di commetter il fallo</l>
+		<l>Orrendo e brutto con la propia madre.</l>
+		<l>« Ma sovra gli altri è sol colui beato,</l>
+		<l>« Che scaccia ogni pensier noioso e grave,</l>
+		<l>EDIPPO</l>
+		<l>Io consentirei, donna, al tuo parlare,</l>
+		<l>Sè la mia madre al ciel renduto l’alma</l>
+		<l>Avesse, or poi ch’ancor nel mondo resta.</l>
+		<pb n="93"/>
+		<l>Pien di sospetto arò sempr’ i miei giorni.</l>
+		<l>IOCASTA</l>
+		<l>Il morto padre pur n’adduce speme.</l>
+		<l>EDIPPO</l>
+		<l>E tema apporta la spirante madre.</l>
+		<l>NUNZIO</l>
+		<l>Chi vi nodrisce in tanta doglia il core?</l>
+		<l>EDIPPO</l>
+		<l>Del morto re la viva donna, o vecchio.</l>
+		<l>NUNZIO</l>
+		<l>Perchè prender vi fa tanto spavento?</l>
+		<l>EDIPPO</l>
+		<l>Per un detto d’Apollo orrendo e ciudo.</l>
+		<l>NUNZIO</l>
+		<l>Lice ei saper altrui quel, ch’ egli importe?</l>
+		<l>EDIPPO</l>
+		<l>Io tei dirò. Gran tempo è già passato,</l>
+		<l>Che quello Dio, ch’ infra la gente umana</l>
+		<l>Detta ’l futuro, un destin grave, ed empio</l>
+		<l>Predisse, ahi lasso, com’ io dovea quella,</l>
+		<l>Che mi fece infra gli altri un uom mortale,</l>
+		<l>Tener per moglie, e ch’io dovea nel sangue</l>
+		<l>Tinger del padre mio la fera mano.</l>
+		<l>Per questo sol Corinto è stato sempre</l>
+		<pb n="94"/>
+		<l>Lunge da me, che bench’ e’ sia felice</l>
+		<l>Suto l’ esigilo, ahi quanto è dolce ancora</l>
+		<l>De’ genitori il rimirar le luci</l>
+		<l>NUNZIO</l>
+		<l>E tal cagion ti fa da noi star lunge?</l>
+		<l>EDIPPO</l>
+		<l>Per non dar morte al mio pregiato padre.</l>
+		<l>nunzio</l>
+		<l>Dunch’io t’ho scarco di sì grave salma,</l>
+		<l>Poscia ch’io t’ho di lui tal nuova conta.</l>
+		<l>EDIPPO</l>
+		<l>Giusto fia ’l gulderdon di tanto merlo</l>
+		<l>NUNZIO</l>
+		<l>L’alta mercede, ch’io da te ne spero,</l>
+		<l>Poi che sarai tornato al nido antico,</l>
+		<l>M’ ha scorto qua con si veloce passo.</l>
+		<l>EDIPPO</l>
+		<l>Non andrò già de’ genitori appresso.</l>
+		<l>nunzio</l>
+		<l>Signor ben sembri un, che del ver sia cieco.</l>
+		<l>EDIPPO</l>
+		<l>Mostrane, vecchio, a che tai cose or parli.</l>
+		<l>nunzio</l>
+		<l>Se per conto di lor la patria fuggi.</l>
+		<pb n="95"/>
+		<l>EDIPPO</l>
+		<l>Fuggo per non compir mio tristo fato.</l>
+		<l>NUNZIO</l>
+		<l>Che? per non ti macchiar de’ generanti?</l>
+		<l>EDIPPO</l>
+		<l>Questo, o vecchio, sol è, di ch’ io pavento</l>
+		<l>NUNZIO</l>
+		<l>Ragion non è, che di ciò prendi tema.</l>
+		<l>EDIPPO</l>
+		<l>Come non è, se pur di lor son figlio?</l>
+		<l>NUNZIO</l>
+		<l>Polibo nulla, in quanto padre, è teco.</l>
+		<l>EDIPPO</l>
+		<l>Polibo (che di’ tu?) non m’ ha creato?</l>
+		<l>NUNZIO</l>
+		<l>Non più già di lui sei, che di me figlio.</l>
+		<l>EDIPPO</l>
+		<l>Com’ esser puote quei, che m’ ha creato,</l>
+		<l>Pari a colui, che non è padre mio?</l>
+		<l>nunzio</l>
+		<l>Nessun di noi giammai ti diede al mondo.</l>
+		<l>EDIPPO</l>
+		<l>Perchè me figlio pur chiamava sempre?</l>
+		<pb n="96"/>
+		<l>NUNZIO</l>
+		<l>Tu fusti a lui di mia man (sappi) un dono.</l>
+		<l>EDIPPO</l>
+		<l>E perchè d’ altrui man sì caro fui?</l>
+		<l>NUNZIO</l>
+		<l>Per esser quei d’ ogni sua stirpe manco.</l>
+		<l>EDIPPO</l>
+		<l>Son io dunche tuo figlio, o d’altri nato?</l>
+		<l>nunzio</l>
+		<l>In Citeron ti ritrovai tra’ boschi.</l>
+		<l>EDIPPO</l>
+		<l>Perchè n’ andavi in colai luoghi errando?</l>
+		<l>NUNZIO</l>
+		<l>Quivi paslor guardava i lieti armenti.</l>
+		<l>EDIPPO</l>
+		<l>Eri pastore, oppur di pastor servo?</l>
+		<l>NUNZIO</l>
+		<l>Solo in quel tempo fui tuo salvatore.</l>
+		<l>EDIPPO</l>
+		<l>In che periglio, o in che danno er’io posto?</l>
+		<l>NUNZIO</l>
+		<l>Fede di ciò porrian far le tue piante.</l>
+		<l>EDIPPO</l>
+		<l>Lasso, che male antico or mi rimembri?</l>
+		<pb n="97"/>
+		<l>NUNZIO</l>
+		<l>Con ambo i piè forati io ti disciolsi.</l>
+		<l>EDIPPO</l>
+		<l>Che brutto oltraggio, ohimè, di culla trassi!</l>
+		<l>NUNZIO</l>
+		<l>Vedi, che ’l Dome tuo tal sorte accenna.</l>
+		<l>EDIPPO</l>
+		<l>Fu quello a me da’ miei parenti imposto?</l>
+		<l>NUNZIO</l>
+		<l>Chi mi ti diede : ciò dir saprà meglio.</l>
+		<l>EDIPPO</l>
+		<l>Dunch’ io pervenni in te per altrui mani?</l>
+		<l>NUNZIO</l>
+		<l>Tal dono a me fece un pastore amico.</l>
+		<l>EDIPPO</l>
+		<l>Potrestù col parlar far noto quello?</l>
+		<l>nunzio</l>
+		<l>Io posso dir, che servo era di La io.</l>
+		<l>EDΙΡΡΟ</l>
+		<l>Di quel· signor, che questa resse?</l>
+		<l>NUNZIO</l>
+		<l>Cotesto è quei, di cui pascea armento.</l>
+		<l>EDIPPO</l>
+		<l>Sai tu, se vita ancor gli presta il cielo?</l>
+		<pb n="98"/>
+		<l>NUNZIO</l>
+		<l>Questi il sapran, che di qui son natii.</l>
+		<l>EDIPPO</l>
+		<l>È qui nessun tra voi, ch’insegnar possa</l>
+		<l>Questo pastor, di cui tanto ragiono?</l>
+		<l>Faccia ’l palese omai che di voi in selva</l>
+		<l>Lo riconosce, ovver de’boschi fore;</l>
+		<l>Che ’l tempo di scovrir mia prole è giunto</l>
+		<l>CORO</l>
+		<l>Non posso immaginar, ch’ altr’ uom sia questi,</l>
+		<l>S’ e’ non è quei, che dee venir da’ boschi</l>
+		<l>Al tuo conspetto; ma Iocasta sola</l>
+		<l>Potrà di ciò far la tua voglia sazia.</l>
+		<l>EDIPPO</l>
+		<l>Donna sai tu, se quei, ch’ a chiamar dianzi</l>
+		<l>Mandammo, il medesmo è, che questi ha conto?</l>
+		<l>IOCASTA</l>
+		<l>(Chi e’ si dica non so, ma ben ti prego,</l>
+		<l>Edippo mio, per Dio ti prego, lassa</l>
+		<l>e con danno il ricercar più innanzi.</l>
+		<l>EDIPPO</l>
+		<l>Fermo son pur di chiarir questo dubbio,</l>
+		<l>Poscia ch’insieme accolti ho tanti segni.</l>
+		<pb n="99"/>
+		<l>IOCASTA</l>
+		<l>S’ e’t’ aggrada il mirar la santa luce,</l>
+		<l>Pon giù questo pensier sì stolto e rio.</l>
+		<l>Lassa ti prego, ohimè, che troppa doglia</l>
+		<l>N’ avvince i sensi, e più non posso omai.</l>
+		<l>EDIPPO</l>
+		<l>Non temer, donna, che mai sempre degno</l>
+		<l>Sarà ’l tuo nome, ancor ch’ e’ si discopra</l>
+		<l>Servii mia stirpe, e vergognosa e ndegna.</l>
+		<l>IOCASTA</l>
+		<l>Deh lassa, lassa il ricercarne tanto.</l>
+		<l>EDIPPO</l>
+		<l>Tu tenti in darno da tal cura stormi.</l>
+		<l>IOCASTA</l>
+		<l>Saggio è’l consiglio, ch’ io t’ arreco, Edippo.</l>
+		<l>EDIPPO</l>
+		<l>I tuoi consigli alta mia pena han seco.</l>
+		<l>IOCASTA</l>
+		<l>Non piaccia a Dio, che ’I ver qui si discopra.</l>
+		<l>EDIPPO</l>
+		<l>Menate servi a me il pastor davanti,</l>
+		<l>Lassate lei del chiaro sangue e degno</l>
+		<l>Godersi lieta; ch’ io di ciò non curo.</l>
+		<pb n="100"/>
+		<l>IOCASTA</l>
+		<l>Ahi lassa, ahi lassa, e queste ultime voci</l>
+		<l>Mie fieno, e queste mie parole estreme.</l>
+		<l>cono</l>
+		<l>Ove n’ è gita, Edi ppo, ov’ è portata</l>
+		<l>Dal soverchio dolor l’ amata sposa?</l>
+		<l>Io temo, ohimè, che questo alto silenzio</l>
+		<l>Non partorisca dolorosi guai.</l>
+		<l>EDIPPO</l>
+		<l>Segua che vuole, che fermo è, ch’ io sappia</l>
+		<l>La mia progenie, ancor che bassa, e vile</l>
+		<l>Non s’ erga in alto, ch’ a costei dispiace</l>
+		<l>Troppo altamente, e da vergogna oppressa</l>
+		<l>È, ch’ io non mostri i miei parenti oscuri.</l>
+		<l>lο per me d’ esser figlio di Fortuna</l>
+		<l>Non ho in dispregio, anzi m’ onoro e vanto</l>
+		<l>Di sì possente e gloriosa madre;</l>
+		<l>Che mi concesse ancor mentr’ era in fasce</l>
+		<l>Rilevarmi da terra, e chiaro Tarme.</l>
+		<l>Onde, poi che da tal son dato al mondo,</l>
+		<l>Non posso far non brami a questa gente</l>
+		<l>Aperto far in tutto il sangue mio.</l>
+		<l>CORO</l>
+		<l>Se ’l piacer, che m’ingombra,</l>
+		<pb n="101"/>
+		<l>Non toglie alla mia mente</l>
+		<l>Il poter rimirar di tutto il vero,</l>
+		<l>Di Gherone all’ ombra,</l>
+		<l>Ove manco si sente</l>
+		<l>Del chiaro sole il viro raggio altero,</l>
+		<l>Scorse prima il sentiero</l>
+		<l>Di questa vita certo</l>
+		<l>Il nostro buon signore :</l>
+		<l>Oh che felice amore</l>
+		<l>Lo diede al mondo! oh se ciò fusse aperto,</l>
+		<l>Quanto sarei felice!</l>
+		<l>Ma saper non mi lice.</l>
+		<l>Qual boscareccia Dea,</l>
+		<l>O qual leggiadra Ninfa</l>
+		<l>Fu di te madre graziosa e bella.</l>
+		<l>Che, dove trascorrea</l>
+		<l>Più chiara e fredda linfa,</l>
+		<l>Già ti produsse al mormorio di quella?</l>
+		<l>Che congiunto con ella</l>
+		<l>Fusse o il cornuto Pane,</l>
+		<l>O il bel pastor Mercurio?</l>
+		<l>De’ due l’ un m’ augurio :</l>
+		<l>Ma più colui, che le Baccanti insane</l>
+		<l>Co’ tirsi ad alte strida</l>
+		<pb n="102"/>
+		<l>Pe’ monti sempre guida.</l>
+		<l>Questo io ben no ’l discerno.</l>
+		<l>Ma tu selvaggio monte</l>
+		<l>Di Citeron lo conducesti a porto</l>
+		<l>Di vita; onde fia eterno</l>
+		<l>Sempr’ il tuo nome, e conte</l>
+		<l>Fien le tue lodi, perchè tu conforto</l>
+		<l>Solo a’ miei spirti hai porto,</l>
+		<l>Ch’ avian secca ogni spene :</l>
+		<l>Ond’ io le feste, e’l gioco</l>
+		<l>Omai lieto rivoco,</l>
+		<l>Poscia che ritrovato ho tanto bene,</l>
+		<l>Che tu sol gli sei padre,</l>
+		<l>Tu sol nutrice, e madre.</l>
+		<l>Ma ecco qua il pastor, ch’ a noi s’ appressa.</l>
+		<l>Che tutto far può chiaro</l>
+		<l>Quel che ’l signore ha caro.</l>
+		<l>EDIPPO</l>
+		<l>Se scerner posso un ch’ io non ho più visto,</l>
+		<l>Quei ch’ apparisce a noi, certo è ’l pastore,</l>
+		<l>Cui tanto cerco; e già la lunga etade</l>
+		<l>Mostra, ch’ e’ son ambo i due vecchi uguali :</l>
+		<l>Quei son i servi miei, ch’ adducon. questo</l>
+		<l>(Chiaro il conosco) al mio conspetto innanzi.</l>
+		<pb n="103"/>
+		<l>Ma tu di ciò ne puoi far certa fede,</l>
+		<l>S’ egli è colui, che di veder sì bramo.</l>
+		<l>CORO</l>
+		<l>Scaccia ogni dubbio omai, ch’ egli è quel desso,</l>
+		<l>Che fu del vecchio re fido pastore.</l>
+		<l>EDIPEO</l>
+		<l>Dimmi primier tu, che vien da Corinto,</l>
+		<l>È questi il vecchio, di chi domandavi?</l>
+		<l>NUNZIO</l>
+		<l>Signor, questi è colui, che è qui davanti.</l>
+		<l>EDIPPO</l>
+		<l>Or volta a me il parlar dunche, pastore;</l>
+		<l>Dimmi, fustù del re passato servo?</l>
+		<l>servo</l>
+		<l>Servo, e di quei, che in le sue case nacqui.</l>
+		<l>EDIPPO</l>
+		<l>A quale uffizio eri preposto, ο vecchio?</l>
+		<l>SERVO</l>
+		<l>Il più del tempo a pasturar gli armenti.</l>
+		<l>EDIPPO</l>
+		<l>Ove guidavi più la gregge errante?</l>
+		<l>servo</l>
+		<l>In CiterOne, o intorno a’ vicin boschi.</l>
+		<pb n="104"/>
+		<l>EDIPPO</l>
+		<l>Rimembrat’ d’aver mai costui visto?</l>
+		<l>SERVO</l>
+		<l>Che cosa far? di quale uom mi domandi?</l>
+		<l>EDIPEO</l>
+		<l>Se di costui, ch’ è qui, mai fusti amico.</l>
+		<l>servo</l>
+		<l>No, che di ciò, signor, me ne sovvenga.</l>
+		<l>nunzio</l>
+		<l>Nulla di ciò maraviglia si deve</l>
+		<l>Prender, signor, ma nella mente un tempo</l>
+		<l>Gli ridurrò, ch’ e’ mi conobbe imprima,</l>
+		<l>Quando nel solitario albergo e fero</l>
+		<l>Di Citerone ad una sola gregge</l>
+		<l>Di vaghi armenti, e questi a doppia atteso</l>
+		<l>Guidammo insieme in la stagion più bella.</l>
+		<l>Che i tre tempi miglior dell’ anno piglia,</l>
+		<l>Da che ’l sol volge il suo corso più lento</l>
+		<l>Fin che rapido inchina a mezzo l’ onde;</l>
+		<l>E quando ’l verno a sparger le pruine</l>
+		<l>N’ incominciava, io riducea l’ armento</l>
+		<l>Dentro alle stanze, ed ei similemente</l>
+		<l>Gli ritornava agli alberghi di Laio.</l>
+		<l>Affermi tu, ch’e’sia ver quel ch’io dico?</l>
+		<pb n="105"/>
+		<l>SERVO</l>
+		<l>Affermo sì, ma egli è ben un gran tempo.</l>
+		<l>NUNZIO</l>
+		<l>Dimmi or ti prego, in fasce un picciol. figlio</l>
+		<l>Non mi destù, che per mio lo nudrissi?</l>
+		<l>SERVO</l>
+		<l>A che fin di tal cosa or mi ricerchi?</l>
+		<l>nunzio</l>
+		<l>Sappi, questi è colui, che in fasce avesti.</l>
+		<l>SERVO</l>
+		<l>Ah taci, taci; a che sì stolto parli?</l>
+		<l>EDIPPO</l>
+		<l>Ah, non voler con sì parole acerbe</l>
+		<l>Biasmar il vecchio, e sappi, ch’i tuoi detti.</l>
+		<l>Son da pena maggior compresi, e fallo.</l>
+		<l>servo</l>
+		<l>Alto signor, dov’è tanta mia colpa?</l>
+		<l>EDIPPO</l>
+		<l>Non confessando il picciol dato figlio.</l>
+		<l>servo</l>
+		<l>Perso ha la mente, e ciò ch’e’parla è vano.</l>
+		<l>EDIPPO</l>
+		<l>Potrà la forza che non ponno i preghi.</l>
+		<pb n="106"/>
+		<l>SERVO</l>
+		<l>Per Dio, non batter un, che d’ anni è carco.</l>
+		<l>EDIPPO</l>
+		<l>Chi fia, che presto le man gli distorca?</l>
+		<l>SERVO</l>
+		<l>Che intender brami? a che tal doglia ahi lasso!</l>
+		<l>EDIPPO</l>
+		<l>Destù il fanciul, che detto ha questo vecchio?</l>
+		<l>servo</l>
+		<l>Cosi fuss io quel giorno a morte corso.</l>
+		<l>EDIPPO</l>
+		<l>Sazio fia ’l tuo desio, celando il vero.</l>
+		<l>servo</l>
+		<l>Viepiù n’aspetto in discoprirlo morte.</l>
+		<l>EDIPPO</l>
+		<l>Questi consuma in van parlare il tempo.</l>
+		<l>servo</l>
+		<l>Ch’ io lo gli dessi già confesso, o sire.</l>
+		<l>EDIPPO</l>
+		<l>Er’ei tuo figlio, o pur d’altrui creato?</l>
+		<l>servo</l>
+		<l>Non fu mio figlio; altrui man quel mi porse</l>
+		<l>EDIPPO</l>
+		<l>Di cittadino, o di qual casa prole?</l>
+		<pb n="107"/>
+		<l>SERVO</l>
+		<l>Per Dio, signor, non ricercar più dentro.</l>
+		<l>EDIPEO</l>
+		<l>Di più indugiar ti fia di pena morte.</l>
+		<l>servo</l>
+		<l>Signore e’fu della stirpe di Laio.</l>
+		<l>EDIPPO</l>
+		<l>Servo, ο di lui pur veramente figlio?</l>
+		<l>servo</l>
+		<l>Lasso, ch’ io son dov’ il dir più m’ addoglia.</l>
+		<l>EDIPPO</l>
+		<l>Ed io ’l sentir, ma pur convien ch’ iο l’ oda.</l>
+		<l>servo</l>
+		<l>Di lui fu figlio, ma la tua consorte,</l>
+		<l>Che gita è dentro, dir ti potrà questo.</l>
+		<l>EDIPPO</l>
+		<l>Ella ti diede il figlio?</l>
+		<l>servo</l>
+		<l>Ella, signor, me ’l diede.</l>
+		<l>EDIPPO</l>
+		<l>Lasso, e perchè te ’l porse?</l>
+		<l>servo</l>
+		<l>Perch’io gli dessi morte.</l>
+		<pb n="108"/>
+		<l>EDIPPO</l>
+		<l>La sua infelice madre?</l>
+		<l>SERVO</l>
+		<l>Per temenza d’ un fato.</l>
+		<l>EDIPEO</l>
+		<l>Che fato acerbo, ed empio?</l>
+		<l>SERVO</l>
+		<l>Ch’ al padre e’ dovea lor la cara vita.</l>
+		<l>EDIPEO</l>
+		<l>Perchè dunche il lasciasti a questo vecchio?</l>
+		<l>servo</l>
+		<l>Perchè di lui, signore, alta pietade</l>
+		<l>Mi prese al core, e credetti lontano</l>
+		<l>A questa patria menar lo dovesse;</l>
+		<l>Or l’ha il. crudo destin servato a peggio</l>
+		<l>Che se tu sei colui, che questi ha conto,</l>
+		<l>Ben Ili nel mondo di miserie esempio.</l>
+		<l>EDIPPO</l>
+		<l>Ahi lasso, ahi lasso, ch’ogni cosa omai</l>
+		<l>S’ accorda in discovrir gli orribil falli</l>
+		<l>Di me infelice; o santa luce ed alma,</l>
+		<l>Ultima, che mirar deon gli occhi miei;</l>
+		<l>Occhi infelici, poi ch’ io son pur certo</l>
+		<l>D’aver nel mondo generalo figli</l>
+		<pb n="109"/>
+		<l>Di cui mai non dovea, fuor d’ ogni legge :</l>
+		<l>E d’ aver dato acerba ed empia morte</l>
+		<l>Miseramente a chi mi porse vita.</l>
+		<l>CORO</l>
+		<l>Mentre che vita regge</l>
+		<l>Queste membra mortali,</l>
+		<l>Nessun giammai chiamar si può beato,</l>
+		<l>Che quella, che corregge</l>
+		<l>A tutti gli animali</l>
+		<l>Il fren, sovente cangia il nostro, stato :</l>
+		<l>E tal, che d’onorato</l>
+		<l>Fregio or si veste altero.</l>
+		<l>In brieve poi rimira</l>
+		<l>Quanto veloce gira,</l>
+		<l>La ruota il corso suo rigido e fero;</l>
+		<l>E riman nudo, e scosso</l>
+		<l>D’ ogni spoglia, ch’avea nel suo bel dosso.</l>
+		<l>Qual più fidato esempio,</l>
+		<l>Qual, più mirabil prova</l>
+		<l>Mostrar di ciò si può nel inondo chiara,</l>
+		<l>Che ’l doloroso scempio,</l>
+		<l>(Oh cosa orrenda, e nuova)</l>
+		<l>Ch’oggi, Edippo, di te si scorge, e mpara!</l>
+		<l>Qual pena eccelsa, e rara</l>
+		<pb n="110"/>
+		<l>Puote agguagliar la doglia,</l>
+		<l>Che sente oggi ’l tuo core?</l>
+		<l>Ohimè che stran furore.</l>
+		<l>Ohimè che fiera, oh che rabbiosa voglia</l>
+		<l>T’indusse a dar la morte</l>
+		<l>Al padre, e far la madre a te consorte!</l>
+		<l>Tu dianzi il più felice</l>
+		<l>Eri uom, ch’ avesse regno,</l>
+		<l>Regno acquistato con tua gran virtute;</l>
+		<l>Tu la patria infelice</l>
+		<l>Col tuo sublime ingegno</l>
+		<l>Già riducesti al porto di salute :</l>
+		<l>L’opre tue conosciute</l>
+		<l>pur degnamente allora,</l>
+		<l>Quand il feroce mostro</l>
+		<l>Vago del sangue nostro</l>
+		<l>Vinto rimase, e fuor di vita ancora.</l>
+		<l>Ond’ io piango e sospiro,</l>
+		<l>E tua rovina con gran doglia miro.</l>
+		<l>Chi dunche arà Fortuna</l>
+		<l>Sol per insegna, e duce,</l>
+		<l>Non proverà giammai tranquilla pace;</l>
+		<l>E chi solo arà l’ una</l>
+		<l>Alma virtù per luce</l>
+		<pb n="111"/>
+		<l>Fia nel viaggio suo talor fallace :</l>
+		<l>Perchè ’l ciel si compiace,</l>
+		<l>E cosi vuole il fato,</l>
+		<l>Ch’ e’ non si trovi in terra</l>
+		<l>Libero d’ogni guerra</l>
+		<l>Chi l’un dall’ altro ben tenga scoppiato :</l>
+		<l>Ma che beato viva</l>
+		<l>Cui Fortuna, e virtù conduce a riva.</l>
+		<l>Ma chi fia questi, che ver noi si gira</l>
+		<l>Con sì turbato volto?</l>
+		<l>Ben sembra un uom da gran pensieri accolto.</l>
+	</lg>
+							</seg>
+						</ab>
+					</div>
+					<div type="textpart" subtype="chapter" n="9">
+						<pb n="112"/>
+						<head>
+							<title>ATTO QUINTO</title>
+						</head>
+						<ab>
+							<seg type="fragment">
+	<lg>
+		<l>NUNZIO</l>
+		<l>Voi, che Fortuna ha d’onorato fregio</l>
+		<l>Vestiti sempre in quest’alma cittade,</l>
+		<l>Oh che crudele, oh che misero scempio</l>
+		<l>Vengo a contarvi, oh, che con gli occhi molli</l>
+		<l>Mirar dovete; oh che dogliosa pena</l>
+		<l>Sentirà ’l cor, s’ alcun vestigio ancora.</l>
+		<l>Ne’ petti vostri di pietade alberga</l>
+		<l>Verso l’ antica, e gloriosa prole</l>
+		<l>De’ vostri regi : perchè l’lstro, e ’l Fasi</l>
+		<l>Non potrian già li scelerati falli</l>
+		<l>Purgar, che copron queste antiche case.</l>
+		<l>Ma tosto in luce i dolorosi danni</l>
+		<l>Verran con più gravoso aspro martire</l>
+		<l>Di chi vedrà; perchè non l’ empia sorte,</l>
+		<l>Ma sol la fera voglia indotto ha quegli.</l>
+		<l>coro</l>
+		<l>Gli orribil casi, che pel tempo a dietro</l>
+		<l>Aviamo scorti, non ponno esser vinti</l>
+		<l>Di crudeltà; ma che mal nuovo apporti?</l>
+		<pb n="113"/>
+		<l>NUNZIO</l>
+		<l>Per Fare in brieve il tristo annunzio chiaro,</l>
+		<l>Morta è Iocasta nostra alta regina.</l>
+		<l>CORO</l>
+		<l>Oh infelice! e da qual furia scorta?</l>
+		<l>NUNZIO</l>
+		<l>Da se medesma, lasso, ella s’ ancise;</l>
+		<l>Ma questo non già vider gli occhi miei.</l>
+		<l>L’ alta sua doglia ben, l’ altero pianto,</l>
+		<l>Di ch’empiè l’aria, e le soverchie strida</l>
+		<l>(Quanto di ciò me ne ritorna a mente)</l>
+		<l>Pian da me conte. Poscia che ’l furore</l>
+		<l>Signoreggiò lo suo core infelice,</l>
+		<l>La tornò in casa, e pur senz’ altro indugio</l>
+		<l>Con ambe man crudelmente svegliendo</l>
+		<l>Dal capo i crini, al letto dello sposo</l>
+		<l>Per dritta strada volse i tristi passi,</l>
+		<l>E come entrata fu dentro alle porte</l>
+		<l>Ser rossi, e quivi lagrimosa pioggia</l>
+		<l>Versando, ad alta voce il morto Laio</l>
+		<l>Ne richiamava, e dell’ antico seme</l>
+		<l>Memoria avendo, ond’ ei perdè la vita,</l>
+		<l>E lasciò lei del partorito figlio</l>
+		<l>Mogli e infelice sovra ogn’ altra donna,</l>
+		<pb n="114"/>
+		<l>Alti lamenti, e sospir gravi, ed empi</l>
+		<l>Rivolgea poi, maladicendo il letto,</l>
+		<l>Dove acquistato avea del vecchio sposo</l>
+		<l>Figlio, e marito; e dove del suo figlio</l>
+		<l>Prodotto avea miseramente prole.</l>
+		<l>Non so già dir com’ella a morte tosto</l>
+		<l>Venisse, poiché d’ alte strida Edippo</l>
+		<l>Ripieno or quinci trascorreva, or quindi;</l>
+		<l>Tal che ver lui ne rivolgemmo gli occhi,</l>
+		<l>Ch’ ad ogni passo domandava il ferro,</l>
+		<l>Il ferro crudo; e dove la sua donna,</l>
+		<l>Non donna più, ma quella, che nel ventre</l>
+		<l>Avea del figlio riportati figli,</l>
+		<l>Ascosa fusse, e con rabbiosa voglia</l>
+		<l>Di lei cercando, un’ infernale Erinne</l>
+		<l>Gl’ insegnò il loco; perch’ e’ non fu scorto</l>
+		<l>Là da nessun di quei, che fur presenti,</l>
+		<l>E con gran suon, ch’ uscia de’ bassi spirti,</l>
+		<l>Di furia armato, nelle doppie porti</l>
+		<l>Ferì sovente; onde piegate furo</l>
+		<l>Dall’ imo centro, e fracassate, e rotte :</l>
+		<l>Poi passò dentro, ove appiccata quella</l>
+		<l>Scorgemmo alta da terra, al collo avvolto</l>
+		<l>Avendo un nodo, onde spietatamente</l>
+		<pb n="115"/>
+		<l>Tini la vita. Or qui i crudei lamenti,</l>
+		<l>Or qui i sospir del doloroso Edippo</l>
+		<l>Ripreson forze; e pria mettendo in terra</l>
+		<l>Quella infelice, sovra il corpo morto</l>
+		<l>Gittò le membra affaticate e lasse;</l>
+		<l>E soprastato alquanto, indi spicconne</l>
+		<l>L’ aurate fibbie, che tenean la veste</l>
+		<l>Di lei congiunta : ond’ ei percosse gli occhi</l>
+		<l>Più d’ uria volta in miserabil tempre,</l>
+		<l>Cotai parole rimandando fore,</l>
+		<l>Perchè mirar non mi possiate, o luci,</l>
+		<l>Ne’ tristi oltraggi, che sofferti ho al mondo,</l>
+		<l>Nè (dond’ io piango) i miei commessi falli;</l>
+		<l>Anzi in tenebre : essendo e notte e giorno</l>
+		<l>Perchè mai sempre veggia, cui mestiere</l>
+		<l>Non siami, e ’ncontro non conosca mai,</l>
+		<l>Cui piu desii. Cosi gridando forte</l>
+		<l>Miseramente, e pereotendo gli occhi</l>
+		<l>Si trasse fuor di sangue ambe le guance</l>
+		<l>Macchiate ohimè, che distillava sempre,</l>
+		<l>Anzi piovea come terribil pioggia;</l>
+		<l>E tanti danni un sol, non pure apporta,</l>
+		<l>Ma l’ una, e l’ altra amica coppia insieme</l>
+		<l>Cagion ne sondi; mai non esser lieti.</l>
+		<pb n="116"/>
+		<l>Così l’antica gloria, altera degna</l>
+		<l>De’ nostri regi in questo giorno cangia</l>
+		<l>La bella spoglia con miseria, e pianto,</l>
+		<l>Vergogna, e morte; o s’ altro al mondo resta</l>
+		<l>Di male ascoso, che n’ accoglie guai.</l>
+		<l>CORO</l>
+		<l>Cessa or punto il meschin da tanti mali?</l>
+		<l>NUNZIO</l>
+		<l>E’ grida, e prega, ch’ e’ s’ apran le porte,</l>
+		<l>E ch’ e’ si mostri a tutta la cittade</l>
+		<l>Un raicidial del padre, e della madre</l>
+		<l>Violatore, un ch’ha commesso falli</l>
+		<l>Non più sentiti; perch’ e’ vuol partita</l>
+		<l>Far della patria, e lasciar l’ alte case,</l>
+		<l>Per non restarvi maledetto dentro.</l>
+		<l>E giunto è a tal, che di guida mestiere</l>
+		<l>Gli fia, ch’, ohimè, il suo doloroso scempio</l>
+		<l>Lunge trapassa ogni fortezza umana.</l>
+		<l>Ma scorger lo potrai, perchè le porte</l>
+		<l>Già sono aperte; oh spettacolo orrendo</l>
+		<l>Da far pietoso ogni nimico core!</l>
+		<l>CORO</l>
+		<l>Oh doglia acerba, e grave</l>
+		<l>Fuor d’ ogni umana vista,</l>
+		<pb n="117"/>
+		<l>Qual furor t’ ha ve a lauta pena scorto?</l>
+		<l>Qual inimica stella</l>
+		<l>Ver te sì cruda, e fera</l>
+		<l>Mostra sue forze, e spiega ogni disdegno?</l>
+		<l>Ahi che misera sorte</l>
+		<l>Τ’ ab braccia, ohimè, infelice;</l>
+		<l>Che rimirar non vaglio</l>
+		<l>Gli oltraggi tuoi, nè posso</l>
+		<l>La lingua scior, ch’ io sarei desioso</l>
+		<l>Di domandare, e di veder pur molto;</l>
+		<l>Ma tanto è il grande orrore,</l>
+		<l>Ch’ io perdo ogni valore.</l>
+		<l>EDIPEO</l>
+		<l>Ahi lasso, ahi lasso, ahi lasso,</l>
+		<l>Oh doloroso fato,</l>
+		<l>U’ son portato! u’la mia voce indarno</l>
+		<l>Spargo sovente! oh Dio</l>
+		<l>Dove son giunto, ohimè!</l>
+		<l>CORO</l>
+		<l>A tal ch’ udirti e rimirarti tremo.</l>
+		<l>EDIPEO</l>
+		<l>Oh nebbia oscura, e folta,</l>
+		<l>Che adombri gli occhi miei</l>
+		<l>Quanto saresti degna</l>
+		<pb n="118"/>
+		<l>D’ esser cacciata, ahi lasso;</l>
+		<l>Ma la tua Forza è tale,</l>
+		<l>Che più non puossi, e morte</l>
+		<l>Sola ne può far lieti.</l>
+		<l>Oh che punture sento</l>
+		<l>Entro a questi occhi; e quanto ancor m’addoglia</l>
+		<l>La rimembranza de’ commessi falli!</l>
+		<l>CORO</l>
+		<l>Maraviglia non è, se doppiamente</l>
+		<l>Piangi lo stato tuo misero e rio.</l>
+		<l>EDIPPO</l>
+		<l>O caro amico e fido,</l>
+		<l>Tu sol fra tutti quanti</l>
+		<l>Non m’ abbandoni, ancor che notte oscura</l>
+		<l>Copra, ohimè, gli occhi miei;</l>
+		<l>Ben ti conosco così cieco ancora</l>
+		<l>Delle parole al suono.</l>
+		<l>CORO</l>
+		<l>Oh grande ardir, com’ esser può giammai,</l>
+		<l>Ch’ abbi sofferto il privar te di luce?</l>
+		<l>Qual Dio t’ ha scorto a tanto alta rovina?</l>
+		<l>EDIPPO</l>
+		<l>Apollo è stato, Apollo, o cari amici,</l>
+		<l>Di questo mal cagione,</l>
+		<pb n="119"/>
+		<l>Di questa altera doglia,</l>
+		<l>Che spinto ha queste mani</l>
+		<l>A ferir sol me stesso.</l>
+		<l>Ma che mi fa di più veder mestiere,</l>
+		<l>Poi ch’ al mio stato afflitto</l>
+		<l>Esser vista non può dolce, nè cara?</l>
+		<l>CORO</l>
+		<l>Ben dici il vero, ahi lasso.</l>
+		<l>EDIPPO</l>
+		<l>Che poss’ io più mirar? ohe più gioioso</l>
+		<l>Essermi puote in vita?</l>
+		<l>Che poss’ io più sentir, che non m’attristi?</l>
+		<l>Menate adunche in solitario bosco</l>
+		<l>Di crude fere albergo</l>
+		<l>L’ empio, e spietato figlio,</l>
+		<l>Maggior nimico al cielo</l>
+		<l>D’ uom, che nel mondo viva.</l>
+		<l>cono</l>
+		<l>Quanto misero sei, poi che ’l tuo senno</l>
+		<l>T’ha posto in basso, e ’n doglia;</l>
+		<l>Ben vorrei non t’ aver mai conosciuto.</l>
+		<l>EDIPPO</l>
+		<l>Subita morte, e fera</l>
+		<l>Assaglia lui, che dagli aspri legami</l>
+		<pb n="120"/>
+		<l>Disciolse queste membra,</l>
+		<l>Non lasciando compir mio tristo fato;</l>
+		<l>Opra ben degna di nessuna grazia</l>
+		<l>A riservarmi in vita</l>
+		<l>Degli amici vergogna, e di me stesso.</l>
+		<l>CORO</l>
+		<l>Quanto piacer anch’ io n arei nel core.</l>
+		<l>EDIPPO</l>
+		<l>Ohimè, che ’l degno padre</l>
+		<l>A nzi ’l suo dì non saria corso al fine;</l>
+		<l>Nè le sceleste nozze</l>
+		<l>Si sarien fatte con la casta madre.</l>
+		<l>Or io misero in tutto</l>
+		<l>Di madre impura mi ritrovo figlio;</l>
+		<l>E (quel che molto è peggio)</l>
+		<l>Generante con lei fuor d’ ogni legge :</l>
+		<l>E s’ alcun danno intra’ mortali estremo</l>
+		<l>Trovar si può, quel solo</l>
+		<l>Edippo avuto ha in sorte.</l>
+		<l>CORO</l>
+		<l>Non so, com’io m’approvi il tuo consiglio,</l>
+		<l>Che stata più leggier non fusse morte,</l>
+		<l>Ch’ il non poter mirar del sole i raggi,</l>
+		<pb n="121"/>
+		<l>EDIPPO</l>
+		<l>Quel ch’oprato ho contr’ a me stesso, amici,</l>
+		<l>Non vogliate biasmar, pensando come</l>
+		<l>Potessi mai scendendo a’ bassi regni</l>
+		<l>Soffrir con gli occhi di mirar colui,</l>
+		<l>Che ini diè vita, ο l’ infelice madre,</l>
+		<l>Ove sì fero il mio fallir si trova,</l>
+		<l>Ch’ appagar no ’l potrian già mille morti :</l>
+		<l>O forse a me de’ figli esser gioiosa</l>
+		<l>Deve la vista in tal modo creati?</l>
+		<l>Non piaccia a Dio, che mai con queste luci</l>
+		<l>Riguardi loro, o la patria, o le case,</l>
+		<l>O i sacri tempj degli eterni Dei,</l>
+		<l>Ond’ io privato son sol da me stesso;</l>
+		<l>Io, che di Tebe vero cittadino</l>
+		<l>Son nato, e ’n quella di nobile stirpe,</l>
+		<l>Comandando a ciascun con chiara voce,</l>
+		<l>Che scacciasse da sè l’ empio figliuolo,</l>
+		<l>Che gli alti Dei per scelerato, e rio</l>
+		<l>Mostraro al mondo; e del sangue di Laio</l>
+		<l>Cotal vergogna in me volgendo il cielo,</l>
+		<l>Con quale ardir potea mai infra la gente</l>
+		<l>Voltar la vista? ohimè, che se possanza</l>
+		<l>Avessi ancor di far che nulla udissi</l>
+		<pb n="122"/>
+		<l>Rompendo le due fonti, ond’ha ’l sentiero</l>
+		<l>L’ udienza nel cor, non sarei lento</l>
+		<l>A chiuder questo mio corpo infelice,</l>
+		<l>Per restar sordo in me medesmo, e cieco;</l>
+		<l>«Che dolce è i sensi aver fuor d’ ogni doglia.</l>
+		<l>O Citeron selvaggio, o fiero monte,</l>
+		<l>Perchè chiudesti a me l’ ultimo passo</l>
+		<l>Di questa vita, u’ con sì grave danno</l>
+		<l>M’ è convenuto poi mostrare al mondo</l>
+		<l>Chi mi creò d’ alta miseria esempio.</l>
+		<l>O Polibo, o Corinto, o voi palazzi</l>
+		<l>Paterni in nome, oh quanto ascoso seme</l>
+		<l>Di mal nudristi dentro al vostro seno!</l>
+		<l>O trivio, o ripa orrenda, oscura, e folta,</l>
+		<l>O stretto calle, che del mio buon padre</l>
+		<l>Bevesti il sangue da queste empie mani</l>
+		<l>Sparso in la terra dispietatamente;</l>
+		<l>Non vi rimembra (oh Dio) del grave scelo,</l>
+		<l>Ch’ allor commessi? e de’ piu freschi mali</l>
+		<l>Poi ch’io fui qua da ria fortuna scorto?</l>
+		<l>O nozze orrende, o nozze, che di noi</l>
+		<l>Pria fusti cardie, e poi del vostro parto,</l>
+		<l>Che riportasti doloroso seme,</l>
+		<l>Padri, e fratei mostrando insieme, e figli,</l>
+		<pb n="123"/>
+		<l>Novelle spose, antiche moglie, e madri,</l>
+		<l>E d’ogni alta vergogna unico esempio.</l>
+		<l>Ma e’ non lece parlar di quel, ch’ è l’ opra</l>
+		<l>Vietata, e brutta; ohimè, non siate lenti,</l>
+		<l>Per Dio vi piego, a trarrai in luogo oscuro</l>
+		<l>Lunge dal patrio nido, o darmi morte</l>
+		<l>Acerba, e degna; o gittarmi entro all’ onde</l>
+		<l>Cibo de’ marin monstri, u’vista umana</l>
+		<l>Più non mi scorga; e non vi prenda a sdegno</l>
+		<l>Di toccar questo corpo, e de’ miei preghi</l>
+		<l>Estremi far la mia voglia contenta.</l>
+		<l>Perchè temete? ohimè, che ’l grave incarco</l>
+		<l>Delle mie pene altrui portar non lice;</l>
+		<l>Ma sol delle mie spalle è questa salma.</l>
+		<l>CORO</l>
+		<l>Ecco Creonte qua, che giugne a tempo.</l>
+		<l>Che potrà far con l’opra, e col consiglio</l>
+		<l>Quanto tu brami; a cui rimaso è il regno</l>
+		<l>In tua vece, e di Tebe l’alto scettro.</l>
+		<l>EDIPPO</l>
+		<l>Lasso me quai formar parole deggio?</l>
+		<l>O quale appo di lui deggio aver fede!</l>
+		<l>Ch’ a me fia certo, e con ragion nimico</l>
+		<l>Per tanti oltraggi, ond’ io ’l notai pur dianzi.</l>
+		<pb n="124"/>
+		<l>CREONTE</l>
+		<l>Sii certo, Edippo, che la tua fortuna</l>
+		<l>Non mi fa lieto, e ch’io non son venuto</l>
+		<l>A schernir quella, nè vendetta cerco</l>
+		<l>Far di quei biasmi, ove incolpato fui.</l>
+		<l>Ma se per conto dell’ umana prole</l>
+		<l>Non vi movete, o voi del cieco scorte,</l>
+		<l>Muovavi almen quell’ onorata fiamma.</l>
+		<l>Che tutto ’l mondo di chiarezza adorna,</l>
+		<l>A non voler far qui palese a tutti</l>
+		<l>Sì scelerato corpo; il qual si sdegna</l>
+		<l>Di ricovrir la terra, l’ aria, e’l cielo :</l>
+		<l>Ma tosto in casa riducete quello,</l>
+		<l>Perch’ a’ parenti sol lice vedere</l>
+		<l>L’ alta sua doglia, e l’ ascoltar suoi pianti.</l>
+		<l>EDIPPO</l>
+		<l>Poscia che fuor d’ ogni mia speme amico</l>
+		<l>Di me infelice or ti dimostri, e pio,</l>
+		<l>Prego ti piaccia d’ ascoltarmi alquanto;</l>
+		<l>Ch’ io parlerò sol qui per tua salute.</l>
+		<l>CREONTE</l>
+		<l>E che far deggio? onde mi giovi, or parla.</l>
+		<l>EDIPPO</l>
+		<l>Tràmi (ti prego) d’està terra fore,</l>
+		<pb n="125"/>
+		<l>Οv’ io sia sol di me compagno fido.</l>
+		<l>CREONTE</l>
+		<l>Già l’arei fatto, se del santo Dio</l>
+		<l>Non aspettassi pria gli alti comandi.</l>
+		<l>EDIPEO</l>
+		<l>Or non son chiari ancor nel mondo quegli,</l>
+		<l>Ch’e’si dia morte a lui, che’l padre ancise?</l>
+		<l>CREONTE</l>
+		<l>Son chiari sì, ma poi che noi siam giunti</l>
+		<l>A sì rea sorte, è ben, che il suo volere</l>
+		<l>Si manifesti la seconda fiata.</l>
+		<l>EDIPPO</l>
+		<l>E per me sia ridomandato quello?</l>
+		<l>CREONTE</l>
+		<l>Sì, ch’ in tal modo arai più fede a noi.</l>
+		<l>EDIPPO</l>
+		<l>Ascolta adunche questi preghi estremi.</l>
+		<l>Αll’ infelice, che ghiacciata in terra</l>
+		<l>Si ghiace or dentro, dona quel sepolcro,</l>
+		<l>Ch’ a te par giusto; e perchè sei fratello,</l>
+		<l>Sia tuo ’l pensier della funebre pompa :</l>
+		<l>E in quanto a me non vo’, che questa terra</l>
+		<l>Amica, ed alma mi nudrisca in vita;</l>
+		<l>Ma lassa errar questo misero corpo</l>
+		<pb n="126"/>
+		<l>Per aspri monti, fin che arrivi al loco,</l>
+		<l>Ov’è quel Citeron, che padre, e madre</l>
+		<l>Bramaron già, che fusse sepultura</l>
+		<l>Di queste membra; acciò di lor la voglia</l>
+		<l>S’adempia, e mora, u’fui tolto alla morte.</l>
+		<l>Che non per altro riservato al mondo</l>
+		<l>M’ han le miserie, e gl’ infiniti danni,</l>
+		<l>Di che s’ingombra ognor l’ umana vita,</l>
+		<l>Se non perdi io giugnessi a tanto strazio.</l>
+		<l>Ma vada come vuol mia fera sorte,</l>
+		<l>Ch’ornai ne taccio, e de’ miei cari figli,</l>
+		<l>Che maschi son, non voler, o Creonte,</l>
+		<l>Prenderti cura; perchè i maschi sempre</l>
+		<l>Han da schivar miseria, e povertade</l>
+		<l>Ovunche e’ sien : ma le misere figlie</l>
+		<l>D’ ogni ben prive, di cui non fu vota.</l>
+		<l>Mai la mia mensa, al padre unica gioia,</l>
+		<l>Queste convien, che di pensieri, e doglia</l>
+		<l>M’ empiano il core; a queste, alto signore,</l>
+		<l>Lassa (ti prego) giugner queste mani,</l>
+		<l>E più d’ appresso i miserabil danni</l>
+		<l>Pianger insieme (oh miserabil sorte)</l>
+		<l>Ch’ allor parrammi nel primiero stato</l>
+		<l>Tornar, di rimirar l’amata luce,</l>
+		<pb n="127"/>
+		<l>Quand’ io le palperò; ma quel, ch’io sentò,</l>
+		<l>Non è la voce desiata tanto</l>
+		<l>Delle piangenti mie care figliuole?</l>
+		<l>Che Creonte, a pietà del mio lamento</l>
+		<l>Mosso, ha menate al mio conspetto avanti?</l>
+		<l>Non dico io ’l ver? non son vicine or quelle?</l>
+		<l>CREONTE</l>
+		<l>Elle son sì per mia cagion venute,</l>
+		<l>Sappiendo il ben, che a lor portato hai sempre.</l>
+		<l>EDIPEO</l>
+		<l>Felice il del per me ti renda il merto</l>
+		<l>Di tanta grazia, e più sicuri giorni,</l>
+		<l>E più tranquilli a te conceda, e lieti.</l>
+		<l>U’ sete, o figlie? Ah perchè non venite</l>
+		<l>A giugner voi con queste man fraterne.</l>
+		<l>Che di me padre ancor le chiare luci</l>
+		<l>Già tanto, e belle han con vedere oscuro</l>
+		<l>Fatto cangiar? di me, che sono scorso</l>
+		<l>Disavvedutamente a sì gran fallo</l>
+		<l>D’ esservi padre, ond’ io fui prima figlio:</l>
+		<l>Sì che versando vo dogliosa riva</l>
+		<l>Di pianti, o figlie; nè mirar soffrisco</l>
+		<l>Voi, ch’ io tanto amo, ripensando a quanta</l>
+		<l>Vergogna v’ haggia il mio fallir condotte :</l>
+		<pb n="128"/>
+		<l>E quanto alte miserie, e quanti danni</l>
+		<l>Del viver vostro fien compagni fidi.</l>
+		<l>Qual ohimè fia, che vi raccetti loco</l>
+		<l>Benigno, o lieto? e dove mai potrete</l>
+		<l>Scorger i passi a mirar giochi, e feste,</l>
+		<l>Ond’ il ritorno a voi di pianto manchi?</l>
+		<l>E se col tempo mai la vostra etade</l>
+		<l>Vi farà degne a provar gli alti doni</l>
+		<l>Di Venere, e d’ Amor; chi fia mai quegli,</l>
+		<l>Che voi per moglie in tanti biasmi elegga?</l>
+		<l>Che sempre voi con venenato morso</l>
+		<l>Terran trafitte, e d’ogni pace in bando.</l>
+		<l>Nulla esser puote a voi maggior fortuna.</l>
+		<l>Paterna morte ha il vostro padre tinto,</l>
+		<l>Avuto ha in madre una medesma, e moglie,</l>
+		<l>E di cui nel mondo è renduto ha al mondo</l>
+		<l>Prole infelice; e colai danni sempre</l>
+		<l>Vi fien racconti, e poi per moglie avute?</l>
+		<l>Non fia, misere figlie : anzi conviensi</l>
+		<l>A voi meschina, e disonrata vita</l>
+		<l>Di nozze, e d’ogni ben nudata, e scossa.</l>
+		<l>Ma tu, Creonte, non volere a sdegno</l>
+		<l>Aver di lor la miserabil sorte;</l>
+		<l>Ma sii tu padre, tu sostegno, e scorta,</l>
+		<pb n="129"/>
+		<l>Poscia che prive sondi padre, e madre :</l>
+		<l>Nè voler pari a lor far gli alti danni,</l>
+		<l>Di ch’io son carco, anzi benignamente</l>
+		<l>Ricevi lor, ch’ ogni altra speme han persa;</l>
+		<l>E di ciò in fede a lor le tue man porgi.</l>
+		<l>Molt’ altre cose ancor vorrei dir, figlie,</l>
+		<l>Se l’età vostra miei precetti al core</l>
+		<l>Mandar potesse; or solamente basti</l>
+		<l>Con meco insieme ripregarne il cielo</l>
+		<l>Di menar vita fin che bella è vita,</l>
+		<l>E di me padre aver più. lieti giorni.</l>
+		<l>CREONTE</l>
+		<l>E’ basta il pianto omai,</l>
+		<l>Che tornar dentro è tempo.</l>
+		<l>EDIPPO</l>
+		<l>Per forza ubbidir deggio</l>
+		<l>Quel che non m’ è già caro.</l>
+		<l>CREONTE</l>
+		<l>Il tempo tutto face</l>
+		<l>Pregiato, onesto, e bello.</l>
+		<l>EDIPPO</l>
+		<l>Ogni mio senso, e voglia</l>
+		<l>Sai dove ferma or resti?</l>
+		<pb n="130"/>
+		<l>CREONTE</l>
+		<l>No, se pria quella a noi</l>
+		<l>Non fai palese, e chiara.</l>
+		<l>EDIPPO</l>
+		<l>Che fuor mi tragga omai</l>
+		<l>Della mia patria antica.</l>
+		<l>CREONTE</l>
+		<l>Tu chiedi appunto quello,</l>
+		<l>Che ti pon dar gli Dei.</l>
+		<l>EDIPPO</l>
+		<l>Or non son io nimico,</l>
+		<l>E ’n tutto a sdegno a quegli?</l>
+		<l>CREONTE</l>
+		<l>E però presto fia</l>
+		<l>Da lor tua voglia sazia.</l>
+		<l>EDIPPO</l>
+		<l>Credi tu questo certo?</l>
+		<l>CREONTE</l>
+		<l>S’ io noi sapessi, no ’l direi già chiaro.</l>
+		<l>EDIPPO</l>
+		<l>Partiam di questo loco.</l>
+		<l>CREONTE</l>
+		<l>Fermati alquanto ancora,</l>
+		<l>E dividi da te l’ amate figlie.</l>
+		<pb n="131"/>
+		<l>EDIPPO</l>
+		<l>Lasso, e d’ amendue vuoi, ch’io resti privo?</l>
+		<l>CREONTE</l>
+		<l>Non voler vincer ciò, ch’ al senso piace,</l>
+		<l>Che provato hai quanto gran pena ha seco.</l>
+		<l>CORO</l>
+		<l>Di Tebe o cari e degni cittadini,</l>
+		<l>Mirate un po’ quest’ infelice Edippo,</l>
+		<l>Quel che fe chiari a noi gli oscuri dubbj,</l>
+		<l>E che infra gli altri fu tenuto uom saggio;</l>
+		<l>Lo qual poggiando all’ alto regno nostro</l>
+		<l>Non per setta civil, nè per fortuna,</l>
+		<l>Or è venuto a sì misera sorte.</l>
+		<l>Onde nessun mortai giammai beato</l>
+		<l>Sè faccia, o chiami altrui; se pria non vede</l>
+		<l>Finiti i giorni suoi fuor d’ ogni doglia.</l>
+	</lg>
+							</seg>
+						</ab>
+					</div>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>
